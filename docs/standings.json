@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T11:45:12.507661+00:00",
+  "generated_at": "2026-07-27T12:36:42.217789+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "standings": [
     {
@@ -104,7 +104,7 @@
       "position": 8,
       "team": "Biobest Sasja HC (Senior M)",
       "team_id": 451600,
-      "logo": null,
+      "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/_1785154704.png",
       "mp": 0,
       "w": 0,
       "d": 0,
