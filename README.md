@@ -1,5 +1,6 @@
 # Clubee Standings Widget voor Twizzit
 
+
 Deze mini-repo haalt automatisch de standings van je Clubee-pagina op en toont
 ze als een nette tabel, klaar om in je Twizzit-website te embedden via een
 `<iframe>`.
