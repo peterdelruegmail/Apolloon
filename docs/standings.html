@@ -112,9 +112,9 @@
     // Als deze index.html en standings.json in dezelfde map staan (zoals in deze
     // setup, beide in /docs), volstaat een relatief pad.
     const params = new URLSearchParams(window.location.search);
-    const file = params.get("league") || "Heren1.json";
+    const file = params.get("league") || "Heren1";
     const file = params.get("title") || "Heren 1ste nationale";
-    const DATA_URL = `./standings${file}.json`;
+    const DATA_URL = `./standings${league}.json`;
 
     async function loadStandings() {
       const contentEl = document.getElementById("content");
