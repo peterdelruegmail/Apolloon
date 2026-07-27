@@ -1,0 +1,15 @@
+# .github/workflows/Heren1.yml
+
+name: Update Standings Heren1
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  call-workflow:
+    uses: ./.github/workflows/update-standings.yml
+    with:
+      LEAGUE: 18702
+      NAME: Heren1
