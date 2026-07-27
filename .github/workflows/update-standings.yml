@@ -25,7 +25,7 @@ jobs:
         run: |
           python3 clubee_standings_scraper.py \
             --league 18702 \
-            --season 220 \
+            --season ${{ vars.SEASON }} \
             --json docs/standings.json
 
       - name: Wijzigingen committen (indien nodig)
