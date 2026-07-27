@@ -111,7 +111,10 @@
     // Pas deze URL aan naar waar jouw standings.json gehost staat.
     // Als deze index.html en standings.json in dezelfde map staan (zoals in deze
     // setup, beide in /docs), volstaat een relatief pad.
-    const DATA_URL = "./standings.json";
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get("league") || "Heren1.json";
+    const file = params.get("title") || "Heren 1ste nationale";
+    const DATA_URL = `./standings${file}.json`;
 
     async function loadStandings() {
       const contentEl = document.getElementById("content");
