@@ -1,10 +1,15 @@
 name: Update Clubee Standings
 
 on:
-  schedule:
-    - cron: "0 * * * *"
-  workflow_dispatch: {}  # laat je ook manueel triggeren via de GitHub UI
-
+  workflow_call:
+    inputs:
+      LEAGUE:
+        required: true
+        type: number
+      NAME:
+        required: true
+        type: string
+        
 permissions:
   contents: write
 
@@ -23,9 +28,9 @@ jobs:
       - name: Standings ophalen
         run: |
           python3 clubee_standings_scraper.py \
-            --league 18702 \
+            --league ${{ inputs.LEAGUE }} \
             --season ${{ vars.SEASON }} \
-            --json docs/standings.json
+            --json docs/standings${{inputs.NAME}}.json
 
       - name: Wijzigingen committen (indien nodig)
         run: |
