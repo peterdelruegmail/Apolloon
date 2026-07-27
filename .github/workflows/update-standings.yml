@@ -17,13 +17,10 @@ jobs:
   update-standings:
     runs-on: ubuntu-latest
     steps:
-      - name: Debug
-        run: |
-          echo "League=${{ inputs.LEAGUE }}"
-          echo "Name=${{ inputs.NAME }}"
-
       - name: Repo uitchecken
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Python installeren
         uses: actions/setup-python@v6
