@@ -1,5 +1,3 @@
-# .github/workflows/Heren1.yml
-
 name: Update Standings Heren1
 
 on:
