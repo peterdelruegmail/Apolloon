@@ -17,6 +17,11 @@ jobs:
   update-standings:
     runs-on: ubuntu-latest
     steps:
+      - name: Debug
+        run: |
+          echo "League=${{ inputs.LEAGUE }}"
+          echo "Name=${{ inputs.NAME }}"
+
       - name: Repo uitchecken
         uses: actions/checkout@v5
 
