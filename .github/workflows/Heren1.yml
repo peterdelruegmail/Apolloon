@@ -5,7 +5,7 @@ name: Update Standings Heren1
 on:
   schedule:
     - cron: "0 * * * *"
-  workflow_dispatch:
+  workflow_dispatch: {}  # laat je ook manueel triggeren via de GitHub UI
 
 jobs:
   call-workflow:
