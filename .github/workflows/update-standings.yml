@@ -30,7 +30,7 @@ jobs:
           python3 clubee_standings_scraper.py \
             --league ${{ inputs.LEAGUE }} \
             --season ${{ vars.SEASON }} \
-            --json docs/standings${{inputs.NAME}}.json
+            --json docs/standings${{ inputs.NAME }}.json
 
       - name: Wijzigingen committen (indien nodig)
         run: |
