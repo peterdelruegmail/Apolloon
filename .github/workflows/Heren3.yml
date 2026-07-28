@@ -1,0 +1,14 @@
+name: Update Standings Heren3
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  call-workflow:
+    uses: ./.github/workflows/update-standings.yml
+    with:
+      LEAGUE: 18702
+      NAME: Heren3
