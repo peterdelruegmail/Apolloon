@@ -103,7 +103,7 @@
   <div class="wrapper">
     <p class="last-updated" id="lastUpdated"></p>
     <div id="content">
-      <div class="status">Standings laden...</div>
+      <div class="status">Loading Standings...</div>
     </div>
   </div>
 
@@ -129,7 +129,7 @@
         const generatedAt = Array.isArray(payload) ? null : payload.generated_at;
 
         if (!rows || rows.length === 0) {
-          contentEl.innerHTML = '<div class="status">Geen standings beschikbaar.</div>';
+          contentEl.innerHTML = '<div class="status">No standings available.</div>';
           return;
         }
 
@@ -169,7 +169,7 @@
         sendHeightToParent();
       } catch (err) {
         contentEl.innerHTML =
-          '<div class="status error">Kon standings niet laden (' + err.message + ')</div>';
+          '<div class="status error">Couldn't load standings (' + err.message + ')</div>';
       }
     }
 
