@@ -39,5 +39,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/standings${{ inputs.NAME }}.json
-          git diff --cached --quiet && echo "Geen wijzigingen" || git commit -m "Update standings"
-          git push
+          
+          if git diff --cached --quiet; then
+            echo "Geen wijzigingen"
+          else
+            git commit -m "Update standings"
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main && git push origin main && break
+              echo "Push mislukt, retry ($i)..."
+              sleep $((RANDOM % 5 + 1))
+            done
+          fi
