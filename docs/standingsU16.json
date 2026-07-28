@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-07-28T14:34:36.626218+00:00",
+  "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
+  "standings": [
+    {
+      "position": 1,
+      "team": "HC Mouscron (U16 M)",
+      "team_id": 451219,
+      "logo": null,
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    {
+      "position": 2,
+      "team": "Handbalclub Evergem (U16 M)",
+      "team_id": 451374,
+      "logo": null,
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    {
+      "position": 3,
+      "team": "Handbal Lokeren (U16 M)",
+      "team_id": 451386,
+      "logo": null,
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    {
+      "position": 4,
+      "team": "HC Don Bosco Gent (U16 M)",
+      "team_id": 451501,
+      "logo": null,
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    {
+      "position": 5,
+      "team": "GBSK Handbal (U16 M)",
+      "team_id": 451591,
+      "logo": null,
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    {
+      "position": 6,
+      "team": "HBC Dendermonde (U16 M)",
+      "team_id": 451630,
+      "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669333.png",
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    }
+  ]
+}
