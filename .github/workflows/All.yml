@@ -7,5 +7,9 @@ permissions:
   contents: write
 
 jobs:
-  call-workflow:
+  call-workflow-Heren1:
     uses: ./.github/workflows/Heren1.yml
+  call-workflow-Heren2:
+    uses: ./.github/workflows/Heren2.yml
+  call-workflow-Heren3:
+    uses: ./.github/workflows/Heren3.yml
