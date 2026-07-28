@@ -113,7 +113,7 @@
     // setup, beide in /docs), volstaat een relatief pad.
     const params = new URLSearchParams(window.location.search);
     const league = params.get("league") || "Heren1";
-    const title = params.get("title") || "Heren 1ste nationale";
+    const title = params.get("title") || "Stand";
     const groupParam = params.get("group"); // optioneel: naam of 1-based index van de poule/fase
     const showAllGroups = params.get("group") === "all";
     const DATA_URL = `./standings${league}.json`;
