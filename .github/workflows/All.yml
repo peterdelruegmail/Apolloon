@@ -15,3 +15,30 @@ jobs:
   Heren3:
     needs: Heren2
     uses: ./.github/workflows/Heren3.yml
+  Dames1:
+    needs: Heren3
+    uses: ./.github/workflows/Dames1.yml
+  Dames2:
+    needs: Dames1
+    uses: ./.github/workflows/Dames2.yml
+  U18:
+    needs: Dames2
+    uses: ./.github/workflows/U18.yml
+  U18VHV:
+    needs: U18
+    uses: ./.github/workflows/U18VHV.yml
+  U16:
+    needs: U18VHV
+    uses: ./.github/workflows/U16.yml
+  U16VHV:
+    needs: U16
+    uses: ./.github/workflows/U16VHV.yml
+  U14:
+    needs: U16VHV
+    uses: ./.github/workflows/U14.yml
+  U14VHV:
+    needs: U14
+    uses: ./.github/workflows/U14VHV.yml
+  U12:
+    needs: U14VHV
+    uses: ./.github/workflows/U12.yml
