@@ -10,16 +10,12 @@ jobs:
   Heren1:
     uses: ./.github/workflows/Heren1.yml
   Heren2:
-    needs: Heren1
     uses: ./.github/workflows/Heren2.yml
   Heren3:
-    needs: Heren2
     uses: ./.github/workflows/Heren3.yml
   Dames1:
-    needs: Heren3
     uses: ./.github/workflows/Dames1.yml
   Dames2:
-    needs: Dames1
     uses: ./.github/workflows/Dames2.yml
   U18:
     needs: Dames2
