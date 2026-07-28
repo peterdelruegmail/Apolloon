@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-07-28T14:35:22.032410+00:00",
+  "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
+  "standings": [
+    {
+      "position": 1,
+      "team": "HBC Apolloon Spurs (Purple Bears) 1 (U12 M)",
+      "team_id": 450949,
+      "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814229.png",
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    {
+      "position": 2,
+      "team": "Desselgemse Handbalclub (U12 M)",
+      "team_id": 451330,
+      "logo": null,
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    {
+      "position": 3,
+      "team": "Besox Handbalclub Izegem 3 3 (U12 M)",
+      "team_id": 451456,
+      "logo": null,
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    {
+      "position": 4,
+      "team": "Handbalclub Thor (U12 M)",
+      "team_id": 451589,
+      "logo": null,
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    {
+      "position": 5,
+      "team": "HC Don Bosco Gent 1 1 (U12 M)",
+      "team_id": 451661,
+      "logo": null,
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    }
+  ]
+}
