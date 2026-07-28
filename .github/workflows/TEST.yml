@@ -1,9 +1,7 @@
 name: Test Scheduler
 
 on:
-  schedule:
-  - cron: "*/30 * * * *"
-  workflow_dispatch: {}  # laat je ook manueel triggeren via de GitHub UI
+  workflow_dispatch:
 
 jobs:
   test:
