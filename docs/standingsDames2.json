@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-07-28T14:34:03.627696+00:00",
+  "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
+  "standings": [
+    {
+      "position": 1,
+      "team": "DHC Waasmunster (Senior F)",
+      "team_id": 451280,
+      "logo": null,
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    {
+      "position": 2,
+      "team": "Handbalclub Evergem (Senior F)",
+      "team_id": 451377,
+      "logo": null,
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    {
+      "position": 3,
+      "team": "Besox Handbalclub Izegem (Senior F)",
+      "team_id": 451423,
+      "logo": null,
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    {
+      "position": 4,
+      "team": "Handbalclub Thor 2 2 (Senior F)",
+      "team_id": 451581,
+      "logo": null,
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    {
+      "position": 5,
+      "team": "HBC Dendermonde 3 (Senior F)",
+      "team_id": 451628,
+      "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652181.png",
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    },
+    {
+      "position": 6,
+      "team": "HC Don Bosco Gent (Senior F)",
+      "team_id": 451671,
+      "logo": null,
+      "mp": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "gs": 0,
+      "ga": 0,
+      "gd": 0,
+      "pts": 0
+    }
+  ]
+}
