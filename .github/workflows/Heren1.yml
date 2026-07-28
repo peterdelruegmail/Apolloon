@@ -2,6 +2,7 @@ name: Update Standings Heren1
 
 on:
   workflow_dispatch:
+  workflow_call: 
 
 permissions:
   contents: write
