@@ -1,0 +1,15 @@
+name: Update Standings U18VHV
+
+on:
+  workflow_dispatch:
+  workflow_call: 
+
+permissions:
+  contents: write
+
+jobs:
+  call-workflow:
+    uses: ./.github/workflows/update-standings.yml
+    with:
+      LEAGUE: 18717
+      NAME: U18VHV
