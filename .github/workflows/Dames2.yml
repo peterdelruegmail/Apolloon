@@ -1,0 +1,15 @@
+name: Update Standings Dames2
+
+on:
+  workflow_dispatch:
+  workflow_call: 
+
+permissions:
+  contents: write
+
+jobs:
+  call-workflow:
+    uses: ./.github/workflows/update-standings.yml
+    with:
+      LEAGUE: 18716
+      NAME: Dames2
