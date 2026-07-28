@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Standings</title>
+<style>
+  :root {
+    --header-bg: #131313;
+    --header-text: #ffffff;
+    --row-alt-bg: #f5f5f5;
+    --border-color: #e0e0e0;
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Open Sans", sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+    background: transparent;
+  }
+
+  .wrapper {
+    padding: 8px;
+  }
+
+  .last-updated {
+    font-size: 11px;
+    color: #888;
+    text-align: right;
+    margin: 0 0 6px 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  thead th {
+    background: var(--header-bg);
+    color: var(--header-text);
+    text-align: center;
+    padding: 8px 6px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  thead th.team-col {
+    text-align: left;
+  }
+
+  tbody td {
+    padding: 7px 6px;
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  tbody tr:nth-child(even) {
+    background: var(--row-alt-bg);
+  }
+
+  td.team-col {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+  }
+
+  td.team-col img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+
+  td.pos-col {
+    font-weight: 600;
+    width: 28px;
+  }
+
+  td.pts-col {
+    font-weight: 700;
+  }
+
+  .status {
+    padding: 20px;
+    text-align: center;
+    color: #888;
+    font-size: 13px;
+  }
+
+  .error {
+    color: #b00020;
+  }
+</style>
+</head>
+<body>
+  <div class="wrapper">
+    <p class="last-updated" id="lastUpdated"></p>
+    <div id="content">
+      <div class="status">Loading Standings...</div>
+    </div>
+  </div>
+
+  <script>
+    // Pas deze URL aan naar waar jouw standings.json gehost staat.
+    // Als deze index.html en standings.json in dezelfde map staan (zoals in deze
+    // setup, beide in /docs), volstaat een relatief pad.
+    const params = new URLSearchParams(window.location.search);
+    const league = params.get("league") || "Heren1";
+    const title = params.get("title") || "Heren 1ste nationale";
+    const groupParam = params.get("group"); // optioneel: naam of 1-based index van de poule/fase
+    const showAllGroups = params.get("group") === "all";
+    const DATA_URL = `./standings${league}.json`;
+
+    function pickGroups(payload) {
+      // Oud formaat: { generated_at, standings: [...] } of gewoon een array.
+      if (Array.isArray(payload)) {
+        return [{ name: null, standings: payload }];
+      }
+      if (Array.isArray(payload.standings)) {
+        return [{ name: null, standings: payload.standings }];
+      }
+
+      // Nieuw formaat: { generated_at, source_url, groups: [{ name, standings }, ...] }
+      const groups = Array.isArray(payload.groups) ? payload.groups : [];
+
+      if (showAllGroups) {
+        return groups;
+      }
+
+      if (groupParam) {
+        // Op naam zoeken (case-insensitive, deel van de naam mag)
+        const byName = groups.find(
+          (g) => g.name && g.name.toLowerCase().includes(groupParam.toLowerCase())
+        );
+        if (byName) return [byName];
+
+        // Op 1-based index zoeken
+        const idx = parseInt(groupParam, 10);
+        if (!isNaN(idx) && groups[idx - 1]) return [groups[idx - 1]];
+      }
+
+      // Standaard: eerste (of enige) groep
+      return groups.length > 0 ? [groups[0]] : [];
+    }
+
+    function renderTable(rows) {
+      let html = "<table><thead><tr>";
+      html += '<th>#</th><th class="team-col">Team</th><th>MP</th><th>W</th><th>D</th><th>L</th><th>GS</th><th>GA</th><th>GD</th><th>Pts</th>';
+      html += "</tr></thead><tbody>";
+
+      for (const row of rows) {
+        html += "<tr>";
+        html += `<td class="pos-col">${row.position ?? ""}</td>`;
+        html += `<td class="team-col">`;
+        if (row.logo) {
+          html += `<img src="${row.logo}" alt="" loading="lazy" onerror="this.style.display='none'" />`;
+        }
+        html += `<span>${row.team ?? ""}</span></td>`;
+        html += `<td>${row.mp ?? ""}</td>`;
+        html += `<td>${row.w ?? ""}</td>`;
+        html += `<td>${row.d ?? ""}</td>`;
+        html += `<td>${row.l ?? ""}</td>`;
+        html += `<td>${row.gs ?? ""}</td>`;
+        html += `<td>${row.ga ?? ""}</td>`;
+        html += `<td>${row.gd ?? ""}</td>`;
+        html += `<td class="pts-col">${row.pts ?? ""}</td>`;
+        html += "</tr>";
+      }
+
+      html += "</tbody></table>";
+      return html;
+    }
+
+    async function loadStandings() {
+      const contentEl = document.getElementById("content");
+      const updatedEl = document.getElementById("lastUpdated");
+
+      try {
+        const res = await fetch(DATA_URL, { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        const payload = await res.json();
+
+        const generatedAt = Array.isArray(payload) ? null : payload.generated_at;
+        const groups = pickGroups(payload);
+
+        if (!groups || groups.length === 0 || groups.every((g) => !g.standings || g.standings.length === 0)) {
+          contentEl.innerHTML = '<div class="status">No standings available.</div>';
+          return;
+        }
+
+        if (generatedAt) {
+          const d = new Date(generatedAt);
+          updatedEl.textContent = "Last update: " + d.toLocaleString("nl-BE");
+        }
+
+        let html = "";
+        for (const group of groups) {
+          if (!group.standings || group.standings.length === 0) continue;
+          if (group.name) {
+            html += `<h3 style="margin: 12px 0 4px;">${group.name}</h3>`;
+          }
+          html += renderTable(group.standings);
+        }
+        contentEl.innerHTML = html;
+
+        // Automatisch de hoogte doorgeven aan de parent (Twizzit-pagina),
+        // zodat het iframe niet met een scrollbalk komt te zitten.
+        sendHeightToParent();
+      } catch (err) {
+        contentEl.innerHTML =
+          '<div class="status error">Couldn\'t load standings (' + err.message + ')</div>';
+      }
+    }
+
+    function sendHeightToParent() {
+      try {
+        const height = document.body.scrollHeight;
+        window.parent.postMessage({ type: "clubee-standings-height", height }, "*");
+      } catch (e) {
+        // negeren als cross-origin postMessage niet lukt
+      }
+    }
+
+    loadStandings();
+    window.addEventListener("resize", sendHeightToParent);
+  </script>
+</body>
+</html>
