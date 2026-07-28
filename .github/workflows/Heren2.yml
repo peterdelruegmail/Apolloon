@@ -10,5 +10,5 @@ jobs:
   call-workflow:
     uses: ./.github/workflows/update-standings.yml
     with:
-      LEAGUE: 18702
+      LEAGUE: 18707
       NAME: Heren2
