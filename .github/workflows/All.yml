@@ -1,0 +1,11 @@
+name: Update All Standings
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  call-workflow:
+    uses: ./.github/workflows/Heren1.yml
