@@ -97,6 +97,16 @@
   .error {
     color: #b00020;
   }
+  
+  .apolloon-row {
+		background-color: #6C3175 !important;
+		font-weight: bold;
+	}
+
+  .apolloon-row td {
+	  color: #FFFFFF;
+	}
+
 </style>
 </head>
 <body>
@@ -156,8 +166,9 @@
       html += "</tr></thead><tbody>";
 
       for (const row of rows) {
-        html += "<tr>";
-        html += `<td class="pos-col">${row.position ?? ""}</td>`;
+				const isApolloon = (row.team || "").toLowerCase().includes("apolloon");
+				html += `<tr class="${isApolloon ? 'apolloon-row' : ''}">`;
+				html += `<td class="pos-col">${row.position ?? ""}</td>`;
         html += `<td class="team-col">`;
         if (row.logo) {
           html += `<img src="${row.logo}" alt="" loading="lazy" onerror="this.style.display='none'" />`;
