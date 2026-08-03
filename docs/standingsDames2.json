@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T11:46:38.322807+00:00",
+  "generated_at": "2026-08-03T12:46:40.268628+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
   "groups": [
     {
@@ -35,9 +35,9 @@
         },
         {
           "position": 3,
-          "team": "Besox Handbalclub Izegem (Senior F)",
+          "team": "Dames Regio Besox Handbalclub Izegem (Senior F)",
           "team_id": 451423,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1785758242.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
