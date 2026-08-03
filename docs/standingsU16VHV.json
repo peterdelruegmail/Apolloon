@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T07:46:38.784527+00:00",
+  "generated_at": "2026-08-03T09:46:38.020499+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -65,7 +65,7 @@
           "position": 5,
           "team": "Handbal Lokeren VHVQ (U16 M)",
           "team_id": 451387,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785748597.png",
           "mp": 0,
           "w": 0,
           "d": 0,
