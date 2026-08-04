@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T10:00:13.592952+00:00",
+  "generated_at": "2026-08-04T16:00:21.909451+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -604,7 +604,7 @@
           "position": 2,
           "team": "Sezoens Achilles Bocholt (U12 M)",
           "team_id": 451201,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848522.png",
           "mp": 0,
           "w": 0,
           "d": 0,
