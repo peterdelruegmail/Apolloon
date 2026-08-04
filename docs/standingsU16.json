@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T10:00:13.709805+00:00",
+  "generated_at": "2026-08-04T16:00:16.996664+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -529,7 +529,7 @@
           "position": 2,
           "team": "Sezoens Achilles Bocholt (U16 M)",
           "team_id": 451188,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848287.png",
           "mp": 0,
           "w": 0,
           "d": 0,
