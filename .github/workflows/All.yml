@@ -29,5 +29,9 @@ jobs:
     uses: ./.github/workflows/U14.yml
   U14VHV:
     uses: ./.github/workflows/U14VHV.yml
+  M14:
+    uses: ./.github/workflows/M14.yml
+  M14VHV:
+    uses: ./.github/workflows/M14VHV.yml
   U12:
     uses: ./.github/workflows/U12.yml
