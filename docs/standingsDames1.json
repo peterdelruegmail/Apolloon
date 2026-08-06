@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T10:00:17.646082+00:00",
+  "generated_at": "2026-08-06T23:43:45.833269+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18710/seasons/220",
   "groups": [
     {
@@ -77,7 +77,7 @@
         },
         {
           "position": 6,
-          "team": "DHC Waasmunster (Senior F)",
+          "team": "DHC Waasmunster Liga (Senior F)",
           "team_id": 451282,
           "logo": null,
           "mp": 0,
@@ -91,7 +91,7 @@
         },
         {
           "position": 7,
-          "team": "Dames liga (Senior F)",
+          "team": "HBC Evergem Dames liga (Senior F)",
           "team_id": 451378,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785696905.png",
           "mp": 0,
