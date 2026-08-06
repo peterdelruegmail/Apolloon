@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T10:00:14.664406+00:00",
+  "generated_at": "2026-08-06T23:43:49.409784+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -110,7 +110,7 @@
         },
         {
           "position": 3,
-          "team": "JM12 (U12 M)",
+          "team": "HBC Evergem JM12 (U12 M)",
           "team_id": 451366,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785698492.png",
           "mp": 0,
@@ -391,7 +391,7 @@
         },
         {
           "position": 6,
-          "team": "Biobest Sasja HC (U12 M)",
+          "team": "Biobest Sasja HC (U12)",
           "team_id": 451611,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/_1785155398.png",
           "mp": 0,
@@ -822,7 +822,7 @@
         },
         {
           "position": 6,
-          "team": "Derdaelle Sporting Pelt J12 Team 3 3 (U12 M)",
+          "team": "Derdaele Sporting Pelt J12 Team 3 3 (U12 M)",
           "team_id": 451704,
           "logo": null,
           "mp": 0,
