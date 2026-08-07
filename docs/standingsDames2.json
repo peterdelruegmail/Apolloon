@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T10:00:20.678552+00:00",
+  "generated_at": "2026-08-07T16:00:25.389261+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
   "groups": [
     {
@@ -126,7 +126,7 @@
           "position": 3,
           "team": "Handbal Brugge (Senior F)",
           "team_id": 451512,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107970.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
