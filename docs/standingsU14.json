@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T10:00:13.078417+00:00",
+  "generated_at": "2026-08-07T22:00:13.738587+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -262,7 +262,7 @@
           "position": 2,
           "team": "Handbal Brugge (U14 M)",
           "team_id": 451509,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107944.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
