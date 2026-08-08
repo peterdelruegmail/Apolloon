@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T10:00:14.153420+00:00",
+  "generated_at": "2026-08-08T16:00:14.118034+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18728/seasons/220",
   "groups": [
     {
@@ -129,9 +129,9 @@
       "standings": [
         {
           "position": 1,
-          "team": "Handbal Hestia Bilzen (U14 F)",
+          "team": "Handbal Hestia Bilzen M14Q (U14 F)",
           "team_id": 451231,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200533.png",
           "mp": 0,
           "w": 0,
           "d": 0,
