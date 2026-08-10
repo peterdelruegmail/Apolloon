@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T10:00:12.463279+00:00",
+  "generated_at": "2026-08-10T14:12:02.138505+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -82,9 +82,9 @@
       "standings": [
         {
           "position": 1,
-          "team": "Besox Handbalclub Izegem (U18 M)",
+          "team": "Besox Handbalclub Izegem J18 (U18 M)",
           "team_id": 451012,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786359012.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
