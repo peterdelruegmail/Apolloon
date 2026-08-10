@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T04:00:11.869086+00:00",
+  "generated_at": "2026-08-10T14:11:54.105914+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -124,9 +124,9 @@
         },
         {
           "position": 3,
-          "team": "Besox Handbalclub Izegem 2 2 (U16 M)",
+          "team": "Besox Handbalclub Izegem 2 J16 2 (U16 M)",
           "team_id": 451479,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786368327.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -185,9 +185,9 @@
         },
         {
           "position": 2,
-          "team": "Besox Handbalclub Izegem 1 1 (U16 M)",
+          "team": "Besox Handbalclub Izegem 1 J16 1 (U16 M)",
           "team_id": 451013,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786366956.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -527,7 +527,7 @@
         },
         {
           "position": 2,
-          "team": "Sezoens Achilles Bocholt (U16 M)",
+          "team": "Sezoens Achilles Bocholt (J16) (U16 M)",
           "team_id": 451188,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848287.png",
           "mp": 0,
