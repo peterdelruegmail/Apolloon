@@ -50,7 +50,7 @@ jobs:
           max_attempts=15
           attempt=1
           backoff=2
-          max_backoff=60
+          max_backoff=120
           
           while [ $attempt -le $max_attempts ]; do
             if git pull --rebase --autostash origin main && git push origin main; then
