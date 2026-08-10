@@ -21,8 +21,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-
+          
       - name: Python installeren
         uses: actions/setup-python@v6
         with:
@@ -47,4 +46,14 @@ jobs:
           fi
           
           git commit -m "chore: update standings for league ${{ inputs.LEAGUE }}"
-          git push origin main
+          # Retry logica voor concurrent pushes
+          for i in {1..5}; do
+            if git pull --rebase origin main && git push origin main; then
+              echo "✅ Push succesvol"
+              break
+            else
+              echo "⚠️  Push attempt $i mislukt, retry..."
+              sleep $((RANDOM % 5 + 1))
+            fi
+          done
+
