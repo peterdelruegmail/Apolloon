@@ -43,18 +43,33 @@ jobs:
             exit 0
           fi
           
-          git add docs/standings${{ inputs.NAME }}.json
           git commit -m "chore: update standings for league ${{ inputs.LEAGUE }}"
           
-          # Force push: geen merge conflicts nodig, gewoon overschrijven
-          for attempt in {1..10}; do
-            if git push --force-with-lease origin main; then
+          max_attempts=15
+          attempt=1
+          backoff=2
+          max_backoff=120
+          
+          while [ $attempt -le $max_attempts ]; do
+            if git pull --rebase --autostash origin main && git push origin main; then
               echo "✅ Push succesvol op attempt $attempt"
-              exit 0
+              break
+            else
+              echo "⚠️ Push attempt $attempt mislukt, retry..."
+              # jitter + cap
+              if [ $backoff -gt $max_backoff ]; then
+                sleep_time=$(( max_backoff + RANDOM % 5 ))
+              else
+                sleep_time=$(( backoff + RANDOM % 5 ))
+              fi
+              echo "Wacht $sleep_time seconden..."
+              sleep $sleep_time
+              attempt=$(( attempt + 1 ))
+              backoff=$(( backoff * 2 ))
             fi
-            echo "⚠️ Poging $attempt mislukt, retry..."
-            sleep $((RANDOM % 10 + 2))
           done
           
-          echo "❌ Push mislukt na 10 pogingen"
-          exit 1
+          if [ $attempt -gt $max_attempts ]; then
+            echo "❌ Alle $max_attempts push attempts gefaald"
+            exit 1
+          fi
