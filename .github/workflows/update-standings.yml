@@ -46,14 +46,32 @@ jobs:
           fi
           
           git commit -m "chore: update standings for league ${{ inputs.LEAGUE }}"
-          # Retry logica voor concurrent pushes
-          for i in {1..5}; do
-            if git pull --rebase origin main && git push origin main; then
-              echo "✅ Push succesvol"
+          
+          max_attempts=15
+          attempt=1
+          backoff=2
+          max_backoff=60
+          
+          while [ $attempt -le $max_attempts ]; do
+            if git pull --rebase --autostash origin main && git push origin main; then
+              echo "✅ Push succesvol op attempt $attempt"
               break
             else
-              echo "⚠️  Push attempt $i mislukt, retry..."
-              sleep $((RANDOM % 5 + 1))
+              echo "⚠️ Push attempt $attempt mislukt, retry..."
+              # jitter + cap
+              if [ $backoff -gt $max_backoff ]; then
+                sleep_time=$(( max_backoff + RANDOM % 5 ))
+              else
+                sleep_time=$(( backoff + RANDOM % 5 ))
+              fi
+              echo "Wacht $sleep_time seconden..."
+              sleep $sleep_time
+              attempt=$(( attempt + 1 ))
+              backoff=$(( backoff * 2 ))
             fi
           done
-
+          
+          if [ $attempt -gt $max_attempts ]; then
+            echo "❌ Alle $max_attempts push attempts gefaald"
+            exit 1
+          fi
