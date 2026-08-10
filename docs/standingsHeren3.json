@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T04:00:12.362871+00:00",
+  "generated_at": "2026-08-10T10:00:13.639628+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18713/seasons/220",
   "groups": [
     {
@@ -21,9 +21,9 @@
         },
         {
           "position": 2,
-          "team": "Handbalclub Roeselare (Senior M)",
+          "team": "Handbalclub Roeselare 2 (Senior M)",
           "team_id": 450996,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786349005.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
