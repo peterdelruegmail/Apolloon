@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T16:00:16.444675+00:00",
+  "generated_at": "2026-08-10T22:00:20.234831+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -379,7 +379,7 @@
           "position": 5,
           "team": "HC Hannibal Tessenderlo (U18 M)",
           "team_id": 451259,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379896.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
