@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T10:00:26.368382+00:00",
+  "generated_at": "2026-08-11T16:00:20.660248+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -246,6 +246,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "HBC Evergem JM14RB (U14)",
+          "team_id": 451369,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785699779.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 2,
           "team": "Besox Handbalclub Izegem 3 3 (U14 M)",
           "team_id": 451472,
           "logo": null,
@@ -259,7 +273,7 @@
           "pts": null
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Handbal Brugge (U14 M)",
           "team_id": 451509,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107944.jpg",
@@ -273,7 +287,7 @@
           "pts": 0
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Uilenspiegel HV (U14 M)",
           "team_id": 451543,
           "logo": null,
@@ -287,7 +301,7 @@
           "pts": 0
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Elita Buggenhout (U14 M)",
           "team_id": 451572,
           "logo": null,
@@ -301,7 +315,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "HK Waasmunster (U14 M)",
           "team_id": 451603,
           "logo": null,
@@ -315,7 +329,7 @@
           "pts": 0
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "HC Don Bosco Gent 4 4 (U14 M)",
           "team_id": 451660,
           "logo": null,
