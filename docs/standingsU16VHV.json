@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T04:00:13.818883+00:00",
+  "generated_at": "2026-08-11T10:00:13.709532+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -9,7 +9,7 @@
           "position": 1,
           "team": "Handbalclub Roeselare (U16 M)",
           "team_id": 451031,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786437636.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
