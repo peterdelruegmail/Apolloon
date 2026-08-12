@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T10:00:17.678777+00:00",
+  "generated_at": "2026-08-12T16:00:16.720477+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -49,9 +49,9 @@
         },
         {
           "position": 4,
-          "team": "Besox Handbalclub Izegem (U14 F)",
+          "team": "Besox Handbalclub Izegem M14 (U14 F)",
           "team_id": 451477,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786534401.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
