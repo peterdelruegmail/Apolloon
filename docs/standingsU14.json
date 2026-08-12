@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T10:00:15.800744+00:00",
+  "generated_at": "2026-08-12T16:00:18.495560+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -124,9 +124,9 @@
         },
         {
           "position": 4,
-          "team": "Besox Handbalclub Izegem 1 1 (U14 M)",
+          "team": "Besox Handbalclub Izegem 1 J14 1 (U14 M)",
           "team_id": 451468,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786535067.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -199,9 +199,9 @@
         },
         {
           "position": 3,
-          "team": "Besox Handbalclub Izegem 2 2 (U14 M)",
+          "team": "Besox Handbalclub Izegem 2 J14 2 (U14 M)",
           "team_id": 451470,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786545203.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -260,9 +260,9 @@
         },
         {
           "position": 2,
-          "team": "Besox Handbalclub Izegem 3 3 (U14 M)",
+          "team": "Besox Handbalclub Izegem 3 J14 3 (U14 M)",
           "team_id": 451472,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786545666.jpg",
           "mp": null,
           "w": null,
           "d": null,
