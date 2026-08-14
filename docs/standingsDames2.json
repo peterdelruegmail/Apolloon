@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T10:00:12.691661+00:00",
+  "generated_at": "2026-08-14T16:00:14.535838+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
   "groups": [
     {
@@ -227,9 +227,9 @@
         },
         {
           "position": 4,
-          "team": "Dames Regio (Senior F)",
+          "team": "HC Aalst Dames Regio (Senior F)",
           "team_id": 451444,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/_1786713863.png",
           "mp": 0,
           "w": 0,
           "d": 0,
