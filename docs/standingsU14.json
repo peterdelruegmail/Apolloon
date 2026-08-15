@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T10:00:10.760549+00:00",
+  "generated_at": "2026-08-15T16:00:15.499054+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -49,7 +49,7 @@
         },
         {
           "position": 4,
-          "team": "GBSK Handbal (U14 M)",
+          "team": "GBSK Handbal U14 (U14)",
           "team_id": 451588,
           "logo": null,
           "mp": 0,
@@ -187,7 +187,7 @@
           "position": 2,
           "team": "Desselgemse Handbalclub (U14 M)",
           "team_id": 451328,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/_1786798260.png",
           "mp": 0,
           "w": 0,
           "d": 0,
