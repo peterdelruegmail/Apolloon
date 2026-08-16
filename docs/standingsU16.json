@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T16:00:13.535914+00:00",
+  "generated_at": "2026-08-16T22:00:12.672006+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -276,7 +276,7 @@
           "position": 3,
           "team": "HC Welta (U16 M)",
           "team_id": 451484,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898688.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
