@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T10:00:14.025400+00:00",
+  "generated_at": "2026-08-16T16:00:16.747747+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18717/seasons/220",
   "groups": [
     {
@@ -152,9 +152,9 @@
         },
         {
           "position": 6,
-          "team": "HC AtomiX (U18 M)",
+          "team": "HC AtomiX - J18 - VHV-kwalificatietornooi (U18 M)",
           "team_id": 451680,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1786882187.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
