@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T10:00:14.103505+00:00",
+  "generated_at": "2026-08-16T16:00:14.496067+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -227,9 +227,9 @@
         },
         {
           "position": 6,
-          "team": "HC AtomiX (U18 M)",
+          "team": "HC AtomiX - J18 - Competitie (U18 M)",
           "team_id": 451679,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1786882249.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -290,7 +290,7 @@
           "position": 4,
           "team": "HC Maasmechelen '65 (U18 M)",
           "team_id": 451404,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17238/logo/_1786889618.png",
           "mp": 0,
           "w": 0,
           "d": 0,
