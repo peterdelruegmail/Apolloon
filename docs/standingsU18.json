@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T16:00:16.263737+00:00",
+  "generated_at": "2026-08-17T22:05:10.505173+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -335,20 +335,6 @@
         },
         {
           "position": 2,
-          "team": "HC Overpelt (U18 M)",
-          "team_id": 451098,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
           "team": "Sezoens Achilles Bocholt 2 (J18-2) (U18 M)",
           "team_id": 451184,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848267.png",
@@ -362,7 +348,7 @@
           "pts": 0
         },
         {
-          "position": 4,
+          "position": 3,
           "team": "Handbal Hestia Bilzen J18 (U18 M)",
           "team_id": 451242,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200287.png",
@@ -376,7 +362,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "HC Hannibal Tessenderlo (U18 M)",
           "team_id": 451259,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379896.jpg",
