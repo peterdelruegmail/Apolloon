@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:00:10.389504+00:00",
+  "generated_at": "2026-08-18T16:00:16.338538+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -35,9 +35,9 @@
         },
         {
           "position": 3,
-          "team": "Besox Handbalclub Izegem 3 3 (U12 M)",
+          "team": "Besox Handbalclub Izegem 3 J12 3 (U12 M)",
           "team_id": 451456,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1787049890.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -377,7 +377,7 @@
         },
         {
           "position": 5,
-          "team": "Uilenspiegel HV (U12 M)",
+          "team": "Uilenspiegel M12 (U12 M)",
           "team_id": 451537,
           "logo": null,
           "mp": 0,
@@ -466,7 +466,7 @@
         },
         {
           "position": 5,
-          "team": "Uilenspiegel HV m (U12 M)",
+          "team": "Uilenspiegel JM12A (U12 M)",
           "team_id": 451540,
           "logo": null,
           "mp": 0,
@@ -541,7 +541,7 @@
         },
         {
           "position": 4,
-          "team": "Uilenspiegel HV B B (U12 M)",
+          "team": "Uilenspiegel J12B B (U12 M)",
           "team_id": 451569,
           "logo": null,
           "mp": 0,
@@ -555,7 +555,7 @@
         },
         {
           "position": 5,
-          "team": "Uilenspiegel HV C C (U12 M)",
+          "team": "Uilenspiegel J12C (U12 M)",
           "team_id": 451571,
           "logo": null,
           "mp": 0,
@@ -752,9 +752,9 @@
       "standings": [
         {
           "position": 1,
-          "team": "Hv Arena (U12 M)",
+          "team": "Hv Kwanten Arena (U12 M)",
           "team_id": 451070,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055396.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
