@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T16:00:16.738016+00:00",
+  "generated_at": "2026-08-18T22:00:10.729442+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -79,7 +79,7 @@
           "position": 6,
           "team": "HUBO Handbal N1 (Senior M)",
           "team_id": 451281,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787090275.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -121,7 +121,7 @@
           "position": 9,
           "team": "Sporting Pelt H2 (Senior M)",
           "team_id": 451715,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787080804.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
