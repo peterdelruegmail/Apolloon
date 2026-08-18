@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T16:00:16.599986+00:00",
+  "generated_at": "2026-08-18T22:00:12.090117+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -246,20 +246,6 @@
       "standings": [
         {
           "position": 1,
-          "team": "HBC Evergem JM142B 1 (U14 M)",
-          "team_id": 456633,
-          "logo": null,
-          "mp": null,
-          "w": null,
-          "d": null,
-          "l": null,
-          "gs": null,
-          "ga": null,
-          "gd": null,
-          "pts": null
-        },
-        {
-          "position": 2,
           "team": "Handbal Brugge (U14 M)",
           "team_id": 451509,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107944.jpg",
@@ -273,7 +259,7 @@
           "pts": 0
         },
         {
-          "position": 3,
+          "position": 2,
           "team": "Uilenspiegel J14A (U14 M)",
           "team_id": 451543,
           "logo": null,
@@ -287,7 +273,7 @@
           "pts": 0
         },
         {
-          "position": 4,
+          "position": 3,
           "team": "Elita Buggenhout (U14 M)",
           "team_id": 451572,
           "logo": null,
@@ -301,7 +287,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "HK Waasmunster (U14 M)",
           "team_id": 451603,
           "logo": null,
@@ -315,9 +301,23 @@
           "pts": 0
         },
         {
-          "position": 6,
+          "position": 5,
           "team": "HC Don Bosco Gent 4 4 (U14 M)",
           "team_id": 451660,
+          "logo": null,
+          "mp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gs": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "HBC Evergem JM142B 1 (U14 M)",
+          "team_id": 456633,
           "logo": null,
           "mp": 0,
           "w": 0,
@@ -496,7 +496,7 @@
           "position": 6,
           "team": "Derdaele Sporting Pelt J14 team 2 2 (U14 M)",
           "team_id": 451866,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081457.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -585,7 +585,7 @@
           "position": 6,
           "team": "Derdaele Sporting Pelt J14 team 1  1 (U14 M)",
           "team_id": 451705,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081405.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
