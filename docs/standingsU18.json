@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:00:11.061149+00:00",
+  "generated_at": "2026-08-18T16:00:15.972504+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -213,7 +213,7 @@
         },
         {
           "position": 5,
-          "team": "Uilenspiegel HV (U18 M)",
+          "team": "Uilenspiegel J18 (U18 M)",
           "team_id": 451561,
           "logo": null,
           "mp": 0,
@@ -321,9 +321,9 @@
       "standings": [
         {
           "position": 1,
-          "team": "Hv Arena (U18 M)",
+          "team": "Hv Kwanten Arena (U18 M)",
           "team_id": 451067,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055095.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
