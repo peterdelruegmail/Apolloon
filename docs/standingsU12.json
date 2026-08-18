@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T16:00:16.338538+00:00",
+  "generated_at": "2026-08-18T22:00:09.967304+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -646,7 +646,7 @@
           "position": 5,
           "team": "Derdaele Sporting Pelt J12 Team 1 1 (U12 M)",
           "team_id": 451702,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081615.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -735,7 +735,7 @@
           "position": 6,
           "team": "Derdaele Sporting Pelt J12 Team 2 2 (U12 M)",
           "team_id": 451703,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081641.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -824,7 +824,7 @@
           "position": 6,
           "team": "Derdaele Sporting Pelt J12 Team 3 3 (U12 M)",
           "team_id": 451704,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081665.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
