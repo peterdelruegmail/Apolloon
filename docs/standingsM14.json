@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:00:10.700149+00:00",
+  "generated_at": "2026-08-18T16:00:16.466824+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -110,7 +110,7 @@
         },
         {
           "position": 2,
-          "team": "Uilenspiegel HV (U14 F)",
+          "team": "Uilenspiegel M14 (U14 F)",
           "team_id": 451549,
           "logo": null,
           "mp": 0,
@@ -246,9 +246,9 @@
       "standings": [
         {
           "position": 1,
-          "team": "Hv Arena (U14 F)",
+          "team": "Hv Kwanten Arena (U14 F)",
           "team_id": 451069,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055267.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
