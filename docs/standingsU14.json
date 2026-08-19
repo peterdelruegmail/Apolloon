@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T16:00:12.491210+00:00",
+  "generated_at": "2026-08-19T22:00:10.423489+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -246,6 +246,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "HBC Evergem JM14RB (U14)",
+          "team_id": 451369,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785699779.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 2,
           "team": "Handbal Brugge (U14 M)",
           "team_id": 451509,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107944.jpg",
@@ -259,7 +273,7 @@
           "pts": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Uilenspiegel J14A (U14 M)",
           "team_id": 451543,
           "logo": null,
@@ -273,7 +287,7 @@
           "pts": 0
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Elita Buggenhout (U14 M)",
           "team_id": 451572,
           "logo": null,
@@ -287,7 +301,7 @@
           "pts": 0
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "HK Waasmunster (U14 M)",
           "team_id": 451603,
           "logo": null,
@@ -301,23 +315,9 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "HC Don Bosco Gent 4 4 (U14 M)",
           "team_id": 451660,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 6,
-          "team": "HBC Evergem JM142B 1 (U14 M)",
-          "team_id": 456633,
           "logo": null,
           "mp": 0,
           "w": 0,
