@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T22:00:08.653033+00:00",
+  "generated_at": "2026-08-19T04:00:12.290493+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18707/seasons/220",
   "groups": [
     {
@@ -23,7 +23,7 @@
           "position": 2,
           "team": "HC Pentagoon Kortessem Heren 1 (Senior M)",
           "team_id": 450991,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093013.png",
           "mp": 0,
           "w": 0,
           "d": 0,
