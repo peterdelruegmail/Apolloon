@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T04:00:12.014736+00:00",
+  "generated_at": "2026-08-19T10:00:11.459122+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -632,7 +632,7 @@
           "position": 4,
           "team": "HUBO Handbal 1 1 (U12 M)",
           "team_id": 451313,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125120.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -707,7 +707,7 @@
           "position": 4,
           "team": "HUBO Handbal 2 2 (U12 M)",
           "team_id": 451314,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125195.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -796,7 +796,7 @@
           "position": 4,
           "team": "HUBO Handbal 3 3 (U12 M)",
           "team_id": 451317,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125229.png",
           "mp": 0,
           "w": 0,
           "d": 0,
