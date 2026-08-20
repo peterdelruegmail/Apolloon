@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:00:16.209881+00:00",
+  "generated_at": "2026-08-20T16:00:13.488884+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18717/seasons/220",
   "groups": [
     {
@@ -7,7 +7,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "HBC Apolloon Spurs (J18-VHV) (U18 M)",
+          "team": "A. Spurs B18 VHV Q (U18 M)",
           "team_id": 450942,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814437.png",
           "mp": 0,
@@ -21,7 +21,7 @@
         },
         {
           "position": 2,
-          "team": "Handbalclub Roeselare (U18 M)",
+          "team": "Roeselare B18 VHV Q (U18 M)",
           "team_id": 451030,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786437595.jpg",
           "mp": 0,
@@ -35,7 +35,7 @@
         },
         {
           "position": 3,
-          "team": "Handbalclub Eeklo (U18 M)",
+          "team": "Eeklo B18 VHV Q (U18 M)",
           "team_id": 451392,
           "logo": null,
           "mp": 0,
@@ -49,7 +49,7 @@
         },
         {
           "position": 4,
-          "team": "HBC Dendermonde VHV (U18 M)",
+          "team": "Dendermonde B18 VHV Q (U18 M)",
           "team_id": 451627,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669164.png",
           "mp": 0,
@@ -63,7 +63,7 @@
         },
         {
           "position": 5,
-          "team": "Derdaele Sporting Pelt  J18 VHV (U18 M)",
+          "team": "Derdaele Sp. Pelt B18 VHV Q (U18 M)",
           "team_id": 451711,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081137.jpg",
           "mp": 0,
@@ -82,7 +82,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "Handbalclub Schoten U18 VHV Q (U18 M)",
+          "team": "Schoten B18 VHV Q (U18 M)",
           "team_id": 451053,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784746099.jpg",
           "mp": 0,
@@ -96,7 +96,7 @@
         },
         {
           "position": 2,
-          "team": "HC Pentagoon Kortessem M18 (U18 M)",
+          "team": "P. Kortessem B18 VHV Q (U18 M)",
           "team_id": 451142,
           "logo": null,
           "mp": 0,
@@ -110,7 +110,7 @@
         },
         {
           "position": 3,
-          "team": "HUBO Handbal (U18 M)",
+          "team": "Hubo B18 VHV Q (U18 M)",
           "team_id": 451291,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787090421.png",
           "mp": 0,
@@ -124,7 +124,7 @@
         },
         {
           "position": 4,
-          "team": "HBC Evergem J18 VHV (U18 M)",
+          "team": "Evergem B18 VHV Q (U18 M)",
           "team_id": 451375,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697497.png",
           "mp": 0,
@@ -138,7 +138,7 @@
         },
         {
           "position": 5,
-          "team": "HC Don Bosco Gent (U18 M)",
+          "team": "DB Gent B18 VHV Q (U18 M)",
           "team_id": 451500,
           "logo": null,
           "mp": 0,
@@ -152,7 +152,7 @@
         },
         {
           "position": 6,
-          "team": "HC AtomiX - J18 - VHV-kwalificatietornooi (U18 M)",
+          "team": "AtomiX B18 VHV Q (U18 M)",
           "team_id": 451680,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1786882187.jpg",
           "mp": 0,
@@ -171,7 +171,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "Handbal Leuven J18 Q (U18 M)",
+          "team": "Leven B18 VHV Q (U18 M)",
           "team_id": 451083,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465215.png",
           "mp": 0,
@@ -185,7 +185,7 @@
         },
         {
           "position": 2,
-          "team": "Sezoens Achilles Bocholt (J18-VHVQ) (U18 M)",
+          "team": "Achilles Bocholt B18 VHV Q (U18 M)",
           "team_id": 451185,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848179.png",
           "mp": 0,
@@ -199,7 +199,7 @@
         },
         {
           "position": 3,
-          "team": "HC Hannibal Tessenderlo VHV (U18 M)",
+          "team": "H. Tessenderlo B18 VHV Q (U18 M)",
           "team_id": 451262,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379715.jpg",
           "mp": 0,
@@ -213,7 +213,7 @@
         },
         {
           "position": 4,
-          "team": "Besox Handbalclub Izegem J18 Q (U18 M)",
+          "team": "Besox Izegem B18 VHV Q (U18 M)",
           "team_id": 451486,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786358235.jpg",
           "mp": 0,
@@ -227,7 +227,7 @@
         },
         {
           "position": 5,
-          "team": "Elita Lebbeke - VHV (U18 M)",
+          "team": "Lebbeke B18 VHV Q (U18 M)",
           "team_id": 451528,
           "logo": null,
           "mp": 0,
@@ -241,7 +241,7 @@
         },
         {
           "position": 6,
-          "team": "Uilenspiegel Q J18 (U18 M)",
+          "team": "Uilenspiegel B18 VHV Q (U18 M)",
           "team_id": 451562,
           "logo": null,
           "mp": 0,
