@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T04:00:16.261746+00:00",
+  "generated_at": "2026-08-20T10:00:16.106063+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18725/seasons/220",
   "groups": [
     {
@@ -363,9 +363,9 @@
         },
         {
           "position": 5,
-          "team": "HC AtomiX (U14 M)",
+          "team": " HC AtomiX - JM14 - VHV-kwalificatietornooi (U14 M)",
           "team_id": 451686,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787217210.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
