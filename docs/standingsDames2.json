@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:00:15.172144+00:00",
+  "generated_at": "2026-08-20T16:00:12.678301+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
   "groups": [
     {
@@ -7,7 +7,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "DHC Waasmunster Regio (Senior F)",
+          "team": "DHC Waasmunster D W VHV OWV (Senior F)",
           "team_id": 451280,
           "logo": null,
           "mp": 0,
@@ -21,7 +21,7 @@
         },
         {
           "position": 2,
-          "team": "HBC Evergem Dames regio (Senior F)",
+          "team": "Evergem D W VHV OWV (Senior F)",
           "team_id": 451377,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697330.png",
           "mp": 0,
@@ -35,7 +35,7 @@
         },
         {
           "position": 3,
-          "team": "Dames Regio Besox Handbalclub Izegem (Senior F)",
+          "team": "Besox Izegem D W VHV OWV (Senior F)",
           "team_id": 451423,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1785758242.jpg",
           "mp": 0,
@@ -49,7 +49,7 @@
         },
         {
           "position": 4,
-          "team": "Handbalclub Thor 2 2 (Senior F)",
+          "team": "Thor D W VHV OWV 2 (Senior F)",
           "team_id": 451581,
           "logo": null,
           "mp": 0,
@@ -63,7 +63,7 @@
         },
         {
           "position": 5,
-          "team": "HBC Dendermonde 3 (Senior F)",
+          "team": "Dendermonde D W VHV OWV 3 (Senior F)",
           "team_id": 451628,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652181.png",
           "mp": 0,
@@ -77,7 +77,7 @@
         },
         {
           "position": 6,
-          "team": "HC Don Bosco Gent (Senior F)",
+          "team": "DB Gent D W VHV OWV (Senior F)",
           "team_id": 451671,
           "logo": null,
           "mp": 0,
@@ -96,7 +96,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "Handbal Lokeren 1 (Senior F)",
+          "team": "Lokeren D W VHV OWV 1 (Senior F)",
           "team_id": 451135,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747831.png",
           "mp": 0,
@@ -110,7 +110,7 @@
         },
         {
           "position": 2,
-          "team": "Desselgemse Handbalclub (Senior F)",
+          "team": "Desselgemse D W VHV OWV (Senior F)",
           "team_id": 451323,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/_1786798155.png",
           "mp": 0,
@@ -124,7 +124,7 @@
         },
         {
           "position": 3,
-          "team": "Handbal Brugge (Senior F)",
+          "team": "Brugge D W VHV OWV (Senior F)",
           "team_id": 451512,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107970.jpg",
           "mp": 0,
@@ -138,7 +138,7 @@
         },
         {
           "position": 4,
-          "team": "Elita Lebbeke Regio (Senior F)",
+          "team": "Lebbeke D W VHV OWV (Senior F)",
           "team_id": 451521,
           "logo": null,
           "mp": 0,
@@ -152,7 +152,7 @@
         },
         {
           "position": 5,
-          "team": "Handbalclub Thor 1 1 (Senior F)",
+          "team": "Thor D W VHV OWV 1 (Senior F)",
           "team_id": 451578,
           "logo": null,
           "mp": 0,
@@ -166,7 +166,7 @@
         },
         {
           "position": 6,
-          "team": "HBC Dendermonde 1 (Senior F)",
+          "team": "Dendermonde D W VHV OWV 1 (Senior F)",
           "team_id": 451625,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652231.png",
           "mp": 0,
@@ -185,7 +185,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "HBC Apolloon Spurs (D2) (Senior F)",
+          "team": "A. Spurs D W VHV OWV (Senior F)",
           "team_id": 450963,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814487.png",
           "mp": 0,
@@ -199,7 +199,7 @@
         },
         {
           "position": 2,
-          "team": "Handbalclub Roeselare 2 (Senior F)",
+          "team": "Roeselare D W VHV OWV 2 (Senior F)",
           "team_id": 450997,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786349324.jpg",
           "mp": 0,
@@ -213,7 +213,7 @@
         },
         {
           "position": 3,
-          "team": "Handbalclub Eeklo (Senior F)",
+          "team": "Eeklo D W VHV OWV (Senior F)",
           "team_id": 451384,
           "logo": null,
           "mp": 0,
@@ -227,7 +227,7 @@
         },
         {
           "position": 4,
-          "team": "HC Aalst Dames Regio (Senior F)",
+          "team": "Aalst D W VHV OWV (Senior F)",
           "team_id": 451444,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/_1786713863.png",
           "mp": 0,
@@ -241,7 +241,7 @@
         },
         {
           "position": 5,
-          "team": "Elita Lebbeke Regio A (Senior F)",
+          "team": "Lebbeke D W VHV OWV A (Senior F)",
           "team_id": 451523,
           "logo": null,
           "mp": 0,
@@ -255,7 +255,7 @@
         },
         {
           "position": 6,
-          "team": "HBC Dendermonde 2 (Senior F)",
+          "team": "Dendermonde D W VHV OWV 2 (Senior F)",
           "team_id": 451623,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652206.png",
           "mp": 0,
