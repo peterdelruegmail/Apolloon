@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:00:14.709040+00:00",
+  "generated_at": "2026-08-20T16:00:13.343169+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18728/seasons/220",
   "groups": [
     {
@@ -7,7 +7,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "Sezoens Achilles Bocholt (M14-VHVQ) (U14 F)",
+          "team": "Achilles Bocholt G14 VHV Q (U14 F)",
           "team_id": 451199,
           "logo": null,
           "mp": 0,
@@ -21,7 +21,7 @@
         },
         {
           "position": 2,
-          "team": "HUBO Handbal (U14 F)",
+          "team": "Hubo G14 VHV Q (U14 F)",
           "team_id": 451311,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124987.png",
           "mp": 0,
@@ -35,7 +35,7 @@
         },
         {
           "position": 3,
-          "team": "Uilenspiegel Q M14 (U14 F)",
+          "team": "Uilenspiegel G14 VHV Q (U14 F)",
           "team_id": 451550,
           "logo": null,
           "mp": 0,
@@ -49,7 +49,7 @@
         },
         {
           "position": 4,
-          "team": "Derdaele Sporting Pelt M14 VHV (U14 F)",
+          "team": "Derdaele Sp. Pelt G14 VHV Q (U14 F)",
           "team_id": 451707,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081333.jpg",
           "mp": 0,
@@ -68,7 +68,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "HBC Apolloon Spurs (M14-VHV) (U14 F)",
+          "team": "A. Spurs G14 VHV Q (U14 F)",
           "team_id": 450948,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814299.png",
           "mp": 0,
@@ -82,7 +82,7 @@
         },
         {
           "position": 2,
-          "team": "Handbalclub Roeselare (U14 F)",
+          "team": "Roeselare G14 VHV Q (U14 F)",
           "team_id": 451033,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786437781.jpg",
           "mp": 0,
@@ -96,7 +96,7 @@
         },
         {
           "position": 3,
-          "team": "Hv Kwanten Arena (U14 F)",
+          "team": "Kwanten Arena G14 VHV Q (U14 F)",
           "team_id": 451073,
           "logo": null,
           "mp": 0,
@@ -110,7 +110,7 @@
         },
         {
           "position": 4,
-          "team": "HC Pentagoon Kortessem M14 (U14 F)",
+          "team": "P. Kortessem G14 VHV Q (U14 F)",
           "team_id": 451149,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093306.png",
           "mp": 0,
@@ -129,7 +129,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "Handbal Hestia Bilzen M14Q (U14 F)",
+          "team": "H. Bilzen G14 VHV Q (U14 F)",
           "team_id": 451231,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200533.png",
           "mp": 0,
@@ -143,7 +143,7 @@
         },
         {
           "position": 2,
-          "team": "Dameshandbalclub Overpelt (U14 F)",
+          "team": "DHC Overpelt G14 VHV Q (U14 F)",
           "team_id": 451416,
           "logo": null,
           "mp": 0,
@@ -157,7 +157,7 @@
         },
         {
           "position": 3,
-          "team": "Besox Handbalclub Izegem M14Q (U14 F)",
+          "team": "Besox Izegem G14 VHV Q (U14 F)",
           "team_id": 451478,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786534777.jpg",
           "mp": 0,
@@ -171,7 +171,7 @@
         },
         {
           "position": 4,
-          "team": "Elita Lebbeke - VHV (U14 F)",
+          "team": "Lebbeke G14 VHV Q (U14 F)",
           "team_id": 451548,
           "logo": null,
           "mp": 0,
