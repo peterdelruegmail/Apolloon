@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:00:14.004976+00:00",
+  "generated_at": "2026-08-20T16:00:13.047375+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -7,7 +7,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "HBC Apolloon Spurs (M14) (U14 F)",
+          "team": "A. Spurs G14 VHV R (U14 F)",
           "team_id": 450947,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814329.png",
           "mp": 0,
@@ -21,7 +21,7 @@
         },
         {
           "position": 2,
-          "team": "Handbalclub Roeselare (U14 F)",
+          "team": "Roeselare G14 VHV R (U14 F)",
           "team_id": 451001,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786437764.jpg",
           "mp": 0,
@@ -35,7 +35,7 @@
         },
         {
           "position": 3,
-          "team": "DHC Waasmunster M14 (U14 F)",
+          "team": "DHC Waasmunster G14 VHV R (U14 F)",
           "team_id": 451243,
           "logo": null,
           "mp": 0,
@@ -49,7 +49,7 @@
         },
         {
           "position": 4,
-          "team": "Besox Handbalclub Izegem M14 (U14 F)",
+          "team": "Besox Izegem G14 VHV R (U14 F)",
           "team_id": 451477,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786534401.jpg",
           "mp": 0,
@@ -63,7 +63,7 @@
         },
         {
           "position": 5,
-          "team": "Elita Lebbeke (U14 F)",
+          "team": "Lebbeke G14 VHV R (U14 F)",
           "team_id": 451546,
           "logo": null,
           "mp": 0,
@@ -77,7 +77,7 @@
         },
         {
           "position": 6,
-          "team": "Handbalclub Thor (U14 F)",
+          "team": "Thor G14 VHV R (U14 F)",
           "team_id": 451587,
           "logo": null,
           "mp": 0,
@@ -110,7 +110,7 @@
         },
         {
           "position": 2,
-          "team": "Uilenspiegel M14 (U14 F)",
+          "team": "Uilenspiegel G14 VHV R (U14 F)",
           "team_id": 451549,
           "logo": null,
           "mp": 0,
@@ -124,9 +124,9 @@
         },
         {
           "position": 3,
-          "team": "HC AtomiX (U14 F)",
+          "team": "AtomiX G14 VHV R (U14 F)",
           "team_id": 451687,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787220060.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -138,7 +138,7 @@
         },
         {
           "position": 4,
-          "team": "Derdaele Sporting Pelt M14 team 1 1 (U14 F)",
+          "team": "Derdaele Sp. Pelt G14 VHV R 1 (U14 F)",
           "team_id": 451708,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081427.jpg",
           "mp": 0,
@@ -157,7 +157,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "HC Pentagoon Kortessem M14 (U14 F)",
+          "team": "P. Kortessem G14 VHV R (U14 F)",
           "team_id": 451148,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093286.png",
           "mp": 0,
@@ -171,7 +171,7 @@
         },
         {
           "position": 2,
-          "team": "Handbal Hestia Bilzen M14 (U14 F)",
+          "team": "H. Bilzen G14 VHV R (U14 F)",
           "team_id": 451229,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200485.png",
           "mp": 0,
@@ -185,7 +185,7 @@
         },
         {
           "position": 3,
-          "team": "HUBO Handbal (U14 F)",
+          "team": "Hubo G14 VHV R (U14 F)",
           "team_id": 451310,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124971.png",
           "mp": 0,
@@ -199,7 +199,7 @@
         },
         {
           "position": 4,
-          "team": "Dameshandbalclub Overpelt A A (U14 F)",
+          "team": "DHC Overpelt G14 VHV R A (U14 F)",
           "team_id": 451417,
           "logo": null,
           "mp": 0,
@@ -213,7 +213,7 @@
         },
         {
           "position": 5,
-          "team": "DHC Meeuwen M14 1 1 (U14 F)",
+          "team": "DHC Meeuwen G14 VHV R 1 (U14 F)",
           "team_id": 451663,
           "logo": null,
           "mp": 0,
@@ -227,7 +227,7 @@
         },
         {
           "position": 6,
-          "team": "HB Sint-Truiden (U14 F)",
+          "team": "Sint-Truiden G14 VHV R (U14 F)",
           "team_id": 451694,
           "logo": null,
           "mp": 0,
@@ -246,7 +246,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "Hv Kwanten Arena (U14 F)",
+          "team": "Kwanten Arena G14 VHV R (U14 F)",
           "team_id": 451069,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055267.jpg",
           "mp": 0,
@@ -260,7 +260,7 @@
         },
         {
           "position": 2,
-          "team": "Sezoens Achilles Bocholt (M14) (U14 F)",
+          "team": "Achilles Bocholt G14 VHV R (U14 F)",
           "team_id": 451198,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848413.png",
           "mp": 0,
@@ -274,7 +274,7 @@
         },
         {
           "position": 3,
-          "team": "United West B (U14 F)",
+          "team": "Beringen G14 VHV R (U14 F)",
           "team_id": 451335,
           "logo": null,
           "mp": 0,
@@ -288,7 +288,7 @@
         },
         {
           "position": 4,
-          "team": "Dameshandbalclub Overpelt B B (U14 F)",
+          "team": "DHC Overpelt G14 VHV R B (U14 F)",
           "team_id": 451418,
           "logo": null,
           "mp": 0,
@@ -302,7 +302,7 @@
         },
         {
           "position": 5,
-          "team": "DHC Meeuwen M14 2 2 (U14 F)",
+          "team": "DHC Meeuwen G14 VHV R 2 (U14 F)",
           "team_id": 451665,
           "logo": null,
           "mp": 0,
@@ -316,7 +316,7 @@
         },
         {
           "position": 6,
-          "team": "Derdaele Sporting Pelt M14 team 2 2 (U14 F)",
+          "team": "Derdaele Sp. Pelt G14 VHV R 2 (U14 F)",
           "team_id": 451869,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081490.jpg",
           "mp": 0,
