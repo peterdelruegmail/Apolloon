@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:00:15.256183+00:00",
+  "generated_at": "2026-08-20T16:00:15.986837+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -7,7 +7,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "HC Mouscron (U16 M)",
+          "team": "Mouscron U16 VHV R (U16 M)",
           "team_id": 451219,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17278/logo/_1786262658.png",
           "mp": 0,
@@ -21,7 +21,7 @@
         },
         {
           "position": 2,
-          "team": "HBC Evergem JM16  (U16 M)",
+          "team": "Evergem U16 VHV R (U16 M)",
           "team_id": 451374,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697671.png",
           "mp": 0,
@@ -35,7 +35,7 @@
         },
         {
           "position": 3,
-          "team": "Handbal Lokeren (U16 M)",
+          "team": "Lokeren U16 VHV R (U16 M)",
           "team_id": 451386,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747878.png",
           "mp": 0,
@@ -49,7 +49,7 @@
         },
         {
           "position": 4,
-          "team": "HC Don Bosco Gent (U16 M)",
+          "team": "DB Gent U16 VHV R (U16 M)",
           "team_id": 451501,
           "logo": null,
           "mp": 0,
@@ -63,7 +63,7 @@
         },
         {
           "position": 5,
-          "team": "GBSK Handbal U16 (U16)",
+          "team": "Gbsk U16 VHV R (U16)",
           "team_id": 451591,
           "logo": null,
           "mp": 0,
@@ -77,7 +77,7 @@
         },
         {
           "position": 6,
-          "team": "HBC Dendermonde (U16 M)",
+          "team": "Dendermonde U16 VHV R (U16 M)",
           "team_id": 451630,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669333.png",
           "mp": 0,
@@ -96,7 +96,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "HBC Apolloon Spurs (J16) (U16 M)",
+          "team": "A. Spurs U16 VHV R (U16 M)",
           "team_id": 450943,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814389.png",
           "mp": 0,
@@ -110,7 +110,7 @@
         },
         {
           "position": 2,
-          "team": "Desselgemse Handbalclub (U16 M)",
+          "team": "Desselgemse U16 VHV R (U16 M)",
           "team_id": 451325,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/_1786798227.png",
           "mp": 0,
@@ -124,7 +124,7 @@
         },
         {
           "position": 3,
-          "team": "Besox Handbalclub Izegem 2 J16 2 (U16 M)",
+          "team": "Besox Izegem U16 VHV R 2 (U16 M)",
           "team_id": 451479,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786368327.jpg",
           "mp": 0,
@@ -138,7 +138,7 @@
         },
         {
           "position": 4,
-          "team": "Handbalclub Thor (U16 M)",
+          "team": "Thor U16 VHV R (U16 M)",
           "team_id": 451582,
           "logo": null,
           "mp": 0,
@@ -152,7 +152,7 @@
         },
         {
           "position": 5,
-          "team": "HC Don Bosco Gent 2 2 (U16 M)",
+          "team": "DB Gent U16 VHV R 2 (U16 M)",
           "team_id": 451653,
           "logo": null,
           "mp": 0,
@@ -171,7 +171,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "Handbalclub Roeselare (U16 M)",
+          "team": "Roeselare U16 VHV R (U16 M)",
           "team_id": 450999,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786437616.jpg",
           "mp": 0,
@@ -185,7 +185,7 @@
         },
         {
           "position": 2,
-          "team": "Besox Handbalclub Izegem 1 J16 1 (U16 M)",
+          "team": "Besox Izegem U16 VHV R 1 (U16 M)",
           "team_id": 451013,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786366956.jpg",
           "mp": 0,
@@ -199,7 +199,7 @@
         },
         {
           "position": 3,
-          "team": "Handbal Brugge (U16 M)",
+          "team": "Brugge U16 VHV R (U16 M)",
           "team_id": 451510,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107957.jpg",
           "mp": 0,
@@ -213,7 +213,7 @@
         },
         {
           "position": 4,
-          "team": "Elita Lebbeke (U16 M)",
+          "team": "Lebbeke U16 VHV R (U16 M)",
           "team_id": 451531,
           "logo": null,
           "mp": 0,
@@ -227,7 +227,7 @@
         },
         {
           "position": 5,
-          "team": "HK Waasmunster (U16 M)",
+          "team": "HK Waasmunster U16 VHV R (U16 M)",
           "team_id": 451601,
           "logo": null,
           "mp": 0,
@@ -246,7 +246,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "Olse Merksem HC - JM16 compleet (U16 M)",
+          "team": "Olse Merksem U16 VHV R (U16 M)",
           "team_id": 451021,
           "logo": null,
           "mp": 0,
@@ -260,7 +260,7 @@
         },
         {
           "position": 2,
-          "team": "Handbalclub Schoten J16 (U16 M)",
+          "team": "Schoten U16 VHV R (U16 M)",
           "team_id": 451050,
           "logo": null,
           "mp": 0,
@@ -274,7 +274,7 @@
         },
         {
           "position": 3,
-          "team": "HC Welta (U16 M)",
+          "team": "Welta U16 VHV R (U16 M)",
           "team_id": 451484,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898688.jpg",
           "mp": 0,
@@ -288,7 +288,7 @@
         },
         {
           "position": 4,
-          "team": "Uilenspiegel J16 (U16 M)",
+          "team": "Uilenspiegel U16 VHV R (U16 M)",
           "team_id": 451552,
           "logo": null,
           "mp": 0,
@@ -302,7 +302,7 @@
         },
         {
           "position": 5,
-          "team": "Biobest Sasja HC (U16)",
+          "team": "Biobest Sasja U16 VHV R (U16)",
           "team_id": 451607,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/_1785155297.png",
           "mp": 0,
@@ -316,7 +316,7 @@
         },
         {
           "position": 6,
-          "team": "Handbal Merksplas (U16 M)",
+          "team": "Merksplas U16 VHV R (U16 M)",
           "team_id": 451649,
           "logo": null,
           "mp": 0,
@@ -335,7 +335,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "Handbalclub Eagles Aarschot JM16 (U16 M)",
+          "team": "E. Aarschot U16 VHV R (U16 M)",
           "team_id": 450983,
           "logo": null,
           "mp": 0,
@@ -349,7 +349,7 @@
         },
         {
           "position": 2,
-          "team": "Handbal Leuven JM16 (U16)",
+          "team": "Leven U16 VHV R (U16)",
           "team_id": 451080,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465593.png",
           "mp": 0,
@@ -363,7 +363,7 @@
         },
         {
           "position": 3,
-          "team": "HC Rhino Turnhout - JM16 COMP (U16 M)",
+          "team": "Rhino U16 VHV R (U16 M)",
           "team_id": 451089,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/_1786224919.png",
           "mp": 0,
@@ -391,7 +391,7 @@
         },
         {
           "position": 5,
-          "team": "HC Heist o/d Berg (U16 M)",
+          "team": "Heist o/d Berg U16 VHV R (U16 M)",
           "team_id": 451442,
           "logo": null,
           "mp": 0,
@@ -405,7 +405,7 @@
         },
         {
           "position": 6,
-          "team": " HC AtomiX - J16 - Competitie (U16 M)",
+          "team": "AtomiX U16 VHV R (U16 M)",
           "team_id": 451682,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787215118.jpg",
           "mp": 0,
@@ -424,7 +424,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "HC Pentagoon Kortessem J16 (U16 M)",
+          "team": "P. Kortessem U16 VHV R (U16 M)",
           "team_id": 451143,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093156.png",
           "mp": 0,
@@ -438,7 +438,7 @@
         },
         {
           "position": 2,
-          "team": "Kreasa U 16 (U16 M)",
+          "team": "Kreasa Houthalen U16 VHV R (U16 M)",
           "team_id": 451160,
           "logo": null,
           "mp": 0,
@@ -452,7 +452,7 @@
         },
         {
           "position": 3,
-          "team": "Handbal Hestia Bilzen J16 (U16 M)",
+          "team": "H. Bilzen U16 VHV R (U16 M)",
           "team_id": 451232,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200308.png",
           "mp": 0,
@@ -466,7 +466,7 @@
         },
         {
           "position": 4,
-          "team": "Handbal United West T (U16 M)",
+          "team": "H. Tessenderlo U16 VHV R (U16 M)",
           "team_id": 451260,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379738.png",
           "mp": 0,
@@ -480,7 +480,7 @@
         },
         {
           "position": 5,
-          "team": "HUBO Handbal 1 1 (U16 M)",
+          "team": "Hubo U16 VHV R 1 (U16 M)",
           "team_id": 451294,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124833.png",
           "mp": 0,
@@ -494,7 +494,7 @@
         },
         {
           "position": 6,
-          "team": "HC Maasmechelen '65 (U16 M)",
+          "team": "Maasmechelen 65 U16 VHV R (U16 M)",
           "team_id": 451407,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17238/logo/_1786889644.png",
           "mp": 0,
@@ -513,7 +513,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "Hv Kwanten Arena (U16 M)",
+          "team": "Kwanten Arena U16 VHV R (U16 M)",
           "team_id": 451068,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055197.jpg",
           "mp": 0,
@@ -527,7 +527,7 @@
         },
         {
           "position": 2,
-          "team": "Sezoens Achilles Bocholt (J16) (U16 M)",
+          "team": "Achilles Bocholt U16 VHV R (U16 M)",
           "team_id": 451188,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848287.png",
           "mp": 0,
@@ -541,7 +541,7 @@
         },
         {
           "position": 3,
-          "team": "HHV Meeuwen (U16 M)",
+          "team": "HHV Meeuwen U16 VHV R (U16 M)",
           "team_id": 451271,
           "logo": null,
           "mp": 0,
@@ -555,7 +555,7 @@
         },
         {
           "position": 4,
-          "team": "HUBO Handbal 2 2 (U16 M)",
+          "team": "Hubo U16 VHV R 2 (U16 M)",
           "team_id": 451297,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124871.png",
           "mp": 0,
@@ -569,7 +569,7 @@
         },
         {
           "position": 5,
-          "team": "HC Overpelt (U16 M)",
+          "team": "HC Overpelt U16 VHV R (U16 M)",
           "team_id": 451422,
           "logo": null,
           "mp": 0,
@@ -583,7 +583,7 @@
         },
         {
           "position": 6,
-          "team": "Derdaele Sporting Pelt J16 (U16 M)",
+          "team": "Derdaele Sp. Pelt U16 VHV R (U16 M)",
           "team_id": 451709,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081186.jpg",
           "mp": 0,
