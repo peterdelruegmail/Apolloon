@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T10:00:12.837163+00:00",
+  "generated_at": "2026-08-25T16:00:19.824806+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
   "groups": [
     {
@@ -140,7 +140,7 @@
           "position": 4,
           "team": "Lebbeke D W VHV OWV (Senior F)",
           "team_id": 451521,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666647.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -185,7 +185,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "A. Spurs D W VHV OWV (Senior F)",
+          "team": "HBC Apolloon Spurs D W VHV OWV (Senior F)",
           "team_id": 450963,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814487.png",
           "mp": 0,
@@ -215,7 +215,7 @@
           "position": 3,
           "team": "Eeklo D W VHV OWV (Senior F)",
           "team_id": 451384,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666382.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -243,7 +243,7 @@
           "position": 5,
           "team": "Lebbeke D W VHV OWV A (Senior F)",
           "team_id": 451523,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666680.png",
           "mp": 0,
           "w": 0,
           "d": 0,
