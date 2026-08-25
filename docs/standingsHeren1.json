@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T10:00:11.038977+00:00",
+  "generated_at": "2026-08-25T16:00:13.893371+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -7,7 +7,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "A. Spurs D1 M (Senior M)",
+          "team": "HBC Apolloon Spurs D1 M (Senior M)",
           "team_id": 450938,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784813833.png",
           "mp": 0,
@@ -93,7 +93,7 @@
           "position": 7,
           "team": "Lebbeke D1 M (Senior M)",
           "team_id": 451513,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666665.png",
           "mp": 0,
           "w": 0,
           "d": 0,
