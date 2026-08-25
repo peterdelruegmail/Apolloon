@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T10:00:10.835978+00:00",
+  "generated_at": "2026-08-25T16:00:12.808741+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18717/seasons/220",
   "groups": [
     {
@@ -7,7 +7,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "A. Spurs B18 VHV Q (U18 M)",
+          "team": "HBC Apolloon Spurs B18 VHV Q (U18 M)",
           "team_id": 450942,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814437.png",
           "mp": 0,
@@ -37,7 +37,7 @@
           "position": 3,
           "team": "Eeklo B18 VHV Q (U18 M)",
           "team_id": 451392,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666405.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -229,7 +229,7 @@
           "position": 5,
           "team": "Lebbeke B18 VHV Q (U18 M)",
           "team_id": 451528,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666693.png",
           "mp": 0,
           "w": 0,
           "d": 0,
