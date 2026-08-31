@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T16:00:12.989082+00:00",
+  "generated_at": "2026-08-31T22:00:10.803323+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -349,20 +349,6 @@
         },
         {
           "position": 3,
-          "team": "Heist o/d Berg U12 VHV R (U12 M)",
-          "team_id": 451437,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 4,
           "team": "Welta U12 VHV R (U12 M)",
           "team_id": 451452,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898729.jpg",
@@ -376,7 +362,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "Uilenspiegel U12 VHV R 3 (U12 M)",
           "team_id": 451537,
           "logo": null,
@@ -390,7 +376,7 @@
           "pts": 0
         },
         {
-          "position": 6,
+          "position": 5,
           "team": "Biobest Sasja U12 VHV R (U12)",
           "team_id": 451611,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/_1785155398.png",
