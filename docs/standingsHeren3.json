@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T16:00:14.192252+00:00",
+  "generated_at": "2026-09-02T22:00:11.294292+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18713/seasons/220",
   "groups": [
     {
@@ -21,7 +21,7 @@
         },
         {
           "position": 2,
-          "team": "Roeselare D M VHV OWV 2 (Senior M)",
+          "team": "Roeselare D M VHV OWV-B 2 (Senior M)",
           "team_id": 450996,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786349005.jpg",
           "mp": 0,
@@ -49,7 +49,7 @@
         },
         {
           "position": 4,
-          "team": "Lokeren D M VHV OWV 2 (Senior M)",
+          "team": "Lokeren D M VHV OWV-B 2 (Senior M)",
           "team_id": 451130,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747847.png",
           "mp": 0,
@@ -63,7 +63,7 @@
         },
         {
           "position": 5,
-          "team": "Desselgemse D M VHV OWV (Senior M)",
+          "team": "Desselgemse D M VHV OWV-B (Senior M)",
           "team_id": 451321,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/_1786803587.png",
           "mp": 0,
@@ -105,7 +105,7 @@
         },
         {
           "position": 8,
-          "team": "Lebbeke D M VHV OWV (Senior M)",
+          "team": "Lebbeke D M VHV OWV-B (Senior M)",
           "team_id": 451517,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666591.png",
           "mp": 0,
