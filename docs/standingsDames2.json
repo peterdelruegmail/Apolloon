@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T10:00:12.238054+00:00",
+  "generated_at": "2026-09-02T16:00:14.458509+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
   "groups": [
     {
@@ -77,7 +77,7 @@
         },
         {
           "position": 6,
-          "team": "DB Gent D W VHV OWV (Senior F)",
+          "team": "DB Gent D W VHV OWV-B (Senior F)",
           "team_id": 451671,
           "logo": null,
           "mp": 0,
@@ -213,7 +213,7 @@
         },
         {
           "position": 3,
-          "team": "Aalst D W VHV OWV (Senior F)",
+          "team": "Aalst D W VHV OWV-B (Senior F)",
           "team_id": 451444,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/_1786713863.png",
           "mp": 0,
