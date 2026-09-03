@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T04:00:16.208589+00:00",
+  "generated_at": "2026-09-03T10:00:12.569948+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18707/seasons/220",
   "groups": [
     {
@@ -107,7 +107,7 @@
           "position": 8,
           "team": "DB Gent D1 M VHV (Senior M)",
           "team_id": 451496,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415001.png",
           "mp": 0,
           "w": 0,
           "d": 0,
