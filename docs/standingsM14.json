@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T10:00:11.897553+00:00",
+  "generated_at": "2026-09-03T16:00:20.622050+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -201,7 +201,7 @@
           "position": 4,
           "team": "DHC Overpelt G14 VHV R A (U14 F)",
           "team_id": 451417,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788436611.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -290,7 +290,7 @@
           "position": 4,
           "team": "DHC Overpelt G14 VHV R B (U14 F)",
           "team_id": 451418,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788436626.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
