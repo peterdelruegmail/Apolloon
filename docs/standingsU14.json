@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T16:00:16.187732+00:00",
+  "generated_at": "2026-09-03T22:00:12.163164+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -215,7 +215,7 @@
           "position": 4,
           "team": "Thor U14 VHV R (U14 M)",
           "team_id": 451586,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
           "mp": 0,
           "w": 0,
           "d": 0,
