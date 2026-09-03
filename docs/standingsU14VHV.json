@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T04:00:16.064039+00:00",
+  "generated_at": "2026-09-03T10:00:13.600468+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18725/seasons/220",
   "groups": [
     {
@@ -65,7 +65,7 @@
           "position": 5,
           "team": "DB Gent U14 VHV Q 1 (U14 M)",
           "team_id": 451664,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415180.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -290,7 +290,7 @@
           "position": 5,
           "team": "DB Gent U14 VHV Q 2 (U14 M)",
           "team_id": 451666,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415195.png",
           "mp": 0,
           "w": 0,
           "d": 0,
