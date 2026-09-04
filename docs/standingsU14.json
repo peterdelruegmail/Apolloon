@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:00:14.702835+00:00",
+  "generated_at": "2026-09-04T22:00:15.070075+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -7,7 +7,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "Groot Berlare U14 VHV R (U14 M)",
+          "team": "Groot Berlare U14 VHV-B R (U14 M)",
           "team_id": 450966,
           "logo": null,
           "mp": 0,
@@ -82,7 +82,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "Roeselare U14 VHV R (U14 M)",
+          "team": "Roeselare U14 VHV-B R (U14 M)",
           "team_id": 451000,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786432507.jpg",
           "mp": 0,
@@ -260,7 +260,7 @@
         },
         {
           "position": 2,
-          "team": "Brugge U14 VHV R (U14 M)",
+          "team": "Brugge U14 VHV-B R (U14 M)",
           "team_id": 451509,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107944.jpg",
           "mp": 0,
@@ -304,7 +304,7 @@
           "position": 5,
           "team": "HK Waasmunster U14 VHV R (U14 M)",
           "team_id": 451603,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -391,7 +391,7 @@
         },
         {
           "position": 5,
-          "team": "Welta U14 VHV R (U14 M)",
+          "team": "Welta U14 VHV-B R (U14 M)",
           "team_id": 451469,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898715.jpg",
           "mp": 0,
