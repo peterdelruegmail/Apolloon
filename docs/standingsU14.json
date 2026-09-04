@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T04:00:13.670615+00:00",
+  "generated_at": "2026-09-04T10:00:19.547154+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -335,6 +335,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Uilenspiegel J14P (U14 M)",
+          "team_id": 451573,
+          "logo": null,
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 2,
           "team": "Schoten U14 VHV R (U14 M)",
           "team_id": 451048,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784968352.jpg",
@@ -348,7 +362,7 @@
           "pts": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Brasschaat U14 VHV R (U14 M)",
           "team_id": 451344,
           "logo": null,
@@ -362,7 +376,7 @@
           "pts": 0
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Heist o/d Berg U14 VHV R (U14 M)",
           "team_id": 451440,
           "logo": null,
@@ -376,7 +390,7 @@
           "pts": 0
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Welta U14 VHV R (U14 M)",
           "team_id": 451469,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898715.jpg",
@@ -390,7 +404,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Uilenspiegel U14 VHV R (U14 M)",
           "team_id": 451543,
           "logo": null,
@@ -404,7 +418,7 @@
           "pts": 0
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "Biobest Sasja U14 VHV R (U14)",
           "team_id": 451609,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/_1785155345.png",
