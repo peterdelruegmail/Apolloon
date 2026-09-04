@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:00:16.825288+00:00",
+  "generated_at": "2026-09-04T22:00:14.230980+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18725/seasons/220",
   "groups": [
     {
@@ -351,7 +351,7 @@
           "position": 4,
           "team": "HK Waasmunster U14 VHV Q (U14 M)",
           "team_id": 451604,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
           "mp": 0,
           "w": 0,
           "d": 0,
