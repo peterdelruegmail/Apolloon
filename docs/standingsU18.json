@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:00:14.838215+00:00",
+  "generated_at": "2026-09-04T22:00:11.837579+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -96,7 +96,7 @@
         },
         {
           "position": 2,
-          "team": "Mouscron B18 VHV R (U18 M)",
+          "team": "Mouscron B18 VHV-B R (U18 M)",
           "team_id": 451218,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17278/logo/_1786261588.png",
           "mp": 0,
@@ -288,7 +288,7 @@
         },
         {
           "position": 4,
-          "team": "Maasmechelen 65 B18 VHV R (U18 M)",
+          "team": "Maasmechelen 65 B18 VHV-B R (U18 M)",
           "team_id": 451404,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17238/logo/_1786889618.png",
           "mp": 0,
@@ -321,7 +321,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "Kwanten Arena B18 VHV R (U18 M)",
+          "team": "Kwanten Arena B18 VHV-B R (U18 M)",
           "team_id": 451067,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055095.jpg",
           "mp": 0,
@@ -335,7 +335,7 @@
         },
         {
           "position": 2,
-          "team": "Sezoens Achilles Bocholt B18 VHV R 2 (U18 M)",
+          "team": "Sezoens Achilles Bocholt B18 VHV-B R 2 (U18 M)",
           "team_id": 451184,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848267.png",
           "mp": 0,
@@ -349,7 +349,7 @@
         },
         {
           "position": 3,
-          "team": "H. Bilzen B18 VHV R (U18 M)",
+          "team": "H. Bilzen B18 VHV-B R (U18 M)",
           "team_id": 451242,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200287.png",
           "mp": 0,
