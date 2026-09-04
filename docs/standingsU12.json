@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:00:14.468711+00:00",
+  "generated_at": "2026-09-04T22:00:15.297878+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -201,7 +201,7 @@
           "position": 4,
           "team": "HK Waasmunster U12 VHV R (U12 M)",
           "team_id": 451606,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -232,7 +232,7 @@
       "standings": [
         {
           "position": 1,
-          "team": "Groot Berlare U12 VHV R (U12 M)",
+          "team": "Groot Berlare U12 VHV-B R (U12 M)",
           "team_id": 450967,
           "logo": null,
           "mp": 0,
@@ -424,7 +424,7 @@
         },
         {
           "position": 3,
-          "team": "Rhino U12 VHV R (U12 M)",
+          "team": "Rhino U12 VHV-B R (U12 M)",
           "team_id": 451092,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/_1786224980.png",
           "mp": 0,
@@ -513,7 +513,7 @@
         },
         {
           "position": 3,
-          "team": "HvH Zandvliet (U12 M)",
+          "team": "HvH Zandvliet B (U12 M)",
           "team_id": 451362,
           "logo": null,
           "mp": 0,
