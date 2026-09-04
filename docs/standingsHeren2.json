@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:00:15.283241+00:00",
+  "generated_at": "2026-09-04T22:00:15.714616+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18707/seasons/220",
   "groups": [
     {
@@ -135,7 +135,7 @@
           "position": 10,
           "team": "HK Waasmunster D1 M VHV (Senior M)",
           "team_id": 451598,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
           "mp": 0,
           "w": 0,
           "d": 0,
