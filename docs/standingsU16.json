@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:30:13.658395+00:00",
+  "generated_at": "2026-09-05T14:45:10.957241+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -321,6 +321,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Heist o/d Berg U16 VHV R (U16 M)",
+          "team_id": 451442,
+          "logo": null,
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 34,
+          "ga": 11,
+          "gd": 23,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "E. Aarschot U16 VHV R (U16 M)",
           "team_id": 450983,
           "logo": null,
@@ -334,7 +348,7 @@
           "pts": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Leuven U16 VHV R (U16)",
           "team_id": 451080,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465593.png",
@@ -348,7 +362,7 @@
           "pts": 0
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Rhino U16 VHV-B R (U16 M)",
           "team_id": 451089,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/_1786224919.png",
@@ -362,24 +376,10 @@
           "pts": 0
         },
         {
-          "position": 4,
-          "team": "HvH Zandvliet B (U16 M)",
-          "team_id": 451364,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 5,
-          "team": "Heist o/d Berg U16 VHV R (U16 M)",
-          "team_id": 451442,
-          "logo": null,
+          "team": "AtomiX U16 VHV R (U16 M)",
+          "team_id": 451682,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787215118.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -391,16 +391,16 @@
         },
         {
           "position": 6,
-          "team": "AtomiX U16 VHV R (U16 M)",
-          "team_id": 451682,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787215118.jpg",
-          "mp": 0,
+          "team": "HvH Zandvliet B (U16 M)",
+          "team_id": 451364,
+          "logo": null,
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 11,
+          "ga": 34,
+          "gd": -23,
           "pts": 0
         }
       ]
