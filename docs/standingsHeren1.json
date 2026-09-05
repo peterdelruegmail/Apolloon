@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T19:30:11.068753+00:00",
+  "generated_at": "2026-09-05T19:45:11.305826+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -7,6 +7,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Derdaele Sp. Pelt D1 M (Senior M)",
+          "team_id": 451715,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787080804.jpg",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 39,
+          "ga": 32,
+          "gd": 7,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "HBC Apolloon Spurs D1 M (Senior M)",
           "team_id": 450938,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784813833.png",
@@ -20,7 +34,7 @@
           "pts": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Kraainem D1 M (Senior M)",
           "team_id": 451058,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17296/logo/_1784291937.png",
@@ -34,7 +48,7 @@
           "pts": 0
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Tournai D1 M (Senior M)",
           "team_id": 451113,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/4969/logo/_1786444390.png",
@@ -48,7 +62,7 @@
           "pts": 0
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Sezoens Achilles Bocholt D1 M (Senior M)",
           "team_id": 451177,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848032.png",
@@ -62,24 +76,10 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Renaissance Montegnée  D1 M (Senior M)",
           "team_id": 451248,
           "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 6,
-          "team": "Hubo D1 M (Senior M)",
-          "team_id": 451281,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787090275.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -119,9 +119,9 @@
         },
         {
           "position": 9,
-          "team": "Derdaele Sp. Pelt D1 M (Senior M)",
-          "team_id": 451715,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787080804.jpg",
+          "team": "Eynatten-Raeren D1 M (Senior M)",
+          "team_id": 451765,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17247/logo/_1786967070.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -133,16 +133,16 @@
         },
         {
           "position": 10,
-          "team": "Eynatten-Raeren D1 M (Senior M)",
-          "team_id": 451765,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17247/logo/_1786967070.jpg",
-          "mp": 0,
+          "team": "Hubo D1 M (Senior M)",
+          "team_id": 451281,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787090275.png",
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 32,
+          "ga": 39,
+          "gd": -7,
           "pts": 0
         }
       ]
