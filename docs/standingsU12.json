@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:45:23.377979+00:00",
+  "generated_at": "2026-09-05T12:00:11.071863+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -157,23 +157,23 @@
       "standings": [
         {
           "position": 1,
-          "team": "HBC Apolloon Spurs U12 VHV R (U12 M)",
-          "team_id": 450950,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1785232624.png",
-          "mp": 0,
-          "w": 0,
+          "team": "DB Gent U12 VHV R 2 (U12 M)",
+          "team_id": 451662,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415366.png",
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 5,
+          "ga": 1,
+          "gd": 4,
+          "pts": 2
         },
         {
           "position": 2,
-          "team": "Brugge U12 VHV R (U12 M)",
-          "team_id": 451508,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107929.jpg",
+          "team": "HBC Apolloon Spurs U12 VHV R (U12 M)",
+          "team_id": 450950,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1785232624.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -213,16 +213,16 @@
         },
         {
           "position": 5,
-          "team": "DB Gent U12 VHV R 2 (U12 M)",
-          "team_id": 451662,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415366.png",
-          "mp": 0,
+          "team": "Brugge U12 VHV R (U12 M)",
+          "team_id": 451508,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107929.jpg",
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 1,
+          "ga": 5,
+          "gd": -4,
           "pts": 0
         }
       ]
