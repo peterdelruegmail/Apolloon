@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T13:00:14.322052+00:00",
+  "generated_at": "2026-09-05T13:15:11.980682+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -249,14 +249,14 @@
           "team": "Kwanten Arena G14 VHV R (U14 F)",
           "team_id": 451069,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055267.jpg",
-          "mp": 0,
-          "w": 0,
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 28,
+          "ga": 21,
+          "gd": 7,
+          "pts": 2
         },
         {
           "position": 2,
@@ -274,20 +274,6 @@
         },
         {
           "position": 3,
-          "team": "United West B G14 VHV R (U14 F)",
-          "team_id": 451335,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 4,
           "team": "DHC Overpelt G14 VHV R B (U14 F)",
           "team_id": 451418,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788436626.jpg",
@@ -301,7 +287,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "DHC Meeuwen G14 VHV-B R 2 (U14 F)",
           "team_id": 451665,
           "logo": null,
@@ -315,7 +301,7 @@
           "pts": 0
         },
         {
-          "position": 6,
+          "position": 5,
           "team": "Derdaele Sp. Pelt G14 VHV R 2 (U14 F)",
           "team_id": 451869,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081490.jpg",
@@ -326,6 +312,20 @@
           "gs": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "United West B G14 VHV R (U14 F)",
+          "team_id": 451335,
+          "logo": null,
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 21,
+          "ga": 28,
+          "gd": -7,
           "pts": 0
         }
       ]
