@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T13:30:09.354633+00:00",
+  "generated_at": "2026-09-05T13:45:14.054247+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -249,14 +249,14 @@
           "team": "Evergem U14 VHV R (U14)",
           "team_id": 451369,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785699779.png",
-          "mp": null,
-          "w": null,
-          "d": null,
-          "l": null,
-          "gs": null,
-          "ga": null,
-          "gd": null,
-          "pts": null
+          "mp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gs": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
         },
         {
           "position": 2,
@@ -335,6 +335,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Uilenspiegel U14 VHV R (U14 M)",
+          "team_id": 451543,
+          "logo": null,
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 33,
+          "ga": 16,
+          "gd": 17,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "Schoten U14 VHV R (U14 M)",
           "team_id": 451048,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784968352.jpg",
@@ -348,23 +362,9 @@
           "pts": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Brasschaat U14 VHV R (U14 M)",
           "team_id": 451344,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
-          "team": "Heist o/d Berg U14 VHV R (U14 M)",
-          "team_id": 451440,
           "logo": null,
           "mp": 0,
           "w": 0,
@@ -391,20 +391,6 @@
         },
         {
           "position": 5,
-          "team": "Uilenspiegel U14 VHV R (U14 M)",
-          "team_id": 451543,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 6,
           "team": "Uilenspiegel J14P (U14 M)",
           "team_id": 451573,
           "logo": null,
@@ -418,7 +404,7 @@
           "pts": 0
         },
         {
-          "position": 7,
+          "position": 6,
           "team": "Biobest Sasja U14 VHV R (U14)",
           "team_id": 451609,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/_1785155345.png",
@@ -429,6 +415,20 @@
           "gs": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 7,
+          "team": "Heist o/d Berg U14 VHV R (U14 M)",
+          "team_id": 451440,
+          "logo": null,
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 16,
+          "ga": 33,
+          "gd": -17,
           "pts": 0
         }
       ]
