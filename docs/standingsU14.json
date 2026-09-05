@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:31:20.753281+00:00",
+  "generated_at": "2026-09-05T14:45:09.101503+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -441,31 +441,17 @@
           "team": "E. Aarschot U14 VHV R (U14 M)",
           "team_id": 450981,
           "logo": null,
-          "mp": 0,
-          "w": 0,
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 35,
+          "ga": 12,
+          "gd": 23,
+          "pts": 2
         },
         {
           "position": 2,
-          "team": "Leuven U14 VHV R (U14)",
-          "team_id": 451081,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465736.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
           "team": "Hubo U14 VHV R 2 (U14 M)",
           "team_id": 451306,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125138.png",
@@ -479,7 +465,7 @@
           "pts": 0
         },
         {
-          "position": 4,
+          "position": 3,
           "team": "United West B U14 VHV R (U14 M)",
           "team_id": 451336,
           "logo": null,
@@ -493,7 +479,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "AtomiX U14 VHV R (U14 M)",
           "team_id": 451685,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787217158.jpg",
@@ -507,7 +493,7 @@
           "pts": 0
         },
         {
-          "position": 6,
+          "position": 5,
           "team": "Derdaele Sp. Pelt U14 VHV R 2 (U14 M)",
           "team_id": 451866,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081457.jpg",
@@ -519,6 +505,20 @@
           "ga": 0,
           "gd": 0,
           "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Leuven U14 VHV R (U14)",
+          "team_id": 451081,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465736.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 12,
+          "ga": 35,
+          "gd": -23,
+          "pts": 0
         }
       ]
     },
@@ -527,6 +527,34 @@
       "standings": [
         {
           "position": 1,
+          "team": "H. Bilzen U14 VHV R 1 (U14 M)",
+          "team_id": 451225,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200592.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 37,
+          "ga": 9,
+          "gd": 28,
+          "pts": 2
+        },
+        {
+          "position": 2,
+          "team": "Derdaele Sp. Pelt U14 VHV R 1 (U14 M)",
+          "team_id": 451705,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081405.jpg",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 19,
+          "ga": 17,
+          "gd": 2,
+          "pts": 2
+        },
+        {
+          "position": 3,
           "team": "HC Overpelt U14 VHV R (U14 M)",
           "team_id": 451097,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788186943.jpg",
@@ -540,38 +568,10 @@
           "pts": 0
         },
         {
-          "position": 2,
+          "position": 4,
           "team": "Sezoens Achilles Bocholt U14 VHV R 1 (U14 M)",
           "team_id": 451194,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848477.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
-          "team": "H. Bilzen U14 VHV R 1 (U14 M)",
-          "team_id": 451225,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200592.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 4,
-          "team": "HHV Meeuwen U14 VHV R (U14 M)",
-          "team_id": 451270,
-          "logo": null,
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -586,27 +586,27 @@
           "team": "Hubo U14 VHV R 1 (U14 M)",
           "team_id": 451303,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125034.png",
-          "mp": 0,
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 17,
+          "ga": 19,
+          "gd": -2,
           "pts": 0
         },
         {
           "position": 6,
-          "team": "Derdaele Sp. Pelt U14 VHV R 1 (U14 M)",
-          "team_id": 451705,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081405.jpg",
-          "mp": 0,
+          "team": "HHV Meeuwen U14 VHV R (U14 M)",
+          "team_id": 451270,
+          "logo": null,
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 9,
+          "ga": 37,
+          "gd": -28,
           "pts": 0
         }
       ]
