@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T13:30:09.802313+00:00",
+  "generated_at": "2026-09-06T13:45:10.305799+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -7,6 +7,34 @@
       "standings": [
         {
           "position": 1,
+          "team": "Evergem U16 VHV-B R (U16 M)",
+          "team_id": 451374,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697671.png",
+          "mp": 1,
+          "w": 0,
+          "d": 1,
+          "l": 0,
+          "gs": 42,
+          "ga": 42,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "position": 2,
+          "team": "Dendermonde U16 VHV R (U16 M)",
+          "team_id": 451630,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669333.png",
+          "mp": 1,
+          "w": 0,
+          "d": 1,
+          "l": 0,
+          "gs": 42,
+          "ga": 42,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "position": 3,
           "team": "Mouscron U16 VHV R (U16 M)",
           "team_id": 451219,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17278/logo/_1786262658.png",
@@ -20,21 +48,7 @@
           "pts": 0
         },
         {
-          "position": 2,
-          "team": "Evergem U16 VHV-B R (U16 M)",
-          "team_id": 451374,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697671.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
+          "position": 4,
           "team": "Lokeren U16 VHV R (U16 M)",
           "team_id": 451386,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747878.png",
@@ -48,24 +62,10 @@
           "pts": 0
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "DB Gent U16 VHV R (U16 M)",
           "team_id": 451501,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415143.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
-          "team": "Dendermonde U16 VHV R (U16 M)",
-          "team_id": 451630,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669333.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -499,17 +499,17 @@
       "standings": [
         {
           "position": 1,
-          "team": "Kwanten Arena U16 VHV R (U16 M)",
-          "team_id": 451068,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055197.jpg",
-          "mp": 0,
-          "w": 0,
+          "team": "HHV Meeuwen U16 VHV-B R (U16 M)",
+          "team_id": 451271,
+          "logo": null,
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 31,
+          "ga": 20,
+          "gd": 11,
+          "pts": 2
         },
         {
           "position": 2,
@@ -527,20 +527,6 @@
         },
         {
           "position": 3,
-          "team": "HHV Meeuwen U16 VHV-B R (U16 M)",
-          "team_id": 451271,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 4,
           "team": "Hubo U16 VHV R 2 (U16 M)",
           "team_id": 451297,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124871.png",
@@ -554,7 +540,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "HC Overpelt U16 VHV R (U16 M)",
           "team_id": 451422,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788186930.jpg",
@@ -568,7 +554,7 @@
           "pts": 0
         },
         {
-          "position": 6,
+          "position": 5,
           "team": "Derdaele Sp. Pelt U16 VHV R (U16 M)",
           "team_id": 451709,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081186.jpg",
@@ -579,6 +565,20 @@
           "gs": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Kwanten Arena U16 VHV R (U16 M)",
+          "team_id": 451068,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055197.jpg",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 20,
+          "ga": 31,
+          "gd": -11,
           "pts": 0
         }
       ]
