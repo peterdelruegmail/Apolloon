@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:15:11.482880+00:00",
+  "generated_at": "2026-09-06T15:30:11.470851+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -246,6 +246,34 @@
       "standings": [
         {
           "position": 1,
+          "team": "Sezoens Achilles Bocholt B18 VHV R 1 (U18 M)",
+          "team_id": 451183,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848246.png",
+          "mp": 1,
+          "w": 0,
+          "d": 1,
+          "l": 0,
+          "gs": 28,
+          "ga": 28,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "position": 2,
+          "team": "Maasmechelen 65 B18 VHV-B R (U18 M)",
+          "team_id": 451404,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17238/logo/_1786889618.png",
+          "mp": 1,
+          "w": 0,
+          "d": 1,
+          "l": 0,
+          "gs": 28,
+          "ga": 28,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "position": 3,
           "team": "P. Kortessem B18 VHV R (U18 M)",
           "team_id": 451141,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093108.png",
@@ -259,38 +287,10 @@
           "pts": 0
         },
         {
-          "position": 2,
-          "team": "Sezoens Achilles Bocholt B18 VHV R 1 (U18 M)",
-          "team_id": 451183,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848246.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
+          "position": 4,
           "team": "Hubo B18 VHV R (U18 M)",
           "team_id": 451290,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124558.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 4,
-          "team": "Maasmechelen 65 B18 VHV-B R (U18 M)",
-          "team_id": 451404,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17238/logo/_1786889618.png",
           "mp": 0,
           "w": 0,
           "d": 0,
