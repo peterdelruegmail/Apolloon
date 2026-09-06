@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T12:30:10.948435+00:00",
+  "generated_at": "2026-09-06T12:45:11.656786+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -260,34 +260,20 @@
         },
         {
           "position": 2,
-          "team": "Sezoens Achilles Bocholt G14 VHV R (U14 F)",
-          "team_id": 451198,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848413.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
           "team": "DHC Overpelt G14 VHV R B (U14 F)",
           "team_id": 451418,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788436626.jpg",
-          "mp": 0,
-          "w": 0,
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 18,
+          "ga": 11,
+          "gd": 7,
+          "pts": 2
         },
         {
-          "position": 4,
+          "position": 3,
           "team": "DHC Meeuwen G14 VHV-B R 2 (U14 F)",
           "team_id": 451665,
           "logo": null,
@@ -301,7 +287,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "Derdaele Sp. Pelt G14 VHV R 2 (U14 F)",
           "team_id": 451869,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081490.jpg",
@@ -312,6 +298,20 @@
           "gs": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 5,
+          "team": "Sezoens Achilles Bocholt G14 VHV R (U14 F)",
+          "team_id": 451198,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848413.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 11,
+          "ga": 18,
+          "gd": -7,
           "pts": 0
         },
         {
