@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T12:30:10.161064+00:00",
+  "generated_at": "2026-09-06T12:45:12.538079+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -7,34 +7,20 @@
       "standings": [
         {
           "position": 1,
-          "team": "HBC Apolloon Spurs U12 VHV R (U12 M)",
-          "team_id": 450949,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814229.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 2,
           "team": "Desselgemse U12 VHV R (U12 M)",
           "team_id": 451330,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/_1786798288.png",
-          "mp": 0,
-          "w": 0,
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 5,
+          "ga": 1,
+          "gd": 4,
+          "pts": 2
         },
         {
-          "position": 3,
+          "position": 2,
           "team": "Besox Izegem U12 VHV R 3 (U12 M)",
           "team_id": 451456,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1787049890.jpg",
@@ -48,7 +34,7 @@
           "pts": 0
         },
         {
-          "position": 4,
+          "position": 3,
           "team": "Thor U12 VHV R (U12 M)",
           "team_id": 451589,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
@@ -62,7 +48,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "DB Gent U12 VHV R 1 (U12 M)",
           "team_id": 451661,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415346.png",
@@ -73,6 +59,20 @@
           "gs": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 5,
+          "team": "HBC Apolloon Spurs U12 VHV R (U12 M)",
+          "team_id": 450949,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814229.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 1,
+          "ga": 5,
+          "gd": -4,
           "pts": 0
         }
       ]
