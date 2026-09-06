@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T14:15:10.449186+00:00",
+  "generated_at": "2026-09-06T14:30:08.872871+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -7,6 +7,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Roeselare G14 VHV R (U14 F)",
+          "team_id": 451001,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786437764.jpg",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 39,
+          "ga": 18,
+          "gd": 21,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "DHC Waasmunster G14 VHV R (U14 F)",
           "team_id": 451243,
           "logo": null,
@@ -20,7 +34,7 @@
           "pts": 1
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Lebbeke G14 VHV R (U14 F)",
           "team_id": 451546,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666847.png",
@@ -34,7 +48,7 @@
           "pts": 1
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "HBC Apolloon Spurs G14 VHV-B R (U14 F)",
           "team_id": 450947,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814329.png",
@@ -48,35 +62,7 @@
           "pts": 0
         },
         {
-          "position": 4,
-          "team": "Roeselare G14 VHV R (U14 F)",
-          "team_id": 451001,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786437764.jpg",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 5,
-          "team": "Besox Izegem G14 VHV R (U14 F)",
-          "team_id": 451477,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786534401.jpg",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 6,
           "team": "Thor G14 VHV-B R (U14 F)",
           "team_id": 451587,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
@@ -88,6 +74,20 @@
           "ga": 0,
           "gd": 0,
           "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Besox Izegem G14 VHV R (U14 F)",
+          "team_id": 451477,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786534401.jpg",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 18,
+          "ga": 39,
+          "gd": -21,
+          "pts": 0
         }
       ]
     },
@@ -96,17 +96,17 @@
       "standings": [
         {
           "position": 1,
-          "team": "HvH Zandvliet (U14 F)",
-          "team_id": 451363,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
+          "team": "Derdaele Sp. Pelt G14 VHV R 1 (U14 F)",
+          "team_id": 451708,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081427.jpg",
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 26,
+          "ga": 2,
+          "gd": 24,
+          "pts": 2
         },
         {
           "position": 2,
@@ -138,16 +138,16 @@
         },
         {
           "position": 4,
-          "team": "Derdaele Sp. Pelt G14 VHV R 1 (U14 F)",
-          "team_id": 451708,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081427.jpg",
-          "mp": 0,
+          "team": "HvH Zandvliet (U14 F)",
+          "team_id": 451363,
+          "logo": null,
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 2,
+          "ga": 26,
+          "gd": -24,
           "pts": 0
         }
       ]
