@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:00:12.980120+00:00",
+  "generated_at": "2026-09-06T09:15:11.456532+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -766,6 +766,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "HHV Meeuwen U12 VHV R (U12 M)",
+          "team_id": 451269,
+          "logo": null,
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 1,
+          "ga": 0,
+          "gd": 1,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "Kwanten Arena U12 VHV R (U12 M)",
           "team_id": 451070,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055396.jpg",
@@ -779,23 +793,9 @@
           "pts": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Kreasa Houthalen U12 VHV R (U12 M)",
           "team_id": 451158,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
-          "team": "HHV Meeuwen U12 VHV R (U12 M)",
-          "team_id": 451269,
           "logo": null,
           "mp": 0,
           "w": 0,
@@ -822,9 +822,9 @@
         },
         {
           "position": 5,
-          "team": "HC Overpelt U12 VHV R (U12 M)",
-          "team_id": 451421,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788186959.jpg",
+          "team": "Derdaele Sp. Pelt U12 VHV R 3 (U12 M)",
+          "team_id": 451704,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081665.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -836,16 +836,16 @@
         },
         {
           "position": 6,
-          "team": "Derdaele Sp. Pelt U12 VHV R 3 (U12 M)",
-          "team_id": 451704,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081665.jpg",
-          "mp": 0,
+          "team": "HC Overpelt U12 VHV R (U12 M)",
+          "team_id": 451421,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788186959.jpg",
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "ga": 1,
+          "gd": -1,
           "pts": 0
         }
       ]
