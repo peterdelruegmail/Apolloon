@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T14:15:12.749926+00:00",
+  "generated_at": "2026-09-06T14:30:08.989645+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -324,14 +324,14 @@
           "team": "Kwanten Arena B18 VHV-B R (U18 M)",
           "team_id": 451067,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055095.jpg",
-          "mp": 0,
-          "w": 0,
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 30,
+          "ga": 23,
+          "gd": 7,
+          "pts": 2
         },
         {
           "position": 2,
@@ -349,9 +349,9 @@
         },
         {
           "position": 3,
-          "team": "H. Bilzen B18 VHV-B R (U18 M)",
-          "team_id": 451242,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200287.png",
+          "team": "H. Tessenderlo B18 VHV R (U18 M)",
+          "team_id": 451259,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379896.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -363,16 +363,16 @@
         },
         {
           "position": 4,
-          "team": "H. Tessenderlo B18 VHV R (U18 M)",
-          "team_id": 451259,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379896.jpg",
-          "mp": 0,
+          "team": "H. Bilzen B18 VHV-B R (U18 M)",
+          "team_id": 451242,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200287.png",
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 23,
+          "ga": 30,
+          "gd": -7,
           "pts": 0
         }
       ]
