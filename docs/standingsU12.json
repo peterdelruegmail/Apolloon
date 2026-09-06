@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T07:45:11.466714+00:00",
+  "generated_at": "2026-09-06T08:00:12.793596+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -82,6 +82,34 @@
       "standings": [
         {
           "position": 1,
+          "team": "Dendermonde U12 VHV R 1 (U12 M)",
+          "team_id": 458214,
+          "logo": null,
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 2,
+          "team": "Evergem U12 VHV R 1 (U12 M)",
+          "team_id": 458215,
+          "logo": null,
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 3,
           "team": "Roeselare U12 VHV R (U12 M)",
           "team_id": 451002,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786438268.jpg",
@@ -95,7 +123,7 @@
           "pts": 0
         },
         {
-          "position": 2,
+          "position": 4,
           "team": "Lokeren U12 VHV R A (U12 M)",
           "team_id": 451133,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747957.png",
@@ -109,7 +137,7 @@
           "pts": 0
         },
         {
-          "position": 3,
+          "position": 5,
           "team": "Evergem U12 VHV R (U12 M)",
           "team_id": 451366,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785698492.png",
@@ -123,7 +151,7 @@
           "pts": 0
         },
         {
-          "position": 4,
+          "position": 6,
           "team": "Besox Izegem U12 VHV R 1 (U12 M)",
           "team_id": 451448,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786782175.jpg",
@@ -137,7 +165,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 7,
           "team": "Dendermonde U12 VHV R (U12 M)",
           "team_id": 451636,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669622.png",
