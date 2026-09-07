@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T16:00:12.518901+00:00",
+  "generated_at": "2026-09-07T22:00:21.915852+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -23,7 +23,7 @@
           "position": 2,
           "team": "DHC Waasmunster G14 VHV R (U14 F)",
           "team_id": 451243,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788797177.png",
           "mp": 1,
           "w": 0,
           "d": 1,
@@ -138,9 +138,9 @@
         },
         {
           "position": 4,
-          "team": "HvH Zandvliet (U14 F)",
+          "team": "HvH 't Noorden (U14 F)",
           "team_id": 451363,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788809261.png",
           "mp": 1,
           "w": 0,
           "d": 0,
