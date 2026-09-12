@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T17:45:15.120775+00:00",
+  "generated_at": "2026-09-12T18:00:15.870959+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
   "groups": [
     {
@@ -10,31 +10,17 @@
           "team": "DHC Waasmunster D W VHV OWV-B (Senior F)",
           "team_id": 451280,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
-          "mp": 0,
-          "w": 0,
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 23,
+          "ga": 15,
+          "gd": 8,
+          "pts": 2
         },
         {
           "position": 2,
-          "team": "Evergem D W VHV OWV (Senior F)",
-          "team_id": 451377,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697330.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
           "team": "Besox Izegem D W VHV OWV (Senior F)",
           "team_id": 451423,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1785758242.jpg",
@@ -48,7 +34,7 @@
           "pts": 0
         },
         {
-          "position": 4,
+          "position": 3,
           "team": "Thor D W VHV OWV 2 (Senior F)",
           "team_id": 451581,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
@@ -62,7 +48,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "Dendermonde D W VHV OWV 3 (Senior F)",
           "team_id": 451628,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652181.png",
@@ -76,7 +62,7 @@
           "pts": 0
         },
         {
-          "position": 6,
+          "position": 5,
           "team": "DB Gent D W VHV OWV-B (Senior F)",
           "team_id": 451671,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415055.png",
@@ -87,6 +73,20 @@
           "gs": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Evergem D W VHV OWV (Senior F)",
+          "team_id": 451377,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697330.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 15,
+          "ga": 23,
+          "gd": -8,
           "pts": 0
         }
       ]
@@ -188,14 +188,14 @@
           "team": "Roeselare D W VHV OWV-B 2 (Senior F)",
           "team_id": 450997,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786349324.jpg",
-          "mp": 0,
-          "w": 0,
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 24,
+          "ga": 22,
+          "gd": 2,
+          "pts": 2
         },
         {
           "position": 2,
@@ -227,9 +227,9 @@
         },
         {
           "position": 4,
-          "team": "Lebbeke D W VHV OWV-B (Senior F)",
-          "team_id": 451523,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666680.png",
+          "team": "Dendermonde D W VHV OWV-B 2 (Senior F)",
+          "team_id": 451623,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652206.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -241,16 +241,16 @@
         },
         {
           "position": 5,
-          "team": "Dendermonde D W VHV OWV-B 2 (Senior F)",
-          "team_id": 451623,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652206.png",
-          "mp": 0,
+          "team": "Lebbeke D W VHV OWV-B (Senior F)",
+          "team_id": 451523,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666680.png",
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 22,
+          "ga": 24,
+          "gd": -2,
           "pts": 0
         }
       ]
