@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T11:00:11.260246+00:00",
+  "generated_at": "2026-09-12T11:15:10.238059+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -7,6 +7,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Lokeren U16 VHV R (U16 M)",
+          "team_id": 451386,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747878.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 50,
+          "ga": 6,
+          "gd": 44,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "Evergem U16 VHV-B R (U16 M)",
           "team_id": 451374,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697671.png",
@@ -20,7 +34,7 @@
           "pts": 1
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Dendermonde U16 VHV R (U16 M)",
           "team_id": 451630,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669333.png",
@@ -34,24 +48,10 @@
           "pts": 1
         },
         {
-          "position": 3,
-          "team": "Mouscron U16 VHV R (U16 M)",
-          "team_id": 451219,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17278/logo/_1786262658.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 4,
-          "team": "Lokeren U16 VHV R (U16 M)",
-          "team_id": 451386,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747878.png",
+          "team": "DB Gent U16 VHV R (U16 M)",
+          "team_id": 451501,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415143.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -63,16 +63,16 @@
         },
         {
           "position": 5,
-          "team": "DB Gent U16 VHV R (U16 M)",
-          "team_id": 451501,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415143.png",
-          "mp": 0,
+          "team": "Mouscron U16 VHV R (U16 M)",
+          "team_id": 451219,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17278/logo/_1786262658.png",
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 6,
+          "ga": 50,
+          "gd": -44,
           "pts": 0
         }
       ]
