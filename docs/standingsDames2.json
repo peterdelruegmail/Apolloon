@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T16:30:50.899385+00:00",
+  "generated_at": "2026-09-12T16:45:09.396366+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
   "groups": [
     {
@@ -96,23 +96,23 @@
       "standings": [
         {
           "position": 1,
-          "team": "Lokeren D W VHV OWV 1 (Senior F)",
-          "team_id": 451135,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747831.png",
-          "mp": 0,
-          "w": 0,
+          "team": "Thor D W VHV OWV 1 (Senior F)",
+          "team_id": 451578,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 20,
+          "ga": 8,
+          "gd": 12,
+          "pts": 2
         },
         {
           "position": 2,
-          "team": "Desselgemse D W VHV OWV-B (Senior F)",
-          "team_id": 451323,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/_1786798155.png",
+          "team": "Lokeren D W VHV OWV 1 (Senior F)",
+          "team_id": 451135,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747831.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -152,9 +152,9 @@
         },
         {
           "position": 5,
-          "team": "Thor D W VHV OWV 1 (Senior F)",
-          "team_id": 451578,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
+          "team": "Dendermonde D W VHV OWV 1 (Senior F)",
+          "team_id": 451625,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652231.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -166,16 +166,16 @@
         },
         {
           "position": 6,
-          "team": "Dendermonde D W VHV OWV 1 (Senior F)",
-          "team_id": 451625,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652231.png",
-          "mp": 0,
+          "team": "Desselgemse D W VHV OWV-B (Senior F)",
+          "team_id": 451323,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/_1786798155.png",
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 8,
+          "ga": 20,
+          "gd": -12,
           "pts": 0
         }
       ]
