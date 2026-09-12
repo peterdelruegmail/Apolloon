@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T14:45:09.630064+00:00",
+  "generated_at": "2026-09-12T15:00:09.888644+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -157,6 +157,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Brugge U16 VHV-B R (U16 M)",
+          "team_id": 451510,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107957.jpg",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 32,
+          "ga": 17,
+          "gd": 15,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "Roeselare U16 VHV R (U16 M)",
           "team_id": 450999,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786437616.jpg",
@@ -170,7 +184,7 @@
           "pts": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Besox Izegem U16 VHV R 1 (U16 M)",
           "team_id": 451013,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786366956.jpg",
@@ -184,24 +198,10 @@
           "pts": 0
         },
         {
-          "position": 3,
-          "team": "Brugge U16 VHV-B R (U16 M)",
-          "team_id": 451510,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107957.jpg",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 4,
-          "team": "Lebbeke U16 VHV R (U16 M)",
-          "team_id": 451531,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666734.png",
+          "team": "HK Waasmunster U16 VHV R (U16 M)",
+          "team_id": 451601,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -213,16 +213,16 @@
         },
         {
           "position": 5,
-          "team": "HK Waasmunster U16 VHV R (U16 M)",
-          "team_id": 451601,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
-          "mp": 0,
+          "team": "Lebbeke U16 VHV R (U16 M)",
+          "team_id": 451531,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666734.png",
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 17,
+          "ga": 32,
+          "gd": -15,
           "pts": 0
         }
       ]
