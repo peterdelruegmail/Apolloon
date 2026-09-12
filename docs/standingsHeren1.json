@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T19:30:20.854279+00:00",
+  "generated_at": "2026-09-12T19:45:15.716798+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -7,20 +7,34 @@
       "standings": [
         {
           "position": 1,
-          "team": "Sezoens Achilles Bocholt D1 M (Senior M)",
-          "team_id": 451177,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848032.png",
-          "mp": 1,
+          "team": "Estudiantes Tournai D1 M (Senior M)",
+          "team_id": 451113,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/4969/logo/_1786444390.png",
+          "mp": 2,
           "w": 1,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gs": 47,
-          "ga": 33,
-          "gd": 14,
-          "pts": 2
+          "gs": 75,
+          "ga": 68,
+          "gd": 7,
+          "pts": 3
         },
         {
           "position": 2,
+          "team": "Sezoens Achilles Bocholt D1 M (Senior M)",
+          "team_id": 451177,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848032.png",
+          "mp": 2,
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gs": 78,
+          "ga": 71,
+          "gd": 7,
+          "pts": 2
+        },
+        {
+          "position": 3,
           "team": "Derdaele Sp. Pelt D1 M (Senior M)",
           "team_id": 451715,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787080804.jpg",
@@ -34,7 +48,7 @@
           "pts": 2
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Kraainem D1 M (Senior M)",
           "team_id": 451058,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17296/logo/_1784291937.png",
@@ -48,7 +62,7 @@
           "pts": 2
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Biobest Sasja D1 M (Senior M)",
           "team_id": 451600,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788434583.png",
@@ -60,20 +74,6 @@
           "ga": 25,
           "gd": 1,
           "pts": 2
-        },
-        {
-          "position": 5,
-          "team": "Estudiantes Tournai D1 M (Senior M)",
-          "team_id": 451113,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/4969/logo/_1786444390.png",
-          "mp": 1,
-          "w": 0,
-          "d": 1,
-          "l": 0,
-          "gs": 37,
-          "ga": 37,
-          "gd": 0,
-          "pts": 1
         },
         {
           "position": 6,
