@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T17:30:08.775313+00:00",
+  "generated_at": "2026-09-12T17:45:15.228237+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -157,6 +157,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Uilenspiegel B18 VHV R (U18 M)",
+          "team_id": 451561,
+          "logo": null,
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 72,
+          "ga": 24,
+          "gd": 48,
+          "pts": 4
+        },
+        {
+          "position": 2,
           "team": "Olse Merksem B18 VHV R (U18 M)",
           "team_id": 451020,
           "logo": null,
@@ -170,31 +184,17 @@
           "pts": 2
         },
         {
-          "position": 2,
-          "team": "Uilenspiegel B18 VHV R (U18 M)",
-          "team_id": 451561,
-          "logo": null,
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 39,
-          "ga": 18,
-          "gd": 21,
-          "pts": 2
-        },
-        {
           "position": 3,
           "team": "Leuven B18 VHV R (U18 M)",
           "team_id": 451079,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465532.png",
-          "mp": 1,
+          "mp": 2,
           "w": 1,
           "d": 0,
-          "l": 0,
-          "gs": 47,
-          "ga": 30,
-          "gd": 17,
+          "l": 1,
+          "gs": 53,
+          "ga": 63,
+          "gd": -10,
           "pts": 2
         },
         {
