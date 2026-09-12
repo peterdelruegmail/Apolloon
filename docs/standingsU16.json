@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T12:00:12.350150+00:00",
+  "generated_at": "2026-09-12T12:15:10.503461+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -410,6 +410,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Hubo U16 VHV R 1 (U16 M)",
+          "team_id": 451294,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124833.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 54,
+          "ga": 17,
+          "gd": 37,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "P. Kortessem U16 VHV R (U16 M)",
           "team_id": 451143,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093156.png",
@@ -423,7 +437,7 @@
           "pts": 2
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "United West T-B (U16 M)",
           "team_id": 451260,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379738.png",
@@ -437,35 +451,7 @@
           "pts": 2
         },
         {
-          "position": 3,
-          "team": "Kreasa Houthalen U16 VHV-B R (U16 M)",
-          "team_id": 451160,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 4,
-          "team": "Hubo U16 VHV R 1 (U16 M)",
-          "team_id": 451294,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124833.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
           "team": "Maasmechelen 65 U16 VHV-B R (U16 M)",
           "team_id": 451407,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17238/logo/_1786889644.png",
@@ -479,7 +465,7 @@
           "pts": 0
         },
         {
-          "position": 6,
+          "position": 5,
           "team": "H. Bilzen U16 VHV R (U16 M)",
           "team_id": 451232,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200308.png",
@@ -490,6 +476,20 @@
           "gs": 38,
           "ga": 42,
           "gd": -4,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Kreasa Houthalen U16 VHV-B R (U16 M)",
+          "team_id": 451160,
+          "logo": null,
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 17,
+          "ga": 54,
+          "gd": -37,
           "pts": 0
         }
       ]
