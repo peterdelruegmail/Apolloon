@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:00:10.493671+00:00",
+  "generated_at": "2026-09-12T15:15:17.213558+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -246,6 +246,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Derdaele Sp. Pelt G14 VHV R 2 (U14 F)",
+          "team_id": 451869,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081490.jpg",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 24,
+          "ga": 6,
+          "gd": 18,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "Kwanten Arena G14 VHV R (U14 F)",
           "team_id": 451069,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055267.jpg",
@@ -259,7 +273,7 @@
           "pts": 2
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "DHC Overpelt G14 VHV R B (U14 F)",
           "team_id": 451418,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788436626.jpg",
@@ -273,35 +287,7 @@
           "pts": 2
         },
         {
-          "position": 3,
-          "team": "DHC Meeuwen G14 VHV-B R 2 (U14 F)",
-          "team_id": 451665,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 4,
-          "team": "Derdaele Sp. Pelt G14 VHV R 2 (U14 F)",
-          "team_id": 451869,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081490.jpg",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
           "team": "Sezoens Achilles Bocholt G14 VHV R (U14 F)",
           "team_id": 451198,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848413.png",
@@ -315,7 +301,7 @@
           "pts": 0
         },
         {
-          "position": 6,
+          "position": 5,
           "team": "United West B G14 VHV R (U14 F)",
           "team_id": 451335,
           "logo": null,
@@ -326,6 +312,20 @@
           "gs": 21,
           "ga": 28,
           "gd": -7,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "DHC Meeuwen G14 VHV-B R 2 (U14 F)",
+          "team_id": 451665,
+          "logo": null,
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 6,
+          "ga": 24,
+          "gd": -18,
           "pts": 0
         }
       ]
