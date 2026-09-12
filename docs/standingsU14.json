@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:30:10.296190+00:00",
+  "generated_at": "2026-09-12T10:45:10.363069+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -171,6 +171,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "HBC Apolloon Spurs U14 VHV R (U14 M)",
+          "team_id": 450945,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814358.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 26,
+          "ga": 8,
+          "gd": 18,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "Thor U14 VHV R (U14 M)",
           "team_id": 451586,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
@@ -184,35 +198,7 @@
           "pts": 2
         },
         {
-          "position": 2,
-          "team": "HBC Apolloon Spurs U14 VHV R (U14 M)",
-          "team_id": 450945,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814358.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 3,
-          "team": "Desselgemse U14 VHV R (U14 M)",
-          "team_id": 451328,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/_1786798260.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 4,
           "team": "DB Gent U14 VHV R 3 (U14 M)",
           "team_id": 451659,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415278.png",
@@ -226,7 +212,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "Besox Izegem U14 VHV R 2 (U14 M)",
           "team_id": 451470,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786545203.jpg",
@@ -237,6 +223,20 @@
           "gs": 23,
           "ga": 27,
           "gd": -4,
+          "pts": 0
+        },
+        {
+          "position": 5,
+          "team": "Desselgemse U14 VHV R (U14 M)",
+          "team_id": 451328,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/_1786798260.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 8,
+          "ga": 26,
+          "gd": -18,
           "pts": 0
         }
       ]
