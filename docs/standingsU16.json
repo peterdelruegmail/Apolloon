@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:30:11.233684+00:00",
+  "generated_at": "2026-09-12T15:45:09.488393+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -413,14 +413,14 @@
           "team": "Hubo U16 VHV R 1 (U16 M)",
           "team_id": 451294,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124833.png",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 54,
-          "ga": 17,
-          "gd": 37,
-          "pts": 2
+          "gs": 94,
+          "ga": 37,
+          "gd": 57,
+          "pts": 4
         },
         {
           "position": 2,
@@ -469,13 +469,13 @@
           "team": "H. Bilzen U16 VHV R (U16 M)",
           "team_id": 451232,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200308.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 38,
-          "ga": 42,
-          "gd": -4,
+          "l": 2,
+          "gs": 58,
+          "ga": 82,
+          "gd": -24,
           "pts": 0
         },
         {
@@ -502,27 +502,27 @@
           "team": "Hubo U16 VHV R 2 (U16 M)",
           "team_id": 451297,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124871.png",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 39,
-          "ga": 10,
-          "gd": 29,
-          "pts": 2
+          "gs": 87,
+          "ga": 20,
+          "gd": 67,
+          "pts": 4
         },
         {
           "position": 2,
           "team": "HHV Meeuwen U16 VHV-B R (U16 M)",
           "team_id": 451271,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17273/logo/96x96_hhv-meeuwen_1788942171.png",
-          "mp": 1,
+          "mp": 2,
           "w": 1,
           "d": 0,
-          "l": 0,
-          "gs": 31,
-          "ga": 20,
-          "gd": 11,
+          "l": 1,
+          "gs": 41,
+          "ga": 68,
+          "gd": -27,
           "pts": 2
         },
         {
