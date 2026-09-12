@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T12:00:13.179606+00:00",
+  "generated_at": "2026-09-12T12:15:09.888258+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -260,6 +260,20 @@
         },
         {
           "position": 2,
+          "team": "Evergem U14 VHV R (U14)",
+          "team_id": 451369,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785699779.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 30,
+          "ga": 9,
+          "gd": 21,
+          "pts": 2
+        },
+        {
+          "position": 3,
           "team": "Uilenspiegel U14 VHV R (U14 M)",
           "team_id": 451543,
           "logo": null,
@@ -273,35 +287,7 @@
           "pts": 2
         },
         {
-          "position": 3,
-          "team": "Evergem U14 VHV R (U14)",
-          "team_id": 451369,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785699779.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 4,
-          "team": "Brugge U14 VHV-B R (U14 M)",
-          "team_id": 451509,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107944.jpg",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
           "team": "Buggenhout U14 VHV R (U14 M)",
           "team_id": 451572,
           "logo": null,
@@ -312,6 +298,20 @@
           "gs": 29,
           "ga": 32,
           "gd": -3,
+          "pts": 0
+        },
+        {
+          "position": 5,
+          "team": "Brugge U14 VHV-B R (U14 M)",
+          "team_id": 451509,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107944.jpg",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 9,
+          "ga": 30,
+          "gd": -21,
           "pts": 0
         },
         {
