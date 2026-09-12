@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T09:15:15.127537+00:00",
+  "generated_at": "2026-09-12T09:30:11.179689+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -246,6 +246,20 @@
         },
         {
           "position": 2,
+          "team": "Olse Merksem U16 VHV R (U16 M)",
+          "team_id": 451021,
+          "logo": null,
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 27,
+          "ga": 12,
+          "gd": 15,
+          "pts": 2
+        },
+        {
+          "position": 3,
           "team": "Merksplas U16 VHV R (U16 M)",
           "team_id": 451649,
           "logo": null,
@@ -259,35 +273,7 @@
           "pts": 2
         },
         {
-          "position": 3,
-          "team": "Olse Merksem U16 VHV R (U16 M)",
-          "team_id": 451021,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 4,
-          "team": "Welta U16 VHV-B R (U16 M)",
-          "team_id": 451484,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898688.jpg",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
           "team": "Uilenspiegel U16 VHV R (U16 M)",
           "team_id": 451552,
           "logo": null,
@@ -298,6 +284,20 @@
           "gs": 21,
           "ga": 23,
           "gd": -2,
+          "pts": 0
+        },
+        {
+          "position": 5,
+          "team": "Welta U16 VHV-B R (U16 M)",
+          "team_id": 451484,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898688.jpg",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 12,
+          "ga": 27,
+          "gd": -15,
           "pts": 0
         },
         {
