@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T14:15:08.477547+00:00",
+  "generated_at": "2026-09-13T14:30:09.337939+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -619,17 +619,31 @@
           "team": "H. Bilzen U14 VHV R 2 (U14 M)",
           "team_id": 451226,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200609.png",
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 57,
+          "ga": 41,
+          "gd": 16,
+          "pts": 4
+        },
+        {
+          "position": 2,
+          "team": "Sint-Truiden U14 VHV-B R (U14 M)",
+          "team_id": 451692,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787923946.png",
           "mp": 1,
           "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 29,
-          "ga": 22,
+          "gs": 20,
+          "ga": 13,
           "gd": 7,
           "pts": 2
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Kreasa Houthalen U14 VHV R (U14 M)",
           "team_id": 451159,
           "logo": null,
@@ -643,24 +657,10 @@
           "pts": 2
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Sezoens Achilles Bocholt U14 VHV R 2 (U14 M)",
           "team_id": 451195,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848506.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 4,
-          "team": "Sint-Truiden U14 VHV-B R (U14 M)",
-          "team_id": 451692,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787923946.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -675,13 +675,13 @@
           "team": "Hubo U14 VHV R 3 (U14 M)",
           "team_id": 451309,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125212.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 21,
-          "ga": 22,
-          "gd": -1,
+          "l": 2,
+          "gs": 40,
+          "ga": 50,
+          "gd": -10,
           "pts": 0
         },
         {
@@ -689,13 +689,13 @@
           "team": "P. Kortessem U14 VHV R (U14 M)",
           "team_id": 451147,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093269.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 22,
-          "ga": 29,
-          "gd": -7,
+          "l": 2,
+          "gs": 35,
+          "ga": 49,
+          "gd": -14,
           "pts": 0
         }
       ]
