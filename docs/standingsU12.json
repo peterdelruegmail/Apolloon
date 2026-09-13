@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T10:00:14.286478+00:00",
+  "generated_at": "2026-09-13T10:15:16.450583+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -424,6 +424,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "E. Aarschot U12 VHV R (U12 M)",
+          "team_id": 450980,
+          "logo": null,
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 21,
+          "ga": 7,
+          "gd": 14,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "Uilenspiegel U12 VHV R 4 (U12 M)",
           "team_id": 451540,
           "logo": null,
@@ -437,38 +451,24 @@
           "pts": 2
         },
         {
-          "position": 2,
-          "team": "E. Aarschot U12 VHV R (U12 M)",
-          "team_id": 450980,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 3,
-          "team": "Leuven U12 VHV R (U12)",
-          "team_id": 451082,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465809.png",
-          "mp": 0,
-          "w": 0,
+          "team": "Heist o/d Berg U12 VHV R B (U12 M)",
+          "team_id": 451438,
+          "logo": null,
+          "mp": 2,
+          "w": 1,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
+          "l": 1,
+          "gs": 6,
+          "ga": 6,
           "gd": 0,
-          "pts": 0
+          "pts": 2
         },
         {
           "position": 4,
-          "team": "Rhino U12 VHV-B R (U12 M)",
-          "team_id": 451092,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/_1786224980.png",
+          "team": "Leuven U12 VHV R (U12)",
+          "team_id": 451082,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465809.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -483,20 +483,6 @@
           "team": "AtomiX U12 VHV R (U12 M)",
           "team_id": 451688,
           "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 6,
-          "team": "Heist o/d Berg U12 VHV R B (U12 M)",
-          "team_id": 451438,
-          "logo": null,
           "mp": 1,
           "w": 0,
           "d": 0,
@@ -504,6 +490,20 @@
           "gs": 0,
           "ga": 6,
           "gd": -6,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Rhino U12 VHV-B R (U12 M)",
+          "team_id": 451092,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/_1786224980.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 7,
+          "ga": 21,
+          "gd": -14,
           "pts": 0
         }
       ]
