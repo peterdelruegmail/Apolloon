@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T12:00:14.701988+00:00",
+  "generated_at": "2026-09-13T12:16:21.512771+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -424,6 +424,20 @@
         },
         {
           "position": 2,
+          "team": "United West T-B (U16 M)",
+          "team_id": 451260,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379738.png",
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 56,
+          "ga": 40,
+          "gd": 16,
+          "pts": 4
+        },
+        {
+          "position": 3,
           "team": "P. Kortessem U16 VHV R (U16 M)",
           "team_id": 451143,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093156.png",
@@ -434,20 +448,6 @@
           "gs": 42,
           "ga": 38,
           "gd": 4,
-          "pts": 2
-        },
-        {
-          "position": 3,
-          "team": "United West T-B (U16 M)",
-          "team_id": 451260,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379738.png",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 26,
-          "ga": 25,
-          "gd": 1,
           "pts": 2
         },
         {
@@ -483,13 +483,13 @@
           "team": "Kreasa Houthalen U16 VHV-B R (U16 M)",
           "team_id": 451160,
           "logo": null,
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 17,
-          "ga": 54,
-          "gd": -37,
+          "l": 2,
+          "gs": 32,
+          "ga": 84,
+          "gd": -52,
           "pts": 0
         }
       ]
