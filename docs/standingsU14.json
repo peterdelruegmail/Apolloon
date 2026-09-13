@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T11:00:21.560430+00:00",
+  "generated_at": "2026-09-13T11:15:15.924972+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -96,6 +96,20 @@
         },
         {
           "position": 2,
+          "team": "Besox Izegem U14 VHV R 1 (U14 M)",
+          "team_id": 451468,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786535067.jpg",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 36,
+          "ga": 16,
+          "gd": 20,
+          "pts": 2
+        },
+        {
+          "position": 3,
           "team": "Lokeren U14 VHV R (U14 M)",
           "team_id": 451139,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747748.png",
@@ -109,7 +123,7 @@
           "pts": 2
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "DB Gent U14 VHV R 2 (U14 M)",
           "team_id": 451657,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415244.png",
@@ -121,20 +135,6 @@
           "ga": 76,
           "gd": -10,
           "pts": 2
-        },
-        {
-          "position": 4,
-          "team": "Besox Izegem U14 VHV R 1 (U14 M)",
-          "team_id": 451468,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786535067.jpg",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
         },
         {
           "position": 5,
@@ -155,13 +155,13 @@
           "team": "Dendermonde U14 VHV R (U14 M)",
           "team_id": 451633,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669476.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 14,
-          "ga": 50,
-          "gd": -36,
+          "l": 2,
+          "gs": 30,
+          "ga": 86,
+          "gd": -56,
           "pts": 0
         }
       ]
