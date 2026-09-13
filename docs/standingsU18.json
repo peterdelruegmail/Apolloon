@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T13:30:13.078879+00:00",
+  "generated_at": "2026-09-13T13:45:16.530603+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -246,6 +246,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Sezoens Achilles Bocholt B18 VHV R 1 (U18 M)",
+          "team_id": 451183,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848246.png",
+          "mp": 2,
+          "w": 1,
+          "d": 1,
+          "l": 0,
+          "gs": 65,
+          "ga": 55,
+          "gd": 10,
+          "pts": 3
+        },
+        {
+          "position": 2,
           "team": "Hubo B18 VHV R (U18 M)",
           "team_id": 451290,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124558.png",
@@ -257,20 +271,6 @@
           "ga": 35,
           "gd": 3,
           "pts": 2
-        },
-        {
-          "position": 2,
-          "team": "Sezoens Achilles Bocholt B18 VHV R 1 (U18 M)",
-          "team_id": 451183,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848246.png",
-          "mp": 1,
-          "w": 0,
-          "d": 1,
-          "l": 0,
-          "gs": 28,
-          "ga": 28,
-          "gd": 0,
-          "pts": 1
         },
         {
           "position": 3,
@@ -305,13 +305,13 @@
           "team": "Derdaele Sp. Pelt B18 VHV R (U18 M)",
           "team_id": 451868,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081161.jpg",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 35,
-          "ga": 38,
-          "gd": -3,
+          "l": 2,
+          "gs": 62,
+          "ga": 75,
+          "gd": -13,
           "pts": 0
         }
       ]
