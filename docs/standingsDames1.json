@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T17:15:16.496189+00:00",
+  "generated_at": "2026-09-13T17:30:10.656752+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18710/seasons/220",
   "groups": [
     {
@@ -7,37 +7,37 @@
       "standings": [
         {
           "position": 1,
-          "team": "HBC Apolloon Spurs D1 W VHV (Senior F)",
-          "team_id": 450962,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814499.png",
-          "mp": 0,
-          "w": 0,
+          "team": "Olse Merksem D1 W VHV (Senior F)",
+          "team_id": 451017,
+          "logo": null,
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 26,
+          "ga": 14,
+          "gd": 12,
+          "pts": 2
         },
         {
           "position": 2,
           "team": "Roeselare D1 W VHV 1 (Senior F)",
           "team_id": 451005,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786350133.jpg",
-          "mp": 0,
-          "w": 0,
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 27,
+          "ga": 16,
+          "gd": 11,
+          "pts": 2
         },
         {
           "position": 3,
-          "team": "Olse Merksem D1 W VHV (Senior F)",
-          "team_id": 451017,
-          "logo": null,
+          "team": "HBC Apolloon Spurs D1 W VHV (Senior F)",
+          "team_id": 450962,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814499.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -63,20 +63,6 @@
         },
         {
           "position": 5,
-          "team": "Sezoens Achilles Bocholt D1 W VHV (Senior F)",
-          "team_id": 451181,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848137.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 6,
           "team": "DHC Waasmunster D1 W VHV (Senior F)",
           "team_id": 451282,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
@@ -90,7 +76,7 @@
           "pts": 0
         },
         {
-          "position": 7,
+          "position": 6,
           "team": "Evergem D1 W VHV (Senior F)",
           "team_id": 451378,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785696905.png",
@@ -104,7 +90,7 @@
           "pts": 0
         },
         {
-          "position": 8,
+          "position": 7,
           "team": "Aalst D1 W VHV (Senior F)",
           "team_id": 451441,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/_1786713837.png",
@@ -118,21 +104,7 @@
           "pts": 0
         },
         {
-          "position": 9,
-          "team": "DB Gent D1 W VHV (Senior F)",
-          "team_id": 451495,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415071.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 10,
+          "position": 8,
           "team": "Gbsk D1 W VHV (Senior F)",
           "team_id": 451595,
           "logo": null,
@@ -143,6 +115,34 @@
           "gs": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 9,
+          "team": "Sezoens Achilles Bocholt D1 W VHV (Senior F)",
+          "team_id": 451181,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848137.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 16,
+          "ga": 27,
+          "gd": -11,
+          "pts": 0
+        },
+        {
+          "position": 10,
+          "team": "DB Gent D1 W VHV (Senior F)",
+          "team_id": 451495,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415071.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 14,
+          "ga": 26,
+          "gd": -12,
           "pts": 0
         }
       ]
