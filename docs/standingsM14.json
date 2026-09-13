@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T10:00:13.971110+00:00",
+  "generated_at": "2026-09-13T10:15:17.212937+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -249,14 +249,14 @@
           "team": "Derdaele Sp. Pelt G14 VHV R 2 (U14 F)",
           "team_id": 451869,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081490.jpg",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 24,
-          "ga": 6,
-          "gd": 18,
-          "pts": 2
+          "gs": 53,
+          "ga": 24,
+          "gd": 29,
+          "pts": 4
         },
         {
           "position": 2,
@@ -288,20 +288,6 @@
         },
         {
           "position": 4,
-          "team": "Sezoens Achilles Bocholt G14 VHV R (U14 F)",
-          "team_id": 451198,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848413.png",
-          "mp": 1,
-          "w": 0,
-          "d": 0,
-          "l": 1,
-          "gs": 11,
-          "ga": 18,
-          "gd": -7,
-          "pts": 0
-        },
-        {
-          "position": 5,
           "team": "United West B G14 VHV R (U14 F)",
           "team_id": 451335,
           "logo": null,
@@ -312,6 +298,20 @@
           "gs": 21,
           "ga": 28,
           "gd": -7,
+          "pts": 0
+        },
+        {
+          "position": 5,
+          "team": "Sezoens Achilles Bocholt G14 VHV R (U14 F)",
+          "team_id": 451198,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848413.png",
+          "mp": 2,
+          "w": 0,
+          "d": 0,
+          "l": 2,
+          "gs": 29,
+          "ga": 47,
+          "gd": -18,
           "pts": 0
         },
         {
