@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T09:00:22.013938+00:00",
+  "generated_at": "2026-09-13T09:15:19.442069+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -424,6 +424,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Uilenspiegel U12 VHV R 4 (U12 M)",
+          "team_id": 451540,
+          "logo": null,
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 6,
+          "ga": 0,
+          "gd": 6,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "E. Aarschot U12 VHV R (U12 M)",
           "team_id": 450980,
           "logo": null,
@@ -437,7 +451,7 @@
           "pts": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Leuven U12 VHV R (U12)",
           "team_id": 451082,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465809.png",
@@ -451,7 +465,7 @@
           "pts": 0
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Rhino U12 VHV-B R (U12 M)",
           "team_id": 451092,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/_1786224980.png",
@@ -465,23 +479,9 @@
           "pts": 0
         },
         {
-          "position": 4,
-          "team": "Heist o/d Berg U12 VHV R B (U12 M)",
-          "team_id": 451438,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 5,
-          "team": "Uilenspiegel U12 VHV R 4 (U12 M)",
-          "team_id": 451540,
+          "team": "AtomiX U12 VHV R (U12 M)",
+          "team_id": 451688,
           "logo": null,
           "mp": 0,
           "w": 0,
@@ -494,16 +494,16 @@
         },
         {
           "position": 6,
-          "team": "AtomiX U12 VHV R (U12 M)",
-          "team_id": 451688,
+          "team": "Heist o/d Berg U12 VHV R B (U12 M)",
+          "team_id": 451438,
           "logo": null,
-          "mp": 0,
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "ga": 6,
+          "gd": -6,
           "pts": 0
         }
       ]
