@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T13:45:18.163819+00:00",
+  "generated_at": "2026-09-13T14:00:12.611942+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -527,6 +527,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Derdaele Sp. Pelt U14 VHV R 1 (U14 M)",
+          "team_id": 451705,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081405.jpg",
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 46,
+          "ga": 41,
+          "gd": 5,
+          "pts": 4
+        },
+        {
+          "position": 2,
           "team": "Hubo U14 VHV R 1 (U14 M)",
           "team_id": 451303,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125034.png",
@@ -540,7 +554,7 @@
           "pts": 2
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "HC Overpelt U14 VHV R (U14 M)",
           "team_id": 451097,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788186943.jpg",
@@ -551,20 +565,6 @@
           "gs": 33,
           "ga": 11,
           "gd": 22,
-          "pts": 2
-        },
-        {
-          "position": 3,
-          "team": "Derdaele Sp. Pelt U14 VHV R 1 (U14 M)",
-          "team_id": 451705,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081405.jpg",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 19,
-          "ga": 17,
-          "gd": 2,
           "pts": 2
         },
         {
@@ -586,13 +586,13 @@
           "team": "Sezoens Achilles Bocholt U14 VHV R 1 (U14 M)",
           "team_id": 451194,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848477.png",
-          "mp": 0,
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 24,
+          "ga": 27,
+          "gd": -3,
           "pts": 0
         },
         {
