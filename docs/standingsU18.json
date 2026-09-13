@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T10:45:16.007916+00:00",
+  "generated_at": "2026-09-13T11:00:18.848296+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -246,6 +246,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Hubo B18 VHV R (U18 M)",
+          "team_id": 451290,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124558.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 38,
+          "ga": 35,
+          "gd": 3,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "Sezoens Achilles Bocholt B18 VHV R 1 (U18 M)",
           "team_id": 451183,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848246.png",
@@ -259,7 +273,7 @@
           "pts": 1
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Maasmechelen 65 B18 VHV-B R (U18 M)",
           "team_id": 451404,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17238/logo/_1786889618.png",
@@ -273,24 +287,10 @@
           "pts": 1
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "P. Kortessem B18 VHV R (U18 M)",
           "team_id": 451141,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093108.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 4,
-          "team": "Hubo B18 VHV R (U18 M)",
-          "team_id": 451290,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124558.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -305,13 +305,13 @@
           "team": "Derdaele Sp. Pelt B18 VHV R (U18 M)",
           "team_id": 451868,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081161.jpg",
-          "mp": 0,
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 35,
+          "ga": 38,
+          "gd": -3,
           "pts": 0
         }
       ]
