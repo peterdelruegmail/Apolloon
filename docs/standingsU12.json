@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T13:00:11.141542+00:00",
+  "generated_at": "2026-09-13T13:15:10.909415+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -349,34 +349,20 @@
       "standings": [
         {
           "position": 1,
-          "team": "Schoten U12 VHV R 1 (U12 M)",
-          "team_id": 451046,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784968428.jpg",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 2,
           "team": "Brasschaat U12 VHV R (U12 M)",
           "team_id": 451342,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17235/logo/96x96_brasschaat-handbalclub_1788963702.png",
-          "mp": 0,
-          "w": 0,
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
+          "gs": 6,
           "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gd": 6,
+          "pts": 2
         },
         {
-          "position": 3,
+          "position": 2,
           "team": "Welta U12 VHV-B R (U12 M)",
           "team_id": 451452,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898729.jpg",
@@ -390,7 +376,7 @@
           "pts": 0
         },
         {
-          "position": 4,
+          "position": 3,
           "team": "Uilenspiegel U12 VHV R 3 (U12 M)",
           "team_id": 451537,
           "logo": null,
@@ -404,7 +390,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "Biobest Sasja U12 VHV R (U12)",
           "team_id": 451611,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788434785.png",
@@ -415,6 +401,20 @@
           "gs": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 5,
+          "team": "Schoten U12 VHV R 1 (U12 M)",
+          "team_id": 451046,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784968428.jpg",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 0,
+          "ga": 6,
+          "gd": -6,
           "pts": 0
         }
       ]
