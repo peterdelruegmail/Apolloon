@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T12:30:12.757258+00:00",
+  "generated_at": "2026-09-13T12:45:15.196934+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -527,16 +527,16 @@
       "standings": [
         {
           "position": 1,
-          "team": "H. Bilzen U14 VHV R 1 (U14 M)",
-          "team_id": 451225,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200592.png",
-          "mp": 1,
+          "team": "Hubo U14 VHV R 1 (U14 M)",
+          "team_id": 451303,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125034.png",
+          "mp": 2,
           "w": 1,
           "d": 0,
-          "l": 0,
-          "gs": 37,
-          "ga": 9,
-          "gd": 28,
+          "l": 1,
+          "gs": 55,
+          "ga": 30,
+          "gd": 25,
           "pts": 2
         },
         {
@@ -569,6 +569,20 @@
         },
         {
           "position": 4,
+          "team": "H. Bilzen U14 VHV R 1 (U14 M)",
+          "team_id": 451225,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200592.png",
+          "mp": 2,
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gs": 48,
+          "ga": 47,
+          "gd": 1,
+          "pts": 2
+        },
+        {
+          "position": 5,
           "team": "Sezoens Achilles Bocholt U14 VHV R 1 (U14 M)",
           "team_id": 451194,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848477.png",
@@ -579,20 +593,6 @@
           "gs": 0,
           "ga": 0,
           "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
-          "team": "Hubo U14 VHV R 1 (U14 M)",
-          "team_id": 451303,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125034.png",
-          "mp": 1,
-          "w": 0,
-          "d": 0,
-          "l": 1,
-          "gs": 17,
-          "ga": 19,
-          "gd": -2,
           "pts": 0
         },
         {
