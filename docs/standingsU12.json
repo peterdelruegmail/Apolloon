@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T12:45:13.121790+00:00",
+  "generated_at": "2026-09-13T13:00:11.141542+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -302,23 +302,23 @@
         },
         {
           "position": 4,
-          "team": "Aalst U12 VHV R (U12 M)",
-          "team_id": 451450,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/_1786713952.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
           "team": "Groot Berlare U12 VHV-B R (U12 M)",
           "team_id": 450967,
           "logo": null,
+          "mp": 2,
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gs": 6,
+          "ga": 6,
+          "gd": 0,
+          "pts": 2
+        },
+        {
+          "position": 5,
+          "team": "Lokeren U12 VHV R B (U12 M)",
+          "team_id": 451134,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747974.png",
           "mp": 1,
           "w": 0,
           "d": 0,
@@ -330,9 +330,9 @@
         },
         {
           "position": 6,
-          "team": "Lokeren U12 VHV R B (U12 M)",
-          "team_id": 451134,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747974.png",
+          "team": "Aalst U12 VHV R (U12 M)",
+          "team_id": 451450,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/_1786713952.png",
           "mp": 1,
           "w": 0,
           "d": 0,
@@ -680,45 +680,31 @@
           "team": "P. Kortessem U12 VHV R 1 (U12)",
           "team_id": 451150,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093341.png",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 6,
+          "gs": 12,
           "ga": 0,
-          "gd": 6,
-          "pts": 2
+          "gd": 12,
+          "pts": 4
         },
         {
           "position": 2,
           "team": "Hubo U12 VHV R 2 (U12 M)",
           "team_id": 451314,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125195.png",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 5,
+          "gs": 11,
           "ga": 1,
-          "gd": 4,
-          "pts": 2
+          "gd": 10,
+          "pts": 4
         },
         {
           "position": 3,
-          "team": "United West L U12 VHV R (U12 M)",
-          "team_id": 451164,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 4,
           "team": "Sint-Truiden U12 VHV R (U12 M)",
           "team_id": 451695,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787923981.png",
@@ -732,7 +718,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "Derdaele Sp. Pelt U12 VHV R 2 (U12 M)",
           "team_id": 451703,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081641.jpg",
@@ -746,10 +732,10 @@
           "pts": 0
         },
         {
-          "position": 6,
-          "team": "H. Bilzen U12 VHV R 1 (U12 M)",
-          "team_id": 451220,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200702.png",
+          "position": 5,
+          "team": "United West L U12 VHV R (U12 M)",
+          "team_id": 451164,
+          "logo": null,
           "mp": 1,
           "w": 0,
           "d": 0,
@@ -757,6 +743,20 @@
           "gs": 0,
           "ga": 6,
           "gd": -6,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "H. Bilzen U12 VHV R 1 (U12 M)",
+          "team_id": 451220,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200702.png",
+          "mp": 2,
+          "w": 0,
+          "d": 0,
+          "l": 2,
+          "gs": 0,
+          "ga": 12,
+          "gd": -12,
           "pts": 0
         }
       ]
