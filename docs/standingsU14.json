@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T13:30:12.114369+00:00",
+  "generated_at": "2026-09-13T13:45:18.163819+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -338,42 +338,42 @@
           "team": "Biobest Sasja U14 VHV R (U14)",
           "team_id": 451609,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/_1785155345.png",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 45,
-          "ga": 14,
-          "gd": 31,
-          "pts": 2
+          "gs": 97,
+          "ga": 27,
+          "gd": 70,
+          "pts": 4
         },
         {
           "position": 2,
           "team": "Uilenspiegel U14 VHV R (U14 M)",
           "team_id": 451543,
           "logo": null,
-          "mp": 1,
+          "mp": 2,
           "w": 1,
           "d": 0,
-          "l": 0,
-          "gs": 33,
-          "ga": 16,
-          "gd": 17,
+          "l": 1,
+          "gs": 46,
+          "ga": 68,
+          "gd": -22,
           "pts": 2
         },
         {
           "position": 3,
-          "team": "Brasschaat U14 VHV R (U14 M)",
-          "team_id": 451344,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17235/logo/96x96_brasschaat-handbalclub_1788963702.png",
-          "mp": 0,
-          "w": 0,
+          "team": "Schoten U14 VHV R (U14 M)",
+          "team_id": 451048,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784968352.jpg",
+          "mp": 2,
+          "w": 1,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "l": 1,
+          "gs": 47,
+          "ga": 74,
+          "gd": -27,
+          "pts": 2
         },
         {
           "position": 4,
@@ -405,6 +405,20 @@
         },
         {
           "position": 6,
+          "team": "Brasschaat U14 VHV R (U14 M)",
+          "team_id": 451344,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17235/logo/96x96_brasschaat-handbalclub_1788963702.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 29,
+          "ga": 33,
+          "gd": -4,
+          "pts": 0
+        },
+        {
+          "position": 7,
           "team": "Heist o/d Berg U14 VHV R (U14 M)",
           "team_id": 451440,
           "logo": null,
@@ -415,20 +429,6 @@
           "gs": 16,
           "ga": 33,
           "gd": -17,
-          "pts": 0
-        },
-        {
-          "position": 7,
-          "team": "Schoten U14 VHV R (U14 M)",
-          "team_id": 451048,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784968352.jpg",
-          "mp": 1,
-          "w": 0,
-          "d": 0,
-          "l": 1,
-          "gs": 14,
-          "ga": 45,
-          "gd": -31,
           "pts": 0
         }
       ]
