@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T14:00:46.612786+00:00",
+  "generated_at": "2026-09-13T14:15:08.484294+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -85,27 +85,27 @@
           "team": "HBC Apolloon Spurs U16 VHV R (U16 M)",
           "team_id": 450943,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814389.png",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 33,
-          "ga": 25,
-          "gd": 8,
-          "pts": 2
+          "gs": 66,
+          "ga": 56,
+          "gd": 10,
+          "pts": 4
         },
         {
           "position": 2,
           "team": "Besox Izegem U16 VHV R 2 (U16 M)",
           "team_id": 451479,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786368327.jpg",
-          "mp": 1,
+          "mp": 2,
           "w": 1,
           "d": 0,
-          "l": 0,
-          "gs": 24,
-          "ga": 21,
-          "gd": 3,
+          "l": 1,
+          "gs": 55,
+          "ga": 54,
+          "gd": 1,
           "pts": 2
         },
         {
