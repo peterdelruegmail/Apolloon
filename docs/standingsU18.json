@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T14:45:10.429192+00:00",
+  "generated_at": "2026-09-13T15:00:12.352392+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -7,30 +7,30 @@
       "standings": [
         {
           "position": 1,
-          "team": "DB Gent B18 VHV R (U18 M)",
-          "team_id": 451499,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415109.png",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 47,
-          "ga": 14,
-          "gd": 33,
-          "pts": 2
-        },
-        {
-          "position": 2,
           "team": "HBC Apolloon Spurs B18 VHV R (U18 M)",
           "team_id": 450941,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814422.png",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 34,
-          "ga": 33,
-          "gd": 1,
+          "gs": 70,
+          "ga": 58,
+          "gd": 12,
+          "pts": 4
+        },
+        {
+          "position": 2,
+          "team": "DB Gent B18 VHV R (U18 M)",
+          "team_id": 451499,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415109.png",
+          "mp": 2,
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gs": 72,
+          "ga": 50,
+          "gd": 22,
           "pts": 2
         },
         {
@@ -174,14 +174,14 @@
           "team": "Olse Merksem B18 VHV R (U18 M)",
           "team_id": 451020,
           "logo": null,
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 37,
-          "ga": 16,
-          "gd": 21,
-          "pts": 2
+          "gs": 68,
+          "ga": 43,
+          "gd": 25,
+          "pts": 4
         },
         {
           "position": 3,
@@ -202,13 +202,13 @@
           "team": "Schoten B18 VHV R (U18 M)",
           "team_id": 451052,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784746285.jpg",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 30,
-          "ga": 47,
-          "gd": -17,
+          "l": 2,
+          "gs": 57,
+          "ga": 78,
+          "gd": -21,
           "pts": 0
         },
         {
