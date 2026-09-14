@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:00:12.443999+00:00",
+  "generated_at": "2026-09-14T22:00:12.448217+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
   "groups": [
     {
@@ -110,6 +110,20 @@
         },
         {
           "position": 2,
+          "team": "Lebbeke D W VHV OWV (Senior F)",
+          "team_id": 451521,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666647.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 16,
+          "ga": 6,
+          "gd": 10,
+          "pts": 2
+        },
+        {
+          "position": 3,
           "team": "Lokeren D W VHV OWV 1 (Senior F)",
           "team_id": 451135,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747831.png",
@@ -123,7 +137,7 @@
           "pts": 1
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Dendermonde D W VHV OWV 1 (Senior F)",
           "team_id": 451625,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652231.png",
@@ -137,31 +151,17 @@
           "pts": 1
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Brugge D W VHV OWV (Senior F)",
           "team_id": 451512,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107970.jpg",
-          "mp": 0,
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
-          "team": "Lebbeke D W VHV OWV (Senior F)",
-          "team_id": 451521,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666647.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 6,
+          "ga": 16,
+          "gd": -10,
           "pts": 0
         },
         {
