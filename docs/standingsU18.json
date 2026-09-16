@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T10:00:15.003556+00:00",
+  "generated_at": "2026-09-16T16:00:19.498126+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -35,17 +35,17 @@
         },
         {
           "position": 3,
-          "team": "Evergem B18 VHV R (U18 M)",
-          "team_id": 451376,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697692.png",
-          "mp": 0,
-          "w": 0,
+          "team": "Roeselare B18 VHV R (U18 M)",
+          "team_id": 450998,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786354764.jpg",
+          "mp": 2,
+          "w": 1,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "l": 1,
+          "gs": 50,
+          "ga": 76,
+          "gd": -26,
+          "pts": 2
         },
         {
           "position": 4,
@@ -63,16 +63,16 @@
         },
         {
           "position": 5,
-          "team": "Roeselare B18 VHV R (U18 M)",
-          "team_id": 450998,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786354764.jpg",
+          "team": "Evergem B18 VHV R (U18 M)",
+          "team_id": 451376,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697692.png",
           "mp": 1,
           "w": 0,
           "d": 0,
           "l": 1,
-          "gs": 14,
-          "ga": 47,
-          "gd": -33,
+          "gs": 29,
+          "ga": 36,
+          "gd": -7,
           "pts": 0
         }
       ]
@@ -185,6 +185,20 @@
         },
         {
           "position": 3,
+          "team": "Heist o/d Berg B18 VHV R (U18 M)",
+          "team_id": 451443,
+          "logo": null,
+          "mp": 2,
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gs": 55,
+          "ga": 64,
+          "gd": -9,
+          "pts": 2
+        },
+        {
+          "position": 4,
           "team": "Leuven B18 VHV R (U18 M)",
           "team_id": 451079,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465532.png",
@@ -198,7 +212,7 @@
           "pts": 2
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Schoten B18 VHV R (U18 M)",
           "team_id": 451052,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784746285.jpg",
@@ -212,31 +226,17 @@
           "pts": 0
         },
         {
-          "position": 5,
-          "team": "Heist o/d Berg B18 VHV R (U18 M)",
-          "team_id": 451443,
-          "logo": null,
-          "mp": 1,
-          "w": 0,
-          "d": 0,
-          "l": 1,
-          "gs": 18,
-          "ga": 39,
-          "gd": -21,
-          "pts": 0
-        },
-        {
           "position": 6,
           "team": "AtomiX B18 VHV R (U18 M)",
           "team_id": 451679,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1786882249.jpg",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 16,
-          "ga": 37,
-          "gd": -21,
+          "l": 2,
+          "gs": 41,
+          "ga": 74,
+          "gd": -33,
           "pts": 0
         }
       ]
@@ -260,6 +260,20 @@
         },
         {
           "position": 2,
+          "team": "P. Kortessem B18 VHV R (U18 M)",
+          "team_id": 451141,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093108.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 33,
+          "ga": 25,
+          "gd": 8,
+          "pts": 2
+        },
+        {
+          "position": 3,
           "team": "Hubo B18 VHV R (U18 M)",
           "team_id": 451290,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124558.png",
@@ -273,32 +287,18 @@
           "pts": 2
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Maasmechelen 65 B18 VHV-B R (U18 M)",
           "team_id": 451404,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17238/logo/_1786889618.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 1,
-          "l": 0,
-          "gs": 28,
-          "ga": 28,
-          "gd": 0,
+          "l": 1,
+          "gs": 53,
+          "ga": 61,
+          "gd": -8,
           "pts": 1
-        },
-        {
-          "position": 4,
-          "team": "P. Kortessem B18 VHV R (U18 M)",
-          "team_id": 451141,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093108.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
         },
         {
           "position": 5,
@@ -335,6 +335,20 @@
         },
         {
           "position": 2,
+          "team": "H. Bilzen B18 VHV-B R (U18 M)",
+          "team_id": 451242,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200287.png",
+          "mp": 2,
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gs": 57,
+          "ga": 46,
+          "gd": 11,
+          "pts": 2
+        },
+        {
+          "position": 3,
           "team": "Kwanten Arena B18 VHV-B R (U18 M)",
           "team_id": 451067,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055095.jpg",
@@ -348,31 +362,17 @@
           "pts": 2
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "H. Tessenderlo B18 VHV R (U18 M)",
           "team_id": 451259,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379896.jpg",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 14,
-          "ga": 18,
-          "gd": -4,
-          "pts": 0
-        },
-        {
-          "position": 4,
-          "team": "H. Bilzen B18 VHV-B R (U18 M)",
-          "team_id": 451242,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200287.png",
-          "mp": 1,
-          "w": 0,
-          "d": 0,
-          "l": 1,
-          "gs": 23,
-          "ga": 30,
-          "gd": -7,
+          "l": 2,
+          "gs": 30,
+          "ga": 52,
+          "gd": -22,
           "pts": 0
         }
       ]
