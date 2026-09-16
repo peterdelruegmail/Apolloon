@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T10:00:15.755054+00:00",
+  "generated_at": "2026-09-16T16:00:18.004039+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -7,34 +7,48 @@
       "standings": [
         {
           "position": 1,
-          "team": "Gbsk U14 VHV R (U14)",
-          "team_id": 451588,
-          "logo": null,
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 22,
-          "ga": 20,
-          "gd": 2,
-          "pts": 2
-        },
-        {
-          "position": 2,
           "team": "Eeklo U14 VHV R (U14 M)",
           "team_id": 451390,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666438.png",
+          "mp": 2,
+          "w": 1,
+          "d": 1,
+          "l": 0,
+          "gs": 71,
+          "ga": 39,
+          "gd": 32,
+          "pts": 3
+        },
+        {
+          "position": 2,
+          "team": "Gbsk U14 VHV R (U14)",
+          "team_id": 451588,
+          "logo": null,
+          "mp": 2,
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gs": 32,
+          "ga": 62,
+          "gd": -30,
+          "pts": 2
+        },
+        {
+          "position": 3,
+          "team": "Aalst U14 VHV R (U14 M)",
+          "team_id": 451449,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/_1786713926.png",
           "mp": 1,
           "w": 0,
           "d": 1,
           "l": 0,
-          "gs": 29,
-          "ga": 29,
+          "gs": 14,
+          "ga": 14,
           "gd": 0,
           "pts": 1
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "DB Gent U14 VHV R 1 (U14 M)",
           "team_id": 451654,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415214.png",
@@ -48,32 +62,18 @@
           "pts": 1
         },
         {
-          "position": 4,
-          "team": "Aalst U14 VHV R (U14 M)",
-          "team_id": 451449,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/_1786713926.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 5,
           "team": "Groot Berlare U14 VHV-B R (U14 M)",
           "team_id": 450966,
           "logo": null,
-          "mp": 1,
+          "mp": 2,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "gs": 20,
-          "ga": 22,
+          "gs": 34,
+          "ga": 36,
           "gd": -2,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
@@ -85,14 +85,14 @@
           "team": "Evergem U14 VHV R (U14 M)",
           "team_id": 451371,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785699732.png",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 50,
-          "ga": 14,
-          "gd": 36,
-          "pts": 2
+          "gs": 86,
+          "ga": 36,
+          "gd": 50,
+          "pts": 4
         },
         {
           "position": 2,
@@ -141,13 +141,13 @@
           "team": "Roeselare U14 VHV-B R (U14 M)",
           "team_id": 451000,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786432507.jpg",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 34,
-          "ga": 42,
-          "gd": -8,
+          "l": 2,
+          "gs": 56,
+          "ga": 78,
+          "gd": -22,
           "pts": 0
         },
         {
@@ -171,6 +171,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "HBC Apolloon Spurs U14 VHV R (U14 M)",
+          "team_id": 450945,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814358.png",
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 62,
+          "ga": 18,
+          "gd": 44,
+          "pts": 4
+        },
+        {
+          "position": 2,
           "team": "DB Gent U14 VHV R 3 (U14 M)",
           "team_id": 451659,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415278.png",
@@ -181,20 +195,6 @@
           "gs": 36,
           "ga": 17,
           "gd": 19,
-          "pts": 2
-        },
-        {
-          "position": 2,
-          "team": "HBC Apolloon Spurs U14 VHV R (U14 M)",
-          "team_id": 450945,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814358.png",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 26,
-          "ga": 8,
-          "gd": 18,
           "pts": 2
         },
         {
@@ -216,13 +216,13 @@
           "team": "Besox Izegem U14 VHV R 2 (U14 M)",
           "team_id": 451470,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786545203.jpg",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 23,
-          "ga": 27,
-          "gd": -4,
+          "l": 2,
+          "gs": 33,
+          "ga": 63,
+          "gd": -30,
           "pts": 0
         },
         {
@@ -263,28 +263,28 @@
           "team": "Evergem U14 VHV R (U14)",
           "team_id": 451369,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785699779.png",
-          "mp": 1,
+          "mp": 2,
           "w": 1,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gs": 30,
-          "ga": 9,
+          "gs": 62,
+          "ga": 41,
           "gd": 21,
-          "pts": 2
+          "pts": 3
         },
         {
           "position": 3,
           "team": "Uilenspiegel U14 VHV R (U14 M)",
           "team_id": 451543,
           "logo": null,
-          "mp": 1,
+          "mp": 2,
           "w": 1,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gs": 32,
-          "ga": 29,
+          "gs": 64,
+          "ga": 61,
           "gd": 3,
-          "pts": 2
+          "pts": 3
         },
         {
           "position": 4,
@@ -349,6 +349,20 @@
         },
         {
           "position": 2,
+          "team": "Heist o/d Berg U14 VHV R (U14 M)",
+          "team_id": 451440,
+          "logo": null,
+          "mp": 2,
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gs": 56,
+          "ga": 63,
+          "gd": -7,
+          "pts": 2
+        },
+        {
+          "position": 3,
           "team": "Uilenspiegel U14 VHV R (U14 M)",
           "team_id": 451543,
           "logo": null,
@@ -362,7 +376,7 @@
           "pts": 2
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Schoten U14 VHV R (U14 M)",
           "team_id": 451048,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784968352.jpg",
@@ -374,20 +388,6 @@
           "ga": 74,
           "gd": -27,
           "pts": 2
-        },
-        {
-          "position": 4,
-          "team": "Welta U14 VHV-B R (U14 M)",
-          "team_id": 451469,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898715.jpg",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
         },
         {
           "position": 5,
@@ -419,16 +419,16 @@
         },
         {
           "position": 7,
-          "team": "Heist o/d Berg U14 VHV R (U14 M)",
-          "team_id": 451440,
-          "logo": null,
+          "team": "Welta U14 VHV-B R (U14 M)",
+          "team_id": 451469,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898715.jpg",
           "mp": 1,
           "w": 0,
           "d": 0,
           "l": 1,
-          "gs": 16,
-          "ga": 33,
-          "gd": -17,
+          "gs": 30,
+          "ga": 40,
+          "gd": -10,
           "pts": 0
         }
       ]
@@ -455,27 +455,27 @@
           "team": "E. Aarschot U14 VHV R (U14 M)",
           "team_id": 450981,
           "logo": null,
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 35,
-          "ga": 12,
-          "gd": 23,
-          "pts": 2
+          "gs": 64,
+          "ga": 28,
+          "gd": 36,
+          "pts": 4
         },
         {
           "position": 3,
           "team": "Derdaele Sp. Pelt U14 VHV R 2 (U14 M)",
           "team_id": 451866,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081457.jpg",
-          "mp": 1,
+          "mp": 2,
           "w": 1,
           "d": 0,
-          "l": 0,
-          "gs": 39,
-          "ga": 27,
-          "gd": 12,
+          "l": 1,
+          "gs": 55,
+          "ga": 56,
+          "gd": -1,
           "pts": 2
         },
         {
@@ -483,28 +483,28 @@
           "team": "AtomiX U14 VHV R (U14 M)",
           "team_id": 451685,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787217158.jpg",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "gs": 27,
-          "ga": 39,
+          "gs": 59,
+          "ga": 71,
           "gd": -12,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 5,
           "team": "United West B U14 VHV R (U14 M)",
           "team_id": 451336,
           "logo": null,
-          "mp": 1,
+          "mp": 2,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "gs": 13,
-          "ga": 49,
+          "gs": 45,
+          "ga": 81,
           "gd": -36,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 6,
@@ -630,6 +630,20 @@
         },
         {
           "position": 2,
+          "team": "Sezoens Achilles Bocholt U14 VHV R 2 (U14 M)",
+          "team_id": 451195,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848506.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 34,
+          "ga": 13,
+          "gd": 21,
+          "pts": 2
+        },
+        {
+          "position": 3,
           "team": "Sint-Truiden U14 VHV-B R (U14 M)",
           "team_id": 451692,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787923946.png",
@@ -643,32 +657,18 @@
           "pts": 2
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Kreasa Houthalen U14 VHV R (U14 M)",
           "team_id": 451159,
           "logo": null,
-          "mp": 1,
+          "mp": 2,
           "w": 1,
           "d": 0,
-          "l": 0,
-          "gs": 22,
-          "ga": 21,
-          "gd": 1,
+          "l": 1,
+          "gs": 35,
+          "ga": 55,
+          "gd": -20,
           "pts": 2
-        },
-        {
-          "position": 4,
-          "team": "Sezoens Achilles Bocholt U14 VHV R 2 (U14 M)",
-          "team_id": 451195,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848506.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
         },
         {
           "position": 5,
