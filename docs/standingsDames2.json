@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T10:00:16.749791+00:00",
+  "generated_at": "2026-09-16T16:00:17.526128+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
   "groups": [
     {
@@ -7,6 +7,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Besox Izegem D W VHV OWV (Senior F)",
+          "team_id": 451423,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1785758242.jpg",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 32,
+          "ga": 21,
+          "gd": 11,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "DHC Waasmunster D W VHV OWV-B (Senior F)",
           "team_id": 451280,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
@@ -18,20 +32,6 @@
           "ga": 15,
           "gd": 8,
           "pts": 2
-        },
-        {
-          "position": 2,
-          "team": "Besox Izegem D W VHV OWV (Senior F)",
-          "team_id": 451423,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1785758242.jpg",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
         },
         {
           "position": 3,
@@ -63,20 +63,6 @@
         },
         {
           "position": 5,
-          "team": "DB Gent D W VHV OWV-B (Senior F)",
-          "team_id": 451671,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415055.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 6,
           "team": "Evergem D W VHV OWV (Senior F)",
           "team_id": 451377,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697330.png",
@@ -87,6 +73,20 @@
           "gs": 15,
           "ga": 23,
           "gd": -8,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "DB Gent D W VHV OWV-B (Senior F)",
+          "team_id": 451671,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415055.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 21,
+          "ga": 32,
+          "gd": -11,
           "pts": 0
         }
       ]
@@ -199,37 +199,37 @@
         },
         {
           "position": 2,
-          "team": "Eeklo D W VHV OWV (Senior F)",
-          "team_id": 451384,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666382.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
           "team": "Aalst D W VHV OWV-B (Senior F)",
           "team_id": 451444,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/_1786713863.png",
-          "mp": 0,
+          "mp": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
+          "gs": 21,
+          "ga": 21,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
-          "position": 4,
+          "position": 3,
           "team": "Dendermonde D W VHV OWV-B 2 (Senior F)",
           "team_id": 451623,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652206.png",
+          "mp": 1,
+          "w": 0,
+          "d": 1,
+          "l": 0,
+          "gs": 21,
+          "ga": 21,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "position": 4,
+          "team": "Eeklo D W VHV OWV (Senior F)",
+          "team_id": 451384,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666382.png",
           "mp": 0,
           "w": 0,
           "d": 0,
