@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T10:00:19.897040+00:00",
+  "generated_at": "2026-09-17T16:00:22.943546+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18710/seasons/220",
   "groups": [
     {
@@ -49,45 +49,45 @@
         },
         {
           "position": 4,
-          "team": "HBC Apolloon Spurs D1 W VHV (Senior F)",
-          "team_id": 450962,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814499.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
           "team": "Schoten D1 W VHV (Senior F)",
           "team_id": 451043,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784745730.jpg",
-          "mp": 0,
+          "mp": 2,
           "w": 0,
-          "d": 0,
+          "d": 2,
+          "l": 0,
+          "gs": 19,
+          "ga": 19,
+          "gd": 0,
+          "pts": 2
+        },
+        {
+          "position": 5,
+          "team": "HBC Apolloon Spurs D1 W VHV (Senior F)",
+          "team_id": 450962,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814499.png",
+          "mp": 1,
+          "w": 0,
+          "d": 1,
           "l": 0,
           "gs": 0,
           "ga": 0,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 6,
           "team": "DHC Waasmunster D1 W VHV (Senior F)",
           "team_id": 451282,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
-          "mp": 0,
+          "mp": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
+          "gs": 19,
+          "ga": 19,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 7,
