@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T16:00:22.280427+00:00",
+  "generated_at": "2026-09-18T22:00:18.585785+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -7,6 +7,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Eynatten-Raeren D1 M (Senior M)",
+          "team_id": 451765,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17247/logo/_1786967070.jpg",
+          "mp": 3,
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "gs": 117,
+          "ga": 102,
+          "gd": 15,
+          "pts": 5
+        },
+        {
+          "position": 2,
           "team": "Biobest Sasja D1 M (Senior M)",
           "team_id": 451600,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788434583.png",
@@ -20,21 +34,21 @@
           "pts": 4
         },
         {
-          "position": 2,
-          "team": "Eynatten-Raeren D1 M (Senior M)",
-          "team_id": 451765,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17247/logo/_1786967070.jpg",
-          "mp": 2,
+          "position": 3,
+          "team": "Renaissance Montegnée  D1 M (Senior M)",
+          "team_id": 451248,
+          "logo": null,
+          "mp": 3,
           "w": 1,
           "d": 1,
-          "l": 0,
-          "gs": 74,
-          "ga": 65,
-          "gd": 9,
+          "l": 1,
+          "gs": 58,
+          "ga": 50,
+          "gd": 8,
           "pts": 3
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Estudiantes Tournai D1 M (Senior M)",
           "team_id": 451113,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/4969/logo/_1786444390.png",
@@ -48,35 +62,7 @@
           "pts": 3
         },
         {
-          "position": 4,
-          "team": "Renaissance Montegnée  D1 M (Senior M)",
-          "team_id": 451248,
-          "logo": null,
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 58,
-          "ga": 50,
-          "gd": 8,
-          "pts": 2
-        },
-        {
           "position": 5,
-          "team": "Sezoens Achilles Bocholt D1 M (Senior M)",
-          "team_id": 451177,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848032.png",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 78,
-          "ga": 71,
-          "gd": 7,
-          "pts": 2
-        },
-        {
-          "position": 6,
           "team": "Kraainem D1 M (Senior M)",
           "team_id": 451058,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17296/logo/_1784291937.png",
@@ -87,6 +73,20 @@
           "gs": 59,
           "ga": 54,
           "gd": 5,
+          "pts": 2
+        },
+        {
+          "position": 6,
+          "team": "Sezoens Achilles Bocholt D1 M (Senior M)",
+          "team_id": 451177,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848032.png",
+          "mp": 3,
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gs": 115,
+          "ga": 114,
+          "gd": 1,
           "pts": 2
         },
         {
@@ -119,6 +119,20 @@
         },
         {
           "position": 9,
+          "team": "Lebbeke D1 M (Senior M)",
+          "team_id": 451513,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666665.png",
+          "mp": 3,
+          "w": 0,
+          "d": 1,
+          "l": 2,
+          "gs": 49,
+          "ga": 64,
+          "gd": -15,
+          "pts": 1
+        },
+        {
+          "position": 10,
           "team": "Hubo D1 M (Senior M)",
           "team_id": 451281,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787090275.png",
@@ -128,20 +142,6 @@
           "l": 2,
           "gs": 52,
           "ga": 67,
-          "gd": -15,
-          "pts": 0
-        },
-        {
-          "position": 10,
-          "team": "Lebbeke D1 M (Senior M)",
-          "team_id": 451513,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666665.png",
-          "mp": 2,
-          "w": 0,
-          "d": 0,
-          "l": 2,
-          "gs": 49,
-          "ga": 64,
           "gd": -15,
           "pts": 0
         }
