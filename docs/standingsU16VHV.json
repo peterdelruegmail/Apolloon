@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T16:00:23.526228+00:00",
+  "generated_at": "2026-09-18T22:00:18.281290+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -257,7 +257,7 @@
           "position": 6,
           "team": "Uilenspiegel U16 VHV Q (U16 M)",
           "team_id": 451553,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
           "mp": 0,
           "w": 0,
           "d": 0,
