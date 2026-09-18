@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T16:00:24.083811+00:00",
+  "generated_at": "2026-09-18T22:00:16.742982+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -126,7 +126,7 @@
           "position": 3,
           "team": "Uilenspiegel G14 VHV R (U14 F)",
           "team_id": 451549,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
           "mp": 2,
           "w": 1,
           "d": 0,
