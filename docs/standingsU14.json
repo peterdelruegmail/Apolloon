@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T14:45:16.248279+00:00",
+  "generated_at": "2026-09-19T15:00:12.562437+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -466,6 +466,20 @@
         },
         {
           "position": 3,
+          "team": "AtomiX U14 VHV R (U14 M)",
+          "team_id": 451685,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787217158.jpg",
+          "mp": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gs": 94,
+          "ga": 100,
+          "gd": -6,
+          "pts": 3
+        },
+        {
+          "position": 4,
           "team": "Derdaele Sp. Pelt U14 VHV R 2 (U14 M)",
           "team_id": 451866,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081457.jpg",
@@ -477,20 +491,6 @@
           "ga": 56,
           "gd": -1,
           "pts": 2
-        },
-        {
-          "position": 4,
-          "team": "AtomiX U14 VHV R (U14 M)",
-          "team_id": 451685,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787217158.jpg",
-          "mp": 2,
-          "w": 0,
-          "d": 1,
-          "l": 1,
-          "gs": 59,
-          "ga": 71,
-          "gd": -12,
-          "pts": 1
         },
         {
           "position": 5,
@@ -511,13 +511,13 @@
           "team": "Leuven U14 VHV R (U14)",
           "team_id": 451081,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465736.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 23,
-          "ga": 86,
-          "gd": -63,
+          "l": 3,
+          "gs": 52,
+          "ga": 121,
+          "gd": -69,
           "pts": 0
         }
       ]
