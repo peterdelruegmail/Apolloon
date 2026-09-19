@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T17:45:15.056228+00:00",
+  "generated_at": "2026-09-19T18:00:17.838358+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
   "groups": [
     {
@@ -7,6 +7,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "DHC Waasmunster D W VHV OWV-B (Senior F)",
+          "team_id": 451280,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 42,
+          "ga": 33,
+          "gd": 9,
+          "pts": 4
+        },
+        {
+          "position": 2,
           "team": "Thor D W VHV OWV 2 (Senior F)",
           "team_id": 451581,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
@@ -17,20 +31,6 @@
           "gs": 24,
           "ga": 12,
           "gd": 12,
-          "pts": 2
-        },
-        {
-          "position": 2,
-          "team": "DHC Waasmunster D W VHV OWV-B (Senior F)",
-          "team_id": 451280,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 23,
-          "ga": 15,
-          "gd": 8,
           "pts": 2
         },
         {
@@ -52,13 +52,13 @@
           "team": "Dendermonde D W VHV OWV 3 (Senior F)",
           "team_id": 451628,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652181.png",
-          "mp": 0,
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 18,
+          "ga": 19,
+          "gd": -1,
           "pts": 0
         },
         {
