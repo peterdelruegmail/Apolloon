@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T08:45:09.675858+00:00",
+  "generated_at": "2026-09-19T09:00:19.601958+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -157,6 +157,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Olse Merksem B18 VHV R (U18 M)",
+          "team_id": 451020,
+          "logo": null,
+          "mp": 3,
+          "w": 3,
+          "d": 0,
+          "l": 0,
+          "gs": 120,
+          "ga": 77,
+          "gd": 43,
+          "pts": 6
+        },
+        {
+          "position": 2,
           "team": "Uilenspiegel B18 VHV R (U18 M)",
           "team_id": 451561,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
@@ -170,35 +184,7 @@
           "pts": 4
         },
         {
-          "position": 2,
-          "team": "Olse Merksem B18 VHV R (U18 M)",
-          "team_id": 451020,
-          "logo": null,
-          "mp": 2,
-          "w": 2,
-          "d": 0,
-          "l": 0,
-          "gs": 68,
-          "ga": 43,
-          "gd": 25,
-          "pts": 4
-        },
-        {
           "position": 3,
-          "team": "Heist o/d Berg B18 VHV R (U18 M)",
-          "team_id": 451443,
-          "logo": null,
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 55,
-          "ga": 64,
-          "gd": -9,
-          "pts": 2
-        },
-        {
-          "position": 4,
           "team": "Leuven B18 VHV R (U18 M)",
           "team_id": 451079,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465532.png",
@@ -209,6 +195,20 @@
           "gs": 53,
           "ga": 63,
           "gd": -10,
+          "pts": 2
+        },
+        {
+          "position": 4,
+          "team": "Heist o/d Berg B18 VHV R (U18 M)",
+          "team_id": 451443,
+          "logo": null,
+          "mp": 3,
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gs": 89,
+          "ga": 116,
+          "gd": -27,
           "pts": 2
         },
         {
