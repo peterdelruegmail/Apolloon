@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:45:14.996067+00:00",
+  "generated_at": "2026-09-19T16:00:13.266902+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -324,14 +324,14 @@
           "team": "Sezoens Achilles Bocholt B18 VHV-B R 2 (U18 M)",
           "team_id": 451184,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848267.png",
-          "mp": 2,
-          "w": 2,
+          "mp": 3,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "gs": 45,
-          "ga": 40,
-          "gd": 5,
-          "pts": 4
+          "gs": 72,
+          "ga": 59,
+          "gd": 13,
+          "pts": 6
         },
         {
           "position": 2,
@@ -366,13 +366,13 @@
           "team": "H. Tessenderlo B18 VHV R (U18 M)",
           "team_id": 451259,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379896.jpg",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 30,
-          "ga": 52,
-          "gd": -22,
+          "l": 3,
+          "gs": 49,
+          "ga": 79,
+          "gd": -30,
           "pts": 0
         }
       ]
