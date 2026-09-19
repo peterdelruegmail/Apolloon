@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:45:13.894549+00:00",
+  "generated_at": "2026-09-19T16:00:19.889805+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -353,30 +353,16 @@
           "team_id": 451543,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
           "mp": 3,
-          "w": 1,
-          "d": 1,
+          "w": 2,
+          "d": 0,
           "l": 1,
-          "gs": 46,
-          "ga": 68,
-          "gd": -22,
-          "pts": 3
+          "gs": 87,
+          "ga": 104,
+          "gd": -17,
+          "pts": 4
         },
         {
           "position": 3,
-          "team": "Schoten U14 VHV R (U14 M)",
-          "team_id": 451048,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784968352.jpg",
-          "mp": 3,
-          "w": 1,
-          "d": 1,
-          "l": 1,
-          "gs": 47,
-          "ga": 74,
-          "gd": -27,
-          "pts": 3
-        },
-        {
-          "position": 4,
           "team": "Brasschaat U14 VHV R (U14 M)",
           "team_id": 451344,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17235/logo/96x96_brasschaat-handbalclub_1788963702.png",
@@ -390,7 +376,7 @@
           "pts": 2
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "Heist o/d Berg U14 VHV R (U14 M)",
           "team_id": 451440,
           "logo": null,
@@ -401,6 +387,20 @@
           "gs": 76,
           "ga": 92,
           "gd": -16,
+          "pts": 2
+        },
+        {
+          "position": 5,
+          "team": "Schoten U14 VHV R (U14 M)",
+          "team_id": 451048,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784968352.jpg",
+          "mp": 3,
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gs": 83,
+          "ga": 115,
+          "gd": -32,
           "pts": 2
         },
         {
