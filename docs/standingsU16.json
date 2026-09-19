@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T17:00:11.271577+00:00",
+  "generated_at": "2026-09-19T17:15:13.066838+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -10,14 +10,14 @@
           "team": "Lokeren U16 VHV R (U16 M)",
           "team_id": 451386,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747878.png",
-          "mp": 2,
-          "w": 2,
+          "mp": 3,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "gs": 80,
-          "ga": 24,
-          "gd": 56,
-          "pts": 4
+          "gs": 121,
+          "ga": 47,
+          "gd": 74,
+          "pts": 6
         },
         {
           "position": 2,
@@ -35,20 +35,6 @@
         },
         {
           "position": 3,
-          "team": "Dendermonde U16 VHV R (U16 M)",
-          "team_id": 451630,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669333.png",
-          "mp": 1,
-          "w": 0,
-          "d": 1,
-          "l": 0,
-          "gs": 42,
-          "ga": 42,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "position": 4,
           "team": "Evergem U16 VHV-B R (U16 M)",
           "team_id": 451374,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697671.png",
@@ -59,6 +45,20 @@
           "gs": 72,
           "ga": 74,
           "gd": -2,
+          "pts": 1
+        },
+        {
+          "position": 4,
+          "team": "Dendermonde U16 VHV R (U16 M)",
+          "team_id": 451630,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669333.png",
+          "mp": 2,
+          "w": 0,
+          "d": 1,
+          "l": 1,
+          "gs": 65,
+          "ga": 83,
+          "gd": -18,
           "pts": 1
         },
         {
