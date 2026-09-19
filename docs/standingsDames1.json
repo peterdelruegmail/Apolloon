@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:15:11.568060+00:00",
+  "generated_at": "2026-09-19T15:30:17.977337+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18710/seasons/220",
   "groups": [
     {
@@ -63,6 +63,20 @@
         },
         {
           "position": 5,
+          "team": "Sezoens Achilles Bocholt D1 W VHV (Senior F)",
+          "team_id": 451181,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848137.png",
+          "mp": 2,
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gs": 43,
+          "ga": 38,
+          "gd": 5,
+          "pts": 2
+        },
+        {
+          "position": 6,
           "team": "Schoten D1 W VHV (Senior F)",
           "team_id": 451043,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784745730.jpg",
@@ -76,7 +90,7 @@
           "pts": 2
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "DHC Waasmunster D1 W VHV (Senior F)",
           "team_id": 451282,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
@@ -88,20 +102,6 @@
           "ga": 19,
           "gd": 0,
           "pts": 1
-        },
-        {
-          "position": 7,
-          "team": "Evergem D1 W VHV (Senior F)",
-          "team_id": 451378,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785696905.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
         },
         {
           "position": 8,
@@ -119,20 +119,6 @@
         },
         {
           "position": 9,
-          "team": "Sezoens Achilles Bocholt D1 W VHV (Senior F)",
-          "team_id": 451181,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848137.png",
-          "mp": 1,
-          "w": 0,
-          "d": 0,
-          "l": 1,
-          "gs": 16,
-          "ga": 27,
-          "gd": -11,
-          "pts": 0
-        },
-        {
-          "position": 10,
           "team": "DB Gent D1 W VHV (Senior F)",
           "team_id": 451495,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415071.png",
@@ -143,6 +129,20 @@
           "gs": 29,
           "ga": 42,
           "gd": -13,
+          "pts": 0
+        },
+        {
+          "position": 10,
+          "team": "Evergem D1 W VHV (Senior F)",
+          "team_id": 451378,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785696905.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 11,
+          "ga": 27,
+          "gd": -16,
           "pts": 0
         }
       ]
