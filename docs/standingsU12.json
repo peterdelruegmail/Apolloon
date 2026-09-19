@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T10:00:15.249689+00:00",
+  "generated_at": "2026-09-19T10:15:18.413764+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -766,6 +766,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Hubo U12 VHV R 3 (U12 M)",
+          "team_id": 451317,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125229.png",
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 12,
+          "ga": 0,
+          "gd": 12,
+          "pts": 4
+        },
+        {
+          "position": 2,
           "team": "Derdaele Sp. Pelt U12 VHV R 3 (U12 M)",
           "team_id": 451704,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081665.jpg",
@@ -777,20 +791,6 @@
           "ga": 6,
           "gd": 6,
           "pts": 4
-        },
-        {
-          "position": 2,
-          "team": "Hubo U12 VHV R 3 (U12 M)",
-          "team_id": 451317,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125229.png",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 6,
-          "ga": 0,
-          "gd": 6,
-          "pts": 2
         },
         {
           "position": 3,
@@ -825,13 +825,13 @@
           "team": "HHV Meeuwen U12 VHV R (U12 M)",
           "team_id": 451269,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17273/logo/96x96_hhv-meeuwen_1788942171.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "gs": 0,
-          "ga": 6,
-          "gd": -6,
+          "ga": 12,
+          "gd": -12,
           "pts": 0
         }
       ]
