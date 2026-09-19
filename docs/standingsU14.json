@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T11:30:16.780987+00:00",
+  "generated_at": "2026-09-19T11:45:14.329630+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -616,6 +616,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Sezoens Achilles Bocholt U14 VHV R 2 (U14 M)",
+          "team_id": 451195,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848506.png",
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 58,
+          "ga": 35,
+          "gd": 23,
+          "pts": 4
+        },
+        {
+          "position": 2,
           "team": "H. Bilzen U14 VHV R 2 (U14 M)",
           "team_id": 451226,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200609.png",
@@ -627,20 +641,6 @@
           "ga": 41,
           "gd": 16,
           "pts": 4
-        },
-        {
-          "position": 2,
-          "team": "Sezoens Achilles Bocholt U14 VHV R 2 (U14 M)",
-          "team_id": 451195,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848506.png",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 34,
-          "ga": 13,
-          "gd": 21,
-          "pts": 2
         },
         {
           "position": 3,
@@ -675,13 +675,13 @@
           "team": "Hubo U14 VHV R 3 (U14 M)",
           "team_id": 451309,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125212.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 40,
-          "ga": 50,
-          "gd": -10,
+          "l": 3,
+          "gs": 62,
+          "ga": 74,
+          "gd": -12,
           "pts": 0
         },
         {
