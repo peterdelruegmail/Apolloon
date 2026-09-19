@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T11:00:22.301126+00:00",
+  "generated_at": "2026-09-19T11:15:13.895818+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -260,6 +260,20 @@
         },
         {
           "position": 3,
+          "team": "Uilenspiegel U16 VHV R (U16 M)",
+          "team_id": 451552,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
+          "mp": 3,
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gs": 77,
+          "ga": 79,
+          "gd": -2,
+          "pts": 2
+        },
+        {
+          "position": 4,
           "team": "Merksplas U16 VHV R (U16 M)",
           "team_id": 451649,
           "logo": null,
@@ -273,7 +287,7 @@
           "pts": 2
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Welta U16 VHV-B R (U16 M)",
           "team_id": 451484,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898688.jpg",
@@ -287,31 +301,17 @@
           "pts": 0
         },
         {
-          "position": 5,
-          "team": "Uilenspiegel U16 VHV R (U16 M)",
-          "team_id": 451552,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 2,
-          "w": 0,
-          "d": 0,
-          "l": 2,
-          "gs": 37,
-          "ga": 54,
-          "gd": -17,
-          "pts": 0
-        },
-        {
           "position": 6,
           "team": "Schoten U16 VHV R (U16 M)",
           "team_id": 451050,
           "logo": null,
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 31,
-          "ga": 73,
-          "gd": -42,
+          "l": 3,
+          "gs": 56,
+          "ga": 113,
+          "gd": -57,
           "pts": 0
         }
       ]
