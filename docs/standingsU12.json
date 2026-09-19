@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T14:30:14.599554+00:00",
+  "generated_at": "2026-09-19T14:45:15.674930+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -438,6 +438,20 @@
         },
         {
           "position": 2,
+          "team": "Heist o/d Berg U12 VHV R B (U12 M)",
+          "team_id": 451438,
+          "logo": null,
+          "mp": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gs": 10,
+          "ga": 8,
+          "gd": 2,
+          "pts": 4
+        },
+        {
+          "position": 3,
           "team": "E. Aarschot U12 VHV R (U12 M)",
           "team_id": 450980,
           "logo": null,
@@ -448,20 +462,6 @@
           "gs": 21,
           "ga": 7,
           "gd": 14,
-          "pts": 2
-        },
-        {
-          "position": 3,
-          "team": "Heist o/d Berg U12 VHV R B (U12 M)",
-          "team_id": 451438,
-          "logo": null,
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 6,
-          "ga": 6,
-          "gd": 0,
           "pts": 2
         },
         {
@@ -497,13 +497,13 @@
           "team": "Rhino U12 VHV-B R (U12 M)",
           "team_id": 451092,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/_1786224980.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 7,
-          "ga": 21,
-          "gd": -14,
+          "l": 2,
+          "gs": 9,
+          "ga": 25,
+          "gd": -16,
           "pts": 0
         }
       ]
