@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T16:30:17.447988+00:00",
+  "generated_at": "2026-09-19T16:45:10.620374+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -658,20 +658,34 @@
         },
         {
           "position": 4,
-          "team": "Kreasa Houthalen U14 VHV R (U14 M)",
-          "team_id": 451159,
-          "logo": null,
-          "mp": 2,
+          "team": "P. Kortessem U14 VHV R (U14 M)",
+          "team_id": 451147,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093269.png",
+          "mp": 3,
           "w": 1,
           "d": 0,
-          "l": 1,
-          "gs": 35,
-          "ga": 55,
-          "gd": -20,
+          "l": 2,
+          "gs": 59,
+          "ga": 70,
+          "gd": -11,
           "pts": 2
         },
         {
           "position": 5,
+          "team": "Kreasa Houthalen U14 VHV R (U14 M)",
+          "team_id": 451159,
+          "logo": null,
+          "mp": 3,
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gs": 56,
+          "ga": 79,
+          "gd": -23,
+          "pts": 2
+        },
+        {
+          "position": 6,
           "team": "Hubo U14 VHV R 3 (U14 M)",
           "team_id": 451309,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125212.png",
@@ -682,20 +696,6 @@
           "gs": 62,
           "ga": 74,
           "gd": -12,
-          "pts": 0
-        },
-        {
-          "position": 6,
-          "team": "P. Kortessem U14 VHV R (U14 M)",
-          "team_id": 451147,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093269.png",
-          "mp": 2,
-          "w": 0,
-          "d": 0,
-          "l": 2,
-          "gs": 35,
-          "ga": 49,
-          "gd": -14,
           "pts": 0
         }
       ]
