@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T13:30:14.131099+00:00",
+  "generated_at": "2026-09-19T13:45:20.472964+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -85,13 +85,13 @@
           "team": "Evergem U14 VHV R (U14 M)",
           "team_id": 451371,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785699732.png",
-          "mp": 2,
+          "mp": 3,
           "w": 2,
           "d": 0,
-          "l": 0,
-          "gs": 86,
-          "ga": 36,
-          "gd": 50,
+          "l": 1,
+          "gs": 120,
+          "ga": 71,
+          "gd": 49,
           "pts": 4
         },
         {
@@ -110,6 +110,20 @@
         },
         {
           "position": 3,
+          "team": "DB Gent U14 VHV R 2 (U14 M)",
+          "team_id": 451657,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415244.png",
+          "mp": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gs": 101,
+          "ga": 110,
+          "gd": -9,
+          "pts": 4
+        },
+        {
+          "position": 4,
           "team": "Lokeren U14 VHV R (U14 M)",
           "team_id": 451139,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747748.png",
@@ -120,20 +134,6 @@
           "gs": 42,
           "ga": 24,
           "gd": 18,
-          "pts": 2
-        },
-        {
-          "position": 4,
-          "team": "DB Gent U14 VHV R 2 (U14 M)",
-          "team_id": 451657,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415244.png",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 66,
-          "ga": 76,
-          "gd": -10,
           "pts": 2
         },
         {
@@ -342,9 +342,9 @@
           "w": 3,
           "d": 0,
           "l": 0,
-          "gs": 100,
-          "ga": 28,
-          "gd": 72,
+          "gs": 133,
+          "ga": 33,
+          "gd": 100,
           "pts": 6
         },
         {
@@ -426,9 +426,9 @@
           "w": 0,
           "d": 0,
           "l": 2,
-          "gs": 31,
-          "ga": 43,
-          "gd": -12,
+          "gs": 36,
+          "ga": 76,
+          "gd": -40,
           "pts": 0
         }
       ]
@@ -541,6 +541,20 @@
         },
         {
           "position": 2,
+          "team": "H. Bilzen U14 VHV R 1 (U14 M)",
+          "team_id": 451225,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200592.png",
+          "mp": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gs": 76,
+          "ga": 65,
+          "gd": 11,
+          "pts": 4
+        },
+        {
+          "position": 3,
           "team": "Hubo U14 VHV R 1 (U14 M)",
           "team_id": 451303,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125034.png",
@@ -554,31 +568,17 @@
           "pts": 3
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "HC Overpelt U14 VHV R (U14 M)",
           "team_id": 451097,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788186943.jpg",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 33,
-          "ga": 11,
-          "gd": 22,
-          "pts": 2
-        },
-        {
-          "position": 4,
-          "team": "H. Bilzen U14 VHV R 1 (U14 M)",
-          "team_id": 451225,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200592.png",
           "mp": 2,
           "w": 1,
           "d": 0,
           "l": 1,
-          "gs": 48,
-          "ga": 47,
-          "gd": 1,
+          "gs": 51,
+          "ga": 39,
+          "gd": 12,
           "pts": 2
         },
         {
