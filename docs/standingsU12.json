@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T13:00:13.005755+00:00",
+  "generated_at": "2026-09-19T13:15:11.282538+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -185,6 +185,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Buggenhout U12 VHV R (U12 M)",
+          "team_id": 451576,
+          "logo": null,
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 12,
+          "ga": 0,
+          "gd": 12,
+          "pts": 4
+        },
+        {
+          "position": 2,
           "team": "DB Gent U12 VHV R 2 (U12 M)",
           "team_id": 451662,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415366.png",
@@ -196,20 +210,6 @@
           "ga": 1,
           "gd": 10,
           "pts": 4
-        },
-        {
-          "position": 2,
-          "team": "Buggenhout U12 VHV R (U12 M)",
-          "team_id": 451576,
-          "logo": null,
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 6,
-          "ga": 0,
-          "gd": 6,
-          "pts": 2
         },
         {
           "position": 3,
@@ -244,13 +244,13 @@
           "team": "HK Waasmunster U12 VHV R (U12 M)",
           "team_id": 451606,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
+          "l": 3,
           "gs": 2,
-          "ga": 10,
-          "gd": -8,
+          "ga": 16,
+          "gd": -14,
           "pts": 0
         }
       ]
@@ -516,34 +516,34 @@
           "team": "Uilenspiegel U12 VHV R 2 (U12 M)",
           "team_id": 451571,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 6,
-          "ga": 0,
-          "gd": 6,
-          "pts": 2
+          "gs": 10,
+          "ga": 2,
+          "gd": 8,
+          "pts": 4
         },
         {
           "position": 2,
-          "team": "Uilenspiegel U12 VHV R 1 (U12 M)",
-          "team_id": 451569,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 1,
+          "team": "Olse Merksem U12 VHV R (U12 M)",
+          "team_id": 451024,
+          "logo": null,
+          "mp": 2,
           "w": 1,
           "d": 0,
-          "l": 0,
-          "gs": 4,
-          "ga": 2,
-          "gd": 2,
+          "l": 1,
+          "gs": 6,
+          "ga": 6,
+          "gd": 0,
           "pts": 2
         },
         {
           "position": 3,
-          "team": "Olse Merksem U12 VHV R (U12 M)",
-          "team_id": 451024,
-          "logo": null,
+          "team": "Uilenspiegel U12 VHV R 1 (U12 M)",
+          "team_id": 451569,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
           "mp": 2,
           "w": 1,
           "d": 0,
