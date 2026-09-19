@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T12:00:12.424891+00:00",
+  "generated_at": "2026-09-19T12:15:14.863410+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -188,27 +188,27 @@
           "team": "DB Gent U14 VHV R 3 (U14 M)",
           "team_id": 451659,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415278.png",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 36,
-          "ga": 17,
-          "gd": 19,
-          "pts": 2
+          "gs": 70,
+          "ga": 46,
+          "gd": 24,
+          "pts": 4
         },
         {
           "position": 3,
           "team": "Thor U14 VHV R (U14 M)",
           "team_id": 451586,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
-          "mp": 1,
+          "mp": 2,
           "w": 1,
           "d": 0,
-          "l": 0,
-          "gs": 27,
-          "ga": 23,
-          "gd": 4,
+          "l": 1,
+          "gs": 56,
+          "ga": 57,
+          "gd": -1,
           "pts": 2
         },
         {
