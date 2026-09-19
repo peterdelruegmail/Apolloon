@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T12:00:14.024522+00:00",
+  "generated_at": "2026-09-19T12:15:14.622060+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -605,14 +605,14 @@
           "team": "Hubo U12 VHV R 1 (U12 M)",
           "team_id": 451313,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125120.png",
-          "mp": 2,
-          "w": 2,
+          "mp": 3,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "gs": 10,
+          "gs": 16,
           "ga": 2,
-          "gd": 8,
-          "pts": 4
+          "gd": 14,
+          "pts": 6
         },
         {
           "position": 2,
@@ -647,13 +647,13 @@
           "team": "Sezoens Achilles Bocholt U12 VHV R (U12 M)",
           "team_id": 451201,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848522.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "gs": 4,
-          "ga": 8,
-          "gd": -4,
+          "ga": 14,
+          "gd": -10,
           "pts": 1
         },
         {
