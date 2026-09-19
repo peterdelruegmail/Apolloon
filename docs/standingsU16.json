@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T17:15:13.066838+00:00",
+  "generated_at": "2026-09-19T17:30:15.772003+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -452,30 +452,30 @@
         },
         {
           "position": 4,
-          "team": "Maasmechelen 65 U16 VHV-B R (U16 M)",
-          "team_id": 451407,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17238/logo/_1786889644.png",
-          "mp": 2,
-          "w": 0,
-          "d": 0,
-          "l": 2,
-          "gs": 42,
-          "ga": 57,
-          "gd": -15,
-          "pts": 0
-        },
-        {
-          "position": 5,
           "team": "H. Bilzen U16 VHV R (U16 M)",
           "team_id": 451232,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200308.png",
-          "mp": 2,
-          "w": 0,
+          "mp": 3,
+          "w": 1,
           "d": 0,
           "l": 2,
-          "gs": 58,
-          "ga": 82,
-          "gd": -24,
+          "gs": 86,
+          "ga": 104,
+          "gd": -18,
+          "pts": 2
+        },
+        {
+          "position": 5,
+          "team": "Maasmechelen 65 U16 VHV-B R (U16 M)",
+          "team_id": 451407,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17238/logo/_1786889644.png",
+          "mp": 3,
+          "w": 0,
+          "d": 0,
+          "l": 3,
+          "gs": 64,
+          "ga": 85,
+          "gd": -21,
           "pts": 0
         },
         {
