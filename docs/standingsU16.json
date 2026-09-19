@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T13:30:13.430512+00:00",
+  "generated_at": "2026-09-19T13:45:10.502268+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -96,16 +96,16 @@
         },
         {
           "position": 2,
-          "team": "Besox Izegem U16 VHV R 2 (U16 M)",
-          "team_id": 451479,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786368327.jpg",
+          "team": "DB Gent U16 VHV R 2 (U16 M)",
+          "team_id": 451653,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415160.png",
           "mp": 2,
           "w": 1,
           "d": 0,
           "l": 1,
-          "gs": 55,
-          "ga": 54,
-          "gd": 1,
+          "gs": 53,
+          "ga": 53,
+          "gd": 0,
           "pts": 2
         },
         {
@@ -124,17 +124,17 @@
         },
         {
           "position": 4,
-          "team": "DB Gent U16 VHV R 2 (U16 M)",
-          "team_id": 451653,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415160.png",
-          "mp": 1,
-          "w": 0,
+          "team": "Besox Izegem U16 VHV R 2 (U16 M)",
+          "team_id": 451479,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786368327.jpg",
+          "mp": 3,
+          "w": 1,
           "d": 0,
-          "l": 1,
-          "gs": 20,
-          "ga": 26,
-          "gd": -6,
-          "pts": 0
+          "l": 2,
+          "gs": 82,
+          "ga": 87,
+          "gd": -5,
+          "pts": 2
         },
         {
           "position": 5,
