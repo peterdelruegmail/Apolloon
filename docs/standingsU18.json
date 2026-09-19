@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T13:15:08.878562+00:00",
+  "generated_at": "2026-09-19T13:30:13.093082+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -82,6 +82,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Lokeren B18 VHV R (U18 M)",
+          "team_id": 451388,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747862.png",
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 70,
+          "ga": 57,
+          "gd": 13,
+          "pts": 4
+        },
+        {
+          "position": 2,
           "team": "Eeklo B18 VHV R (U18 M)",
           "team_id": 451389,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666423.png",
@@ -95,7 +109,7 @@
           "pts": 2
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Mouscron B18 VHV-B R (U18 M)",
           "team_id": 451218,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17278/logo/96x96_hc-mouscron_1786054513.png",
@@ -105,20 +119,6 @@
           "l": 1,
           "gs": 30,
           "ga": 27,
-          "gd": 3,
-          "pts": 2
-        },
-        {
-          "position": 3,
-          "team": "Lokeren B18 VHV R (U18 M)",
-          "team_id": 451388,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747862.png",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 32,
-          "ga": 29,
           "gd": 3,
           "pts": 2
         },
@@ -141,13 +141,13 @@
           "team": "Dendermonde B18 VHV R (U18 M)",
           "team_id": 451626,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784667669.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 17,
-          "ga": 30,
-          "gd": -13,
+          "l": 2,
+          "gs": 45,
+          "ga": 68,
+          "gd": -23,
           "pts": 0
         }
       ]
