@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:00:12.359759+00:00",
+  "generated_at": "2026-09-19T15:15:13.433236+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -21,17 +21,17 @@
         },
         {
           "position": 2,
-          "team": "Evergem U16 VHV-B R (U16 M)",
-          "team_id": 451374,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697671.png",
-          "mp": 1,
-          "w": 0,
-          "d": 1,
-          "l": 0,
-          "gs": 42,
-          "ga": 42,
-          "gd": 0,
-          "pts": 1
+          "team": "DB Gent U16 VHV R (U16 M)",
+          "team_id": 451501,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415143.png",
+          "mp": 2,
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gs": 50,
+          "ga": 60,
+          "gd": -10,
+          "pts": 2
         },
         {
           "position": 3,
@@ -49,17 +49,17 @@
         },
         {
           "position": 4,
-          "team": "DB Gent U16 VHV R (U16 M)",
-          "team_id": 451501,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415143.png",
-          "mp": 1,
+          "team": "Evergem U16 VHV-B R (U16 M)",
+          "team_id": 451374,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697671.png",
+          "mp": 2,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "gs": 18,
-          "ga": 30,
-          "gd": -12,
-          "pts": 0
+          "gs": 72,
+          "ga": 74,
+          "gd": -2,
+          "pts": 1
         },
         {
           "position": 5,
@@ -232,6 +232,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Biobest Sasja U16 VHV R (U16)",
+          "team_id": 451607,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788434704.png",
+          "mp": 3,
+          "w": 3,
+          "d": 0,
+          "l": 0,
+          "gs": 106,
+          "ga": 37,
+          "gd": 69,
+          "pts": 6
+        },
+        {
+          "position": 2,
           "team": "Olse Merksem U16 VHV R (U16 M)",
           "team_id": 451021,
           "logo": null,
@@ -243,20 +257,6 @@
           "ga": 60,
           "gd": 35,
           "pts": 6
-        },
-        {
-          "position": 2,
-          "team": "Biobest Sasja U16 VHV R (U16)",
-          "team_id": 451607,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788434704.png",
-          "mp": 2,
-          "w": 2,
-          "d": 0,
-          "l": 0,
-          "gs": 68,
-          "ga": 26,
-          "gd": 42,
-          "pts": 4
         },
         {
           "position": 3,
@@ -291,13 +291,13 @@
           "team": "Welta U16 VHV-B R (U16 M)",
           "team_id": 451484,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898688.jpg",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 12,
-          "ga": 27,
-          "gd": -15,
+          "l": 2,
+          "gs": 23,
+          "ga": 65,
+          "gd": -42,
           "pts": 0
         },
         {
