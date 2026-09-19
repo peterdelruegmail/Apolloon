@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T11:45:14.329630+00:00",
+  "generated_at": "2026-09-19T12:00:12.424891+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -99,14 +99,14 @@
           "team": "Besox Izegem U14 VHV R 1 (U14 M)",
           "team_id": 451468,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786535067.jpg",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 36,
-          "ga": 16,
-          "gd": 20,
-          "pts": 2
+          "gs": 62,
+          "ga": 40,
+          "gd": 22,
+          "pts": 4
         },
         {
           "position": 3,
@@ -141,13 +141,13 @@
           "team": "Roeselare U14 VHV-B R (U14 M)",
           "team_id": 451000,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786432507.jpg",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 56,
-          "ga": 78,
-          "gd": -22,
+          "l": 3,
+          "gs": 80,
+          "ga": 104,
+          "gd": -24,
           "pts": 0
         },
         {
@@ -291,14 +291,14 @@
           "team": "Buggenhout U14 VHV R (U14 M)",
           "team_id": 451572,
           "logo": null,
-          "mp": 2,
-          "w": 0,
+          "mp": 3,
+          "w": 1,
           "d": 0,
           "l": 2,
-          "gs": 50,
-          "ga": 69,
-          "gd": -19,
-          "pts": 0
+          "gs": 85,
+          "ga": 83,
+          "gd": 2,
+          "pts": 2
         },
         {
           "position": 5,
@@ -319,13 +319,13 @@
           "team": "HK Waasmunster U14 VHV R (U14 M)",
           "team_id": 451603,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 14,
-          "ga": 42,
-          "gd": -28,
+          "l": 2,
+          "gs": 28,
+          "ga": 77,
+          "gd": -49,
           "pts": 0
         }
       ]
@@ -534,9 +534,9 @@
           "w": 3,
           "d": 0,
           "l": 0,
-          "gs": 70,
-          "ga": 44,
-          "gd": 26,
+          "gs": 105,
+          "ga": 49,
+          "gd": 56,
           "pts": 6
         },
         {
@@ -604,9 +604,9 @@
           "w": 0,
           "d": 0,
           "l": 3,
-          "gs": 23,
-          "ga": 94,
-          "gd": -71,
+          "gs": 28,
+          "ga": 129,
+          "gd": -101,
           "pts": 0
         }
       ]
