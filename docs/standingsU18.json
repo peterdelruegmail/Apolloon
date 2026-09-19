@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:15:15.022963+00:00",
+  "generated_at": "2026-09-19T15:30:17.908075+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -35,31 +35,31 @@
         },
         {
           "position": 3,
-          "team": "Roeselare B18 VHV R (U18 M)",
-          "team_id": 450998,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786354764.jpg",
+          "team": "Lebbeke B18 VHV R (U18 M)",
+          "team_id": 451526,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666706.png",
           "mp": 2,
           "w": 1,
           "d": 0,
           "l": 1,
-          "gs": 50,
-          "ga": 76,
-          "gd": -26,
+          "gs": 77,
+          "ga": 62,
+          "gd": 15,
           "pts": 2
         },
         {
           "position": 4,
-          "team": "Lebbeke B18 VHV R (U18 M)",
-          "team_id": 451526,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666706.png",
-          "mp": 1,
-          "w": 0,
+          "team": "Roeselare B18 VHV R (U18 M)",
+          "team_id": 450998,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786354764.jpg",
+          "mp": 3,
+          "w": 1,
           "d": 0,
-          "l": 1,
-          "gs": 33,
-          "ga": 34,
-          "gd": -1,
-          "pts": 0
+          "l": 2,
+          "gs": 78,
+          "ga": 120,
+          "gd": -42,
+          "pts": 2
         },
         {
           "position": 5,
