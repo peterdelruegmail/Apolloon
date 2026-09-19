@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T14:30:15.611758+00:00",
+  "generated_at": "2026-09-19T14:45:18.207220+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -49,31 +49,31 @@
         },
         {
           "position": 4,
-          "team": "Lebbeke G14 VHV R (U14 F)",
-          "team_id": 451546,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666847.png",
-          "mp": 2,
-          "w": 0,
-          "d": 1,
-          "l": 1,
-          "gs": 23,
-          "ga": 38,
-          "gd": -15,
-          "pts": 1
-        },
-        {
-          "position": 5,
           "team": "Thor G14 VHV-B R (U14 F)",
           "team_id": 451587,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
-          "mp": 2,
-          "w": 0,
+          "mp": 3,
+          "w": 1,
           "d": 0,
           "l": 2,
-          "gs": 39,
-          "ga": 69,
-          "gd": -30,
-          "pts": 0
+          "gs": 75,
+          "ga": 89,
+          "gd": -14,
+          "pts": 2
+        },
+        {
+          "position": 5,
+          "team": "Lebbeke G14 VHV R (U14 F)",
+          "team_id": 451546,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666847.png",
+          "mp": 3,
+          "w": 0,
+          "d": 1,
+          "l": 2,
+          "gs": 43,
+          "ga": 74,
+          "gd": -31,
+          "pts": 1
         },
         {
           "position": 6,
@@ -110,6 +110,20 @@
         },
         {
           "position": 2,
+          "team": "Uilenspiegel G14 VHV R (U14 F)",
+          "team_id": 451549,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
+          "mp": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gs": 71,
+          "ga": 49,
+          "gd": 22,
+          "pts": 4
+        },
+        {
+          "position": 3,
           "team": "AtomiX G14 VHV R (U14 F)",
           "team_id": 451687,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787220060.jpg",
@@ -123,31 +137,17 @@
           "pts": 2
         },
         {
-          "position": 3,
-          "team": "Uilenspiegel G14 VHV R (U14 F)",
-          "team_id": 451549,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 42,
-          "ga": 46,
-          "gd": -4,
-          "pts": 2
-        },
-        {
           "position": 4,
           "team": "HvH 't Noorden (U14 F)",
           "team_id": 451363,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/25477/logo/96x96_hvh-%E2%80%98t-noorden_1787658655.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 7,
-          "ga": 52,
-          "gd": -45,
+          "l": 3,
+          "gs": 10,
+          "ga": 81,
+          "gd": -71,
           "pts": 0
         }
       ]
