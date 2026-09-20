@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T09:00:14.633494+00:00",
+  "generated_at": "2026-09-20T09:15:14.224973+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -413,41 +413,41 @@
           "team": "Hubo U16 VHV R 1 (U16 M)",
           "team_id": 451294,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124833.png",
-          "mp": 2,
-          "w": 2,
+          "mp": 3,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "gs": 94,
-          "ga": 37,
-          "gd": 57,
-          "pts": 4
+          "gs": 132,
+          "ga": 51,
+          "gd": 81,
+          "pts": 6
         },
         {
           "position": 2,
           "team": "P. Kortessem U16 VHV R (U16 M)",
           "team_id": 451143,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093156.png",
-          "mp": 2,
-          "w": 2,
+          "mp": 3,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "gs": 73,
-          "ga": 55,
-          "gd": 18,
-          "pts": 4
+          "gs": 90,
+          "ga": 68,
+          "gd": 22,
+          "pts": 6
         },
         {
           "position": 3,
           "team": "United West T-B (U16 M)",
           "team_id": 451260,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379738.png",
-          "mp": 2,
+          "mp": 3,
           "w": 2,
           "d": 0,
-          "l": 0,
-          "gs": 56,
-          "ga": 40,
-          "gd": 16,
+          "l": 1,
+          "gs": 70,
+          "ga": 78,
+          "gd": -8,
           "pts": 4
         },
         {
@@ -483,13 +483,13 @@
           "team": "Kreasa Houthalen U16 VHV-B R (U16 M)",
           "team_id": 451160,
           "logo": null,
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 32,
-          "ga": 84,
-          "gd": -52,
+          "l": 3,
+          "gs": 45,
+          "ga": 101,
+          "gd": -56,
           "pts": 0
         }
       ]
