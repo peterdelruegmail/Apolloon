@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T09:00:27.060739+00:00",
+  "generated_at": "2026-09-20T09:15:14.877146+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -291,14 +291,14 @@
           "team": "Sezoens Achilles Bocholt G14 VHV R (U14 F)",
           "team_id": 451198,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848413.png",
-          "mp": 2,
-          "w": 0,
+          "mp": 3,
+          "w": 1,
           "d": 0,
           "l": 2,
-          "gs": 29,
-          "ga": 47,
-          "gd": -18,
-          "pts": 0
+          "gs": 49,
+          "ga": 54,
+          "gd": -5,
+          "pts": 2
         },
         {
           "position": 5,
@@ -319,13 +319,13 @@
           "team": "DHC Meeuwen G14 VHV-B R 2 (U14 F)",
           "team_id": 451665,
           "logo": null,
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 17,
-          "ga": 43,
-          "gd": -26,
+          "l": 3,
+          "gs": 24,
+          "ga": 63,
+          "gd": -39,
           "pts": 0
         }
       ]
