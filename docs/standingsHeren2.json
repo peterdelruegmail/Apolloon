@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T14:15:17.439265+00:00",
+  "generated_at": "2026-09-20T14:30:14.870222+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18707/seasons/220",
   "groups": [
     {
@@ -21,6 +21,20 @@
         },
         {
           "position": 2,
+          "team": "Uilenspiegel D1 M VHV 1 (Senior M)",
+          "team_id": 451565,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 53,
+          "ga": 41,
+          "gd": 12,
+          "pts": 4
+        },
+        {
+          "position": 3,
           "team": "DB Gent D1 M VHV (Senior M)",
           "team_id": 451496,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415001.png",
@@ -34,7 +48,7 @@
           "pts": 4
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "HK Waasmunster D1 M VHV (Senior M)",
           "team_id": 451598,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
@@ -46,20 +60,6 @@
           "ga": 45,
           "gd": 3,
           "pts": 3
-        },
-        {
-          "position": 4,
-          "team": "Uilenspiegel D1 M VHV 1 (Senior M)",
-          "team_id": 451565,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 28,
-          "ga": 22,
-          "gd": 6,
-          "pts": 2
         },
         {
           "position": 5,
@@ -150,13 +150,13 @@
           "team": "Hubo D1 M VHV (Senior M)",
           "team_id": 451284,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787090329.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 25,
-          "ga": 37,
-          "gd": -12,
+          "l": 2,
+          "gs": 44,
+          "ga": 62,
+          "gd": -18,
           "pts": 0
         },
         {
