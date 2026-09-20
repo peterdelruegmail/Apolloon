@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T16:00:12.843304+00:00",
+  "generated_at": "2026-09-20T16:15:13.176831+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -304,7 +304,7 @@
           "position": 4,
           "team": "Groot Berlare U12 VHV-B R (U12 M)",
           "team_id": 450967,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17271/logo/96x96_handbalclub-groot-berlare_1788177606.png",
           "mp": 3,
           "w": 1,
           "d": 0,
