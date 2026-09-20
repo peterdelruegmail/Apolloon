@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T11:30:17.676680+00:00",
+  "generated_at": "2026-09-20T11:45:10.357538+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -85,41 +85,41 @@
           "team": "Roeselare U12 VHV R (U12 M)",
           "team_id": 451002,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786438268.jpg",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gs": 6,
-          "ga": 0,
-          "gd": 6,
-          "pts": 2
+          "gs": 8,
+          "ga": 1,
+          "gd": 7,
+          "pts": 4
         },
         {
           "position": 2,
-          "team": "Besox Izegem U12 VHV R 1 (U12 M)",
-          "team_id": 451448,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786782175.jpg",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 6,
-          "ga": 0,
-          "gd": 6,
-          "pts": 2
-        },
-        {
-          "position": 3,
           "team": "Dendermonde U12 VHV R (U12 M)",
           "team_id": 451636,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669622.png",
+          "mp": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gs": 9,
+          "ga": 9,
+          "gd": 0,
+          "pts": 3
+        },
+        {
+          "position": 3,
+          "team": "Besox Izegem U12 VHV R 1 (U12 M)",
+          "team_id": 451448,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786782175.jpg",
           "mp": 2,
           "w": 1,
           "d": 0,
           "l": 1,
-          "gs": 6,
-          "ga": 6,
-          "gd": 0,
+          "gs": 7,
+          "ga": 2,
+          "gd": 5,
           "pts": 2
         },
         {
@@ -127,14 +127,14 @@
           "team": "Lokeren U12 VHV R A (U12 M)",
           "team_id": 451133,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747957.png",
-          "mp": 0,
+          "mp": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
+          "gs": 3,
+          "ga": 3,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 5,
