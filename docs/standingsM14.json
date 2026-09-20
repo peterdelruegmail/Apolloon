@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T13:15:10.075654+00:00",
+  "generated_at": "2026-09-20T13:30:18.527610+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -246,6 +246,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Derdaele Sp. Pelt G14 VHV R 2 (U14 F)",
+          "team_id": 451869,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081490.jpg",
+          "mp": 3,
+          "w": 3,
+          "d": 0,
+          "l": 0,
+          "gs": 79,
+          "ga": 35,
+          "gd": 44,
+          "pts": 6
+        },
+        {
+          "position": 2,
           "team": "DHC Overpelt G14 VHV R B (U14 F)",
           "team_id": 451418,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788436626.jpg",
@@ -257,20 +271,6 @@
           "ga": 40,
           "gd": 29,
           "pts": 6
-        },
-        {
-          "position": 2,
-          "team": "Derdaele Sp. Pelt G14 VHV R 2 (U14 F)",
-          "team_id": 451869,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081490.jpg",
-          "mp": 2,
-          "w": 2,
-          "d": 0,
-          "l": 0,
-          "gs": 53,
-          "ga": 24,
-          "gd": 29,
-          "pts": 4
         },
         {
           "position": 3,
@@ -305,13 +305,13 @@
           "team": "United West B G14 VHV R (U14 F)",
           "team_id": 451335,
           "logo": null,
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 31,
-          "ga": 49,
-          "gd": -18,
+          "l": 3,
+          "gs": 42,
+          "ga": 75,
+          "gd": -33,
           "pts": 0
         },
         {
