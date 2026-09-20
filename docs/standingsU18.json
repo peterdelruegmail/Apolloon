@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T14:45:46.876845+00:00",
+  "generated_at": "2026-09-20T15:00:15.206096+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -96,6 +96,20 @@
         },
         {
           "position": 2,
+          "team": "Besox Izegem B18 VHV R (U18 M)",
+          "team_id": 451012,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786359012.jpg",
+          "mp": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gs": 81,
+          "ga": 70,
+          "gd": 11,
+          "pts": 4
+        },
+        {
+          "position": 3,
           "team": "Eeklo B18 VHV R (U18 M)",
           "team_id": 451389,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666423.png",
@@ -109,31 +123,17 @@
           "pts": 2
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Mouscron B18 VHV-B R (U18 M)",
           "team_id": 451218,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17278/logo/96x96_hc-mouscron_1786054513.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
           "d": 0,
-          "l": 1,
-          "gs": 30,
-          "ga": 27,
-          "gd": 3,
-          "pts": 2
-        },
-        {
-          "position": 4,
-          "team": "Besox Izegem B18 VHV R (U18 M)",
-          "team_id": 451012,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786359012.jpg",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 52,
-          "ga": 51,
-          "gd": 1,
+          "l": 2,
+          "gs": 49,
+          "ga": 56,
+          "gd": -7,
           "pts": 2
         },
         {
