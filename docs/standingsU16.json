@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T12:00:17.618243+00:00",
+  "generated_at": "2026-09-20T12:15:15.319526+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -363,6 +363,20 @@
         },
         {
           "position": 4,
+          "team": "E. Aarschot U16 VHV R (U16 M)",
+          "team_id": 450983,
+          "logo": null,
+          "mp": 3,
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gs": 61,
+          "ga": 62,
+          "gd": -1,
+          "pts": 2
+        },
+        {
+          "position": 5,
           "team": "AtomiX U16 VHV R (U16 M)",
           "team_id": 451682,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787215118.jpg",
@@ -376,31 +390,17 @@
           "pts": 2
         },
         {
-          "position": 5,
-          "team": "E. Aarschot U16 VHV R (U16 M)",
-          "team_id": 450983,
-          "logo": null,
-          "mp": 2,
-          "w": 0,
-          "d": 0,
-          "l": 2,
-          "gs": 35,
-          "ga": 43,
-          "gd": -8,
-          "pts": 0
-        },
-        {
           "position": 6,
           "team": "HvH 't Noorden B (U16 M)",
           "team_id": 451364,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/25477/logo/96x96_hvh-%E2%80%98t-noorden_1787658655.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 25,
-          "ga": 68,
-          "gd": -43,
+          "l": 3,
+          "gs": 44,
+          "ga": 94,
+          "gd": -50,
           "pts": 0
         }
       ]
