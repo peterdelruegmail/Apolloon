@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T09:30:12.788038+00:00",
+  "generated_at": "2026-09-20T09:45:18.322973+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -96,20 +96,34 @@
       "standings": [
         {
           "position": 1,
-          "team": "Derdaele Sp. Pelt G14 VHV R 1 (U14 F)",
-          "team_id": 451708,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081427.jpg",
-          "mp": 2,
+          "team": "AtomiX G14 VHV R (U14 F)",
+          "team_id": 451687,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787220060.jpg",
+          "mp": 3,
           "w": 2,
           "d": 0,
-          "l": 0,
-          "gs": 53,
-          "ga": 24,
-          "gd": 29,
+          "l": 1,
+          "gs": 68,
+          "ga": 42,
+          "gd": 26,
           "pts": 4
         },
         {
           "position": 2,
+          "team": "Derdaele Sp. Pelt G14 VHV R 1 (U14 F)",
+          "team_id": 451708,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081427.jpg",
+          "mp": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gs": 70,
+          "ga": 47,
+          "gd": 23,
+          "pts": 4
+        },
+        {
+          "position": 3,
           "team": "Uilenspiegel G14 VHV R (U14 F)",
           "team_id": 451549,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
@@ -121,20 +135,6 @@
           "ga": 49,
           "gd": 22,
           "pts": 4
-        },
-        {
-          "position": 3,
-          "team": "AtomiX G14 VHV R (U14 F)",
-          "team_id": 451687,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787220060.jpg",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 45,
-          "ga": 25,
-          "gd": 20,
-          "pts": 2
         },
         {
           "position": 4,
