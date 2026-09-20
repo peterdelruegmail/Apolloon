@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T12:45:10.343127+00:00",
+  "generated_at": "2026-09-20T13:00:20.044386+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -469,27 +469,27 @@
           "team": "Leuven U12 VHV R (U12)",
           "team_id": 451082,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465809.png",
-          "mp": 1,
-          "w": 0,
+          "mp": 2,
+          "w": 1,
           "d": 0,
           "l": 1,
-          "gs": 2,
+          "gs": 8,
           "ga": 4,
-          "gd": -2,
-          "pts": 0
+          "gd": 4,
+          "pts": 2
         },
         {
           "position": 5,
           "team": "AtomiX U12 VHV R (U12 M)",
           "team_id": 451688,
           "logo": null,
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "gs": 0,
-          "ga": 6,
-          "gd": -6,
+          "ga": 12,
+          "gd": -12,
           "pts": 0
         },
         {
