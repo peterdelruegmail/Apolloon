@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T13:15:09.870801+00:00",
+  "generated_at": "2026-09-20T13:30:15.299235+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
   "groups": [
     {
@@ -49,6 +49,20 @@
         },
         {
           "position": 4,
+          "team": "DB Gent D W VHV OWV-B (Senior F)",
+          "team_id": 451671,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415055.png",
+          "mp": 2,
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gs": 44,
+          "ga": 49,
+          "gd": -5,
+          "pts": 2
+        },
+        {
+          "position": 5,
           "team": "Dendermonde D W VHV OWV 3 (Senior F)",
           "team_id": 451628,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652181.png",
@@ -62,31 +76,17 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Evergem D W VHV OWV (Senior F)",
           "team_id": 451377,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697330.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 15,
-          "ga": 23,
-          "gd": -8,
-          "pts": 0
-        },
-        {
-          "position": 6,
-          "team": "DB Gent D W VHV OWV-B (Senior F)",
-          "team_id": 451671,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415055.png",
-          "mp": 1,
-          "w": 0,
-          "d": 0,
-          "l": 1,
-          "gs": 21,
-          "ga": 32,
-          "gd": -11,
+          "l": 2,
+          "gs": 32,
+          "ga": 46,
+          "gd": -14,
           "pts": 0
         }
       ]
