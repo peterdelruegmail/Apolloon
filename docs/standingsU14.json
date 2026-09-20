@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T11:30:16.689343+00:00",
+  "generated_at": "2026-09-20T11:45:10.556078+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -249,27 +249,27 @@
           "team": "DB Gent U14 VHV R 4 (U14 M)",
           "team_id": 451660,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415317.png",
-          "mp": 2,
-          "w": 2,
+          "mp": 3,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "gs": 79,
-          "ga": 35,
-          "gd": 44,
-          "pts": 4
+          "gs": 117,
+          "ga": 59,
+          "gd": 58,
+          "pts": 6
         },
         {
           "position": 2,
           "team": "Evergem U14 VHV R (U14)",
           "team_id": 451369,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785699779.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
           "d": 1,
-          "l": 0,
-          "gs": 62,
-          "ga": 41,
-          "gd": 21,
+          "l": 1,
+          "gs": 86,
+          "ga": 79,
+          "gd": 7,
           "pts": 3
         },
         {
@@ -616,6 +616,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Sint-Truiden U14 VHV-B R (U14 M)",
+          "team_id": 451692,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787923946.png",
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 49,
+          "ga": 24,
+          "gd": 25,
+          "pts": 4
+        },
+        {
+          "position": 2,
           "team": "Sezoens Achilles Bocholt U14 VHV R 2 (U14 M)",
           "team_id": 451195,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848506.png",
@@ -629,32 +643,18 @@
           "pts": 4
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "H. Bilzen U14 VHV R 2 (U14 M)",
           "team_id": 451226,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200609.png",
-          "mp": 2,
+          "mp": 3,
           "w": 2,
           "d": 0,
-          "l": 0,
-          "gs": 57,
-          "ga": 41,
-          "gd": 16,
+          "l": 1,
+          "gs": 68,
+          "ga": 70,
+          "gd": -2,
           "pts": 4
-        },
-        {
-          "position": 3,
-          "team": "Sint-Truiden U14 VHV-B R (U14 M)",
-          "team_id": 451692,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787923946.png",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 20,
-          "ga": 13,
-          "gd": 7,
-          "pts": 2
         },
         {
           "position": 4,
