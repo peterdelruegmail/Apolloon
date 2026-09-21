@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T10:00:16.824958+00:00",
+  "generated_at": "2026-09-21T16:05:21.712196+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -66,31 +66,17 @@
           "team": "Renaissance Montegnée  D1 M (Senior M)",
           "team_id": 451248,
           "logo": null,
-          "mp": 4,
+          "mp": 3,
           "w": 1,
-          "d": 1,
+          "d": 0,
           "l": 2,
           "gs": 87,
           "ga": 82,
           "gd": 5,
-          "pts": 3
+          "pts": 2
         },
         {
           "position": 6,
-          "team": "Lebbeke D1 M (Senior M)",
-          "team_id": 451513,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666665.png",
-          "mp": 4,
-          "w": 1,
-          "d": 1,
-          "l": 2,
-          "gs": 81,
-          "ga": 89,
-          "gd": -8,
-          "pts": 3
-        },
-        {
-          "position": 7,
           "team": "Sezoens Achilles Bocholt D1 M (Senior M)",
           "team_id": 451177,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848032.png",
@@ -104,7 +90,7 @@
           "pts": 2
         },
         {
-          "position": 8,
+          "position": 7,
           "team": "Kraainem D1 M (Senior M)",
           "team_id": 451058,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17296/logo/_1784291937.png",
@@ -115,6 +101,20 @@
           "gs": 88,
           "ga": 91,
           "gd": -3,
+          "pts": 2
+        },
+        {
+          "position": 8,
+          "team": "Lebbeke D1 M (Senior M)",
+          "team_id": 451513,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666665.png",
+          "mp": 3,
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gs": 81,
+          "ga": 89,
+          "gd": -8,
           "pts": 2
         },
         {
