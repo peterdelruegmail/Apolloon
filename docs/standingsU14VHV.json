@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T16:00:21.212355+00:00",
+  "generated_at": "2026-09-22T22:00:16.028254+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18725/seasons/220",
   "groups": [
     {
@@ -323,7 +323,7 @@
           "position": 2,
           "team": "Heist o/d Berg U14 VHV Q (U14 M)",
           "team_id": 451453,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
           "mp": 0,
           "w": 0,
           "d": 0,
