@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T04:00:30.090981+00:00",
+  "generated_at": "2026-09-22T10:00:14.053692+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18725/seasons/220",
   "groups": [
     {
@@ -9,7 +9,7 @@
           "position": 1,
           "team": "E. Aarschot U14 VHV Q (U14 M)",
           "team_id": 450986,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790061500.jpg",
           "mp": 0,
           "w": 0,
           "d": 0,
