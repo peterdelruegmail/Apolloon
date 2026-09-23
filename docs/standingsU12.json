@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T04:00:20.847205+00:00",
+  "generated_at": "2026-09-23T10:00:22.026823+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -318,7 +318,7 @@
           "position": 5,
           "team": "Gbsk U12 VHV R (U12 M)",
           "team_id": 451580,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147919.png",
           "mp": 3,
           "w": 1,
           "d": 0,
@@ -440,7 +440,7 @@
           "position": 2,
           "team": "Heist o/d Berg U12 VHV R B (U12 M)",
           "team_id": 451438,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790145847.png",
           "mp": 3,
           "w": 2,
           "d": 0,
@@ -529,7 +529,7 @@
           "position": 2,
           "team": "Olse Merksem U12 VHV R (U12 M)",
           "team_id": 451024,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147002.jpg",
           "mp": 2,
           "w": 1,
           "d": 0,
@@ -810,7 +810,7 @@
           "position": 4,
           "team": "Kreasa Houthalen U12 VHV R (U12 M)",
           "team_id": 451158,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147364.jpg",
           "mp": 1,
           "w": 0,
           "d": 0,
