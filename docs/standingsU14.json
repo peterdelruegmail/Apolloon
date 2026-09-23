@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T04:00:17.369768+00:00",
+  "generated_at": "2026-09-23T10:00:21.699974+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -37,7 +37,7 @@
           "position": 3,
           "team": "Gbsk U14 VHV R (U14)",
           "team_id": 451588,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147905.png",
           "mp": 3,
           "w": 1,
           "d": 0,
@@ -379,7 +379,7 @@
           "position": 4,
           "team": "Heist o/d Berg U14 VHV R (U14 M)",
           "team_id": 451440,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790145756.png",
           "mp": 3,
           "w": 1,
           "d": 0,
@@ -674,7 +674,7 @@
           "position": 5,
           "team": "Kreasa Houthalen U14 VHV R (U14 M)",
           "team_id": 451159,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147347.jpg",
           "mp": 3,
           "w": 1,
           "d": 0,
