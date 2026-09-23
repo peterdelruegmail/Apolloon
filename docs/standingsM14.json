@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T10:00:21.410180+00:00",
+  "generated_at": "2026-09-23T16:00:20.156552+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -159,7 +159,7 @@
           "position": 1,
           "team": "DHC Meeuwen G14 VHV-B R 1 (U14 F)",
           "team_id": 451663,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790172110.png",
           "mp": 3,
           "w": 3,
           "d": 0,
@@ -318,7 +318,7 @@
           "position": 6,
           "team": "DHC Meeuwen G14 VHV-B R 2 (U14 F)",
           "team_id": 451665,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790172135.png",
           "mp": 3,
           "w": 0,
           "d": 0,
