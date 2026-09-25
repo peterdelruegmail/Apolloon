@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:00:11.405416+00:00",
+  "generated_at": "2026-09-25T22:00:20.642634+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -65,7 +65,7 @@
           "position": 5,
           "team": "Renaissance Montegnée  D1 M (Senior M)",
           "team_id": 451248,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17231/logo/hcrm-u12-r-458115_1788520606.png",
           "mp": 3,
           "w": 1,
           "d": 0,
