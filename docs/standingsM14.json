@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T10:00:15.583214+00:00",
+  "generated_at": "2026-09-25T16:00:13.816430+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -304,7 +304,7 @@
           "position": 5,
           "team": "United West B G14 VHV R (U14 F)",
           "team_id": 451335,
-          "logo": null,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17287/logo/_1786621769.jpg",
           "mp": 3,
           "w": 0,
           "d": 0,
