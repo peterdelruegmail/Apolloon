@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T15:15:16.464166+00:00",
+  "generated_at": "2026-09-26T15:30:14.251563+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -202,27 +202,27 @@
           "team": "Heist o/d Berg B18 VHV R (U18 M)",
           "team_id": 451443,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790145661.png",
-          "mp": 3,
-          "w": 1,
+          "mp": 4,
+          "w": 2,
           "d": 0,
           "l": 2,
-          "gs": 89,
-          "ga": 116,
-          "gd": -27,
-          "pts": 2
+          "gs": 131,
+          "ga": 155,
+          "gd": -24,
+          "pts": 4
         },
         {
           "position": 5,
           "team": "Schoten B18 VHV R (U18 M)",
           "team_id": 451052,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784746285.jpg",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 77,
-          "ga": 118,
-          "gd": -41,
+          "l": 4,
+          "gs": 116,
+          "ga": 160,
+          "gd": -44,
           "pts": 0
         },
         {
