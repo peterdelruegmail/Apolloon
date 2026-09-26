@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T20:00:15.531699+00:00",
+  "generated_at": "2026-09-26T20:15:09.006052+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -10,14 +10,14 @@
           "team": "Estudiantes Tournai D1 M (Senior M)",
           "team_id": 451113,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/4969/logo/_1786444390.png",
-          "mp": 3,
-          "w": 2,
+          "mp": 4,
+          "w": 3,
           "d": 1,
           "l": 0,
-          "gs": 112,
-          "ga": 97,
-          "gd": 15,
-          "pts": 5
+          "gs": 148,
+          "ga": 130,
+          "gd": 18,
+          "pts": 7
         },
         {
           "position": 2,
@@ -122,13 +122,13 @@
           "team": "Lebbeke D1 M (Senior M)",
           "team_id": 451513,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666665.png",
-          "mp": 3,
+          "mp": 4,
           "w": 1,
           "d": 0,
-          "l": 2,
-          "gs": 81,
-          "ga": 89,
-          "gd": -8,
+          "l": 3,
+          "gs": 114,
+          "ga": 125,
+          "gd": -11,
           "pts": 2
         },
         {
