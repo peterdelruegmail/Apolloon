@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T15:15:21.361013+00:00",
+  "generated_at": "2026-09-26T15:30:14.762398+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -441,17 +441,31 @@
           "team": "Heist o/d Berg U12 VHV R B (U12 M)",
           "team_id": 451438,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790145847.png",
-          "mp": 3,
+          "mp": 4,
           "w": 2,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "gs": 10,
-          "ga": 8,
+          "gs": 13,
+          "ga": 11,
           "gd": 2,
-          "pts": 4
+          "pts": 5
         },
         {
           "position": 3,
+          "team": "E. Aarschot U12 VHV R (U12 M)",
+          "team_id": 450980,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790061551.jpg",
+          "mp": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gs": 9,
+          "ga": 9,
+          "gd": 0,
+          "pts": 3
+        },
+        {
+          "position": 4,
           "team": "Leuven U12 VHV R (U12)",
           "team_id": 451082,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465809.png",
@@ -462,20 +476,6 @@
           "gs": 8,
           "ga": 4,
           "gd": 4,
-          "pts": 2
-        },
-        {
-          "position": 4,
-          "team": "E. Aarschot U12 VHV R (U12 M)",
-          "team_id": 450980,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790061551.jpg",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 6,
-          "ga": 6,
-          "gd": 0,
           "pts": 2
         },
         {
