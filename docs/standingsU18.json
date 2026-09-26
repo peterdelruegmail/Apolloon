@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T17:15:15.925201+00:00",
+  "generated_at": "2026-09-26T17:30:15.827868+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -324,14 +324,14 @@
           "team": "Sezoens Achilles Bocholt B18 VHV-B R 2 (U18 M)",
           "team_id": 451184,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848267.png",
-          "mp": 3,
-          "w": 3,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 72,
-          "ga": 59,
-          "gd": 13,
-          "pts": 6
+          "gs": 112,
+          "ga": 88,
+          "gd": 24,
+          "pts": 8
         },
         {
           "position": 2,
@@ -352,13 +352,13 @@
           "team": "Kwanten Arena B18 VHV-B R (U18 M)",
           "team_id": 451067,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055095.jpg",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
           "d": 0,
-          "l": 1,
-          "gs": 56,
-          "ga": 50,
-          "gd": 6,
+          "l": 2,
+          "gs": 85,
+          "ga": 90,
+          "gd": -5,
           "pts": 2
         },
         {
