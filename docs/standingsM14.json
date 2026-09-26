@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T15:00:19.128574+00:00",
+  "generated_at": "2026-09-26T15:15:16.426483+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -249,27 +249,27 @@
           "team": "Derdaele Sp. Pelt G14 VHV R 2 (U14 F)",
           "team_id": 451869,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081490.jpg",
-          "mp": 3,
-          "w": 3,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 79,
-          "ga": 35,
-          "gd": 44,
-          "pts": 6
+          "gs": 100,
+          "ga": 47,
+          "gd": 53,
+          "pts": 8
         },
         {
           "position": 2,
           "team": "DHC Overpelt G14 VHV R B (U14 F)",
           "team_id": 451418,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788436626.jpg",
-          "mp": 3,
+          "mp": 4,
           "w": 3,
           "d": 0,
-          "l": 0,
-          "gs": 69,
-          "ga": 40,
-          "gd": 29,
+          "l": 1,
+          "gs": 81,
+          "ga": 61,
+          "gd": 20,
           "pts": 6
         },
         {
