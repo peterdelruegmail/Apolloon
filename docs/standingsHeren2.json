@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T19:30:12.978343+00:00",
+  "generated_at": "2026-09-26T19:45:15.197331+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18707/seasons/220",
   "groups": [
     {
@@ -7,6 +7,34 @@
       "standings": [
         {
           "position": 1,
+          "team": "Olse Merksem D1 M VHV (Senior M)",
+          "team_id": 451014,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790146822.jpg",
+          "mp": 3,
+          "w": 3,
+          "d": 0,
+          "l": 0,
+          "gs": 112,
+          "ga": 57,
+          "gd": 55,
+          "pts": 6
+        },
+        {
+          "position": 2,
+          "team": "Uilenspiegel D1 M VHV 1 (Senior M)",
+          "team_id": 451565,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
+          "mp": 3,
+          "w": 3,
+          "d": 0,
+          "l": 0,
+          "gs": 84,
+          "ga": 62,
+          "gd": 22,
+          "pts": 6
+        },
+        {
+          "position": 3,
           "team": "DB Gent D1 M VHV (Senior M)",
           "team_id": 451496,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415001.png",
@@ -18,34 +46,6 @@
           "ga": 74,
           "gd": 11,
           "pts": 6
-        },
-        {
-          "position": 2,
-          "team": "Olse Merksem D1 M VHV (Senior M)",
-          "team_id": 451014,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790146822.jpg",
-          "mp": 2,
-          "w": 2,
-          "d": 0,
-          "l": 0,
-          "gs": 75,
-          "ga": 41,
-          "gd": 34,
-          "pts": 4
-        },
-        {
-          "position": 3,
-          "team": "Uilenspiegel D1 M VHV 1 (Senior M)",
-          "team_id": 451565,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 2,
-          "w": 2,
-          "d": 0,
-          "l": 0,
-          "gs": 53,
-          "ga": 41,
-          "gd": 12,
-          "pts": 4
         },
         {
           "position": 4,
@@ -108,13 +108,13 @@
           "team": "H. Bilzen D1 M VHV (Senior M)",
           "team_id": 451429,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200153.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
           "d": 0,
-          "l": 1,
-          "gs": 47,
-          "ga": 52,
-          "gd": -5,
+          "l": 2,
+          "gs": 63,
+          "ga": 89,
+          "gd": -26,
           "pts": 2
         },
         {
@@ -122,13 +122,13 @@
           "team": "HBC Apolloon Spurs D1 M VHV (Senior M)",
           "team_id": 450939,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784813632.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 1,
-          "l": 1,
-          "gs": 53,
-          "ga": 62,
-          "gd": -9,
+          "l": 2,
+          "gs": 74,
+          "ga": 93,
+          "gd": -19,
           "pts": 1
         },
         {
