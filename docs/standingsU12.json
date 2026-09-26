@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T12:15:09.904167+00:00",
+  "generated_at": "2026-09-26T12:30:16.774056+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -516,31 +516,17 @@
           "team": "Uilenspiegel U12 VHV R 2 (U12 M)",
           "team_id": 451571,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 2,
-          "w": 2,
+          "mp": 3,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "gs": 10,
+          "gs": 16,
           "ga": 2,
-          "gd": 8,
-          "pts": 4
+          "gd": 14,
+          "pts": 6
         },
         {
           "position": 2,
-          "team": "Olse Merksem U12 VHV R (U12 M)",
-          "team_id": 451024,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147002.jpg",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 6,
-          "ga": 6,
-          "gd": 0,
-          "pts": 2
-        },
-        {
-          "position": 3,
           "team": "Uilenspiegel U12 VHV R 1 (U12 M)",
           "team_id": 451569,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
@@ -554,7 +540,7 @@
           "pts": 2
         },
         {
-          "position": 4,
+          "position": 3,
           "team": "Merksplas U12 VHV R (U12 M)",
           "team_id": 451650,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790175720.png",
@@ -568,7 +554,7 @@
           "pts": 2
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "HvH 't Noorden B (U12 M)",
           "team_id": 451362,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/25477/logo/96x96_hvh-%E2%80%98t-noorden_1787658655.png",
@@ -579,6 +565,20 @@
           "gs": 5,
           "ga": 7,
           "gd": -2,
+          "pts": 2
+        },
+        {
+          "position": 5,
+          "team": "Olse Merksem U12 VHV R (U12 M)",
+          "team_id": 451024,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147002.jpg",
+          "mp": 3,
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gs": 6,
+          "ga": 12,
+          "gd": -6,
           "pts": 2
         },
         {
