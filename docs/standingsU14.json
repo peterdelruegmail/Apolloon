@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T12:30:18.744750+00:00",
+  "generated_at": "2026-09-26T12:45:16.517402+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -338,14 +338,14 @@
           "team": "Biobest Sasja U14 VHV R (U14)",
           "team_id": 451609,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/_1785155345.png",
-          "mp": 3,
-          "w": 3,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 133,
-          "ga": 33,
-          "gd": 100,
-          "pts": 6
+          "gs": 172,
+          "ga": 43,
+          "gd": 129,
+          "pts": 8
         },
         {
           "position": 2,
@@ -363,20 +363,6 @@
         },
         {
           "position": 3,
-          "team": "Brasschaat U14 VHV R (U14 M)",
-          "team_id": 451344,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17235/logo/96x96_brasschaat-handbalclub_1788963702.png",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 58,
-          "ga": 53,
-          "gd": 5,
-          "pts": 2
-        },
-        {
-          "position": 4,
           "team": "Heist o/d Berg U14 VHV R (U14 M)",
           "team_id": 451440,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790145756.png",
@@ -387,6 +373,20 @@
           "gs": 76,
           "ga": 92,
           "gd": -16,
+          "pts": 2
+        },
+        {
+          "position": 4,
+          "team": "Brasschaat U14 VHV R (U14 M)",
+          "team_id": 451344,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17235/logo/96x96_brasschaat-handbalclub_1788963702.png",
+          "mp": 3,
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gs": 68,
+          "ga": 92,
+          "gd": -24,
           "pts": 2
         },
         {
@@ -530,27 +530,27 @@
           "team": "Derdaele Sp. Pelt U14 VHV R 1 (U14 M)",
           "team_id": 451705,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081405.jpg",
-          "mp": 3,
-          "w": 3,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 105,
-          "ga": 49,
-          "gd": 56,
-          "pts": 6
+          "gs": 149,
+          "ga": 62,
+          "gd": 87,
+          "pts": 8
         },
         {
           "position": 2,
           "team": "H. Bilzen U14 VHV R 1 (U14 M)",
           "team_id": 451225,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200592.png",
-          "mp": 3,
+          "mp": 4,
           "w": 2,
           "d": 0,
-          "l": 1,
-          "gs": 76,
-          "ga": 65,
-          "gd": 11,
+          "l": 2,
+          "gs": 89,
+          "ga": 109,
+          "gd": -20,
           "pts": 4
         },
         {
