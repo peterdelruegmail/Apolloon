@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T08:30:16.900722+00:00",
+  "generated_at": "2026-09-26T08:45:16.443992+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -82,6 +82,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Besox Izegem U14 VHV R 1 (U14 M)",
+          "team_id": 451468,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786535067.jpg",
+          "mp": 3,
+          "w": 3,
+          "d": 0,
+          "l": 0,
+          "gs": 100,
+          "ga": 77,
+          "gd": 23,
+          "pts": 6
+        },
+        {
+          "position": 2,
           "team": "Lokeren U14 VHV R (U14 M)",
           "team_id": 451139,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747748.png",
@@ -95,7 +109,7 @@
           "pts": 4
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Evergem U14 VHV R (U14 M)",
           "team_id": 451371,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785699732.png",
@@ -109,31 +123,17 @@
           "pts": 4
         },
         {
-          "position": 3,
-          "team": "Besox Izegem U14 VHV R 1 (U14 M)",
-          "team_id": 451468,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786535067.jpg",
-          "mp": 2,
-          "w": 2,
-          "d": 0,
-          "l": 0,
-          "gs": 62,
-          "ga": 40,
-          "gd": 22,
-          "pts": 4
-        },
-        {
           "position": 4,
           "team": "DB Gent U14 VHV R 2 (U14 M)",
           "team_id": 451657,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415244.png",
-          "mp": 3,
+          "mp": 4,
           "w": 2,
           "d": 0,
-          "l": 1,
-          "gs": 101,
-          "ga": 110,
-          "gd": -9,
+          "l": 2,
+          "gs": 138,
+          "ga": 148,
+          "gd": -10,
           "pts": 4
         },
         {
