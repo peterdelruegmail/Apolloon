@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T12:00:18.205502+00:00",
+  "generated_at": "2026-09-26T12:15:09.904167+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -21,6 +21,20 @@
         },
         {
           "position": 2,
+          "team": "HBC Apolloon Spurs U12 VHV-B R (U12 M)",
+          "team_id": 450949,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814229.png",
+          "mp": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gs": 8,
+          "ga": 10,
+          "gd": -2,
+          "pts": 3
+        },
+        {
+          "position": 3,
           "team": "Besox Izegem U12 VHV R 3 (U12 M)",
           "team_id": 451456,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1787049890.jpg",
@@ -34,21 +48,21 @@
           "pts": 3
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Thor U12 VHV R (U12 M)",
           "team_id": 451589,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
           "d": 0,
-          "l": 1,
-          "gs": 6,
-          "ga": 6,
-          "gd": 0,
+          "l": 2,
+          "gs": 8,
+          "ga": 10,
+          "gd": -2,
           "pts": 2
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Desselgemse U12 VHV R (U12 M)",
           "team_id": 451330,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/_1786798288.png",
@@ -60,20 +74,6 @@
           "ga": 12,
           "gd": -6,
           "pts": 2
-        },
-        {
-          "position": 5,
-          "team": "HBC Apolloon Spurs U12 VHV-B R (U12 M)",
-          "team_id": 450949,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814229.png",
-          "mp": 2,
-          "w": 0,
-          "d": 1,
-          "l": 1,
-          "gs": 4,
-          "ga": 8,
-          "gd": -4,
-          "pts": 1
         }
       ]
     },
@@ -605,31 +605,17 @@
           "team": "Hubo U12 VHV R 1 (U12 M)",
           "team_id": 451313,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125120.png",
-          "mp": 3,
-          "w": 3,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 16,
+          "gs": 22,
           "ga": 2,
-          "gd": 14,
-          "pts": 6
+          "gd": 20,
+          "pts": 8
         },
         {
           "position": 2,
-          "team": "P. Kortessem U12 VHV R 3 (U12)",
-          "team_id": 451151,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093460.png",
-          "mp": 2,
-          "w": 0,
-          "d": 2,
-          "l": 0,
-          "gs": 6,
-          "ga": 6,
-          "gd": 0,
-          "pts": 2
-        },
-        {
-          "position": 3,
           "team": "Derdaele Sp. Pelt U12 VHV R 1 (U12 M)",
           "team_id": 451702,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081615.jpg",
@@ -640,6 +626,20 @@
           "gs": 5,
           "ga": 7,
           "gd": -2,
+          "pts": 2
+        },
+        {
+          "position": 3,
+          "team": "P. Kortessem U12 VHV R 3 (U12)",
+          "team_id": 451151,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093460.png",
+          "mp": 3,
+          "w": 0,
+          "d": 2,
+          "l": 1,
+          "gs": 6,
+          "ga": 12,
+          "gd": -6,
           "pts": 2
         },
         {
