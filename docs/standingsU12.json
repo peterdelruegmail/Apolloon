@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T13:00:16.222622+00:00",
+  "generated_at": "2026-09-26T13:15:10.374547+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -185,6 +185,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "DB Gent U12 VHV R 2 (U12 M)",
+          "team_id": 451662,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415366.png",
+          "mp": 3,
+          "w": 3,
+          "d": 0,
+          "l": 0,
+          "gs": 17,
+          "ga": 1,
+          "gd": 16,
+          "pts": 6
+        },
+        {
+          "position": 2,
           "team": "Buggenhout U12 VHV R (U12 M)",
           "team_id": 451576,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790174736.jpg",
@@ -195,20 +209,6 @@
           "gs": 12,
           "ga": 0,
           "gd": 12,
-          "pts": 4
-        },
-        {
-          "position": 2,
-          "team": "DB Gent U12 VHV R 2 (U12 M)",
-          "team_id": 451662,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415366.png",
-          "mp": 2,
-          "w": 2,
-          "d": 0,
-          "l": 0,
-          "gs": 11,
-          "ga": 1,
-          "gd": 10,
           "pts": 4
         },
         {
@@ -244,13 +244,13 @@
           "team": "HK Waasmunster U12 VHV R (U12 M)",
           "team_id": 451606,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
+          "l": 4,
           "gs": 2,
-          "ga": 16,
-          "gd": -14,
+          "ga": 22,
+          "gd": -20,
           "pts": 0
         }
       ]
