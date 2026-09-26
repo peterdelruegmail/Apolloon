@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T17:00:55.523235+00:00",
+  "generated_at": "2026-09-26T17:15:14.741065+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -363,6 +363,20 @@
         },
         {
           "position": 4,
+          "team": "AtomiX U16 VHV R (U16 M)",
+          "team_id": 451682,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787215118.jpg",
+          "mp": 4,
+          "w": 2,
+          "d": 0,
+          "l": 2,
+          "gs": 103,
+          "ga": 115,
+          "gd": -12,
+          "pts": 4
+        },
+        {
+          "position": 5,
           "team": "Heist o/d Berg U16 VHV R (U16 M)",
           "team_id": 451442,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790145699.png",
@@ -376,31 +390,17 @@
           "pts": 2
         },
         {
-          "position": 5,
-          "team": "AtomiX U16 VHV R (U16 M)",
-          "team_id": 451682,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787215118.jpg",
-          "mp": 3,
-          "w": 1,
-          "d": 0,
-          "l": 2,
-          "gs": 64,
-          "ga": 98,
-          "gd": -34,
-          "pts": 2
-        },
-        {
           "position": 6,
           "team": "HvH 't Noorden B (U16 M)",
           "team_id": 451364,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/25477/logo/96x96_hvh-%E2%80%98t-noorden_1787658655.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 44,
-          "ga": 94,
-          "gd": -50,
+          "l": 4,
+          "gs": 61,
+          "ga": 133,
+          "gd": -72,
           "pts": 0
         }
       ]
