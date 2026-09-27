@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T12:45:15.907363+00:00",
+  "generated_at": "2026-09-27T13:00:13.865737+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
   "groups": [
     {
@@ -96,6 +96,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Thor D W VHV OWV 1 (Senior F)",
+          "team_id": 451578,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
+          "mp": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gs": 75,
+          "ga": 49,
+          "gd": 26,
+          "pts": 4
+        },
+        {
+          "position": 2,
           "team": "Lebbeke D W VHV OWV (Senior F)",
           "team_id": 451521,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666647.png",
@@ -109,21 +123,21 @@
           "pts": 4
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Lokeren D W VHV OWV 1 (Senior F)",
           "team_id": 451135,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747831.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
           "d": 1,
-          "l": 0,
-          "gs": 60,
-          "ga": 28,
-          "gd": 32,
+          "l": 1,
+          "gs": 78,
+          "ga": 62,
+          "gd": 16,
           "pts": 3
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Dendermonde D W VHV OWV 1 (Senior F)",
           "team_id": 451625,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652231.png",
@@ -135,20 +149,6 @@
           "ga": 27,
           "gd": 13,
           "pts": 3
-        },
-        {
-          "position": 4,
-          "team": "Thor D W VHV OWV 1 (Senior F)",
-          "team_id": 451578,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 41,
-          "ga": 31,
-          "gd": 10,
-          "pts": 2
         },
         {
           "position": 5,
