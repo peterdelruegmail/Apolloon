@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T15:30:15.047391+00:00",
+  "generated_at": "2026-09-27T16:00:18.613858+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -502,14 +502,14 @@
           "team": "Sezoens Achilles Bocholt U16 VHV R (U16 M)",
           "team_id": 451188,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848287.png",
-          "mp": 3,
-          "w": 3,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 65,
-          "ga": 35,
-          "gd": 30,
-          "pts": 6
+          "gs": 108,
+          "ga": 57,
+          "gd": 51,
+          "pts": 8
         },
         {
           "position": 2,
@@ -572,13 +572,13 @@
           "team": "Kwanten Arena U16 VHV R (U16 M)",
           "team_id": 451068,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055197.jpg",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 67,
-          "ga": 93,
-          "gd": -26,
+          "l": 4,
+          "gs": 89,
+          "ga": 136,
+          "gd": -47,
           "pts": 0
         }
       ]
