@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T12:15:17.126402+00:00",
+  "generated_at": "2026-09-27T12:30:16.788518+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -160,14 +160,14 @@
           "team": "DHC Meeuwen G14 VHV-B R 1 (U14 F)",
           "team_id": 451663,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790172110.png",
-          "mp": 3,
-          "w": 3,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 70,
-          "ga": 16,
-          "gd": 54,
-          "pts": 6
+          "gs": 95,
+          "ga": 31,
+          "gd": 64,
+          "pts": 8
         },
         {
           "position": 2,
@@ -185,20 +185,6 @@
         },
         {
           "position": 3,
-          "team": "P. Kortessem G14 VHV R (U14 F)",
-          "team_id": 451148,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093286.png",
-          "mp": 3,
-          "w": 1,
-          "d": 1,
-          "l": 1,
-          "gs": 62,
-          "ga": 51,
-          "gd": 11,
-          "pts": 3
-        },
-        {
-          "position": 4,
           "team": "Hubo G14 VHV R (U14 F)",
           "team_id": 451310,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124971.png",
@@ -209,6 +195,20 @@
           "gs": 91,
           "ga": 87,
           "gd": 4,
+          "pts": 3
+        },
+        {
+          "position": 4,
+          "team": "P. Kortessem G14 VHV R (U14 F)",
+          "team_id": 451148,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/_1787093286.png",
+          "mp": 4,
+          "w": 1,
+          "d": 1,
+          "l": 2,
+          "gs": 77,
+          "ga": 76,
+          "gd": 1,
           "pts": 3
         },
         {
