@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T16:30:19.124596+00:00",
+  "generated_at": "2026-09-27T17:00:20.351288+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18716/seasons/220",
   "groups": [
     {
@@ -199,6 +199,20 @@
         },
         {
           "position": 2,
+          "team": "Aalst D W VHV OWV-B (Senior F)",
+          "team_id": 451444,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/_1786713863.png",
+          "mp": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gs": 70,
+          "ga": 62,
+          "gd": 8,
+          "pts": 3
+        },
+        {
+          "position": 3,
           "team": "Dendermonde D W VHV OWV-B 2 (Senior F)",
           "team_id": 451623,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784652206.png",
@@ -212,35 +226,7 @@
           "pts": 1
         },
         {
-          "position": 3,
-          "team": "Aalst D W VHV OWV-B (Senior F)",
-          "team_id": 451444,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/_1786713863.png",
-          "mp": 2,
-          "w": 0,
-          "d": 1,
-          "l": 1,
-          "gs": 44,
-          "ga": 53,
-          "gd": -9,
-          "pts": 1
-        },
-        {
           "position": 4,
-          "team": "Eeklo D W VHV OWV (Senior F)",
-          "team_id": 451384,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666382.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
           "team": "Lebbeke D W VHV OWV-B (Senior F)",
           "team_id": 451523,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666680.png",
@@ -251,6 +237,20 @@
           "gs": 22,
           "ga": 24,
           "gd": -2,
+          "pts": 0
+        },
+        {
+          "position": 5,
+          "team": "Eeklo D W VHV OWV (Senior F)",
+          "team_id": 451384,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666382.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 9,
+          "ga": 26,
+          "gd": -17,
           "pts": 0
         }
       ]
