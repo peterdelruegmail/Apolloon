@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T11:00:17.160125+00:00",
+  "generated_at": "2026-09-27T11:15:14.843471+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -630,6 +630,20 @@
         },
         {
           "position": 2,
+          "team": "H. Bilzen U14 VHV R 2 (U14 M)",
+          "team_id": 451226,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200609.png",
+          "mp": 4,
+          "w": 3,
+          "d": 0,
+          "l": 1,
+          "gs": 96,
+          "ga": 97,
+          "gd": -1,
+          "pts": 6
+        },
+        {
+          "position": 3,
           "team": "Sint-Truiden U14 VHV-B R (U14 M)",
           "team_id": 451692,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787923946.png",
@@ -640,20 +654,6 @@
           "gs": 49,
           "ga": 24,
           "gd": 25,
-          "pts": 4
-        },
-        {
-          "position": 3,
-          "team": "H. Bilzen U14 VHV R 2 (U14 M)",
-          "team_id": 451226,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200609.png",
-          "mp": 3,
-          "w": 2,
-          "d": 0,
-          "l": 1,
-          "gs": 68,
-          "ga": 70,
-          "gd": -2,
           "pts": 4
         },
         {
@@ -675,13 +675,13 @@
           "team": "Kreasa Houthalen U14 VHV R (U14 M)",
           "team_id": 451159,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147347.jpg",
-          "mp": 3,
+          "mp": 4,
           "w": 1,
           "d": 0,
-          "l": 2,
-          "gs": 56,
-          "ga": 79,
-          "gd": -23,
+          "l": 3,
+          "gs": 83,
+          "ga": 107,
+          "gd": -24,
           "pts": 2
         },
         {
