@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:15:14.578422+00:00",
+  "generated_at": "2026-09-27T14:30:16.060326+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -10,14 +10,14 @@
           "team": "Roeselare G14 VHV R (U14 F)",
           "team_id": 451001,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786437764.jpg",
-          "mp": 3,
-          "w": 3,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 123,
-          "ga": 53,
-          "gd": 70,
-          "pts": 6
+          "gs": 152,
+          "ga": 60,
+          "gd": 92,
+          "pts": 8
         },
         {
           "position": 2,
@@ -80,13 +80,13 @@
           "team": "Lebbeke G14 VHV R (U14 F)",
           "team_id": 451546,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666847.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 1,
-          "l": 2,
-          "gs": 43,
-          "ga": 74,
-          "gd": -31,
+          "l": 3,
+          "gs": 50,
+          "ga": 103,
+          "gd": -53,
           "pts": 1
         }
       ]
