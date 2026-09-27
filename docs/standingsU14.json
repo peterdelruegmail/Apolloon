@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T09:30:15.048278+00:00",
+  "generated_at": "2026-09-27T09:45:14.296691+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -452,6 +452,20 @@
         },
         {
           "position": 2,
+          "team": "Derdaele Sp. Pelt U14 VHV R 2 (U14 M)",
+          "team_id": 451866,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081457.jpg",
+          "mp": 4,
+          "w": 3,
+          "d": 0,
+          "l": 1,
+          "gs": 120,
+          "ga": 99,
+          "gd": 21,
+          "pts": 6
+        },
+        {
+          "position": 3,
           "team": "E. Aarschot U14 VHV R (U14 M)",
           "team_id": 450981,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790061517.jpg",
@@ -462,20 +476,6 @@
           "gs": 82,
           "ga": 54,
           "gd": 28,
-          "pts": 4
-        },
-        {
-          "position": 3,
-          "team": "Derdaele Sp. Pelt U14 VHV R 2 (U14 M)",
-          "team_id": 451866,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081457.jpg",
-          "mp": 3,
-          "w": 2,
-          "d": 0,
-          "l": 1,
-          "gs": 84,
-          "ga": 82,
-          "gd": 2,
           "pts": 4
         },
         {
@@ -511,13 +511,13 @@
           "team": "Leuven U14 VHV R (U14)",
           "team_id": 451081,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465736.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 52,
-          "ga": 121,
-          "gd": -69,
+          "l": 4,
+          "gs": 69,
+          "ga": 157,
+          "gd": -88,
           "pts": 0
         }
       ]
