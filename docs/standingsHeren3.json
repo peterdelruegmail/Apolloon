@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:30:15.900625+00:00",
+  "generated_at": "2026-09-27T14:45:13.672716+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18713/seasons/220",
   "groups": [
     {
@@ -7,6 +7,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Roeselare D M VHV OWV-B 2 (Senior M)",
+          "team_id": 450996,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786349005.jpg",
+          "mp": 3,
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "gs": 83,
+          "ga": 67,
+          "gd": 16,
+          "pts": 5
+        },
+        {
+          "position": 2,
           "team": "Besox Izegem D M VHV OWV (Senior M)",
           "team_id": 451008,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1785757373.jpg",
@@ -20,21 +34,21 @@
           "pts": 4
         },
         {
-          "position": 2,
-          "team": "Roeselare D M VHV OWV-B 2 (Senior M)",
-          "team_id": 450996,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786349005.jpg",
+          "position": 3,
+          "team": "Evergem D M VHV OWV-B (Senior M)",
+          "team_id": 451379,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785696874.png",
           "mp": 2,
-          "w": 2,
-          "d": 0,
+          "w": 1,
+          "d": 1,
           "l": 0,
-          "gs": 60,
-          "ga": 44,
-          "gd": 16,
-          "pts": 4
+          "gs": 55,
+          "ga": 52,
+          "gd": 3,
+          "pts": 3
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "DB Gent D M VHV OWV (Senior M)",
           "team_id": 451670,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788414986.png",
@@ -48,7 +62,7 @@
           "pts": 2
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Dendermonde D M VHV OWV-B 1 (Senior M)",
           "team_id": 451622,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784646241.png",
@@ -62,7 +76,7 @@
           "pts": 2
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "HBC Apolloon Spurs D M VHV OWV (Senior M)",
           "team_id": 450940,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784813679.png",
@@ -73,20 +87,6 @@
           "gs": 68,
           "ga": 61,
           "gd": 7,
-          "pts": 2
-        },
-        {
-          "position": 6,
-          "team": "Evergem D M VHV OWV-B (Senior M)",
-          "team_id": 451379,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785696874.png",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 32,
-          "ga": 29,
-          "gd": 3,
           "pts": 2
         },
         {
