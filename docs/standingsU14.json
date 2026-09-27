@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T10:15:13.731120+00:00",
+  "generated_at": "2026-09-27T10:30:16.723247+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -349,6 +349,20 @@
         },
         {
           "position": 2,
+          "team": "Heist o/d Berg U14 VHV R (U14 M)",
+          "team_id": 451440,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790145756.png",
+          "mp": 4,
+          "w": 2,
+          "d": 0,
+          "l": 2,
+          "gs": 116,
+          "ga": 114,
+          "gd": 2,
+          "pts": 4
+        },
+        {
+          "position": 3,
           "team": "Uilenspiegel U14 VHV R (U14 M)",
           "team_id": 451543,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
@@ -360,20 +374,6 @@
           "ga": 104,
           "gd": -17,
           "pts": 4
-        },
-        {
-          "position": 3,
-          "team": "Heist o/d Berg U14 VHV R (U14 M)",
-          "team_id": 451440,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790145756.png",
-          "mp": 3,
-          "w": 1,
-          "d": 0,
-          "l": 2,
-          "gs": 76,
-          "ga": 92,
-          "gd": -16,
-          "pts": 2
         },
         {
           "position": 4,
@@ -394,13 +394,13 @@
           "team": "Schoten U14 VHV R (U14 M)",
           "team_id": 451048,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784968352.jpg",
-          "mp": 3,
+          "mp": 4,
           "w": 1,
           "d": 0,
-          "l": 2,
-          "gs": 83,
-          "ga": 115,
-          "gd": -32,
+          "l": 3,
+          "gs": 105,
+          "ga": 155,
+          "gd": -50,
           "pts": 2
         },
         {
