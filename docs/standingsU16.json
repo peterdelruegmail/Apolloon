@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T08:30:17.956428+00:00",
+  "generated_at": "2026-09-27T08:45:15.495931+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -235,27 +235,27 @@
           "team": "Biobest Sasja U16 VHV R (U16)",
           "team_id": 451607,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788434704.png",
-          "mp": 3,
-          "w": 3,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 106,
-          "ga": 37,
-          "gd": 69,
-          "pts": 6
+          "gs": 131,
+          "ga": 54,
+          "gd": 77,
+          "pts": 8
         },
         {
           "position": 2,
           "team": "Olse Merksem U16 VHV R (U16 M)",
           "team_id": 451021,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790146970.jpg",
-          "mp": 3,
+          "mp": 4,
           "w": 3,
           "d": 0,
-          "l": 0,
-          "gs": 95,
-          "ga": 60,
-          "gd": 35,
+          "l": 1,
+          "gs": 112,
+          "ga": 85,
+          "gd": 27,
           "pts": 6
         },
         {
