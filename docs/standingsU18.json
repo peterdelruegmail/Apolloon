@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T15:30:15.063138+00:00",
+  "generated_at": "2026-09-27T16:00:19.201370+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -7,6 +7,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "HBC Apolloon Spurs B18 VHV R (U18 M)",
+          "team_id": 450941,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814422.png",
+          "mp": 3,
+          "w": 3,
+          "d": 0,
+          "l": 0,
+          "gs": 110,
+          "ga": 88,
+          "gd": 22,
+          "pts": 6
+        },
+        {
+          "position": 2,
           "team": "DB Gent B18 VHV R (U18 M)",
           "team_id": 451499,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415109.png",
@@ -17,20 +31,6 @@
           "gs": 111,
           "ga": 71,
           "gd": 40,
-          "pts": 4
-        },
-        {
-          "position": 2,
-          "team": "HBC Apolloon Spurs B18 VHV R (U18 M)",
-          "team_id": 450941,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814422.png",
-          "mp": 2,
-          "w": 2,
-          "d": 0,
-          "l": 0,
-          "gs": 70,
-          "ga": 58,
-          "gd": 12,
           "pts": 4
         },
         {
@@ -66,13 +66,13 @@
           "team": "Evergem B18 VHV R (U18 M)",
           "team_id": 451376,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697692.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 50,
-          "ga": 75,
-          "gd": -25,
+          "l": 3,
+          "gs": 80,
+          "ga": 115,
+          "gd": -35,
           "pts": 0
         }
       ]
