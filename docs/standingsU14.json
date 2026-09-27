@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:00:14.474084+00:00",
+  "generated_at": "2026-09-27T14:15:15.200004+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -541,6 +541,20 @@
         },
         {
           "position": 2,
+          "team": "Hubo U14 VHV R 1 (U14 M)",
+          "team_id": 451303,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125034.png",
+          "mp": 4,
+          "w": 2,
+          "d": 1,
+          "l": 1,
+          "gs": 142,
+          "ga": 61,
+          "gd": 81,
+          "pts": 5
+        },
+        {
+          "position": 3,
           "team": "H. Bilzen U14 VHV R 1 (U14 M)",
           "team_id": 451225,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200592.png",
@@ -554,31 +568,17 @@
           "pts": 4
         },
         {
-          "position": 3,
-          "team": "Hubo U14 VHV R 1 (U14 M)",
-          "team_id": 451303,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125034.png",
-          "mp": 3,
-          "w": 1,
-          "d": 1,
-          "l": 1,
-          "gs": 79,
-          "ga": 54,
-          "gd": 25,
-          "pts": 3
-        },
-        {
           "position": 4,
           "team": "HC Overpelt U14 VHV R (U14 M)",
           "team_id": 451097,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788186943.jpg",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
           "d": 0,
-          "l": 1,
-          "gs": 51,
-          "ga": 39,
-          "gd": 12,
+          "l": 2,
+          "gs": 58,
+          "ga": 102,
+          "gd": -44,
           "pts": 2
         },
         {
