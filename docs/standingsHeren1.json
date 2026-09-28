@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T10:00:15.676714+00:00",
+  "generated_at": "2026-09-28T22:00:17.690287+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -35,6 +35,20 @@
         },
         {
           "position": 3,
+          "team": "Biobest Sasja D1 M (Senior M)",
+          "team_id": 451600,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788434583.png",
+          "mp": 4,
+          "w": 2,
+          "d": 1,
+          "l": 1,
+          "gs": 106,
+          "ga": 100,
+          "gd": 6,
+          "pts": 5
+        },
+        {
+          "position": 4,
           "team": "Derdaele Sp. Pelt D1 M (Senior M)",
           "team_id": 451715,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787080804.jpg",
@@ -46,20 +60,6 @@
           "ga": 123,
           "gd": 1,
           "pts": 5
-        },
-        {
-          "position": 4,
-          "team": "Biobest Sasja D1 M (Senior M)",
-          "team_id": 451600,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788434583.png",
-          "mp": 3,
-          "w": 2,
-          "d": 0,
-          "l": 1,
-          "gs": 79,
-          "ga": 73,
-          "gd": 6,
-          "pts": 4
         },
         {
           "position": 5,
@@ -91,6 +91,20 @@
         },
         {
           "position": 7,
+          "team": "Renaissance Montegnée  D1 M (Senior M)",
+          "team_id": 451248,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17231/logo/hcrm-u12-r-458115_1788520606.png",
+          "mp": 4,
+          "w": 1,
+          "d": 1,
+          "l": 2,
+          "gs": 114,
+          "ga": 109,
+          "gd": 5,
+          "pts": 3
+        },
+        {
+          "position": 8,
           "team": "Sezoens Achilles Bocholt D1 M (Senior M)",
           "team_id": 451177,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848032.png",
@@ -102,20 +116,6 @@
           "ga": 143,
           "gd": 1,
           "pts": 3
-        },
-        {
-          "position": 8,
-          "team": "Renaissance Montegnée  D1 M (Senior M)",
-          "team_id": 451248,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17231/logo/hcrm-u12-r-458115_1788520606.png",
-          "mp": 3,
-          "w": 1,
-          "d": 0,
-          "l": 2,
-          "gs": 87,
-          "ga": 82,
-          "gd": 5,
-          "pts": 2
         },
         {
           "position": 9,
