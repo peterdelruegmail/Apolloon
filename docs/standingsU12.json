@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:00:23.619225+00:00",
+  "generated_at": "2026-09-29T22:00:20.269916+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -427,14 +427,14 @@
           "team": "Uilenspiegel U12 VHV R 4 (U12 M)",
           "team_id": 451540,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 3,
-          "w": 3,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 16,
+          "gs": 22,
           "ga": 2,
-          "gd": 14,
-          "pts": 6
+          "gd": 20,
+          "pts": 8
         },
         {
           "position": 2,
@@ -452,6 +452,20 @@
         },
         {
           "position": 3,
+          "team": "Leuven U12 VHV R (U12)",
+          "team_id": 451082,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465809.png",
+          "mp": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gs": 12,
+          "ga": 6,
+          "gd": 6,
+          "pts": 4
+        },
+        {
+          "position": 4,
           "team": "E. Aarschot U12 VHV R (U12 M)",
           "team_id": 450980,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790061551.jpg",
@@ -465,31 +479,17 @@
           "pts": 3
         },
         {
-          "position": 4,
-          "team": "Leuven U12 VHV R (U12)",
-          "team_id": 451082,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465809.png",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 8,
-          "ga": 4,
-          "gd": 4,
-          "pts": 2
-        },
-        {
           "position": 5,
           "team": "Rhino U12 VHV-B R (U12 M)",
           "team_id": 451092,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/_1786224980.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 2,
-          "ga": 10,
-          "gd": -8,
+          "l": 3,
+          "gs": 4,
+          "ga": 14,
+          "gd": -10,
           "pts": 0
         },
         {
@@ -497,13 +497,13 @@
           "team": "AtomiX U12 VHV R (U12 M)",
           "team_id": 451688,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790234563.jpg",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
+          "l": 3,
           "gs": 0,
-          "ga": 12,
-          "gd": -12,
+          "ga": 18,
+          "gd": -18,
           "pts": 0
         }
       ]
