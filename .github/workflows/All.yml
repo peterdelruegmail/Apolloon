@@ -19,19 +19,21 @@ jobs:
 #    uses: ./.github/workflows/Dames2.yml
   U18:
     uses: ./.github/workflows/U18.yml
-  U18VHV:
+  U18VHVQual:
     uses: ./.github/workflows/U18VHVQual.yml
   U16:
     uses: ./.github/workflows/U16.yml
-  U16VHV:
+  U16VHVQual:
     uses: ./.github/workflows/U16VHVQual.yml
   U14:
     uses: ./.github/workflows/U14.yml
-  U14VHV:
+  U14VHVQual:
     uses: ./.github/workflows/U14VHVQual.yml
   M14:
     uses: ./.github/workflows/M14.yml
-  M14VHV:
+  M14VHVQual:
     uses: ./.github/workflows/M14VHVQual.yml
+  M14VHVCup:
+    uses: ./.github/workflows/M14VHVCup.yml
   U12:
     uses: ./.github/workflows/U12.yml
