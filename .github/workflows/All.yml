@@ -20,18 +20,18 @@ jobs:
   U18:
     uses: ./.github/workflows/U18.yml
   U18VHV:
-    uses: ./.github/workflows/U18VHV.yml
+    uses: ./.github/workflows/U18VHVQual.yml
   U16:
     uses: ./.github/workflows/U16.yml
   U16VHV:
-    uses: ./.github/workflows/U16VHV.yml
+    uses: ./.github/workflows/U16VHVQual.yml
   U14:
     uses: ./.github/workflows/U14.yml
   U14VHV:
-    uses: ./.github/workflows/U14VHV.yml
+    uses: ./.github/workflows/U14VHVQual.yml
   M14:
     uses: ./.github/workflows/M14.yml
   M14VHV:
-    uses: ./.github/workflows/M14VHV.yml
+    uses: ./.github/workflows/M14VHVQual.yml
   U12:
     uses: ./.github/workflows/U12.yml
