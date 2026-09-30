@@ -1,4 +1,4 @@
-name: Update Standings M14VHV
+name: Update Standings M14VHVQual
 
 on:
   workflow_dispatch:
@@ -11,5 +11,5 @@ jobs:
   call-workflow:
     uses: ./.github/workflows/update-standings.yml
     with:
-      LEAGUE: 18728
-      NAME: M14VHV
+      LEAGUE: 19562
+      NAME: M14VHVQual
