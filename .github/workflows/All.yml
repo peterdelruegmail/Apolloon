@@ -15,8 +15,8 @@ jobs:
     uses: ./.github/workflows/Heren3.yml
   Dames1:
     uses: ./.github/workflows/Dames1.yml
-  Dames2:
-    uses: ./.github/workflows/Dames2.yml
+#  Dames2:
+#    uses: ./.github/workflows/Dames2.yml
   U18:
     uses: ./.github/workflows/U18.yml
   U18VHV:
