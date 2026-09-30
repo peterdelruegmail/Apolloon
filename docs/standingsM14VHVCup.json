@@ -1,0 +1,156 @@
+{
+  "generated_at": "2026-09-30T10:30:03.186574+00:00",
+  "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18730/seasons/220",
+  "groups": [
+    {
+      "name": "Groep 1",
+      "standings": [
+        {
+          "position": 1,
+          "team": "Kwanten Arena G14 VHV C (U14 F)",
+          "team_id": 451076,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055337.jpg",
+          "mp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gs": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 2,
+          "team": "Sezoens Achilles Bocholt G14 VHV C (U14 F)",
+          "team_id": 451200,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848432.png",
+          "mp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gs": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 3,
+          "team": "H. Bilzen G14 VHV C (U14 F)",
+          "team_id": 451230,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200503.png",
+          "mp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gs": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 4,
+          "team": "Hubo G14 VHV C (U14 F)",
+          "team_id": 451312,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124954.png",
+          "mp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gs": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 5,
+          "team": "DHC Overpelt G14 VHV C (U14 F)",
+          "team_id": 451419,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788436569.jpg",
+          "mp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gs": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Derdaele Sp. Pelt G14 VHV C (U14 F)",
+          "team_id": 451873,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081310.jpg",
+          "mp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gs": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ]
+    },
+    {
+      "name": "Groep 2",
+      "standings": [
+        {
+          "position": 1,
+          "team": "HBC Apolloon Spurs (M14-Beker) (U14)",
+          "team_id": 450955,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814283.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 2,
+          "team": "Roeselare M14 Cup 1 (U14 F)",
+          "team_id": 459194,
+          "logo": null,
+          "mp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gs": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 3,
+          "team": "DHC Waasmunster M14 Cup 1 (U14 F)",
+          "team_id": 459195,
+          "logo": null,
+          "mp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gs": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 4,
+          "team": "Elita Lebbeke M14 Cup 1 (U14 F)",
+          "team_id": 459196,
+          "logo": null,
+          "mp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gs": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ]
+    }
+  ]
+}
