@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:30:17.960490+00:00",
+  "generated_at": "2026-10-03T11:00:22.495296+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -680,45 +680,31 @@
           "team": "P. Kortessem U12 VHV R 1 (U12)",
           "team_id": 451150,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
-          "mp": 3,
-          "w": 3,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 18,
+          "gs": 24,
           "ga": 0,
-          "gd": 18,
-          "pts": 6
+          "gd": 24,
+          "pts": 8
         },
         {
           "position": 2,
           "team": "Hubo U12 VHV R 2 (U12 M)",
           "team_id": 451314,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125195.png",
-          "mp": 3,
-          "w": 3,
+          "mp": 5,
+          "w": 4,
           "d": 0,
-          "l": 0,
-          "gs": 17,
-          "ga": 1,
+          "l": 1,
+          "gs": 23,
+          "ga": 7,
           "gd": 16,
-          "pts": 6
+          "pts": 8
         },
         {
           "position": 3,
-          "team": "United West L U12 VHV R (U12 M)",
-          "team_id": 451164,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17286/logo/96x96_handbal-lummen_1786174877.png",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 4,
-          "ga": 8,
-          "gd": -4,
-          "pts": 2
-        },
-        {
-          "position": 4,
           "team": "Sint-Truiden U12 VHV R (U12 M)",
           "team_id": 451695,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787923981.png",
@@ -732,7 +718,7 @@
           "pts": 2
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "Derdaele Sp. Pelt U12 VHV R 2 (U12 M)",
           "team_id": 451703,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081641.jpg",
@@ -743,6 +729,20 @@
           "gs": 9,
           "ga": 15,
           "gd": -6,
+          "pts": 2
+        },
+        {
+          "position": 5,
+          "team": "United West L U12 VHV R (U12 M)",
+          "team_id": 451164,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17286/logo/96x96_handbal-lummen_1786174877.png",
+          "mp": 3,
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gs": 4,
+          "ga": 14,
+          "gd": -10,
           "pts": 2
         },
         {
