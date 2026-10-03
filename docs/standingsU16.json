@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:30:19.303253+00:00",
+  "generated_at": "2026-10-03T15:00:16.740822+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -246,31 +246,31 @@
         },
         {
           "position": 2,
-          "team": "Olse Merksem U16 VHV R (U16 M)",
-          "team_id": 451021,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790146970.jpg",
-          "mp": 4,
+          "team": "Uilenspiegel U16 VHV R (U16 M)",
+          "team_id": 451552,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
+          "mp": 5,
           "w": 3,
           "d": 0,
-          "l": 1,
-          "gs": 112,
-          "ga": 85,
-          "gd": 27,
+          "l": 2,
+          "gs": 167,
+          "ga": 121,
+          "gd": 46,
           "pts": 6
         },
         {
           "position": 3,
-          "team": "Uilenspiegel U16 VHV R (U16 M)",
-          "team_id": 451552,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 4,
-          "w": 2,
+          "team": "Olse Merksem U16 VHV R (U16 M)",
+          "team_id": 451021,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790146970.jpg",
+          "mp": 5,
+          "w": 3,
           "d": 0,
           "l": 2,
-          "gs": 131,
-          "ga": 96,
-          "gd": 35,
-          "pts": 4
+          "gs": 137,
+          "ga": 121,
+          "gd": 16,
+          "pts": 6
         },
         {
           "position": 4,
@@ -324,14 +324,14 @@
           "team": "Rhino U16 VHV-B R (U16 M)",
           "team_id": 451089,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/_1786224919.png",
-          "mp": 4,
-          "w": 4,
+          "mp": 5,
+          "w": 5,
           "d": 0,
           "l": 0,
-          "gs": 146,
-          "ga": 87,
-          "gd": 59,
-          "pts": 8
+          "gs": 190,
+          "ga": 100,
+          "gd": 90,
+          "pts": 10
         },
         {
           "position": 2,
@@ -394,13 +394,13 @@
           "team": "HvH 't Noorden B (U16 M)",
           "team_id": 451364,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/25477/logo/96x96_hvh-%E2%80%98t-noorden_1787658655.png",
-          "mp": 4,
+          "mp": 5,
           "w": 0,
           "d": 0,
-          "l": 4,
-          "gs": 61,
-          "ga": 133,
-          "gd": -72,
+          "l": 5,
+          "gs": 74,
+          "ga": 177,
+          "gd": -103,
           "pts": 0
         }
       ]
