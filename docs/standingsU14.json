@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:00:18.976261+00:00",
+  "generated_at": "2026-10-03T14:30:16.056026+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -349,6 +349,20 @@
         },
         {
           "position": 2,
+          "team": "Uilenspiegel U14 VHV R (U14 M)",
+          "team_id": 451543,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
+          "mp": 4,
+          "w": 3,
+          "d": 0,
+          "l": 1,
+          "gs": 118,
+          "ga": 119,
+          "gd": -1,
+          "pts": 6
+        },
+        {
+          "position": 3,
           "team": "Heist o/d Berg U14 VHV R (U14 M)",
           "team_id": 451440,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790145756.png",
@@ -362,21 +376,21 @@
           "pts": 4
         },
         {
-          "position": 3,
-          "team": "Uilenspiegel U14 VHV R (U14 M)",
-          "team_id": 451543,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 3,
+          "position": 4,
+          "team": "Schoten U14 VHV R (U14 M)",
+          "team_id": 451048,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784968352.jpg",
+          "mp": 5,
           "w": 2,
           "d": 0,
-          "l": 1,
-          "gs": 87,
-          "ga": 104,
-          "gd": -17,
+          "l": 3,
+          "gs": 137,
+          "ga": 184,
+          "gd": -47,
           "pts": 4
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Brasschaat U14 VHV R (U14 M)",
           "team_id": 451344,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17235/logo/96x96_brasschaat-handbalclub_1788963702.png",
@@ -387,20 +401,6 @@
           "gs": 68,
           "ga": 92,
           "gd": -24,
-          "pts": 2
-        },
-        {
-          "position": 5,
-          "team": "Schoten U14 VHV R (U14 M)",
-          "team_id": 451048,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784968352.jpg",
-          "mp": 4,
-          "w": 1,
-          "d": 0,
-          "l": 3,
-          "gs": 105,
-          "ga": 155,
-          "gd": -50,
           "pts": 2
         },
         {
@@ -422,13 +422,13 @@
           "team": "Welta U14 VHV-B R (U14 M)",
           "team_id": 451469,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898715.jpg",
-          "mp": 2,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 36,
-          "ga": 76,
-          "gd": -40,
+          "l": 4,
+          "gs": 80,
+          "ga": 139,
+          "gd": -59,
           "pts": 0
         }
       ]
