@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:00:21.074025+00:00",
+  "generated_at": "2026-10-03T12:30:19.954431+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -96,6 +96,20 @@
         },
         {
           "position": 2,
+          "team": "Besox Izegem U12 VHV R 1 (U12 M)",
+          "team_id": 451448,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786782175.jpg",
+          "mp": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gs": 12,
+          "ga": 6,
+          "gd": 6,
+          "pts": 4
+        },
+        {
+          "position": 3,
           "team": "Dendermonde U12 VHV R (U12 M)",
           "team_id": 451636,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669622.png",
@@ -107,20 +121,6 @@
           "ga": 9,
           "gd": 0,
           "pts": 3
-        },
-        {
-          "position": 3,
-          "team": "Besox Izegem U12 VHV R 1 (U12 M)",
-          "team_id": 451448,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786782175.jpg",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 6,
-          "ga": 6,
-          "gd": 0,
-          "pts": 2
         },
         {
           "position": 4,
@@ -169,13 +169,13 @@
           "team": "Evergem U12 VHV R (U12 M)",
           "team_id": 451366,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785698492.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
+          "l": 3,
           "gs": 0,
-          "ga": 12,
-          "gd": -12,
+          "ga": 18,
+          "gd": -18,
           "pts": 0
         }
       ]
@@ -558,13 +558,13 @@
           "team": "HvH 't Noorden B (U12 M)",
           "team_id": 451362,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/25477/logo/96x96_hvh-%E2%80%98t-noorden_1787658655.png",
-          "mp": 3,
+          "mp": 4,
           "w": 2,
           "d": 0,
-          "l": 1,
-          "gs": 9,
-          "ga": 9,
-          "gd": 0,
+          "l": 2,
+          "gs": 11,
+          "ga": 13,
+          "gd": -2,
           "pts": 4
         },
         {
@@ -572,14 +572,14 @@
           "team": "Olse Merksem U12 VHV R (U12 M)",
           "team_id": 451024,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147002.jpg",
-          "mp": 3,
-          "w": 1,
+          "mp": 4,
+          "w": 2,
           "d": 0,
           "l": 2,
-          "gs": 6,
-          "ga": 12,
-          "gd": -6,
-          "pts": 2
+          "gs": 10,
+          "ga": 14,
+          "gd": -4,
+          "pts": 4
         },
         {
           "position": 6,
@@ -780,6 +780,20 @@
         },
         {
           "position": 2,
+          "team": "Kreasa Houthalen U12 VHV R (U12 M)",
+          "team_id": 451158,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
+          "mp": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gs": 12,
+          "ga": 6,
+          "gd": 6,
+          "pts": 4
+        },
+        {
+          "position": 3,
           "team": "Derdaele Sp. Pelt U12 VHV R 3 (U12 M)",
           "team_id": 451704,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081665.jpg",
@@ -793,7 +807,7 @@
           "pts": 4
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Kwanten Arena U12 VHV R (U12 M)",
           "team_id": 451070,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055396.jpg",
@@ -807,31 +821,17 @@
           "pts": 4
         },
         {
-          "position": 4,
-          "team": "Kreasa Houthalen U12 VHV R (U12 M)",
-          "team_id": 451158,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 6,
-          "ga": 6,
-          "gd": 0,
-          "pts": 2
-        },
-        {
           "position": 5,
           "team": "HHV Meeuwen U12 VHV R (U12 M)",
           "team_id": 451269,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17273/logo/96x96_hhv-meeuwen_1788942171.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
+          "l": 4,
           "gs": 0,
-          "ga": 18,
-          "gd": -18,
+          "ga": 24,
+          "gd": -24,
           "pts": 0
         }
       ]
