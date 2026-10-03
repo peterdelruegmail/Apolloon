@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:30:12.345079+00:00",
+  "generated_at": "2026-10-03T14:00:18.976261+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -441,14 +441,14 @@
           "team": "Hubo U14 VHV R 2 (U14 M)",
           "team_id": 451306,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125138.png",
-          "mp": 4,
-          "w": 4,
+          "mp": 5,
+          "w": 5,
           "d": 0,
           "l": 0,
-          "gs": 170,
-          "ga": 53,
-          "gd": 117,
-          "pts": 8
+          "gs": 218,
+          "ga": 73,
+          "gd": 145,
+          "pts": 10
         },
         {
           "position": 2,
@@ -469,13 +469,13 @@
           "team": "Derdaele Sp. Pelt U14 VHV R 2 (U14 M)",
           "team_id": 451866,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081457.jpg",
-          "mp": 4,
+          "mp": 5,
           "w": 3,
           "d": 0,
-          "l": 1,
-          "gs": 120,
-          "ga": 99,
-          "gd": 21,
+          "l": 2,
+          "gs": 140,
+          "ga": 147,
+          "gd": -7,
           "pts": 6
         },
         {
