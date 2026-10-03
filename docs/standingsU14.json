@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T09:00:18.732868+00:00",
+  "generated_at": "2026-10-03T09:30:18.154118+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -530,14 +530,14 @@
           "team": "Derdaele Sp. Pelt U14 VHV R 1 (U14 M)",
           "team_id": 451705,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081405.jpg",
-          "mp": 4,
-          "w": 4,
+          "mp": 5,
+          "w": 5,
           "d": 0,
           "l": 0,
-          "gs": 149,
-          "ga": 62,
-          "gd": 87,
-          "pts": 8
+          "gs": 196,
+          "ga": 82,
+          "gd": 114,
+          "pts": 10
         },
         {
           "position": 2,
@@ -569,44 +569,44 @@
         },
         {
           "position": 4,
-          "team": "HC Overpelt U14 VHV R (U14 M)",
-          "team_id": 451097,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788186943.jpg",
-          "mp": 3,
-          "w": 1,
-          "d": 0,
-          "l": 2,
-          "gs": 58,
-          "ga": 102,
-          "gd": -44,
-          "pts": 2
-        },
-        {
-          "position": 5,
           "team": "Sezoens Achilles Bocholt U14 VHV R 1 (U14 M)",
           "team_id": 451194,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848477.png",
-          "mp": 2,
-          "w": 0,
+          "mp": 3,
+          "w": 1,
           "d": 1,
           "l": 1,
-          "gs": 48,
-          "ga": 51,
-          "gd": -3,
-          "pts": 1
+          "gs": 110,
+          "ga": 57,
+          "gd": 53,
+          "pts": 3
+        },
+        {
+          "position": 5,
+          "team": "HC Overpelt U14 VHV R (U14 M)",
+          "team_id": 451097,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788186943.jpg",
+          "mp": 4,
+          "w": 1,
+          "d": 0,
+          "l": 3,
+          "gs": 78,
+          "ga": 149,
+          "gd": -71,
+          "pts": 2
         },
         {
           "position": 6,
           "team": "HHV Meeuwen U14 VHV R (U14 M)",
           "team_id": 451270,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17273/logo/96x96_hhv-meeuwen_1788942171.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 28,
-          "ga": 129,
-          "gd": -101,
+          "l": 4,
+          "gs": 34,
+          "ga": 191,
+          "gd": -157,
           "pts": 0
         }
       ]
