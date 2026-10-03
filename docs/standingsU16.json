@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:00:11.923499+00:00",
+  "generated_at": "2026-10-03T08:30:17.698202+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -413,27 +413,27 @@
           "team": "Hubo U16 VHV R 1 (U16 M)",
           "team_id": 451294,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124833.png",
-          "mp": 4,
-          "w": 4,
+          "mp": 5,
+          "w": 5,
           "d": 0,
           "l": 0,
-          "gs": 162,
-          "ga": 79,
-          "gd": 83,
-          "pts": 8
+          "gs": 214,
+          "ga": 111,
+          "gd": 103,
+          "pts": 10
         },
         {
           "position": 2,
           "team": "P. Kortessem U16 VHV R (U16 M)",
           "team_id": 451143,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
-          "mp": 4,
+          "mp": 5,
           "w": 3,
           "d": 1,
-          "l": 0,
-          "gs": 136,
-          "ga": 106,
-          "gd": 30,
+          "l": 1,
+          "gs": 168,
+          "ga": 158,
+          "gd": 10,
           "pts": 7
         },
         {
