@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:30:16.056026+00:00",
+  "generated_at": "2026-10-03T15:00:23.129615+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -497,27 +497,27 @@
           "team": "United West B U14 VHV R (U14 M)",
           "team_id": 451336,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17287/logo/_1786621769.jpg",
-          "mp": 4,
-          "w": 0,
+          "mp": 5,
+          "w": 1,
           "d": 1,
           "l": 3,
-          "gs": 87,
-          "ga": 148,
-          "gd": -61,
-          "pts": 1
+          "gs": 125,
+          "ga": 176,
+          "gd": -51,
+          "pts": 3
         },
         {
           "position": 6,
           "team": "Leuven U14 VHV R (U14)",
           "team_id": 451081,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465736.png",
-          "mp": 4,
+          "mp": 5,
           "w": 0,
           "d": 0,
-          "l": 4,
-          "gs": 69,
-          "ga": 157,
-          "gd": -88,
+          "l": 5,
+          "gs": 97,
+          "ga": 195,
+          "gd": -98,
           "pts": 0
         }
       ]
