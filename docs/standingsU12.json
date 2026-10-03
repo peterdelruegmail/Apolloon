@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T15:00:19.218288+00:00",
+  "generated_at": "2026-10-03T15:30:20.833612+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -619,17 +619,31 @@
           "team": "Derdaele Sp. Pelt U12 VHV R 1 (U12 M)",
           "team_id": 451702,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081615.jpg",
-          "mp": 2,
-          "w": 1,
+          "mp": 3,
+          "w": 2,
           "d": 0,
           "l": 1,
-          "gs": 5,
+          "gs": 11,
           "ga": 7,
-          "gd": -2,
-          "pts": 2
+          "gd": 4,
+          "pts": 4
         },
         {
           "position": 3,
+          "team": "Sezoens Achilles Bocholt U12 VHV R (U12 M)",
+          "team_id": 451201,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848522.png",
+          "mp": 4,
+          "w": 1,
+          "d": 1,
+          "l": 2,
+          "gs": 10,
+          "ga": 14,
+          "gd": -4,
+          "pts": 3
+        },
+        {
+          "position": 4,
           "team": "P. Kortessem U12 VHV R 3 (U12)",
           "team_id": 451151,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
@@ -643,31 +657,17 @@
           "pts": 2
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "H. Bilzen U12 VHV-B R 2 (U12 M)",
           "team_id": 451221,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200722.png",
-          "mp": 2,
+          "mp": 4,
           "w": 0,
           "d": 1,
-          "l": 1,
+          "l": 3,
           "gs": 5,
-          "ga": 7,
-          "gd": -2,
-          "pts": 1
-        },
-        {
-          "position": 5,
-          "team": "Sezoens Achilles Bocholt U12 VHV R (U12 M)",
-          "team_id": 451201,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848522.png",
-          "mp": 3,
-          "w": 0,
-          "d": 1,
-          "l": 2,
-          "gs": 4,
-          "ga": 14,
-          "gd": -10,
+          "ga": 19,
+          "gd": -14,
           "pts": 1
         }
       ]
