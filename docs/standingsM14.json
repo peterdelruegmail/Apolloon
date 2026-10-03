@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:00:20.162662+00:00",
+  "generated_at": "2026-10-03T10:30:16.252525+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -38,27 +38,27 @@
           "team": "Thor G14 VHV-B R (U14 F)",
           "team_id": 451587,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
-          "mp": 4,
-          "w": 1,
+          "mp": 5,
+          "w": 2,
           "d": 1,
           "l": 2,
-          "gs": 95,
-          "ga": 109,
-          "gd": -14,
-          "pts": 3
+          "gs": 127,
+          "ga": 130,
+          "gd": -3,
+          "pts": 5
         },
         {
           "position": 4,
           "team": "DHC Waasmunster G14 VHV R (U14 F)",
           "team_id": 451243,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
-          "mp": 4,
+          "mp": 5,
           "w": 1,
           "d": 1,
-          "l": 2,
-          "gs": 76,
-          "ga": 97,
-          "gd": -21,
+          "l": 3,
+          "gs": 97,
+          "ga": 129,
+          "gd": -32,
           "pts": 3
         },
         {
@@ -263,14 +263,14 @@
           "team": "DHC Overpelt G14 VHV R B (U14 F)",
           "team_id": 451418,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788436626.jpg",
-          "mp": 4,
-          "w": 3,
+          "mp": 5,
+          "w": 4,
           "d": 0,
           "l": 1,
-          "gs": 81,
-          "ga": 61,
-          "gd": 20,
-          "pts": 6
+          "gs": 105,
+          "ga": 71,
+          "gd": 34,
+          "pts": 8
         },
         {
           "position": 3,
@@ -319,13 +319,13 @@
           "team": "DHC Meeuwen G14 VHV-B R 2 (U14 F)",
           "team_id": 451665,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790172135.png",
-          "mp": 4,
+          "mp": 5,
           "w": 0,
           "d": 0,
-          "l": 4,
-          "gs": 39,
-          "ga": 79,
-          "gd": -40,
+          "l": 5,
+          "gs": 49,
+          "ga": 103,
+          "gd": -54,
           "pts": 0
         }
       ]
