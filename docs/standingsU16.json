@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:00:15.784683+00:00",
+  "generated_at": "2026-10-03T14:30:19.303253+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -24,14 +24,14 @@
           "team": "DB Gent U16 VHV R (U16 M)",
           "team_id": 451501,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415143.png",
-          "mp": 2,
-          "w": 1,
+          "mp": 3,
+          "w": 2,
           "d": 0,
           "l": 1,
-          "gs": 50,
-          "ga": 60,
-          "gd": -10,
-          "pts": 2
+          "gs": 87,
+          "ga": 90,
+          "gd": -3,
+          "pts": 4
         },
         {
           "position": 3,
@@ -52,13 +52,13 @@
           "team": "Dendermonde U16 VHV R (U16 M)",
           "team_id": 451630,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669333.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 1,
-          "l": 1,
-          "gs": 65,
-          "ga": 83,
-          "gd": -18,
+          "l": 2,
+          "gs": 95,
+          "ga": 120,
+          "gd": -25,
           "pts": 1
         },
         {
