@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:00:18.525585+00:00",
+  "generated_at": "2026-10-03T13:30:10.119302+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -21,6 +21,20 @@
         },
         {
           "position": 2,
+          "team": "Kraainem D1 M (Senior M)",
+          "team_id": 451058,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17296/logo/_1784291937.png",
+          "mp": 5,
+          "w": 3,
+          "d": 0,
+          "l": 2,
+          "gs": 150,
+          "ga": 148,
+          "gd": 2,
+          "pts": 6
+        },
+        {
+          "position": 3,
           "team": "Eynatten-Raeren D1 M (Senior M)",
           "team_id": 451765,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17247/logo/_1786967070.jpg",
@@ -34,7 +48,7 @@
           "pts": 5
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Biobest Sasja D1 M (Senior M)",
           "team_id": 451600,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788434583.png",
@@ -48,7 +62,7 @@
           "pts": 5
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Derdaele Sp. Pelt D1 M (Senior M)",
           "team_id": 451715,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787080804.jpg",
@@ -60,20 +74,6 @@
           "ga": 123,
           "gd": 1,
           "pts": 5
-        },
-        {
-          "position": 5,
-          "team": "Kraainem D1 M (Senior M)",
-          "team_id": 451058,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17296/logo/_1784291937.png",
-          "mp": 4,
-          "w": 2,
-          "d": 0,
-          "l": 2,
-          "gs": 122,
-          "ga": 122,
-          "gd": 0,
-          "pts": 4
         },
         {
           "position": 6,
@@ -108,13 +108,13 @@
           "team": "Sezoens Achilles Bocholt D1 M (Senior M)",
           "team_id": 451177,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848032.png",
-          "mp": 4,
+          "mp": 5,
           "w": 1,
           "d": 1,
-          "l": 2,
-          "gs": 107,
-          "ga": 110,
-          "gd": -3,
+          "l": 3,
+          "gs": 133,
+          "ga": 138,
+          "gd": -5,
           "pts": 3
         },
         {
