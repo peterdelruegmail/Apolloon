@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:00:20.473055+00:00",
+  "generated_at": "2026-10-03T11:30:12.663977+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -246,31 +246,31 @@
       "standings": [
         {
           "position": 1,
-          "team": "P. Kortessem B18 VHV R (U18 M)",
-          "team_id": 451141,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
-          "mp": 3,
-          "w": 3,
-          "d": 0,
-          "l": 0,
-          "gs": 84,
-          "ga": 61,
-          "gd": 23,
-          "pts": 6
-        },
-        {
-          "position": 2,
           "team": "Hubo B18 VHV R (U18 M)",
           "team_id": 451290,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124558.png",
-          "mp": 2,
-          "w": 2,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 69,
-          "ga": 60,
-          "gd": 9,
-          "pts": 4
+          "gs": 141,
+          "ga": 95,
+          "gd": 46,
+          "pts": 8
+        },
+        {
+          "position": 2,
+          "team": "P. Kortessem B18 VHV R (U18 M)",
+          "team_id": 451141,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
+          "mp": 4,
+          "w": 3,
+          "d": 0,
+          "l": 1,
+          "gs": 97,
+          "ga": 99,
+          "gd": -2,
+          "pts": 6
         },
         {
           "position": 3,
@@ -291,13 +291,13 @@
           "team": "Maasmechelen 65 B18 VHV-B R (U18 M)",
           "team_id": 451404,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17238/logo/_1786889618.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 1,
-          "l": 1,
-          "gs": 53,
-          "ga": 61,
-          "gd": -8,
+          "l": 2,
+          "gs": 75,
+          "ga": 95,
+          "gd": -20,
           "pts": 1
         },
         {
