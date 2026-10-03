@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T15:00:16.384523+00:00",
+  "generated_at": "2026-10-03T15:30:16.247947+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -49,6 +49,20 @@
         },
         {
           "position": 4,
+          "team": "Besox Izegem G14 VHV R (U14 F)",
+          "team_id": 451477,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786534401.jpg",
+          "mp": 5,
+          "w": 2,
+          "d": 1,
+          "l": 2,
+          "gs": 122,
+          "ga": 134,
+          "gd": -12,
+          "pts": 5
+        },
+        {
+          "position": 5,
           "team": "DHC Waasmunster G14 VHV R (U14 F)",
           "team_id": 451243,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
@@ -62,31 +76,17 @@
           "pts": 3
         },
         {
-          "position": 5,
-          "team": "Besox Izegem G14 VHV R (U14 F)",
-          "team_id": 451477,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786534401.jpg",
-          "mp": 4,
-          "w": 1,
-          "d": 1,
-          "l": 2,
-          "gs": 83,
-          "ga": 117,
-          "gd": -34,
-          "pts": 3
-        },
-        {
           "position": 6,
           "team": "Lebbeke G14 VHV R (U14 F)",
           "team_id": 451546,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666847.png",
-          "mp": 4,
+          "mp": 5,
           "w": 0,
           "d": 1,
-          "l": 3,
-          "gs": 50,
-          "ga": 103,
-          "gd": -53,
+          "l": 4,
+          "gs": 67,
+          "ga": 142,
+          "gd": -75,
           "pts": 1
         }
       ]
