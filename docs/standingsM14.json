@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:30:15.440060+00:00",
+  "generated_at": "2026-10-03T15:00:16.384523+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -185,6 +185,20 @@
         },
         {
           "position": 3,
+          "team": "P. Kortessem G14 VHV R (U14 F)",
+          "team_id": 451148,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
+          "mp": 5,
+          "w": 2,
+          "d": 1,
+          "l": 2,
+          "gs": 118,
+          "ga": 99,
+          "gd": 19,
+          "pts": 5
+        },
+        {
+          "position": 4,
           "team": "Hubo G14 VHV R (U14 F)",
           "team_id": 451310,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124971.png",
@@ -195,20 +209,6 @@
           "gs": 91,
           "ga": 87,
           "gd": 4,
-          "pts": 3
-        },
-        {
-          "position": 4,
-          "team": "P. Kortessem G14 VHV R (U14 F)",
-          "team_id": 451148,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
-          "mp": 4,
-          "w": 1,
-          "d": 1,
-          "l": 2,
-          "gs": 77,
-          "ga": 76,
-          "gd": 1,
           "pts": 3
         },
         {
@@ -230,13 +230,13 @@
           "team": "Sint-Truiden G14 VHV-B R (U14 F)",
           "team_id": 451694,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787923964.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 24,
-          "ga": 73,
-          "gd": -49,
+          "l": 4,
+          "gs": 47,
+          "ga": 114,
+          "gd": -67,
           "pts": 0
         }
       ]
@@ -249,14 +249,14 @@
           "team": "Derdaele Sp. Pelt G14 VHV R 2 (U14 F)",
           "team_id": 451869,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081490.jpg",
-          "mp": 4,
+          "mp": 5,
           "w": 4,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gs": 100,
-          "ga": 47,
+          "gs": 117,
+          "ga": 64,
           "gd": 53,
-          "pts": 8
+          "pts": 9
         },
         {
           "position": 2,
@@ -277,14 +277,14 @@
           "team": "Kwanten Arena G14 VHV R (U14 F)",
           "team_id": 451069,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055267.jpg",
-          "mp": 4,
+          "mp": 5,
           "w": 2,
-          "d": 0,
+          "d": 1,
           "l": 2,
-          "gs": 90,
-          "ga": 87,
+          "gs": 107,
+          "ga": 104,
           "gd": 3,
-          "pts": 4
+          "pts": 5
         },
         {
           "position": 4,
