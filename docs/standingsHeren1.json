@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:30:16.971246+00:00",
+  "generated_at": "2026-10-03T17:00:18.102052+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -21,6 +21,20 @@
         },
         {
           "position": 2,
+          "team": "Derdaele Sp. Pelt D1 M (Senior M)",
+          "team_id": 451715,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787080804.jpg",
+          "mp": 5,
+          "w": 3,
+          "d": 1,
+          "l": 1,
+          "gs": 160,
+          "ga": 155,
+          "gd": 5,
+          "pts": 7
+        },
+        {
+          "position": 3,
           "team": "Kraainem D1 M (Senior M)",
           "team_id": 451058,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17296/logo/_1784291937.png",
@@ -34,7 +48,7 @@
           "pts": 6
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Eynatten-Raeren D1 M (Senior M)",
           "team_id": 451765,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17247/logo/_1786967070.jpg",
@@ -48,7 +62,7 @@
           "pts": 5
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Biobest Sasja D1 M (Senior M)",
           "team_id": 451600,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788434583.png",
@@ -62,21 +76,21 @@
           "pts": 5
         },
         {
-          "position": 5,
-          "team": "Derdaele Sp. Pelt D1 M (Senior M)",
-          "team_id": 451715,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787080804.jpg",
-          "mp": 4,
-          "w": 2,
-          "d": 1,
-          "l": 1,
-          "gs": 124,
-          "ga": 123,
+          "position": 6,
+          "team": "Renaissance Montegnée  D1 M (Senior M)",
+          "team_id": 451248,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17231/logo/hcrm-u12-r-458115_1788520606.png",
+          "mp": 6,
+          "w": 1,
+          "d": 2,
+          "l": 3,
+          "gs": 146,
+          "ga": 145,
           "gd": 1,
-          "pts": 5
+          "pts": 4
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "HBC Apolloon Spurs D1 M (Senior M)",
           "team_id": 450938,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784813833.png",
@@ -88,20 +102,6 @@
           "ga": 141,
           "gd": -17,
           "pts": 4
-        },
-        {
-          "position": 7,
-          "team": "Renaissance Montegnée  D1 M (Senior M)",
-          "team_id": 451248,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17231/logo/hcrm-u12-r-458115_1788520606.png",
-          "mp": 4,
-          "w": 1,
-          "d": 1,
-          "l": 2,
-          "gs": 114,
-          "ga": 109,
-          "gd": 5,
-          "pts": 3
         },
         {
           "position": 8,
@@ -122,14 +122,14 @@
           "team": "Lebbeke D1 M (Senior M)",
           "team_id": 451513,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666665.png",
-          "mp": 4,
+          "mp": 5,
           "w": 1,
-          "d": 0,
+          "d": 1,
           "l": 3,
           "gs": 114,
           "ga": 125,
           "gd": -11,
-          "pts": 2
+          "pts": 3
         },
         {
           "position": 10,
