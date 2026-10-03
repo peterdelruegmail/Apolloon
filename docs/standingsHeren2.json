@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:30:21.385482+00:00",
+  "generated_at": "2026-10-03T18:00:13.965113+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18707/seasons/220",
   "groups": [
     {
@@ -10,14 +10,14 @@
           "team": "Olse Merksem D1 M VHV (Senior M)",
           "team_id": 451014,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790146822.jpg",
-          "mp": 3,
-          "w": 3,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 112,
-          "ga": 57,
-          "gd": 55,
-          "pts": 6
+          "gs": 156,
+          "ga": 93,
+          "gd": 63,
+          "pts": 8
         },
         {
           "position": 2,
@@ -38,13 +38,13 @@
           "team": "DB Gent D1 M VHV (Senior M)",
           "team_id": 451496,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415001.png",
-          "mp": 3,
+          "mp": 4,
           "w": 3,
           "d": 0,
-          "l": 0,
-          "gs": 85,
-          "ga": 74,
-          "gd": 11,
+          "l": 1,
+          "gs": 121,
+          "ga": 118,
+          "gd": 3,
           "pts": 6
         },
         {
