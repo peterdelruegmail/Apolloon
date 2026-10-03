@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:30:18.029036+00:00",
+  "generated_at": "2026-10-03T18:00:16.312754+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -10,14 +10,14 @@
           "team": "Estudiantes Tournai D1 M (Senior M)",
           "team_id": 451113,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/4969/logo/96x96_estudiantes-handball-club-tournai_1790953726.png",
-          "mp": 4,
-          "w": 3,
+          "mp": 5,
+          "w": 4,
           "d": 1,
           "l": 0,
-          "gs": 148,
-          "ga": 130,
-          "gd": 18,
-          "pts": 7
+          "gs": 186,
+          "ga": 165,
+          "gd": 21,
+          "pts": 9
         },
         {
           "position": 2,
@@ -136,13 +136,13 @@
           "team": "Hubo D1 M (Senior M)",
           "team_id": 451281,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787090275.png",
-          "mp": 4,
+          "mp": 5,
           "w": 1,
           "d": 0,
-          "l": 3,
-          "gs": 113,
-          "ga": 128,
-          "gd": -15,
+          "l": 4,
+          "gs": 148,
+          "ga": 166,
+          "gd": -18,
           "pts": 2
         }
       ]
