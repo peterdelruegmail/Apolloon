@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:00:21.209787+00:00",
+  "generated_at": "2026-10-03T12:30:18.921030+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -7,6 +7,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "DB Gent B18 VHV R (U18 M)",
+          "team_id": 451499,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415109.png",
+          "mp": 4,
+          "w": 3,
+          "d": 0,
+          "l": 1,
+          "gs": 142,
+          "ga": 97,
+          "gd": 45,
+          "pts": 6
+        },
+        {
+          "position": 2,
           "team": "HBC Apolloon Spurs B18 VHV R (U18 M)",
           "team_id": 450941,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814422.png",
@@ -20,32 +34,18 @@
           "pts": 6
         },
         {
-          "position": 2,
-          "team": "DB Gent B18 VHV R (U18 M)",
-          "team_id": 451499,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415109.png",
-          "mp": 3,
-          "w": 2,
-          "d": 0,
-          "l": 1,
-          "gs": 111,
-          "ga": 71,
-          "gd": 40,
-          "pts": 4
-        },
-        {
           "position": 3,
           "team": "Lebbeke B18 VHV R (U18 M)",
           "team_id": 451526,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666706.png",
-          "mp": 2,
-          "w": 1,
+          "mp": 4,
+          "w": 2,
           "d": 0,
-          "l": 1,
-          "gs": 77,
-          "ga": 62,
-          "gd": 15,
-          "pts": 2
+          "l": 2,
+          "gs": 142,
+          "ga": 117,
+          "gd": 25,
+          "pts": 4
         },
         {
           "position": 4,
@@ -66,13 +66,13 @@
           "team": "Evergem B18 VHV R (U18 M)",
           "team_id": 451376,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697692.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 80,
-          "ga": 115,
-          "gd": -35,
+          "l": 4,
+          "gs": 104,
+          "ga": 154,
+          "gd": -50,
           "pts": 0
         }
       ]
