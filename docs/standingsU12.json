@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:00:21.180192+00:00",
+  "generated_at": "2026-10-03T10:30:17.960490+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -769,27 +769,27 @@
           "team": "Hubo U12 VHV R 3 (U12 M)",
           "team_id": 451317,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125229.png",
-          "mp": 2,
-          "w": 2,
+          "mp": 3,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "gs": 12,
+          "gs": 18,
           "ga": 0,
-          "gd": 12,
-          "pts": 4
+          "gd": 18,
+          "pts": 6
         },
         {
           "position": 2,
           "team": "Derdaele Sp. Pelt U12 VHV R 3 (U12 M)",
           "team_id": 451704,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081665.jpg",
-          "mp": 3,
+          "mp": 4,
           "w": 2,
           "d": 0,
-          "l": 1,
-          "gs": 12,
-          "ga": 6,
-          "gd": 6,
+          "l": 2,
+          "gs": 14,
+          "ga": 10,
+          "gd": 4,
           "pts": 4
         },
         {
@@ -797,13 +797,13 @@
           "team": "Kwanten Arena U12 VHV R (U12 M)",
           "team_id": 451070,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055396.jpg",
-          "mp": 3,
+          "mp": 4,
           "w": 2,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "gs": 10,
-          "ga": 8,
-          "gd": 2,
+          "ga": 14,
+          "gd": -4,
           "pts": 4
         },
         {
@@ -811,14 +811,14 @@
           "team": "Kreasa Houthalen U12 VHV R (U12 M)",
           "team_id": 451158,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
-          "mp": 1,
-          "w": 0,
+          "mp": 2,
+          "w": 1,
           "d": 0,
           "l": 1,
-          "gs": 2,
-          "ga": 4,
-          "gd": -2,
-          "pts": 0
+          "gs": 6,
+          "ga": 6,
+          "gd": 0,
+          "pts": 2
         },
         {
           "position": 5,
