@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T14:00:20.749053+00:00",
+  "generated_at": "2026-10-04T14:30:21.972219+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -202,27 +202,27 @@
           "team": "Thor U14 VHV R (U14 M)",
           "team_id": 451586,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
-          "mp": 3,
-          "w": 1,
+          "mp": 4,
+          "w": 2,
           "d": 0,
           "l": 2,
-          "gs": 70,
-          "ga": 81,
-          "gd": -11,
-          "pts": 2
+          "gs": 100,
+          "ga": 94,
+          "gd": 6,
+          "pts": 4
         },
         {
           "position": 4,
           "team": "Desselgemse U14 VHV R (U14 M)",
           "team_id": 451328,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/_1786798260.png",
-          "mp": 3,
+          "mp": 4,
           "w": 1,
           "d": 0,
-          "l": 2,
-          "gs": 48,
-          "ga": 81,
-          "gd": -33,
+          "l": 3,
+          "gs": 61,
+          "ga": 111,
+          "gd": -50,
           "pts": 2
         },
         {
@@ -249,14 +249,14 @@
           "team": "DB Gent U14 VHV R 4 (U14 M)",
           "team_id": 451660,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415317.png",
-          "mp": 4,
-          "w": 4,
+          "mp": 5,
+          "w": 5,
           "d": 0,
           "l": 0,
-          "gs": 160,
-          "ga": 84,
-          "gd": 76,
-          "pts": 8
+          "gs": 217,
+          "ga": 100,
+          "gd": 117,
+          "pts": 10
         },
         {
           "position": 2,
@@ -302,20 +302,6 @@
         },
         {
           "position": 5,
-          "team": "Brugge U14 VHV-B R (U14 M)",
-          "team_id": 451509,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107944.jpg",
-          "mp": 2,
-          "w": 0,
-          "d": 0,
-          "l": 2,
-          "gs": 15,
-          "ga": 65,
-          "gd": -50,
-          "pts": 0
-        },
-        {
-          "position": 6,
           "team": "HK Waasmunster U14 VHV R (U14 M)",
           "team_id": 451603,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
@@ -326,6 +312,20 @@
           "gs": 69,
           "ga": 157,
           "gd": -88,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Brugge U14 VHV-B R (U14 M)",
+          "team_id": 451509,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107944.jpg",
+          "mp": 3,
+          "w": 0,
+          "d": 0,
+          "l": 3,
+          "gs": 31,
+          "ga": 122,
+          "gd": -91,
           "pts": 0
         }
       ]
