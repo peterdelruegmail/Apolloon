@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T12:30:17.678657+00:00",
+  "generated_at": "2026-10-04T13:00:21.091478+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -38,14 +38,14 @@
           "team": "Evergem U16 VHV-B R (U16 M)",
           "team_id": 451374,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785697671.png",
-          "mp": 2,
-          "w": 0,
+          "mp": 3,
+          "w": 1,
           "d": 1,
           "l": 1,
-          "gs": 72,
-          "ga": 74,
-          "gd": -2,
-          "pts": 1
+          "gs": 115,
+          "ga": 98,
+          "gd": 17,
+          "pts": 3
         },
         {
           "position": 4,
@@ -66,13 +66,13 @@
           "team": "Mouscron U16 VHV R (U16 M)",
           "team_id": 451219,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17278/logo/96x96_hc-mouscron_1786054513.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 6,
-          "ga": 50,
-          "gd": -44,
+          "l": 2,
+          "gs": 30,
+          "ga": 93,
+          "gd": -63,
           "pts": 0
         }
       ]
