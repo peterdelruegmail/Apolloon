@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T08:30:19.791974+00:00",
+  "generated_at": "2026-10-04T09:00:22.109583+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -274,6 +274,20 @@
         },
         {
           "position": 3,
+          "team": "Sezoens Achilles Bocholt G14 VHV R (U14 F)",
+          "team_id": 451198,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848413.png",
+          "mp": 5,
+          "w": 3,
+          "d": 0,
+          "l": 2,
+          "gs": 104,
+          "ga": 93,
+          "gd": 11,
+          "pts": 6
+        },
+        {
+          "position": 4,
           "team": "Kwanten Arena G14 VHV R (U14 F)",
           "team_id": 451069,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055267.jpg",
@@ -287,31 +301,17 @@
           "pts": 5
         },
         {
-          "position": 4,
-          "team": "Sezoens Achilles Bocholt G14 VHV R (U14 F)",
-          "team_id": 451198,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848413.png",
-          "mp": 4,
-          "w": 2,
-          "d": 0,
-          "l": 2,
-          "gs": 74,
-          "ga": 78,
-          "gd": -4,
-          "pts": 4
-        },
-        {
           "position": 5,
           "team": "United West B G14 VHV R (U14 F)",
           "team_id": 451335,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17287/logo/_1786621769.jpg",
-          "mp": 4,
+          "mp": 5,
           "w": 1,
           "d": 0,
-          "l": 3,
-          "gs": 58,
-          "ga": 90,
-          "gd": -32,
+          "l": 4,
+          "gs": 73,
+          "ga": 120,
+          "gd": -47,
           "pts": 2
         },
         {
