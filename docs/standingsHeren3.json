@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T15:00:18.197216+00:00",
+  "generated_at": "2026-10-04T15:30:17.804442+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18713/seasons/220",
   "groups": [
     {
@@ -49,6 +49,20 @@
         },
         {
           "position": 4,
+          "team": "Dendermonde D M VHV OWV-B 2 (Senior M)",
+          "team_id": 451693,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784650480.png",
+          "mp": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gs": 79,
+          "ga": 64,
+          "gd": 15,
+          "pts": 3
+        },
+        {
+          "position": 5,
           "team": "Evergem D M VHV OWV-B (Senior M)",
           "team_id": 451379,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785696874.png",
@@ -62,7 +76,7 @@
           "pts": 3
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Dendermonde D M VHV OWV-B 1 (Senior M)",
           "team_id": 451622,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784646241.png",
@@ -76,7 +90,7 @@
           "pts": 2
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "HBC Apolloon Spurs D M VHV OWV (Senior M)",
           "team_id": 450940,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784813679.png",
@@ -88,20 +102,6 @@
           "ga": 91,
           "gd": 6,
           "pts": 2
-        },
-        {
-          "position": 7,
-          "team": "Dendermonde D M VHV OWV-B 2 (Senior M)",
-          "team_id": 451693,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784650480.png",
-          "mp": 2,
-          "w": 0,
-          "d": 1,
-          "l": 1,
-          "gs": 41,
-          "ga": 45,
-          "gd": -4,
-          "pts": 1
         },
         {
           "position": 8,
@@ -150,13 +150,13 @@
           "team": "Lokeren D M VHV OWV-B 2 (Senior M)",
           "team_id": 451130,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747847.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 62,
-          "ga": 103,
-          "gd": -41,
+          "l": 4,
+          "gs": 81,
+          "ga": 141,
+          "gd": -60,
           "pts": 0
         }
       ]
