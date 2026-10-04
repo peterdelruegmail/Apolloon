@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T12:30:18.713831+00:00",
+  "generated_at": "2026-10-04T13:00:21.626197+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -338,41 +338,41 @@
           "team": "H. Bilzen B18 VHV-B R (U18 M)",
           "team_id": 451242,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200287.png",
-          "mp": 2,
-          "w": 1,
+          "mp": 3,
+          "w": 2,
           "d": 0,
           "l": 1,
-          "gs": 57,
-          "ga": 46,
-          "gd": 11,
-          "pts": 2
+          "gs": 97,
+          "ga": 75,
+          "gd": 22,
+          "pts": 4
         },
         {
           "position": 3,
           "team": "Kwanten Arena B18 VHV-B R (U18 M)",
           "team_id": 451067,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055095.jpg",
-          "mp": 3,
-          "w": 1,
+          "mp": 4,
+          "w": 2,
           "d": 0,
           "l": 2,
-          "gs": 85,
-          "ga": 90,
-          "gd": -5,
-          "pts": 2
+          "gs": 112,
+          "ga": 116,
+          "gd": -4,
+          "pts": 4
         },
         {
           "position": 4,
           "team": "H. Tessenderlo B18 VHV R (U18 M)",
           "team_id": 451259,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379896.jpg",
-          "mp": 3,
+          "mp": 5,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 49,
-          "ga": 79,
-          "gd": -30,
+          "l": 5,
+          "gs": 104,
+          "ga": 146,
+          "gd": -42,
           "pts": 0
         }
       ]
