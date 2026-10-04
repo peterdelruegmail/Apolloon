@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:30:16.828983+00:00",
+  "generated_at": "2026-10-04T11:00:14.361293+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -455,14 +455,14 @@
           "team": "E. Aarschot U14 VHV R (U14 M)",
           "team_id": 450981,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790061517.jpg",
-          "mp": 4,
-          "w": 3,
+          "mp": 5,
+          "w": 4,
           "d": 0,
           "l": 1,
-          "gs": 120,
-          "ga": 70,
-          "gd": 50,
-          "pts": 6
+          "gs": 163,
+          "ga": 91,
+          "gd": 72,
+          "pts": 8
         },
         {
           "position": 3,
@@ -480,20 +480,6 @@
         },
         {
           "position": 4,
-          "team": "AtomiX U14 VHV R (U14 M)",
-          "team_id": 451685,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787217158.jpg",
-          "mp": 4,
-          "w": 1,
-          "d": 1,
-          "l": 2,
-          "gs": 105,
-          "ga": 144,
-          "gd": -39,
-          "pts": 3
-        },
-        {
-          "position": 5,
           "team": "United West B U14 VHV R (U14 M)",
           "team_id": 451336,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17287/logo/_1786621769.jpg",
@@ -504,6 +490,20 @@
           "gs": 125,
           "ga": 176,
           "gd": -51,
+          "pts": 3
+        },
+        {
+          "position": 5,
+          "team": "AtomiX U14 VHV R (U14 M)",
+          "team_id": 451685,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787217158.jpg",
+          "mp": 5,
+          "w": 1,
+          "d": 1,
+          "l": 3,
+          "gs": 126,
+          "ga": 187,
+          "gd": -61,
           "pts": 3
         },
         {
@@ -555,31 +555,31 @@
         },
         {
           "position": 3,
-          "team": "H. Bilzen U14 VHV R 1 (U14 M)",
-          "team_id": 451225,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200592.png",
-          "mp": 4,
-          "w": 2,
-          "d": 0,
-          "l": 2,
-          "gs": 89,
-          "ga": 109,
-          "gd": -20,
-          "pts": 4
-        },
-        {
-          "position": 4,
           "team": "Sezoens Achilles Bocholt U14 VHV R 1 (U14 M)",
           "team_id": 451194,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848477.png",
-          "mp": 3,
-          "w": 1,
+          "mp": 4,
+          "w": 2,
           "d": 1,
           "l": 1,
-          "gs": 110,
-          "ga": 57,
-          "gd": 53,
-          "pts": 3
+          "gs": 146,
+          "ga": 66,
+          "gd": 80,
+          "pts": 5
+        },
+        {
+          "position": 4,
+          "team": "H. Bilzen U14 VHV R 1 (U14 M)",
+          "team_id": 451225,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200592.png",
+          "mp": 5,
+          "w": 2,
+          "d": 0,
+          "l": 3,
+          "gs": 98,
+          "ga": 145,
+          "gd": -47,
+          "pts": 4
         },
         {
           "position": 5,
