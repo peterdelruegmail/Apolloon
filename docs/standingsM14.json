@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T12:00:17.449722+00:00",
+  "generated_at": "2026-10-04T12:30:18.123328+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -185,6 +185,20 @@
         },
         {
           "position": 3,
+          "team": "Hubo G14 VHV R (U14 F)",
+          "team_id": 451310,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124971.png",
+          "mp": 5,
+          "w": 2,
+          "d": 1,
+          "l": 2,
+          "gs": 121,
+          "ga": 97,
+          "gd": 24,
+          "pts": 5
+        },
+        {
+          "position": 4,
           "team": "P. Kortessem G14 VHV R (U14 F)",
           "team_id": 451148,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
@@ -198,31 +212,17 @@
           "pts": 5
         },
         {
-          "position": 4,
-          "team": "Hubo G14 VHV R (U14 F)",
-          "team_id": 451310,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124971.png",
-          "mp": 4,
-          "w": 1,
-          "d": 1,
-          "l": 2,
-          "gs": 91,
-          "ga": 87,
-          "gd": 4,
-          "pts": 3
-        },
-        {
           "position": 5,
           "team": "H. Bilzen G14 VHV R (U14 F)",
           "team_id": 451229,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200485.png",
-          "mp": 4,
+          "mp": 5,
           "w": 1,
           "d": 0,
-          "l": 3,
-          "gs": 34,
-          "ga": 88,
-          "gd": -54,
+          "l": 4,
+          "gs": 44,
+          "ga": 118,
+          "gd": -74,
           "pts": 2
         },
         {
