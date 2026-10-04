@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:00:24.516868+00:00",
+  "generated_at": "2026-10-04T10:30:17.457817+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -438,31 +438,31 @@
         },
         {
           "position": 3,
-          "team": "United West T-B (U16 M)",
-          "team_id": 451260,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379738.png",
-          "mp": 4,
-          "w": 2,
-          "d": 1,
-          "l": 1,
-          "gs": 98,
-          "ga": 106,
-          "gd": -8,
-          "pts": 5
-        },
-        {
-          "position": 4,
           "team": "H. Bilzen U16 VHV R (U16 M)",
           "team_id": 451232,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200308.png",
-          "mp": 4,
-          "w": 2,
+          "mp": 5,
+          "w": 3,
           "d": 0,
           "l": 2,
+          "gs": 148,
+          "ga": 151,
+          "gd": -3,
+          "pts": 6
+        },
+        {
+          "position": 4,
+          "team": "United West T-B (U16 M)",
+          "team_id": 451260,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/_1786379738.png",
+          "mp": 5,
+          "w": 2,
+          "d": 1,
+          "l": 2,
           "gs": 121,
-          "ga": 128,
-          "gd": -7,
-          "pts": 4
+          "ga": 133,
+          "gd": -12,
+          "pts": 5
         },
         {
           "position": 5,
