@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T12:30:17.350669+00:00",
+  "generated_at": "2026-10-04T13:00:21.993006+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -82,16 +82,16 @@
       "standings": [
         {
           "position": 1,
-          "team": "Besox Izegem U14 VHV R 1 (U14 M)",
-          "team_id": 451468,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786535067.jpg",
-          "mp": 3,
+          "team": "Evergem U14 VHV R (U14 M)",
+          "team_id": 451371,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785699732.png",
+          "mp": 4,
           "w": 3,
           "d": 0,
-          "l": 0,
-          "gs": 100,
-          "ga": 77,
-          "gd": 23,
+          "l": 1,
+          "gs": 146,
+          "ga": 84,
+          "gd": 62,
           "pts": 6
         },
         {
@@ -110,6 +110,20 @@
         },
         {
           "position": 3,
+          "team": "Besox Izegem U14 VHV R 1 (U14 M)",
+          "team_id": 451468,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786535067.jpg",
+          "mp": 4,
+          "w": 3,
+          "d": 0,
+          "l": 1,
+          "gs": 113,
+          "ga": 103,
+          "gd": 10,
+          "pts": 6
+        },
+        {
+          "position": 4,
           "team": "Lokeren U14 VHV R (U14 M)",
           "team_id": 451139,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747748.png",
@@ -120,20 +134,6 @@
           "gs": 94,
           "ga": 41,
           "gd": 53,
-          "pts": 4
-        },
-        {
-          "position": 4,
-          "team": "Evergem U14 VHV R (U14 M)",
-          "team_id": 451371,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785699732.png",
-          "mp": 3,
-          "w": 2,
-          "d": 0,
-          "l": 1,
-          "gs": 120,
-          "ga": 71,
-          "gd": 49,
           "pts": 4
         },
         {
