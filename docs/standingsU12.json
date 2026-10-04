@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T11:30:17.615242+00:00",
+  "generated_at": "2026-10-04T12:00:17.167887+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -288,6 +288,20 @@
         },
         {
           "position": 3,
+          "team": "Gbsk U12 VHV R (U12 M)",
+          "team_id": 451580,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147919.png",
+          "mp": 5,
+          "w": 2,
+          "d": 1,
+          "l": 2,
+          "gs": 15,
+          "ga": 15,
+          "gd": 0,
+          "pts": 5
+        },
+        {
+          "position": 4,
           "team": "Lokeren U12 VHV R B (U12 M)",
           "team_id": 451134,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747974.png",
@@ -298,20 +312,6 @@
           "gs": 9,
           "ga": 9,
           "gd": 0,
-          "pts": 3
-        },
-        {
-          "position": 4,
-          "team": "Gbsk U12 VHV R (U12 M)",
-          "team_id": 451580,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147919.png",
-          "mp": 4,
-          "w": 1,
-          "d": 1,
-          "l": 2,
-          "gs": 9,
-          "ga": 15,
-          "gd": -6,
           "pts": 3
         },
         {
@@ -333,13 +333,13 @@
           "team": "Aalst U12 VHV R (U12 M)",
           "team_id": 451450,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/_1786713952.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
+          "l": 4,
           "gs": 0,
-          "ga": 18,
-          "gd": -18,
+          "ga": 24,
+          "gd": -24,
           "pts": 0
         }
       ]
