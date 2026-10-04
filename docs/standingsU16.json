@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T08:30:17.373006+00:00",
+  "generated_at": "2026-10-04T09:00:59.121583+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -499,6 +499,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Sezoens Achilles Bocholt U16 VHV R (U16 M)",
+          "team_id": 451188,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848287.png",
+          "mp": 5,
+          "w": 5,
+          "d": 0,
+          "l": 0,
+          "gs": 159,
+          "ga": 64,
+          "gd": 95,
+          "pts": 10
+        },
+        {
+          "position": 2,
           "team": "Hubo U16 VHV R 2 (U16 M)",
           "team_id": 451297,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787124871.png",
@@ -509,20 +523,6 @@
           "gs": 205,
           "ga": 81,
           "gd": 124,
-          "pts": 8
-        },
-        {
-          "position": 2,
-          "team": "Sezoens Achilles Bocholt U16 VHV R (U16 M)",
-          "team_id": 451188,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848287.png",
-          "mp": 4,
-          "w": 4,
-          "d": 0,
-          "l": 0,
-          "gs": 108,
-          "ga": 57,
-          "gd": 51,
           "pts": 8
         },
         {
@@ -558,13 +558,13 @@
           "team": "HHV Meeuwen U16 VHV-B R (U16 M)",
           "team_id": 451271,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17273/logo/96x96_hhv-meeuwen_1788942171.png",
-          "mp": 4,
+          "mp": 5,
           "w": 1,
           "d": 0,
-          "l": 3,
-          "gs": 61,
-          "ga": 114,
-          "gd": -53,
+          "l": 4,
+          "gs": 68,
+          "ga": 165,
+          "gd": -97,
           "pts": 2
         },
         {
