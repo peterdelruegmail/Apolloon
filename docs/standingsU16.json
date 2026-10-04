@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:30:17.457817+00:00",
+  "generated_at": "2026-10-04T11:00:14.674079+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -466,30 +466,30 @@
         },
         {
           "position": 5,
-          "team": "Maasmechelen 65 U16 VHV-B R (U16 M)",
-          "team_id": 451407,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17238/logo/_1786889644.png",
-          "mp": 4,
-          "w": 0,
-          "d": 0,
-          "l": 4,
-          "gs": 92,
-          "ga": 115,
-          "gd": -23,
-          "pts": 0
-        },
-        {
-          "position": 6,
           "team": "Kreasa Houthalen U16 VHV-B R (U16 M)",
           "team_id": 451160,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
-          "mp": 4,
-          "w": 0,
+          "mp": 5,
+          "w": 1,
           "d": 0,
           "l": 4,
-          "gs": 79,
-          "ga": 154,
-          "gd": -75,
+          "gs": 112,
+          "ga": 184,
+          "gd": -72,
+          "pts": 2
+        },
+        {
+          "position": 6,
+          "team": "Maasmechelen 65 U16 VHV-B R (U16 M)",
+          "team_id": 451407,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17238/logo/_1786889644.png",
+          "mp": 5,
+          "w": 0,
+          "d": 0,
+          "l": 5,
+          "gs": 122,
+          "ga": 148,
+          "gd": -26,
           "pts": 0
         }
       ]
