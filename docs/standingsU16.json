@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T15:30:17.146389+00:00",
+  "generated_at": "2026-10-04T16:00:19.424289+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -188,13 +188,13 @@
           "team": "Brugge U16 VHV-B R (U16 M)",
           "team_id": 451510,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107957.jpg",
-          "mp": 3,
+          "mp": 4,
           "w": 1,
           "d": 0,
-          "l": 2,
-          "gs": 90,
-          "ga": 88,
-          "gd": 2,
+          "l": 3,
+          "gs": 111,
+          "ga": 112,
+          "gd": -1,
           "pts": 2
         },
         {
@@ -216,14 +216,14 @@
           "team": "Roeselare U16 VHV R (U16 M)",
           "team_id": 450999,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786437616.jpg",
-          "mp": 2,
-          "w": 0,
+          "mp": 3,
+          "w": 1,
           "d": 0,
           "l": 2,
-          "gs": 38,
-          "ga": 64,
-          "gd": -26,
-          "pts": 0
+          "gs": 62,
+          "ga": 85,
+          "gd": -23,
+          "pts": 2
         }
       ]
     },
