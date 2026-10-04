@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T13:30:22.295801+00:00",
+  "generated_at": "2026-10-04T14:00:19.466528+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -722,27 +722,27 @@
           "team": "Derdaele Sp. Pelt U12 VHV R 2 (U12 M)",
           "team_id": 451703,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081641.jpg",
-          "mp": 4,
-          "w": 1,
+          "mp": 5,
+          "w": 2,
           "d": 0,
           "l": 3,
-          "gs": 9,
+          "gs": 15,
           "ga": 15,
-          "gd": -6,
-          "pts": 2
+          "gd": 0,
+          "pts": 4
         },
         {
           "position": 5,
           "team": "United West L U12 VHV R (U12 M)",
           "team_id": 451164,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17286/logo/96x96_handbal-lummen_1786174877.png",
-          "mp": 3,
+          "mp": 4,
           "w": 1,
           "d": 0,
-          "l": 2,
+          "l": 3,
           "gs": 4,
-          "ga": 14,
-          "gd": -10,
+          "ga": 20,
+          "gd": -16,
           "pts": 2
         },
         {
