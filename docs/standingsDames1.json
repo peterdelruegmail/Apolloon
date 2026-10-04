@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T14:30:22.580333+00:00",
+  "generated_at": "2026-10-04T15:00:18.442535+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18710/seasons/220",
   "groups": [
     {
@@ -35,6 +35,20 @@
         },
         {
           "position": 3,
+          "team": "Sezoens Achilles Bocholt D1 W VHV (Senior F)",
+          "team_id": 451181,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848137.png",
+          "mp": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gs": 69,
+          "ga": 59,
+          "gd": 10,
+          "pts": 4
+        },
+        {
+          "position": 4,
           "team": "Gbsk D1 W VHV (Senior F)",
           "team_id": 451595,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147863.png",
@@ -45,20 +59,6 @@
           "gs": 27,
           "ga": 17,
           "gd": 10,
-          "pts": 2
-        },
-        {
-          "position": 4,
-          "team": "Sezoens Achilles Bocholt D1 W VHV (Senior F)",
-          "team_id": 451181,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848137.png",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 43,
-          "ga": 38,
-          "gd": 5,
           "pts": 2
         },
         {
@@ -122,13 +122,13 @@
           "team": "DB Gent D1 W VHV (Senior F)",
           "team_id": 451495,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415071.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 29,
-          "ga": 42,
-          "gd": -13,
+          "l": 3,
+          "gs": 50,
+          "ga": 68,
+          "gd": -18,
           "pts": 0
         },
         {
