@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T15:30:17.306566+00:00",
+  "generated_at": "2026-10-04T16:00:19.889025+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -99,14 +99,14 @@
           "team": "Besox Izegem B18 VHV R (U18 M)",
           "team_id": 451012,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786359012.jpg",
-          "mp": 3,
-          "w": 2,
+          "mp": 4,
+          "w": 3,
           "d": 0,
           "l": 1,
-          "gs": 81,
-          "ga": 70,
-          "gd": 11,
-          "pts": 4
+          "gs": 128,
+          "ga": 99,
+          "gd": 29,
+          "pts": 6
         },
         {
           "position": 3,
@@ -124,20 +124,6 @@
         },
         {
           "position": 4,
-          "team": "Dendermonde B18 VHV R (U18 M)",
-          "team_id": 451626,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784667669.png",
-          "mp": 3,
-          "w": 1,
-          "d": 0,
-          "l": 2,
-          "gs": 74,
-          "ga": 84,
-          "gd": -10,
-          "pts": 2
-        },
-        {
-          "position": 5,
           "team": "Eeklo B18 VHV R (U18 M)",
           "team_id": 451389,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666423.png",
@@ -148,6 +134,20 @@
           "gs": 69,
           "ga": 96,
           "gd": -27,
+          "pts": 2
+        },
+        {
+          "position": 5,
+          "team": "Dendermonde B18 VHV R (U18 M)",
+          "team_id": 451626,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784667669.png",
+          "mp": 4,
+          "w": 1,
+          "d": 0,
+          "l": 3,
+          "gs": 103,
+          "ga": 131,
+          "gd": -28,
           "pts": 2
         }
       ]
