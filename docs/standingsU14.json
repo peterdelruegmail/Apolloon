@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T11:30:16.692989+00:00",
+  "generated_at": "2026-10-10T12:00:11.601761+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -263,14 +263,14 @@
           "team": "Uilenspiegel U14 VHV R (U14 M)",
           "team_id": 451543,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 5,
+          "mp": 6,
           "w": 3,
-          "d": 1,
+          "d": 2,
           "l": 1,
-          "gs": 163,
-          "ga": 131,
+          "gs": 185,
+          "ga": 153,
           "gd": 32,
-          "pts": 7
+          "pts": 8
         },
         {
           "position": 3,
@@ -291,14 +291,14 @@
           "team": "Buggenhout U14 VHV R (U14 M)",
           "team_id": 451572,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790174702.jpg",
-          "mp": 4,
+          "mp": 5,
           "w": 2,
-          "d": 0,
+          "d": 1,
           "l": 2,
-          "gs": 107,
-          "ga": 95,
+          "gs": 129,
+          "ga": 117,
           "gd": 12,
-          "pts": 4
+          "pts": 5
         },
         {
           "position": 5,
@@ -658,6 +658,20 @@
         },
         {
           "position": 4,
+          "team": "Kreasa Houthalen U14 VHV R (U14 M)",
+          "team_id": 451159,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
+          "mp": 6,
+          "w": 2,
+          "d": 0,
+          "l": 4,
+          "gs": 127,
+          "ga": 153,
+          "gd": -26,
+          "pts": 4
+        },
+        {
+          "position": 5,
           "team": "P. Kortessem U14 VHV R (U14 M)",
           "team_id": 451147,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
@@ -671,31 +685,17 @@
           "pts": 2
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Hubo U14 VHV R 3 (U14 M)",
           "team_id": 451309,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125212.png",
-          "mp": 5,
+          "mp": 6,
           "w": 1,
           "d": 0,
-          "l": 4,
-          "gs": 100,
-          "ga": 125,
-          "gd": -25,
-          "pts": 2
-        },
-        {
-          "position": 6,
-          "team": "Kreasa Houthalen U14 VHV R (U14 M)",
-          "team_id": 451159,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
-          "mp": 5,
-          "w": 1,
-          "d": 0,
-          "l": 4,
-          "gs": 103,
-          "ga": 130,
-          "gd": -27,
+          "l": 5,
+          "gs": 123,
+          "ga": 149,
+          "gd": -26,
           "pts": 2
         }
       ]
