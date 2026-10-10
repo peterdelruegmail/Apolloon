@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T17:30:13.384539+00:00",
+  "generated_at": "2026-10-10T18:00:21.692613+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18710/seasons/220",
   "groups": [
     {
@@ -35,6 +35,20 @@
         },
         {
           "position": 3,
+          "team": "Sezoens Achilles Bocholt D1 W VHV (Senior F)",
+          "team_id": 451181,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848137.png",
+          "mp": 4,
+          "w": 3,
+          "d": 0,
+          "l": 1,
+          "gs": 99,
+          "ga": 75,
+          "gd": 24,
+          "pts": 6
+        },
+        {
+          "position": 4,
           "team": "HBC Apolloon Spurs D1 W VHV (Senior F)",
           "team_id": 450962,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814499.png",
@@ -46,20 +60,6 @@
           "ga": 63,
           "gd": 4,
           "pts": 6
-        },
-        {
-          "position": 4,
-          "team": "Sezoens Achilles Bocholt D1 W VHV (Senior F)",
-          "team_id": 451181,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848137.png",
-          "mp": 3,
-          "w": 2,
-          "d": 0,
-          "l": 1,
-          "gs": 69,
-          "ga": 59,
-          "gd": 10,
-          "pts": 4
         },
         {
           "position": 5,
@@ -91,20 +91,6 @@
         },
         {
           "position": 7,
-          "team": "DHC Waasmunster D1 W VHV (Senior F)",
-          "team_id": 451282,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
-          "mp": 3,
-          "w": 0,
-          "d": 1,
-          "l": 2,
-          "gs": 54,
-          "ga": 74,
-          "gd": -20,
-          "pts": 1
-        },
-        {
-          "position": 8,
           "team": "Schoten D1 W VHV (Senior F)",
           "team_id": 451043,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784745730.jpg",
@@ -115,6 +101,20 @@
           "gs": 37,
           "ga": 60,
           "gd": -23,
+          "pts": 1
+        },
+        {
+          "position": 8,
+          "team": "DHC Waasmunster D1 W VHV (Senior F)",
+          "team_id": 451282,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
+          "mp": 4,
+          "w": 0,
+          "d": 1,
+          "l": 3,
+          "gs": 70,
+          "ga": 104,
+          "gd": -34,
           "pts": 1
         },
         {
