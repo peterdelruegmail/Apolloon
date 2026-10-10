@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:00:21.668667+00:00",
+  "generated_at": "2026-10-10T13:30:16.836141+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -188,28 +188,28 @@
           "team": "Brugge U16 VHV-B R (U16 M)",
           "team_id": 451510,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107957.jpg",
-          "mp": 4,
+          "mp": 5,
           "w": 1,
-          "d": 0,
+          "d": 1,
           "l": 3,
-          "gs": 111,
-          "ga": 112,
+          "gs": 138,
+          "ga": 139,
           "gd": -1,
-          "pts": 2
+          "pts": 3
         },
         {
           "position": 4,
           "team": "Lebbeke U16 VHV R (U16 M)",
           "team_id": 451531,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666734.png",
-          "mp": 4,
+          "mp": 5,
           "w": 1,
-          "d": 0,
+          "d": 1,
           "l": 3,
-          "gs": 101,
-          "ga": 122,
+          "gs": 128,
+          "ga": 149,
           "gd": -21,
-          "pts": 2
+          "pts": 3
         },
         {
           "position": 5,
@@ -424,31 +424,31 @@
         },
         {
           "position": 2,
-          "team": "P. Kortessem U16 VHV R (U16 M)",
-          "team_id": 451143,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
-          "mp": 5,
-          "w": 3,
-          "d": 1,
-          "l": 1,
-          "gs": 168,
-          "ga": 158,
-          "gd": 10,
-          "pts": 7
-        },
-        {
-          "position": 3,
           "team": "H. Bilzen U16 VHV R (U16 M)",
           "team_id": 451232,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200308.png",
-          "mp": 5,
-          "w": 3,
+          "mp": 6,
+          "w": 4,
           "d": 0,
           "l": 2,
-          "gs": 148,
-          "ga": 151,
-          "gd": -3,
-          "pts": 6
+          "gs": 183,
+          "ga": 183,
+          "gd": 0,
+          "pts": 8
+        },
+        {
+          "position": 3,
+          "team": "P. Kortessem U16 VHV R (U16 M)",
+          "team_id": 451143,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
+          "mp": 6,
+          "w": 3,
+          "d": 1,
+          "l": 2,
+          "gs": 200,
+          "ga": 193,
+          "gd": 7,
+          "pts": 7
         },
         {
           "position": 4,
