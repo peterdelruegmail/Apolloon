@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:00:21.714321+00:00",
+  "generated_at": "2026-10-10T13:30:16.857365+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -35,6 +35,20 @@
         },
         {
           "position": 3,
+          "team": "Groot Berlare U14 VHV-B R (U14 M)",
+          "team_id": 450966,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17271/logo/96x96_handbalclub-groot-berlare_1788177606.png",
+          "mp": 4,
+          "w": 1,
+          "d": 1,
+          "l": 2,
+          "gs": 70,
+          "ga": 104,
+          "gd": -34,
+          "pts": 3
+        },
+        {
+          "position": 4,
           "team": "Aalst U14 VHV R (U14 M)",
           "team_id": 451449,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/_1786713926.png",
@@ -48,32 +62,18 @@
           "pts": 3
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Gbsk U14 VHV R (U14)",
           "team_id": 451588,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147905.png",
-          "mp": 4,
+          "mp": 5,
           "w": 1,
           "d": 0,
-          "l": 3,
-          "gs": 70,
-          "ga": 133,
-          "gd": -63,
+          "l": 4,
+          "gs": 91,
+          "ga": 162,
+          "gd": -71,
           "pts": 2
-        },
-        {
-          "position": 5,
-          "team": "Groot Berlare U14 VHV-B R (U14 M)",
-          "team_id": 450966,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17271/logo/96x96_handbalclub-groot-berlare_1788177606.png",
-          "mp": 3,
-          "w": 0,
-          "d": 1,
-          "l": 2,
-          "gs": 41,
-          "ga": 83,
-          "gd": -42,
-          "pts": 1
         }
       ]
     },
@@ -558,14 +558,14 @@
           "team": "Sezoens Achilles Bocholt U14 VHV R 1 (U14 M)",
           "team_id": 451194,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/_1785848477.png",
-          "mp": 4,
-          "w": 2,
+          "mp": 5,
+          "w": 3,
           "d": 1,
           "l": 1,
-          "gs": 146,
-          "ga": 66,
-          "gd": 80,
-          "pts": 5
+          "gs": 196,
+          "ga": 80,
+          "gd": 116,
+          "pts": 7
         },
         {
           "position": 4,
@@ -586,13 +586,13 @@
           "team": "HC Overpelt U14 VHV R (U14 M)",
           "team_id": 451097,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788186943.jpg",
-          "mp": 4,
+          "mp": 5,
           "w": 1,
           "d": 0,
-          "l": 3,
-          "gs": 78,
-          "ga": 149,
-          "gd": -71,
+          "l": 4,
+          "gs": 92,
+          "ga": 199,
+          "gd": -107,
           "pts": 2
         },
         {
