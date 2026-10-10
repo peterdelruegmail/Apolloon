@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:00:11.601761+00:00",
+  "generated_at": "2026-10-10T12:30:19.995199+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -10,13 +10,13 @@
           "team": "DB Gent U14 VHV R 1 (U14 M)",
           "team_id": 451654,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415214.png",
-          "mp": 4,
+          "mp": 5,
           "w": 3,
           "d": 1,
-          "l": 0,
-          "gs": 177,
-          "ga": 70,
-          "gd": 107,
+          "l": 1,
+          "gs": 202,
+          "ga": 102,
+          "gd": 100,
           "pts": 7
         },
         {
@@ -24,14 +24,14 @@
           "team": "Eeklo U14 VHV R (U14 M)",
           "team_id": 451390,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666438.png",
-          "mp": 3,
-          "w": 2,
+          "mp": 4,
+          "w": 3,
           "d": 1,
           "l": 0,
-          "gs": 115,
-          "ga": 50,
-          "gd": 65,
-          "pts": 5
+          "gs": 147,
+          "ga": 75,
+          "gd": 72,
+          "pts": 7
         },
         {
           "position": 3,
