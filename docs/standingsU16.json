@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:30:18.056203+00:00",
+  "generated_at": "2026-10-10T13:00:21.668667+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -96,6 +96,20 @@
         },
         {
           "position": 2,
+          "team": "Besox Izegem U16 VHV R 2 (U16 M)",
+          "team_id": 451479,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786368327.jpg",
+          "mp": 5,
+          "w": 3,
+          "d": 0,
+          "l": 2,
+          "gs": 142,
+          "ga": 143,
+          "gd": -1,
+          "pts": 6
+        },
+        {
+          "position": 3,
           "team": "Thor U16 VHV-B R (U16 M)",
           "team_id": 451582,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
@@ -109,7 +123,7 @@
           "pts": 4
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "DB Gent U16 VHV R 2 (U16 M)",
           "team_id": 451653,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415160.png",
@@ -123,31 +137,17 @@
           "pts": 4
         },
         {
-          "position": 4,
-          "team": "Besox Izegem U16 VHV R 2 (U16 M)",
-          "team_id": 451479,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786368327.jpg",
-          "mp": 4,
-          "w": 2,
-          "d": 0,
-          "l": 2,
-          "gs": 111,
-          "ga": 115,
-          "gd": -4,
-          "pts": 4
-        },
-        {
           "position": 5,
           "team": "Desselgemse U16 VHV R (U16 M)",
           "team_id": 451325,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/_1786798227.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 62,
-          "ga": 85,
-          "gd": -23,
+          "l": 4,
+          "gs": 90,
+          "ga": 116,
+          "gd": -26,
           "pts": 0
         }
       ]
