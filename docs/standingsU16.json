@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T11:30:16.322323+00:00",
+  "generated_at": "2026-10-10T12:00:13.249509+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -555,31 +555,31 @@
         },
         {
           "position": 5,
-          "team": "HHV Meeuwen U16 VHV-B R (U16 M)",
-          "team_id": 451271,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17273/logo/96x96_hhv-meeuwen_1788942171.png",
-          "mp": 5,
+          "team": "Kwanten Arena U16 VHV R (U16 M)",
+          "team_id": 451068,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055197.jpg",
+          "mp": 6,
           "w": 1,
           "d": 0,
-          "l": 4,
-          "gs": 68,
-          "ga": 165,
-          "gd": -97,
+          "l": 5,
+          "gs": 137,
+          "ga": 208,
+          "gd": -71,
           "pts": 2
         },
         {
           "position": 6,
-          "team": "Kwanten Arena U16 VHV R (U16 M)",
-          "team_id": 451068,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055197.jpg",
-          "mp": 5,
-          "w": 0,
+          "team": "HHV Meeuwen U16 VHV-B R (U16 M)",
+          "team_id": 451271,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17273/logo/96x96_hhv-meeuwen_1788942171.png",
+          "mp": 6,
+          "w": 1,
           "d": 0,
           "l": 5,
-          "gs": 110,
-          "ga": 186,
-          "gd": -76,
-          "pts": 0
+          "gs": 90,
+          "ga": 192,
+          "gd": -102,
+          "pts": 2
         }
       ]
     }
