@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T18:30:19.336867+00:00",
+  "generated_at": "2026-10-10T19:00:18.257354+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18710/seasons/220",
   "groups": [
     {
@@ -63,6 +63,20 @@
         },
         {
           "position": 5,
+          "team": "Schoten D1 W VHV (Senior F)",
+          "team_id": 451043,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784745730.jpg",
+          "mp": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gs": 59,
+          "ga": 76,
+          "gd": -17,
+          "pts": 3
+        },
+        {
+          "position": 6,
           "team": "Gbsk D1 W VHV (Senior F)",
           "team_id": 451595,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147863.png",
@@ -76,32 +90,18 @@
           "pts": 2
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "Evergem D1 W VHV (Senior F)",
           "team_id": 451378,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785696905.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
           "d": 0,
-          "l": 1,
-          "gs": 33,
-          "ga": 43,
-          "gd": -10,
+          "l": 2,
+          "gs": 49,
+          "ga": 65,
+          "gd": -16,
           "pts": 2
-        },
-        {
-          "position": 7,
-          "team": "Schoten D1 W VHV (Senior F)",
-          "team_id": 451043,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784745730.jpg",
-          "mp": 2,
-          "w": 0,
-          "d": 1,
-          "l": 1,
-          "gs": 37,
-          "ga": 60,
-          "gd": -23,
-          "pts": 1
         },
         {
           "position": 8,
