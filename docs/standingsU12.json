@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T10:30:14.397768+00:00",
+  "generated_at": "2026-10-10T11:00:12.056611+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -605,27 +605,27 @@
           "team": "Hubo U12 VHV R 1 (U12 M)",
           "team_id": 451313,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125120.png",
-          "mp": 4,
-          "w": 4,
+          "mp": 5,
+          "w": 5,
           "d": 0,
           "l": 0,
-          "gs": 22,
+          "gs": 28,
           "ga": 2,
-          "gd": 20,
-          "pts": 8
+          "gd": 26,
+          "pts": 10
         },
         {
           "position": 2,
           "team": "Derdaele Sp. Pelt U12 VHV R 1 (U12 M)",
           "team_id": 451702,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081615.jpg",
-          "mp": 4,
+          "mp": 5,
           "w": 3,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "gs": 17,
-          "ga": 7,
-          "gd": 10,
+          "ga": 13,
+          "gd": 4,
           "pts": 6
         },
         {
