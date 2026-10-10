@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T14:00:12.871423+00:00",
+  "generated_at": "2026-10-10T14:30:16.962772+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -85,17 +85,31 @@
           "team": "HBC Apolloon Spurs U16 VHV R (U16 M)",
           "team_id": 450943,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1784814389.png",
-          "mp": 4,
+          "mp": 5,
           "w": 3,
           "d": 0,
-          "l": 1,
-          "gs": 124,
-          "ga": 107,
-          "gd": 17,
+          "l": 2,
+          "gs": 152,
+          "ga": 140,
+          "gd": 12,
           "pts": 6
         },
         {
           "position": 2,
+          "team": "Thor U16 VHV-B R (U16 M)",
+          "team_id": 451582,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
+          "mp": 5,
+          "w": 3,
+          "d": 0,
+          "l": 2,
+          "gs": 141,
+          "ga": 130,
+          "gd": 11,
+          "pts": 6
+        },
+        {
+          "position": 3,
           "team": "Besox Izegem U16 VHV R 2 (U16 M)",
           "team_id": 451479,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786368327.jpg",
@@ -107,20 +121,6 @@
           "ga": 143,
           "gd": -1,
           "pts": 6
-        },
-        {
-          "position": 3,
-          "team": "Thor U16 VHV-B R (U16 M)",
-          "team_id": 451582,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
-          "mp": 4,
-          "w": 2,
-          "d": 0,
-          "l": 2,
-          "gs": 108,
-          "ga": 102,
-          "gd": 6,
-          "pts": 4
         },
         {
           "position": 4,
@@ -174,14 +174,14 @@
           "team": "HK Waasmunster U16 VHV R (U16 M)",
           "team_id": 451601,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
-          "mp": 3,
-          "w": 2,
+          "mp": 4,
+          "w": 3,
           "d": 0,
           "l": 1,
-          "gs": 101,
-          "ga": 87,
-          "gd": 14,
-          "pts": 4
+          "gs": 150,
+          "ga": 104,
+          "gd": 46,
+          "pts": 6
         },
         {
           "position": 3,
@@ -216,13 +216,13 @@
           "team": "Roeselare U16 VHV R (U16 M)",
           "team_id": 450999,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786437616.jpg",
-          "mp": 3,
+          "mp": 4,
           "w": 1,
           "d": 0,
-          "l": 2,
-          "gs": 62,
-          "ga": 85,
-          "gd": -23,
+          "l": 3,
+          "gs": 79,
+          "ga": 134,
+          "gd": -55,
           "pts": 2
         }
       ]
