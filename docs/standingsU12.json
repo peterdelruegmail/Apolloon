@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T16:00:19.908367+00:00",
+  "generated_at": "2026-10-10T16:30:13.721096+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -677,6 +677,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "P. Kortessem U12 VHV R 1 (U12)",
+          "team_id": 451150,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
+          "mp": 5,
+          "w": 5,
+          "d": 0,
+          "l": 0,
+          "gs": 30,
+          "ga": 0,
+          "gd": 30,
+          "pts": 10
+        },
+        {
+          "position": 2,
           "team": "Hubo U12 VHV R 2 (U12 M)",
           "team_id": 451314,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125195.png",
@@ -688,20 +702,6 @@
           "ga": 9,
           "gd": 18,
           "pts": 10
-        },
-        {
-          "position": 2,
-          "team": "P. Kortessem U12 VHV R 1 (U12)",
-          "team_id": 451150,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
-          "mp": 4,
-          "w": 4,
-          "d": 0,
-          "l": 0,
-          "gs": 24,
-          "ga": 0,
-          "gd": 24,
-          "pts": 8
         },
         {
           "position": 3,
@@ -750,13 +750,13 @@
           "team": "H. Bilzen U12 VHV R 1 (U12 M)",
           "team_id": 451220,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/_1786200702.png",
-          "mp": 5,
+          "mp": 6,
           "w": 0,
           "d": 0,
-          "l": 5,
+          "l": 6,
           "gs": 3,
-          "ga": 27,
-          "gd": -24,
+          "ga": 33,
+          "gd": -30,
           "pts": 0
         }
       ]
