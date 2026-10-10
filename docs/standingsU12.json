@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:00:19.985144+00:00",
+  "generated_at": "2026-10-10T13:30:16.377065+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -227,31 +227,31 @@
         },
         {
           "position": 4,
-          "team": "HBC Apolloon Spurs U12 VHV R (U12 M)",
-          "team_id": 450950,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1785232624.png",
-          "mp": 4,
+          "team": "HK Waasmunster U12 VHV R (U12 M)",
+          "team_id": 451606,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
+          "mp": 5,
           "w": 1,
           "d": 0,
-          "l": 3,
-          "gs": 4,
-          "ga": 20,
+          "l": 4,
+          "gs": 7,
+          "ga": 23,
           "gd": -16,
           "pts": 2
         },
         {
           "position": 5,
-          "team": "HK Waasmunster U12 VHV R (U12 M)",
-          "team_id": 451606,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
-          "mp": 4,
-          "w": 0,
+          "team": "HBC Apolloon Spurs U12 VHV R (U12 M)",
+          "team_id": 450950,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/_1785232624.png",
+          "mp": 5,
+          "w": 1,
           "d": 0,
           "l": 4,
-          "gs": 2,
-          "ga": 22,
+          "gs": 5,
+          "ga": 25,
           "gd": -20,
-          "pts": 0
+          "pts": 2
         }
       ]
     },
@@ -780,20 +780,34 @@
         },
         {
           "position": 2,
-          "team": "Kreasa Houthalen U12 VHV R (U12 M)",
-          "team_id": 451158,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
-          "mp": 3,
-          "w": 2,
+          "team": "Kwanten Arena U12 VHV R (U12 M)",
+          "team_id": 451070,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055396.jpg",
+          "mp": 5,
+          "w": 3,
           "d": 0,
-          "l": 1,
-          "gs": 12,
-          "ga": 6,
-          "gd": 6,
-          "pts": 4
+          "l": 2,
+          "gs": 16,
+          "ga": 14,
+          "gd": 2,
+          "pts": 6
         },
         {
           "position": 3,
+          "team": "Kreasa Houthalen U12 VHV R (U12 M)",
+          "team_id": 451158,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
+          "mp": 4,
+          "w": 2,
+          "d": 0,
+          "l": 2,
+          "gs": 12,
+          "ga": 12,
+          "gd": 0,
+          "pts": 4
+        },
+        {
+          "position": 4,
           "team": "Derdaele Sp. Pelt U12 VHV R 3 (U12 M)",
           "team_id": 451704,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/_1787081665.jpg",
@@ -804,20 +818,6 @@
           "gs": 14,
           "ga": 16,
           "gd": -2,
-          "pts": 4
-        },
-        {
-          "position": 4,
-          "team": "Kwanten Arena U12 VHV R (U12 M)",
-          "team_id": 451070,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/_1787055396.jpg",
-          "mp": 4,
-          "w": 2,
-          "d": 0,
-          "l": 2,
-          "gs": 10,
-          "ga": 14,
-          "gd": -4,
           "pts": 4
         },
         {
