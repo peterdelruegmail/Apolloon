@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T17:30:14.418313+00:00",
+  "generated_at": "2026-10-10T18:00:23.289339+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18713/seasons/220",
   "groups": [
     {
@@ -7,31 +7,31 @@
       "standings": [
         {
           "position": 1,
-          "team": "Roeselare D M VHV OWV-B 2 (Senior M)",
-          "team_id": 450996,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786349005.jpg",
-          "mp": 4,
-          "w": 3,
-          "d": 1,
-          "l": 0,
-          "gs": 109,
-          "ga": 79,
-          "gd": 30,
-          "pts": 7
-        },
-        {
-          "position": 2,
           "team": "Besox Izegem D M VHV OWV (Senior M)",
           "team_id": 451008,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1785757373.jpg",
-          "mp": 4,
-          "w": 3,
+          "mp": 5,
+          "w": 4,
           "d": 0,
           "l": 1,
-          "gs": 115,
-          "ga": 90,
-          "gd": 25,
-          "pts": 6
+          "gs": 149,
+          "ga": 116,
+          "gd": 33,
+          "pts": 8
+        },
+        {
+          "position": 2,
+          "team": "Roeselare D M VHV OWV-B 2 (Senior M)",
+          "team_id": 450996,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786349005.jpg",
+          "mp": 5,
+          "w": 3,
+          "d": 1,
+          "l": 1,
+          "gs": 135,
+          "ga": 113,
+          "gd": 22,
+          "pts": 7
         },
         {
           "position": 3,
