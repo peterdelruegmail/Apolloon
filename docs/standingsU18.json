@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T16:00:19.219906+00:00",
+  "generated_at": "2026-10-10T16:30:15.644087+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -24,14 +24,14 @@
           "team": "DB Gent B18 VHV R (U18 M)",
           "team_id": 451499,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415109.png",
-          "mp": 4,
+          "mp": 5,
           "w": 3,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "gs": 142,
-          "ga": 97,
+          "gs": 178,
+          "ga": 133,
           "gd": 45,
-          "pts": 6
+          "pts": 7
         },
         {
           "position": 3,
@@ -52,14 +52,14 @@
           "team": "Roeselare B18 VHV R (U18 M)",
           "team_id": 450998,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786354764.jpg",
-          "mp": 4,
+          "mp": 5,
           "w": 1,
-          "d": 0,
+          "d": 1,
           "l": 3,
-          "gs": 102,
-          "ga": 161,
+          "gs": 138,
+          "ga": 197,
           "gd": -59,
-          "pts": 2
+          "pts": 3
         },
         {
           "position": 5,
@@ -160,14 +160,14 @@
           "team": "Uilenspiegel B18 VHV R (U18 M)",
           "team_id": 451561,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 5,
-          "w": 5,
+          "mp": 6,
+          "w": 6,
           "d": 0,
           "l": 0,
-          "gs": 188,
-          "ga": 64,
-          "gd": 124,
-          "pts": 10
+          "gs": 222,
+          "ga": 81,
+          "gd": 141,
+          "pts": 12
         },
         {
           "position": 2,
@@ -202,13 +202,13 @@
           "team": "Heist o/d Berg B18 VHV R (U18 M)",
           "team_id": 451443,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790145661.png",
-          "mp": 5,
+          "mp": 6,
           "w": 2,
           "d": 0,
-          "l": 3,
-          "gs": 170,
-          "ga": 197,
-          "gd": -27,
+          "l": 4,
+          "gs": 187,
+          "ga": 231,
+          "gd": -44,
           "pts": 4
         },
         {
