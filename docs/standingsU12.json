@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:30:18.954600+00:00",
+  "generated_at": "2026-10-10T13:00:19.985144+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -82,6 +82,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Dendermonde U12 VHV R (U12 M)",
+          "team_id": 451636,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669622.png",
+          "mp": 4,
+          "w": 2,
+          "d": 1,
+          "l": 1,
+          "gs": 15,
+          "ga": 9,
+          "gd": 6,
+          "pts": 5
+        },
+        {
+          "position": 2,
           "team": "Roeselare U12 VHV R (U12 M)",
           "team_id": 451002,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786438268.jpg",
@@ -95,7 +109,7 @@
           "pts": 4
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Besox Izegem U12 VHV R 1 (U12 M)",
           "team_id": 451448,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786782175.jpg",
@@ -109,7 +123,7 @@
           "pts": 4
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Lokeren U12 VHV R A (U12 M)",
           "team_id": 451133,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747957.png",
@@ -120,20 +134,6 @@
           "gs": 8,
           "ga": 4,
           "gd": 4,
-          "pts": 3
-        },
-        {
-          "position": 4,
-          "team": "Dendermonde U12 VHV R (U12 M)",
-          "team_id": 451636,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669622.png",
-          "mp": 3,
-          "w": 1,
-          "d": 1,
-          "l": 1,
-          "gs": 9,
-          "ga": 9,
-          "gd": 0,
           "pts": 3
         },
         {
@@ -169,13 +169,13 @@
           "team": "Evergem U12 VHV R (U12 M)",
           "team_id": 451366,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785698492.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
+          "l": 4,
           "gs": 0,
-          "ga": 18,
-          "gd": -18,
+          "ga": 24,
+          "gd": -24,
           "pts": 0
         }
       ]
@@ -527,6 +527,20 @@
         },
         {
           "position": 2,
+          "team": "Uilenspiegel U12 VHV R 1 (U12 M)",
+          "team_id": 451569,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
+          "mp": 5,
+          "w": 3,
+          "d": 0,
+          "l": 2,
+          "gs": 20,
+          "ga": 10,
+          "gd": 10,
+          "pts": 6
+        },
+        {
+          "position": 3,
           "team": "Merksplas U12 VHV R (U12 M)",
           "team_id": 451650,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790175720.png",
@@ -540,35 +554,7 @@
           "pts": 6
         },
         {
-          "position": 3,
-          "team": "Uilenspiegel U12 VHV R 1 (U12 M)",
-          "team_id": 451569,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 4,
-          "w": 2,
-          "d": 0,
-          "l": 2,
-          "gs": 14,
-          "ga": 10,
-          "gd": 4,
-          "pts": 4
-        },
-        {
           "position": 4,
-          "team": "Olse Merksem U12 VHV R (U12 M)",
-          "team_id": 451024,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147002.jpg",
-          "mp": 4,
-          "w": 2,
-          "d": 0,
-          "l": 2,
-          "gs": 10,
-          "ga": 14,
-          "gd": -4,
-          "pts": 4
-        },
-        {
-          "position": 5,
           "team": "HvH 't Noorden B (U12 M)",
           "team_id": 451362,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/25477/logo/96x96_hvh-%E2%80%98t-noorden_1787658655.png",
@@ -579,6 +565,20 @@
           "gs": 11,
           "ga": 19,
           "gd": -8,
+          "pts": 4
+        },
+        {
+          "position": 5,
+          "team": "Olse Merksem U12 VHV R (U12 M)",
+          "team_id": 451024,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147002.jpg",
+          "mp": 5,
+          "w": 2,
+          "d": 0,
+          "l": 3,
+          "gs": 10,
+          "ga": 20,
+          "gd": -10,
           "pts": 4
         },
         {
