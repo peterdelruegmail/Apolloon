@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T16:30:13.398105+00:00",
+  "generated_at": "2026-10-10T17:00:16.860366+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -235,28 +235,28 @@
           "team": "Biobest Sasja U16 VHV R (U16)",
           "team_id": 451607,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788434704.png",
-          "mp": 5,
-          "w": 5,
+          "mp": 6,
+          "w": 6,
           "d": 0,
           "l": 0,
-          "gs": 181,
-          "ga": 71,
-          "gd": 110,
-          "pts": 10
+          "gs": 228,
+          "ga": 88,
+          "gd": 140,
+          "pts": 12
         },
         {
           "position": 2,
           "team": "Uilenspiegel U16 VHV R (U16 M)",
           "team_id": 451552,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 5,
-          "w": 3,
+          "mp": 6,
+          "w": 4,
           "d": 0,
           "l": 2,
-          "gs": 167,
-          "ga": 121,
-          "gd": 46,
-          "pts": 6
+          "gs": 201,
+          "ga": 145,
+          "gd": 56,
+          "pts": 8
         },
         {
           "position": 3,
@@ -277,31 +277,17 @@
           "team": "Merksplas U16 VHV R (U16 M)",
           "team_id": 451649,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790175689.png",
-          "mp": 3,
+          "mp": 4,
           "w": 1,
           "d": 0,
-          "l": 2,
-          "gs": 67,
-          "ga": 103,
-          "gd": -36,
+          "l": 3,
+          "gs": 91,
+          "ga": 137,
+          "gd": -46,
           "pts": 2
         },
         {
           "position": 5,
-          "team": "Schoten U16 VHV R (U16 M)",
-          "team_id": 451050,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147542.jpg",
-          "mp": 3,
-          "w": 0,
-          "d": 0,
-          "l": 3,
-          "gs": 56,
-          "ga": 113,
-          "gd": -57,
-          "pts": 0
-        },
-        {
-          "position": 6,
           "team": "Welta U16 VHV-B R (U16 M)",
           "team_id": 451484,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898688.jpg",
@@ -312,6 +298,20 @@
           "gs": 40,
           "ga": 119,
           "gd": -79,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Schoten U16 VHV R (U16 M)",
+          "team_id": 451050,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147542.jpg",
+          "mp": 4,
+          "w": 0,
+          "d": 0,
+          "l": 4,
+          "gs": 73,
+          "ga": 160,
+          "gd": -87,
           "pts": 0
         }
       ]
