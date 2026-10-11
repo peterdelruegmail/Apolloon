@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T15:00:20.210386+00:00",
+  "generated_at": "2026-10-11T15:30:14.461631+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -96,6 +96,20 @@
         },
         {
           "position": 2,
+          "team": "Lokeren U14 VHV R (U14 M)",
+          "team_id": 451139,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747748.png",
+          "mp": 4,
+          "w": 4,
+          "d": 0,
+          "l": 0,
+          "gs": 180,
+          "ga": 99,
+          "gd": 81,
+          "pts": 8
+        },
+        {
+          "position": 3,
           "team": "DB Gent U14 VHV R 2 (U14 M)",
           "team_id": 451657,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788415244.png",
@@ -109,31 +123,17 @@
           "pts": 8
         },
         {
-          "position": 3,
-          "team": "Lokeren U14 VHV R (U14 M)",
-          "team_id": 451139,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747748.png",
-          "mp": 3,
-          "w": 3,
-          "d": 0,
-          "l": 0,
-          "gs": 142,
-          "ga": 70,
-          "gd": 72,
-          "pts": 6
-        },
-        {
           "position": 4,
           "team": "Besox Izegem U14 VHV R 1 (U14 M)",
           "team_id": 451468,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786535067.jpg",
-          "mp": 4,
+          "mp": 5,
           "w": 3,
           "d": 0,
-          "l": 1,
-          "gs": 113,
-          "ga": 103,
-          "gd": 10,
+          "l": 2,
+          "gs": 142,
+          "ga": 141,
+          "gd": 1,
           "pts": 6
         },
         {
