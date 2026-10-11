@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:00:20.325484+00:00",
+  "generated_at": "2026-10-11T11:30:11.916226+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -82,6 +82,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Besox Izegem U12 VHV R 1 (U12 M)",
+          "team_id": 451448,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786782175.jpg",
+          "mp": 4,
+          "w": 3,
+          "d": 0,
+          "l": 1,
+          "gs": 17,
+          "ga": 7,
+          "gd": 10,
+          "pts": 6
+        },
+        {
+          "position": 2,
           "team": "Dendermonde U12 VHV R (U12 M)",
           "team_id": 451636,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784669622.png",
@@ -95,7 +109,7 @@
           "pts": 5
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Roeselare U12 VHV R (U12 M)",
           "team_id": 451002,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/_1786438268.jpg",
@@ -109,31 +123,17 @@
           "pts": 4
         },
         {
-          "position": 3,
-          "team": "Besox Izegem U12 VHV R 1 (U12 M)",
-          "team_id": 451448,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/_1786782175.jpg",
-          "mp": 3,
-          "w": 2,
-          "d": 0,
-          "l": 1,
-          "gs": 12,
-          "ga": 6,
-          "gd": 6,
-          "pts": 4
-        },
-        {
           "position": 4,
           "team": "Lokeren U12 VHV R A (U12 M)",
           "team_id": 451133,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/_1785747957.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
           "d": 1,
-          "l": 0,
-          "gs": 8,
-          "ga": 4,
-          "gd": 4,
+          "l": 1,
+          "gs": 9,
+          "ga": 9,
+          "gd": 0,
           "pts": 3
         },
         {
@@ -427,14 +427,14 @@
           "team": "Uilenspiegel U12 VHV R 4 (U12 M)",
           "team_id": 451540,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 5,
-          "w": 5,
+          "mp": 6,
+          "w": 6,
           "d": 0,
           "l": 0,
-          "gs": 26,
+          "gs": 32,
           "ga": 4,
-          "gd": 22,
-          "pts": 10
+          "gd": 28,
+          "pts": 12
         },
         {
           "position": 2,
@@ -455,13 +455,13 @@
           "team": "Heist o/d Berg U12 VHV R B (U12 M)",
           "team_id": 451438,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790145847.png",
-          "mp": 5,
+          "mp": 6,
           "w": 3,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "gs": 17,
-          "ga": 14,
-          "gd": 3,
+          "ga": 20,
+          "gd": -3,
           "pts": 7
         },
         {
