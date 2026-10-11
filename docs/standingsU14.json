@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T13:30:18.111724+00:00",
+  "generated_at": "2026-10-11T14:00:14.030024+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -277,14 +277,14 @@
           "team": "Evergem U14 VHV R (U14)",
           "team_id": 451369,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785699779.png",
-          "mp": 5,
-          "w": 2,
+          "mp": 6,
+          "w": 3,
           "d": 1,
           "l": 2,
-          "gs": 139,
-          "ga": 121,
-          "gd": 18,
-          "pts": 5
+          "gs": 183,
+          "ga": 134,
+          "gd": 49,
+          "pts": 7
         },
         {
           "position": 4,
@@ -302,20 +302,6 @@
         },
         {
           "position": 5,
-          "team": "Brugge U14 VHV-B R (U14 M)",
-          "team_id": 451509,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107944.jpg",
-          "mp": 3,
-          "w": 0,
-          "d": 0,
-          "l": 3,
-          "gs": 31,
-          "ga": 122,
-          "gd": -91,
-          "pts": 0
-        },
-        {
-          "position": 6,
           "team": "HK Waasmunster U14 VHV R (U14 M)",
           "team_id": 451603,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
@@ -326,6 +312,20 @@
           "gs": 99,
           "ga": 209,
           "gd": -110,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Brugge U14 VHV-B R (U14 M)",
+          "team_id": 451509,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/_1786107944.jpg",
+          "mp": 4,
+          "w": 0,
+          "d": 0,
+          "l": 4,
+          "gs": 44,
+          "ga": 166,
+          "gd": -122,
           "pts": 0
         }
       ]
@@ -441,14 +441,14 @@
           "team": "Hubo U14 VHV R 2 (U14 M)",
           "team_id": 451306,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/_1787125138.png",
-          "mp": 5,
-          "w": 5,
+          "mp": 6,
+          "w": 6,
           "d": 0,
           "l": 0,
-          "gs": 218,
-          "ga": 73,
-          "gd": 145,
-          "pts": 10
+          "gs": 287,
+          "ga": 88,
+          "gd": 199,
+          "pts": 12
         },
         {
           "position": 2,
@@ -480,20 +480,6 @@
         },
         {
           "position": 4,
-          "team": "United West B U14 VHV R (U14 M)",
-          "team_id": 451336,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17287/logo/_1786621769.jpg",
-          "mp": 5,
-          "w": 1,
-          "d": 1,
-          "l": 3,
-          "gs": 125,
-          "ga": 176,
-          "gd": -51,
-          "pts": 3
-        },
-        {
-          "position": 5,
           "team": "AtomiX U14 VHV R (U14 M)",
           "team_id": 451685,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787217158.jpg",
@@ -504,6 +490,20 @@
           "gs": 156,
           "ga": 219,
           "gd": -63,
+          "pts": 3
+        },
+        {
+          "position": 5,
+          "team": "United West B U14 VHV R (U14 M)",
+          "team_id": 451336,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17287/logo/_1786621769.jpg",
+          "mp": 6,
+          "w": 1,
+          "d": 1,
+          "l": 4,
+          "gs": 140,
+          "ga": 245,
+          "gd": -105,
           "pts": 3
         },
         {
