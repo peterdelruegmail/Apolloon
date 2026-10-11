@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:30:11.916226+00:00",
+  "generated_at": "2026-10-11T12:00:13.805099+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -363,6 +363,20 @@
         },
         {
           "position": 2,
+          "team": "Brasschaat U12 VHV R (U12 M)",
+          "team_id": 451342,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17235/logo/96x96_brasschaat-handbalclub_1788963702.png",
+          "mp": 4,
+          "w": 3,
+          "d": 0,
+          "l": 1,
+          "gs": 16,
+          "ga": 8,
+          "gd": 8,
+          "pts": 6
+        },
+        {
+          "position": 3,
           "team": "Biobest Sasja U12 VHV R (U12)",
           "team_id": 451611,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1788434785.png",
@@ -373,20 +387,6 @@
           "gs": 14,
           "ga": 10,
           "gd": 4,
-          "pts": 4
-        },
-        {
-          "position": 3,
-          "team": "Brasschaat U12 VHV R (U12 M)",
-          "team_id": 451342,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17235/logo/96x96_brasschaat-handbalclub_1788963702.png",
-          "mp": 3,
-          "w": 2,
-          "d": 0,
-          "l": 1,
-          "gs": 10,
-          "ga": 8,
-          "gd": 2,
           "pts": 4
         },
         {
@@ -408,13 +408,13 @@
           "team": "Welta U12 VHV-B R (U12 M)",
           "team_id": 451452,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898729.jpg",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
+          "l": 4,
           "gs": 2,
-          "ga": 16,
-          "gd": -14,
+          "ga": 22,
+          "gd": -20,
           "pts": 0
         }
       ]
