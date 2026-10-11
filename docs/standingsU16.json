@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:30:19.141312+00:00",
+  "generated_at": "2026-10-11T13:00:15.017204+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -324,13 +324,13 @@
           "team": "Rhino U16 VHV-B R (U16 M)",
           "team_id": 451089,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/_1786224919.png",
-          "mp": 5,
+          "mp": 6,
           "w": 5,
           "d": 0,
-          "l": 0,
-          "gs": 190,
-          "ga": 100,
-          "gd": 90,
+          "l": 1,
+          "gs": 221,
+          "ga": 134,
+          "gd": 87,
           "pts": 10
         },
         {
@@ -352,14 +352,14 @@
           "team": "AtomiX U16 VHV R (U16 M)",
           "team_id": 451682,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/_1787215118.jpg",
-          "mp": 5,
-          "w": 3,
+          "mp": 6,
+          "w": 4,
           "d": 0,
           "l": 2,
-          "gs": 131,
-          "ga": 142,
-          "gd": -11,
-          "pts": 6
+          "gs": 165,
+          "ga": 173,
+          "gd": -8,
+          "pts": 8
         },
         {
           "position": 4,
