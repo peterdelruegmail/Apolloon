@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T08:30:16.021431+00:00",
+  "generated_at": "2026-10-11T09:00:16.242017+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -263,14 +263,14 @@
           "team": "Olse Merksem U16 VHV R (U16 M)",
           "team_id": 451021,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790146970.jpg",
-          "mp": 5,
-          "w": 3,
+          "mp": 6,
+          "w": 4,
           "d": 0,
           "l": 2,
-          "gs": 137,
-          "ga": 121,
-          "gd": 16,
-          "pts": 6
+          "gs": 172,
+          "ga": 136,
+          "gd": 36,
+          "pts": 8
         },
         {
           "position": 4,
@@ -288,20 +288,6 @@
         },
         {
           "position": 5,
-          "team": "Welta U16 VHV-B R (U16 M)",
-          "team_id": 451484,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898688.jpg",
-          "mp": 3,
-          "w": 0,
-          "d": 0,
-          "l": 3,
-          "gs": 40,
-          "ga": 119,
-          "gd": -79,
-          "pts": 0
-        },
-        {
-          "position": 6,
           "team": "Schoten U16 VHV R (U16 M)",
           "team_id": 451050,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1790147542.jpg",
@@ -312,6 +298,20 @@
           "gs": 73,
           "ga": 160,
           "gd": -87,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Welta U16 VHV-B R (U16 M)",
+          "team_id": 451484,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/_1786898688.jpg",
+          "mp": 4,
+          "w": 0,
+          "d": 0,
+          "l": 4,
+          "gs": 55,
+          "ga": 154,
+          "gd": -99,
           "pts": 0
         }
       ]
