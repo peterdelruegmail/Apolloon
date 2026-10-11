@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T14:30:18.956111+00:00",
+  "generated_at": "2026-10-11T15:00:20.904858+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18713/seasons/220",
   "groups": [
     {
@@ -66,13 +66,13 @@
           "team": "Evergem D M VHV OWV-B (Senior M)",
           "team_id": 451379,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/_1785696874.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
           "d": 1,
-          "l": 0,
-          "gs": 55,
-          "ga": 52,
-          "gd": 3,
+          "l": 1,
+          "gs": 78,
+          "ga": 88,
+          "gd": -10,
           "pts": 3
         },
         {
@@ -119,6 +119,20 @@
         },
         {
           "position": 9,
+          "team": "Desselgemse D M VHV OWV-B (Senior M)",
+          "team_id": 451321,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/_1786803587.png",
+          "mp": 5,
+          "w": 1,
+          "d": 0,
+          "l": 4,
+          "gs": 127,
+          "ga": 147,
+          "gd": -20,
+          "pts": 2
+        },
+        {
+          "position": 10,
           "team": "Lebbeke D M VHV OWV-B (Senior M)",
           "team_id": 451517,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/_1787666591.png",
@@ -130,20 +144,6 @@
           "ga": 50,
           "gd": -14,
           "pts": 1
-        },
-        {
-          "position": 10,
-          "team": "Desselgemse D M VHV OWV-B (Senior M)",
-          "team_id": 451321,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/_1786803587.png",
-          "mp": 4,
-          "w": 0,
-          "d": 0,
-          "l": 4,
-          "gs": 91,
-          "ga": 124,
-          "gd": -33,
-          "pts": 0
         },
         {
           "position": 11,
