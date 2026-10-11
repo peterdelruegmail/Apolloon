@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T13:30:18.540261+00:00",
+  "generated_at": "2026-10-11T14:00:16.740199+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -113,27 +113,27 @@
           "team": "Mouscron B18 VHV-B R (U18 M)",
           "team_id": 451218,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17278/logo/96x96_hc-mouscron_1786054513.png",
-          "mp": 4,
-          "w": 1,
+          "mp": 5,
+          "w": 2,
           "d": 1,
           "l": 2,
-          "gs": 74,
-          "ga": 81,
-          "gd": -7,
-          "pts": 3
+          "gs": 112,
+          "ga": 108,
+          "gd": 4,
+          "pts": 5
         },
         {
           "position": 4,
           "team": "Dendermonde B18 VHV R (U18 M)",
           "team_id": 451626,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/_1784667669.png",
-          "mp": 4,
+          "mp": 5,
           "w": 1,
           "d": 0,
-          "l": 3,
-          "gs": 103,
-          "ga": 131,
-          "gd": -28,
+          "l": 4,
+          "gs": 130,
+          "ga": 169,
+          "gd": -39,
           "pts": 2
         },
         {
@@ -188,13 +188,13 @@
           "team": "Leuven B18 VHV R (U18 M)",
           "team_id": 451079,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/_1784465532.png",
-          "mp": 5,
+          "mp": 6,
           "w": 3,
           "d": 0,
-          "l": 2,
-          "gs": 154,
-          "ga": 157,
-          "gd": -3,
+          "l": 3,
+          "gs": 179,
+          "ga": 195,
+          "gd": -16,
           "pts": 6
         },
         {
@@ -216,14 +216,14 @@
           "team": "Schoten B18 VHV R (U18 M)",
           "team_id": 451052,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/_1784746285.jpg",
-          "mp": 4,
-          "w": 0,
+          "mp": 5,
+          "w": 1,
           "d": 0,
           "l": 4,
-          "gs": 116,
-          "ga": 160,
-          "gd": -44,
-          "pts": 0
+          "gs": 154,
+          "ga": 185,
+          "gd": -31,
+          "pts": 2
         },
         {
           "position": 6,
