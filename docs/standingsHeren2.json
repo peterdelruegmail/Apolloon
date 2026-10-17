@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T17:30:12.876814+00:00",
+  "generated_at": "2026-10-17T18:00:20.898472+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18707/seasons/220",
   "groups": [
     {
@@ -35,6 +35,20 @@
         },
         {
           "position": 3,
+          "team": "DB Gent D1 M VHV (Senior M)",
+          "team_id": 451496,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
+          "mp": 6,
+          "w": 4,
+          "d": 0,
+          "l": 2,
+          "gs": 179,
+          "ga": 174,
+          "gd": 5,
+          "pts": 8
+        },
+        {
+          "position": 4,
           "team": "P. Kortessem D1 M VHV 1 (Senior M)",
           "team_id": 450991,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
@@ -48,7 +62,7 @@
           "pts": 6
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Biobest Sasja D1 M VHV (Senior M)",
           "team_id": 451602,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/96x96_biobest-sasja-hc_1788423084.png",
@@ -62,7 +76,7 @@
           "pts": 6
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Dendermonde D1 M VHV 1 (Senior M)",
           "team_id": 451620,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1785005789.png",
@@ -73,20 +87,6 @@
           "gs": 135,
           "ga": 138,
           "gd": -3,
-          "pts": 6
-        },
-        {
-          "position": 6,
-          "team": "DB Gent D1 M VHV (Senior M)",
-          "team_id": 451496,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
-          "mp": 5,
-          "w": 3,
-          "d": 0,
-          "l": 2,
-          "gs": 143,
-          "ga": 151,
-          "gd": -8,
           "pts": 6
         },
         {
@@ -122,31 +122,45 @@
           "team": "H. Bilzen D1 M VHV (Senior M)",
           "team_id": 451429,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/96x96_handbal-hestia-bilzen_1786199944.png",
-          "mp": 5,
+          "mp": 6,
           "w": 2,
           "d": 0,
-          "l": 3,
-          "gs": 116,
-          "ga": 146,
-          "gd": -30,
+          "l": 4,
+          "gs": 139,
+          "ga": 182,
+          "gd": -43,
           "pts": 4
         },
         {
           "position": 10,
-          "team": "Schoten D1 M VHV (Senior M)",
-          "team_id": 451041,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 4,
+          "team": "HBC Apolloon Spurs D1 M VHV (Senior M)",
+          "team_id": 450939,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
+          "mp": 6,
           "w": 1,
-          "d": 0,
-          "l": 3,
-          "gs": 103,
-          "ga": 110,
-          "gd": -7,
-          "pts": 2
+          "d": 1,
+          "l": 4,
+          "gs": 167,
+          "ga": 193,
+          "gd": -26,
+          "pts": 3
         },
         {
           "position": 11,
+          "team": "Schoten D1 M VHV (Senior M)",
+          "team_id": 451041,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
+          "mp": 5,
+          "w": 1,
+          "d": 0,
+          "l": 4,
+          "gs": 138,
+          "ga": 147,
+          "gd": -9,
+          "pts": 2
+        },
+        {
+          "position": 12,
           "team": "Hubo D1 M VHV (Senior M)",
           "team_id": 451284,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
@@ -158,20 +172,6 @@
           "ga": 166,
           "gd": -29,
           "pts": 2
-        },
-        {
-          "position": 12,
-          "team": "HBC Apolloon Spurs D1 M VHV (Senior M)",
-          "team_id": 450939,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
-          "mp": 5,
-          "w": 0,
-          "d": 1,
-          "l": 4,
-          "gs": 130,
-          "ga": 158,
-          "gd": -28,
-          "pts": 1
         }
       ]
     }
