@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T10:30:10.576444+00:00",
+  "generated_at": "2026-10-17T11:00:17.753531+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -21,6 +21,20 @@
         },
         {
           "position": 2,
+          "team": "HBC Apolloon Spurs U12 VHV-B R (U12 M)",
+          "team_id": 450949,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
+          "mp": 5,
+          "w": 2,
+          "d": 1,
+          "l": 2,
+          "gs": 15,
+          "ga": 15,
+          "gd": 0,
+          "pts": 5
+        },
+        {
+          "position": 3,
           "team": "Desselgemse U12 VHV R (U12 M)",
           "team_id": 451330,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/96x96_desselgemse-handbalclub_1785314895.png",
@@ -34,32 +48,18 @@
           "pts": 5
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Besox Izegem U12 VHV R 3 (U12 M)",
           "team_id": 451456,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
-          "mp": 5,
+          "mp": 6,
           "w": 2,
           "d": 1,
-          "l": 2,
-          "gs": 12,
-          "ga": 18,
-          "gd": -6,
+          "l": 3,
+          "gs": 13,
+          "ga": 23,
+          "gd": -10,
           "pts": 5
-        },
-        {
-          "position": 4,
-          "team": "HBC Apolloon Spurs U12 VHV-B R (U12 M)",
-          "team_id": 450949,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
-          "mp": 4,
-          "w": 1,
-          "d": 1,
-          "l": 2,
-          "gs": 10,
-          "ga": 14,
-          "gd": -4,
-          "pts": 3
         },
         {
           "position": 5,
@@ -555,6 +555,20 @@
         },
         {
           "position": 4,
+          "team": "Olse Merksem U12 VHV R (U12 M)",
+          "team_id": 451024,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
+          "mp": 6,
+          "w": 3,
+          "d": 0,
+          "l": 3,
+          "gs": 15,
+          "ga": 21,
+          "gd": -6,
+          "pts": 6
+        },
+        {
+          "position": 5,
           "team": "HvH 't Noorden B (U12 M)",
           "team_id": 451362,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/25477/logo/96x96_hvh-%E2%80%98t-noorden_1787658655.png",
@@ -568,31 +582,17 @@
           "pts": 4
         },
         {
-          "position": 5,
-          "team": "Olse Merksem U12 VHV R (U12 M)",
-          "team_id": 451024,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
-          "mp": 5,
-          "w": 2,
-          "d": 0,
-          "l": 3,
-          "gs": 10,
-          "ga": 20,
-          "gd": -10,
-          "pts": 4
-        },
-        {
           "position": 6,
           "team": "Schoten U12 VHV R 2 (U12 M)",
           "team_id": 451047,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 5,
+          "mp": 6,
           "w": 1,
           "d": 0,
-          "l": 4,
-          "gs": 8,
-          "ga": 22,
-          "gd": -14,
+          "l": 5,
+          "gs": 9,
+          "ga": 27,
+          "gd": -18,
           "pts": 2
         }
       ]
