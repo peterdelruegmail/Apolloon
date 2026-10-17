@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T10:00:13.408220+00:00",
+  "generated_at": "2026-10-17T10:30:10.309864+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -277,14 +277,14 @@
           "team": "Merksplas U16 VHV R (U16 M)",
           "team_id": 451649,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17289/logo/96x96_handbal-merksplas_1788515564.png",
-          "mp": 4,
-          "w": 1,
+          "mp": 5,
+          "w": 2,
           "d": 0,
           "l": 3,
-          "gs": 91,
-          "ga": 137,
-          "gd": -46,
-          "pts": 2
+          "gs": 132,
+          "ga": 166,
+          "gd": -34,
+          "pts": 4
         },
         {
           "position": 5,
@@ -305,13 +305,13 @@
           "team": "Welta U16 VHV-B R (U16 M)",
           "team_id": 451484,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/96x96_hc-welta_1786354450.png",
-          "mp": 4,
+          "mp": 5,
           "w": 0,
           "d": 0,
-          "l": 4,
-          "gs": 55,
-          "ga": 154,
-          "gd": -99,
+          "l": 5,
+          "gs": 84,
+          "ga": 195,
+          "gd": -111,
           "pts": 0
         }
       ]
