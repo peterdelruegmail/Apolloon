@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:00:17.470618+00:00",
+  "generated_at": "2026-10-17T15:30:18.408431+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -82,6 +82,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Roeselare U12 VHV R (U12 M)",
+          "team_id": 451002,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
+          "mp": 4,
+          "w": 3,
+          "d": 0,
+          "l": 1,
+          "gs": 18,
+          "ga": 6,
+          "gd": 12,
+          "pts": 6
+        },
+        {
+          "position": 2,
           "team": "Besox Izegem U12 VHV R 1 (U12 M)",
           "team_id": 451448,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
@@ -95,7 +109,7 @@
           "pts": 6
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Dendermonde U12 VHV R (U12 M)",
           "team_id": 451636,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1785005789.png",
@@ -107,20 +121,6 @@
           "ga": 9,
           "gd": 6,
           "pts": 5
-        },
-        {
-          "position": 3,
-          "team": "Roeselare U12 VHV R (U12 M)",
-          "team_id": 451002,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
-          "mp": 3,
-          "w": 2,
-          "d": 0,
-          "l": 1,
-          "gs": 13,
-          "ga": 5,
-          "gd": 8,
-          "pts": 4
         },
         {
           "position": 4,
@@ -169,13 +169,13 @@
           "team": "Evergem U12 VHV R (U12 M)",
           "team_id": 451366,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
-          "mp": 4,
+          "mp": 5,
           "w": 0,
           "d": 0,
-          "l": 4,
-          "gs": 0,
-          "ga": 24,
-          "gd": -24,
+          "l": 5,
+          "gs": 1,
+          "ga": 29,
+          "gd": -28,
           "pts": 0
         }
       ]
@@ -438,6 +438,20 @@
         },
         {
           "position": 2,
+          "team": "E. Aarschot U12 VHV R (U12 M)",
+          "team_id": 450980,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17282/logo/96x96_handbalclub-eagles-aarschot_1784719693.png",
+          "mp": 6,
+          "w": 4,
+          "d": 1,
+          "l": 1,
+          "gs": 26,
+          "ga": 10,
+          "gd": 16,
+          "pts": 9
+        },
+        {
+          "position": 3,
           "team": "Heist o/d Berg U12 VHV R B (U12 M)",
           "team_id": 451438,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
@@ -449,20 +463,6 @@
           "ga": 20,
           "gd": 3,
           "pts": 9
-        },
-        {
-          "position": 3,
-          "team": "E. Aarschot U12 VHV R (U12 M)",
-          "team_id": 450980,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17282/logo/96x96_handbalclub-eagles-aarschot_1784719693.png",
-          "mp": 5,
-          "w": 3,
-          "d": 1,
-          "l": 1,
-          "gs": 20,
-          "ga": 10,
-          "gd": 10,
-          "pts": 7
         },
         {
           "position": 4,
@@ -483,13 +483,13 @@
           "team": "Rhino U12 VHV-B R (U12 M)",
           "team_id": 451092,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/96x96_hc-rhino-turnhout_1784932132.png",
-          "mp": 5,
+          "mp": 6,
           "w": 1,
           "d": 0,
-          "l": 4,
+          "l": 5,
           "gs": 12,
-          "ga": 18,
-          "gd": -6,
+          "ga": 24,
+          "gd": -12,
           "pts": 2
         },
         {
