@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T13:00:18.606287+00:00",
+  "generated_at": "2026-10-17T13:30:14.956688+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -246,6 +246,20 @@
         },
         {
           "position": 2,
+          "team": "Olse Merksem U16 VHV R (U16 M)",
+          "team_id": 451021,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
+          "mp": 7,
+          "w": 5,
+          "d": 0,
+          "l": 2,
+          "gs": 212,
+          "ga": 155,
+          "gd": 57,
+          "pts": 10
+        },
+        {
+          "position": 3,
           "team": "Uilenspiegel U16 VHV R (U16 M)",
           "team_id": 451552,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
@@ -256,20 +270,6 @@
           "gs": 201,
           "ga": 145,
           "gd": 56,
-          "pts": 8
-        },
-        {
-          "position": 3,
-          "team": "Olse Merksem U16 VHV R (U16 M)",
-          "team_id": 451021,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
-          "mp": 6,
-          "w": 4,
-          "d": 0,
-          "l": 2,
-          "gs": 172,
-          "ga": 136,
-          "gd": 36,
           "pts": 8
         },
         {
@@ -291,13 +291,13 @@
           "team": "Schoten U16 VHV R (U16 M)",
           "team_id": 451050,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 4,
+          "mp": 5,
           "w": 0,
           "d": 0,
-          "l": 4,
-          "gs": 73,
-          "ga": 160,
-          "gd": -87,
+          "l": 5,
+          "gs": 92,
+          "ga": 200,
+          "gd": -108,
           "pts": 0
         },
         {
