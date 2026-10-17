@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T16:30:20.827183+00:00",
+  "generated_at": "2026-10-17T17:00:11.915098+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -235,14 +235,14 @@
           "team": "Biobest Sasja U16 VHV R (U16)",
           "team_id": 451607,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/96x96_biobest-sasja-hc_1788423084.png",
-          "mp": 6,
-          "w": 6,
+          "mp": 7,
+          "w": 7,
           "d": 0,
           "l": 0,
-          "gs": 228,
-          "ga": 88,
-          "gd": 140,
-          "pts": 12
+          "gs": 262,
+          "ga": 101,
+          "gd": 161,
+          "pts": 14
         },
         {
           "position": 2,
@@ -263,13 +263,13 @@
           "team": "Uilenspiegel U16 VHV R (U16 M)",
           "team_id": 451552,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 6,
+          "mp": 7,
           "w": 4,
           "d": 0,
-          "l": 2,
-          "gs": 201,
-          "ga": 145,
-          "gd": 56,
+          "l": 3,
+          "gs": 214,
+          "ga": 179,
+          "gd": 35,
           "pts": 8
         },
         {
