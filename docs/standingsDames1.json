@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:00:17.688919+00:00",
+  "generated_at": "2026-10-17T15:30:18.474756+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18710/seasons/220",
   "groups": [
     {
@@ -21,6 +21,20 @@
         },
         {
           "position": 2,
+          "team": "Sezoens Achilles Bocholt D1 W VHV (Senior F)",
+          "team_id": 451181,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
+          "mp": 5,
+          "w": 4,
+          "d": 0,
+          "l": 1,
+          "gs": 118,
+          "ga": 87,
+          "gd": 31,
+          "pts": 8
+        },
+        {
+          "position": 3,
           "team": "Roeselare D1 W VHV 1 (Senior F)",
           "team_id": 451005,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
@@ -31,20 +45,6 @@
           "gs": 114,
           "ga": 72,
           "gd": 42,
-          "pts": 6
-        },
-        {
-          "position": 3,
-          "team": "Sezoens Achilles Bocholt D1 W VHV (Senior F)",
-          "team_id": 451181,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 4,
-          "w": 3,
-          "d": 0,
-          "l": 1,
-          "gs": 99,
-          "ga": 75,
-          "gd": 24,
           "pts": 6
         },
         {
@@ -136,13 +136,13 @@
           "team": "Aalst D1 W VHV (Senior F)",
           "team_id": 451441,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/96x96_handbalclub-aalst_1786404715.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 43,
-          "ga": 68,
-          "gd": -25,
+          "l": 4,
+          "gs": 55,
+          "ga": 87,
+          "gd": -32,
           "pts": 0
         }
       ]
