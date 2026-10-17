@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T17:00:12.014613+00:00",
+  "generated_at": "2026-10-17T17:30:13.333479+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -7,6 +7,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Eynatten-Raeren D1 M (Senior M)",
+          "team_id": 451765,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17247/logo/96x96_hc-eynatten-raeren_1786116089.png",
+          "mp": 6,
+          "w": 4,
+          "d": 1,
+          "l": 1,
+          "gs": 183,
+          "ga": 154,
+          "gd": 29,
+          "pts": 9
+        },
+        {
+          "position": 2,
           "team": "Estudiantes Tournai D1 M (Senior M)",
           "team_id": 451113,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/4969/logo/96x96_estudiantes-handball-club-tournai_1790953726.png",
@@ -20,7 +34,7 @@
           "pts": 9
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Derdaele Sp. Pelt D1 M (Senior M)",
           "team_id": 451715,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
@@ -32,20 +46,6 @@
           "ga": 126,
           "gd": 15,
           "pts": 8
-        },
-        {
-          "position": 3,
-          "team": "Eynatten-Raeren D1 M (Senior M)",
-          "team_id": 451765,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17247/logo/96x96_hc-eynatten-raeren_1786116089.png",
-          "mp": 5,
-          "w": 3,
-          "d": 1,
-          "l": 1,
-          "gs": 146,
-          "ga": 125,
-          "gd": 21,
-          "pts": 7
         },
         {
           "position": 4,
@@ -136,13 +136,13 @@
           "team": "Hubo D1 M (Senior M)",
           "team_id": 451281,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
-          "mp": 5,
+          "mp": 6,
           "w": 1,
           "d": 0,
-          "l": 4,
-          "gs": 148,
-          "ga": 166,
-          "gd": -18,
+          "l": 5,
+          "gs": 177,
+          "ga": 203,
+          "gd": -26,
           "pts": 2
         }
       ]
