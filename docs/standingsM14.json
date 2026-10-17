@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:00:18.003869+00:00",
+  "generated_at": "2026-10-17T15:30:19.397218+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -99,27 +99,27 @@
           "team": "Derdaele Sp. Pelt G14 VHV R 1 (U14 F)",
           "team_id": 451708,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
-          "mp": 5,
-          "w": 4,
+          "mp": 6,
+          "w": 5,
           "d": 0,
           "l": 1,
-          "gs": 126,
-          "ga": 73,
-          "gd": 53,
-          "pts": 8
+          "gs": 158,
+          "ga": 88,
+          "gd": 70,
+          "pts": 10
         },
         {
           "position": 2,
           "team": "Uilenspiegel G14 VHV R (U14 F)",
           "team_id": 451549,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 5,
+          "mp": 6,
           "w": 3,
           "d": 0,
-          "l": 2,
-          "gs": 120,
-          "ga": 78,
-          "gd": 42,
+          "l": 3,
+          "gs": 135,
+          "ga": 110,
+          "gd": 25,
           "pts": 6
         },
         {
@@ -188,14 +188,14 @@
           "team": "P. Kortessem G14 VHV R (U14 F)",
           "team_id": 451148,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
-          "mp": 5,
-          "w": 2,
+          "mp": 6,
+          "w": 3,
           "d": 1,
           "l": 2,
-          "gs": 118,
-          "ga": 99,
-          "gd": 19,
-          "pts": 5
+          "gs": 142,
+          "ga": 114,
+          "gd": 28,
+          "pts": 7
         },
         {
           "position": 4,
@@ -216,13 +216,13 @@
           "team": "H. Bilzen G14 VHV R (U14 F)",
           "team_id": 451229,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/96x96_handbal-hestia-bilzen_1786199944.png",
-          "mp": 5,
+          "mp": 6,
           "w": 1,
           "d": 0,
-          "l": 4,
-          "gs": 44,
-          "ga": 118,
-          "gd": -74,
+          "l": 5,
+          "gs": 59,
+          "ga": 142,
+          "gd": -83,
           "pts": 2
         },
         {
