@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:30:18.791971+00:00",
+  "generated_at": "2026-10-17T16:00:21.995312+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18713/seasons/220",
   "groups": [
     {
@@ -24,14 +24,14 @@
           "team": "DB Gent D M VHV OWV (Senior M)",
           "team_id": 451670,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
-          "mp": 4,
-          "w": 4,
+          "mp": 5,
+          "w": 5,
           "d": 0,
           "l": 0,
-          "gs": 114,
-          "ga": 96,
-          "gd": 18,
-          "pts": 8
+          "gs": 150,
+          "ga": 126,
+          "gd": 24,
+          "pts": 10
         },
         {
           "position": 3,
@@ -52,13 +52,13 @@
           "team": "Dendermonde D M VHV OWV-B 2 (Senior M)",
           "team_id": 451693,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1785005789.png",
-          "mp": 4,
+          "mp": 5,
           "w": 2,
           "d": 1,
-          "l": 1,
-          "gs": 110,
-          "ga": 90,
-          "gd": 20,
+          "l": 2,
+          "gs": 140,
+          "ga": 126,
+          "gd": 14,
           "pts": 5
         },
         {
