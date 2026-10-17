@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T09:00:19.321626+00:00",
+  "generated_at": "2026-10-17T09:30:15.036166+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -216,31 +216,17 @@
           "team": "Brugge U12 VHV R (U12 M)",
           "team_id": 451508,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/96x96_handbal-brugge_1784571053.png",
-          "mp": 5,
-          "w": 2,
+          "mp": 6,
+          "w": 3,
           "d": 0,
           "l": 3,
-          "gs": 13,
+          "gs": 19,
           "ga": 17,
-          "gd": -4,
-          "pts": 4
+          "gd": 2,
+          "pts": 6
         },
         {
           "position": 4,
-          "team": "HK Waasmunster U12 VHV R (U12 M)",
-          "team_id": 451606,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
-          "mp": 5,
-          "w": 1,
-          "d": 0,
-          "l": 4,
-          "gs": 7,
-          "ga": 23,
-          "gd": -16,
-          "pts": 2
-        },
-        {
-          "position": 5,
           "team": "HBC Apolloon Spurs U12 VHV R (U12 M)",
           "team_id": 450950,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
@@ -251,6 +237,20 @@
           "gs": 5,
           "ga": 25,
           "gd": -20,
+          "pts": 2
+        },
+        {
+          "position": 5,
+          "team": "HK Waasmunster U12 VHV R (U12 M)",
+          "team_id": 451606,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
+          "mp": 6,
+          "w": 1,
+          "d": 0,
+          "l": 5,
+          "gs": 7,
+          "ga": 29,
+          "gd": -22,
           "pts": 2
         }
       ]
