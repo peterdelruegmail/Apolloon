@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T12:00:23.395272+00:00",
+  "generated_at": "2026-10-17T12:30:20.046472+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18725/seasons/220",
   "groups": [
     {
@@ -99,27 +99,27 @@
           "team": "Roeselare U14 VHV Q (U14 M)",
           "team_id": 451032,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
-          "mp": 3,
-          "w": 1,
+          "mp": 4,
+          "w": 2,
           "d": 0,
           "l": 2,
-          "gs": 27,
-          "ga": 33,
-          "gd": -6,
-          "pts": 2
+          "gs": 46,
+          "ga": 44,
+          "gd": 2,
+          "pts": 4
         },
         {
           "position": 4,
           "team": "Besox Izegem U14 VHV Q 1 (U14 M)",
           "team_id": 451474,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
-          "mp": 3,
+          "mp": 4,
           "w": 1,
           "d": 0,
-          "l": 2,
-          "gs": 24,
-          "ga": 47,
-          "gd": -23,
+          "l": 3,
+          "gs": 35,
+          "ga": 66,
+          "gd": -31,
           "pts": 2
         },
         {
@@ -246,6 +246,20 @@
         },
         {
           "position": 3,
+          "team": "DB Gent U14 VHV Q 2 (U14 M)",
+          "team_id": 451666,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
+          "mp": 4,
+          "w": 2,
+          "d": 0,
+          "l": 2,
+          "gs": 58,
+          "ga": 71,
+          "gd": -13,
+          "pts": 4
+        },
+        {
+          "position": 4,
           "team": "Schoten U14 VHV Q (U14 M)",
           "team_id": 451049,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
@@ -259,31 +273,17 @@
           "pts": 2
         },
         {
-          "position": 4,
-          "team": "DB Gent U14 VHV Q 2 (U14 M)",
-          "team_id": 451666,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
-          "mp": 3,
-          "w": 1,
-          "d": 0,
-          "l": 2,
-          "gs": 38,
-          "ga": 61,
-          "gd": -23,
-          "pts": 2
-        },
-        {
           "position": 5,
           "team": "Dendermonde U14 VHV Q (U14 M)",
           "team_id": 451634,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1785005789.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 17,
-          "ga": 69,
-          "gd": -52,
+          "l": 4,
+          "gs": 27,
+          "ga": 89,
+          "gd": -62,
           "pts": 0
         }
       ]
@@ -321,6 +321,20 @@
         },
         {
           "position": 3,
+          "team": "AtomiX U14 VHV Q (U14 M)",
+          "team_id": 451686,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/96x96_hc-atomix_1784479147.png",
+          "mp": 4,
+          "w": 2,
+          "d": 0,
+          "l": 2,
+          "gs": 45,
+          "ga": 53,
+          "gd": -8,
+          "pts": 4
+        },
+        {
+          "position": 4,
           "team": "Heist o/d Berg U14 VHV Q (U14 M)",
           "team_id": 451453,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
@@ -334,31 +348,17 @@
           "pts": 2
         },
         {
-          "position": 4,
-          "team": "AtomiX U14 VHV Q (U14 M)",
-          "team_id": 451686,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/96x96_hc-atomix_1784479147.png",
-          "mp": 3,
-          "w": 1,
-          "d": 0,
-          "l": 2,
-          "gs": 27,
-          "ga": 49,
-          "gd": -22,
-          "pts": 2
-        },
-        {
           "position": 5,
           "team": "HK Waasmunster U14 VHV Q (U14 M)",
           "team_id": 451604,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 27,
-          "ga": 68,
-          "gd": -41,
+          "l": 4,
+          "gs": 31,
+          "ga": 86,
+          "gd": -55,
           "pts": 0
         }
       ]
