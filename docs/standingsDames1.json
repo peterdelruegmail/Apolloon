@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T19:00:16.303793+00:00",
+  "generated_at": "2026-10-17T19:30:14.724976+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18710/seasons/220",
   "groups": [
     {
@@ -7,6 +7,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Roeselare D1 W VHV 1 (Senior F)",
+          "team_id": 451005,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
+          "mp": 5,
+          "w": 4,
+          "d": 0,
+          "l": 1,
+          "gs": 143,
+          "ga": 89,
+          "gd": 54,
+          "pts": 8
+        },
+        {
+          "position": 2,
           "team": "Olse Merksem D1 W VHV (Senior F)",
           "team_id": 451017,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
@@ -20,7 +34,7 @@
           "pts": 8
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Sezoens Achilles Bocholt D1 W VHV (Senior F)",
           "team_id": 451181,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
@@ -32,20 +46,6 @@
           "ga": 87,
           "gd": 31,
           "pts": 8
-        },
-        {
-          "position": 3,
-          "team": "Roeselare D1 W VHV 1 (Senior F)",
-          "team_id": 451005,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
-          "mp": 4,
-          "w": 3,
-          "d": 0,
-          "l": 1,
-          "gs": 114,
-          "ga": 72,
-          "gd": 42,
-          "pts": 6
         },
         {
           "position": 4,
@@ -94,13 +94,13 @@
           "team": "Evergem D1 W VHV (Senior F)",
           "team_id": 451378,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
-          "mp": 3,
+          "mp": 4,
           "w": 1,
           "d": 0,
-          "l": 2,
-          "gs": 49,
-          "ga": 65,
-          "gd": -16,
+          "l": 3,
+          "gs": 66,
+          "ga": 94,
+          "gd": -28,
           "pts": 2
         },
         {
