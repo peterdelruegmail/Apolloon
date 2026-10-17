@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T14:30:14.903800+00:00",
+  "generated_at": "2026-10-17T15:00:17.470618+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -352,14 +352,14 @@
           "team": "Uilenspiegel U12 VHV R 3 (U12 M)",
           "team_id": 451537,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 4,
-          "w": 4,
+          "mp": 5,
+          "w": 5,
           "d": 0,
           "l": 0,
-          "gs": 22,
-          "ga": 2,
-          "gd": 20,
-          "pts": 8
+          "gs": 26,
+          "ga": 4,
+          "gd": 22,
+          "pts": 10
         },
         {
           "position": 2,
@@ -380,13 +380,13 @@
           "team": "Biobest Sasja U12 VHV R (U12)",
           "team_id": 451611,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/96x96_biobest-sasja-hc_1788423084.png",
-          "mp": 4,
+          "mp": 5,
           "w": 2,
           "d": 0,
-          "l": 2,
-          "gs": 14,
-          "ga": 10,
-          "gd": 4,
+          "l": 3,
+          "gs": 16,
+          "ga": 14,
+          "gd": 2,
           "pts": 4
         },
         {
@@ -427,17 +427,31 @@
           "team": "Uilenspiegel U12 VHV R 4 (U12 M)",
           "team_id": 451540,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 6,
-          "w": 6,
+          "mp": 7,
+          "w": 7,
           "d": 0,
           "l": 0,
-          "gs": 32,
+          "gs": 38,
           "ga": 4,
-          "gd": 28,
-          "pts": 12
+          "gd": 34,
+          "pts": 14
         },
         {
           "position": 2,
+          "team": "Heist o/d Berg U12 VHV R B (U12 M)",
+          "team_id": 451438,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
+          "mp": 7,
+          "w": 4,
+          "d": 1,
+          "l": 2,
+          "gs": 23,
+          "ga": 20,
+          "gd": 3,
+          "pts": 9
+        },
+        {
+          "position": 3,
           "team": "E. Aarschot U12 VHV R (U12 M)",
           "team_id": 450980,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17282/logo/96x96_handbalclub-eagles-aarschot_1784719693.png",
@@ -451,31 +465,17 @@
           "pts": 7
         },
         {
-          "position": 3,
-          "team": "Heist o/d Berg U12 VHV R B (U12 M)",
-          "team_id": 451438,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
-          "mp": 6,
-          "w": 3,
-          "d": 1,
-          "l": 2,
-          "gs": 17,
-          "ga": 20,
-          "gd": -3,
-          "pts": 7
-        },
-        {
           "position": 4,
           "team": "Leuven U12 VHV R (U12)",
           "team_id": 451082,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
-          "mp": 5,
+          "mp": 6,
           "w": 2,
           "d": 0,
-          "l": 3,
+          "l": 4,
           "gs": 16,
-          "ga": 15,
-          "gd": 1,
+          "ga": 21,
+          "gd": -5,
           "pts": 4
         },
         {
@@ -497,13 +497,13 @@
           "team": "AtomiX U12 VHV R (U12 M)",
           "team_id": 451688,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/96x96_hc-atomix_1784479147.png",
-          "mp": 5,
+          "mp": 6,
           "w": 0,
           "d": 0,
-          "l": 5,
+          "l": 6,
           "gs": 0,
-          "ga": 30,
-          "gd": -30,
+          "ga": 36,
+          "gd": -36,
           "pts": 0
         }
       ]
