@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:30:16.039489+00:00",
+  "generated_at": "2026-10-17T12:00:23.021115+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -619,27 +619,27 @@
           "team": "Derdaele Sp. Pelt U12 VHV R 1 (U12 M)",
           "team_id": 451702,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
-          "mp": 5,
-          "w": 3,
+          "mp": 6,
+          "w": 4,
           "d": 0,
           "l": 2,
-          "gs": 17,
-          "ga": 13,
-          "gd": 4,
-          "pts": 6
+          "gs": 21,
+          "ga": 15,
+          "gd": 6,
+          "pts": 8
         },
         {
           "position": 3,
           "team": "Sezoens Achilles Bocholt U12 VHV R (U12 M)",
           "team_id": 451201,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 5,
+          "mp": 6,
           "w": 2,
           "d": 1,
-          "l": 2,
-          "gs": 14,
-          "ga": 16,
-          "gd": -2,
+          "l": 3,
+          "gs": 16,
+          "ga": 20,
+          "gd": -4,
           "pts": 5
         },
         {
