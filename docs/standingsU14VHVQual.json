@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T10:30:16.795690+00:00",
+  "generated_at": "2026-10-18T11:00:08.435301+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18725/seasons/220",
   "groups": [
     {
@@ -24,14 +24,14 @@
           "team": "E. Aarschot U14 VHV Q (U14 M)",
           "team_id": 450986,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17282/logo/96x96_handbalclub-eagles-aarschot_1784719693.png",
-          "mp": 3,
-          "w": 2,
+          "mp": 4,
+          "w": 3,
           "d": 0,
           "l": 1,
-          "gs": 28,
-          "ga": 22,
-          "gd": 6,
-          "pts": 4
+          "gs": 40,
+          "ga": 24,
+          "gd": 16,
+          "pts": 6
         },
         {
           "position": 3,
@@ -52,13 +52,13 @@
           "team": "Leuven U14 VHV Q (U14)",
           "team_id": 451085,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 10,
-          "ga": 48,
-          "gd": -38,
+          "l": 4,
+          "gs": 12,
+          "ga": 60,
+          "gd": -48,
           "pts": 0
         }
       ]
@@ -143,6 +143,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Derdaele Sp. Pelt U14 VHV Q (U14 M)",
+          "team_id": 451706,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
+          "mp": 3,
+          "w": 3,
+          "d": 0,
+          "l": 0,
+          "gs": 56,
+          "ga": 26,
+          "gd": 30,
+          "pts": 6
+        },
+        {
+          "position": 2,
           "team": "Sezoens Achilles Bocholt U14 VHV Q (U14 M)",
           "team_id": 451196,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
@@ -156,31 +170,17 @@
           "pts": 4
         },
         {
-          "position": 2,
-          "team": "Derdaele Sp. Pelt U14 VHV Q (U14 M)",
-          "team_id": 451706,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
-          "mp": 2,
-          "w": 2,
-          "d": 0,
-          "l": 0,
-          "gs": 35,
-          "ga": 14,
-          "gd": 21,
-          "pts": 4
-        },
-        {
           "position": 3,
           "team": "Buggenhout U14 VHV Q (U14 M)",
           "team_id": 451574,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17260/logo/96x96_elita-buggenhout_1787811735.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
           "d": 0,
-          "l": 1,
-          "gs": 15,
-          "ga": 25,
-          "gd": -10,
+          "l": 2,
+          "gs": 27,
+          "ga": 46,
+          "gd": -19,
           "pts": 2
         },
         {
