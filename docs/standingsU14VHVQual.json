@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T08:00:09.276879+00:00",
+  "generated_at": "2026-10-18T08:30:10.789422+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18725/seasons/220",
   "groups": [
     {
@@ -10,31 +10,17 @@
           "team": "E. Aarschot U14 VHV Q (U14 M)",
           "team_id": 450986,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17282/logo/96x96_handbalclub-eagles-aarschot_1784719693.png",
-          "mp": 0,
-          "w": 0,
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 11,
+          "ga": 4,
+          "gd": 7,
+          "pts": 2
         },
         {
           "position": 2,
-          "team": "Leuven U14 VHV Q (U14)",
-          "team_id": 451085,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
           "team": "Besox Izegem U14 VHV Q 2 (U14 M)",
           "team_id": 451476,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
@@ -48,7 +34,7 @@
           "pts": 0
         },
         {
-          "position": 4,
+          "position": 3,
           "team": "DB Gent U14 VHV Q 1 (U14 M)",
           "team_id": 451664,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
@@ -59,6 +45,20 @@
           "gs": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 4,
+          "team": "Leuven U14 VHV Q (U14)",
+          "team_id": 451085,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 4,
+          "ga": 11,
+          "gd": -7,
           "pts": 0
         }
       ]
@@ -143,17 +143,17 @@
       "standings": [
         {
           "position": 1,
-          "team": "HBC Apolloon Spurs U14 VHV Q (U14 M)",
-          "team_id": 450946,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
-          "mp": 0,
-          "w": 0,
+          "team": "Buggenhout U14 VHV Q (U14 M)",
+          "team_id": 451574,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17260/logo/96x96_elita-buggenhout_1787811735.png",
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 10,
+          "ga": 6,
+          "gd": 4,
+          "pts": 2
         },
         {
           "position": 2,
@@ -185,9 +185,9 @@
         },
         {
           "position": 4,
-          "team": "Buggenhout U14 VHV Q (U14 M)",
-          "team_id": 451574,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17260/logo/96x96_elita-buggenhout_1787811735.png",
+          "team": "Derdaele Sp. Pelt U14 VHV Q (U14 M)",
+          "team_id": 451706,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -199,16 +199,16 @@
         },
         {
           "position": 5,
-          "team": "Derdaele Sp. Pelt U14 VHV Q (U14 M)",
-          "team_id": 451706,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
-          "mp": 0,
+          "team": "HBC Apolloon Spurs U14 VHV Q (U14 M)",
+          "team_id": 450946,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 6,
+          "ga": 10,
+          "gd": -4,
           "pts": 0
         }
       ]
