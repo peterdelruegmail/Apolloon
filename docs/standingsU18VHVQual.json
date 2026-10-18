@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T14:00:09.031484+00:00",
+  "generated_at": "2026-10-18T14:30:14.224329+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18717/seasons/220",
   "groups": [
     {
@@ -110,6 +110,20 @@
         },
         {
           "position": 3,
+          "team": "Schoten B18 VHV Q (U18 M)",
+          "team_id": 451053,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
+          "mp": 5,
+          "w": 3,
+          "d": 0,
+          "l": 2,
+          "gs": 38,
+          "ga": 51,
+          "gd": -13,
+          "pts": 6
+        },
+        {
+          "position": 4,
           "team": "P. Kortessem B18 VHV Q (U18 M)",
           "team_id": 451142,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
@@ -120,20 +134,6 @@
           "gs": 32,
           "ga": 33,
           "gd": -1,
-          "pts": 4
-        },
-        {
-          "position": 4,
-          "team": "Schoten B18 VHV Q (U18 M)",
-          "team_id": 451053,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 4,
-          "w": 2,
-          "d": 0,
-          "l": 2,
-          "gs": 29,
-          "ga": 44,
-          "gd": -15,
           "pts": 4
         },
         {
@@ -155,13 +155,13 @@
           "team": "AtomiX B18 VHV Q (U18 M)",
           "team_id": 451680,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/96x96_hc-atomix_1784479147.png",
-          "mp": 4,
+          "mp": 5,
           "w": 0,
           "d": 1,
-          "l": 3,
-          "gs": 14,
-          "ga": 38,
-          "gd": -24,
+          "l": 4,
+          "gs": 21,
+          "ga": 47,
+          "gd": -26,
           "pts": 1
         }
       ]
@@ -171,31 +171,31 @@
       "standings": [
         {
           "position": 1,
-          "team": "Sezoens Achilles Bocholt B18 VHV Q (U18 M)",
-          "team_id": 451185,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 4,
-          "w": 3,
-          "d": 1,
-          "l": 0,
-          "gs": 35,
-          "ga": 22,
-          "gd": 13,
-          "pts": 7
-        },
-        {
-          "position": 2,
           "team": "Uilenspiegel B18 VHV Q (U18 M)",
           "team_id": 451562,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 4,
-          "w": 3,
+          "mp": 5,
+          "w": 4,
           "d": 0,
           "l": 1,
+          "gs": 49,
+          "ga": 23,
+          "gd": 26,
+          "pts": 8
+        },
+        {
+          "position": 2,
+          "team": "Sezoens Achilles Bocholt B18 VHV Q (U18 M)",
+          "team_id": 451185,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
+          "mp": 5,
+          "w": 3,
+          "d": 1,
+          "l": 1,
           "gs": 40,
-          "ga": 18,
-          "gd": 22,
-          "pts": 6
+          "ga": 31,
+          "gd": 9,
+          "pts": 7
         },
         {
           "position": 3,
