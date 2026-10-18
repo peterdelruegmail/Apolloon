@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:00:09.986727+00:00",
+  "generated_at": "2026-10-18T09:30:14.400795+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18717/seasons/220",
   "groups": [
     {
@@ -7,16 +7,16 @@
       "standings": [
         {
           "position": 1,
-          "team": "Dendermonde B18 VHV Q (U18 M)",
-          "team_id": 451627,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1785005789.png",
+          "team": "Derdaele Sp. Pelt B18 VHV Q (U18 M)",
+          "team_id": 451711,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
           "mp": 1,
           "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 11,
+          "gs": 12,
           "ga": 7,
-          "gd": 4,
+          "gd": 5,
           "pts": 2
         },
         {
@@ -35,17 +35,17 @@
         },
         {
           "position": 3,
-          "team": "Derdaele Sp. Pelt B18 VHV Q (U18 M)",
-          "team_id": 451711,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
-          "mp": 0,
-          "w": 0,
+          "team": "Dendermonde B18 VHV Q (U18 M)",
+          "team_id": 451627,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1785005789.png",
+          "mp": 2,
+          "w": 1,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "l": 1,
+          "gs": 18,
+          "ga": 19,
+          "gd": -1,
+          "pts": 2
         },
         {
           "position": 4,
@@ -96,6 +96,20 @@
         },
         {
           "position": 2,
+          "team": "DB Gent B18 VHV Q (U18 M)",
+          "team_id": 451500,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 15,
+          "ga": 5,
+          "gd": 10,
+          "pts": 2
+        },
+        {
+          "position": 3,
           "team": "P. Kortessem B18 VHV Q (U18 M)",
           "team_id": 451142,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
@@ -109,35 +123,7 @@
           "pts": 2
         },
         {
-          "position": 3,
-          "team": "Schoten B18 VHV Q (U18 M)",
-          "team_id": 451053,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 4,
-          "team": "DB Gent B18 VHV Q (U18 M)",
-          "team_id": 451500,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
           "team": "Evergem B18 VHV Q (U18 M)",
           "team_id": 451375,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
@@ -148,6 +134,20 @@
           "gs": 7,
           "ga": 8,
           "gd": -1,
+          "pts": 0
+        },
+        {
+          "position": 5,
+          "team": "Schoten B18 VHV Q (U18 M)",
+          "team_id": 451053,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 5,
+          "ga": 15,
+          "gd": -10,
           "pts": 0
         },
         {
@@ -171,17 +171,17 @@
       "standings": [
         {
           "position": 1,
-          "team": "Leuven B18 VHV Q (U18 M)",
-          "team_id": 451083,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
-          "mp": 0,
-          "w": 0,
+          "team": "Uilenspiegel B18 VHV Q (U18 M)",
+          "team_id": 451562,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 9,
+          "ga": 1,
+          "gd": 8,
+          "pts": 2
         },
         {
           "position": 2,
@@ -241,16 +241,16 @@
         },
         {
           "position": 6,
-          "team": "Uilenspiegel B18 VHV Q (U18 M)",
-          "team_id": 451562,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 0,
+          "team": "Leuven B18 VHV Q (U18 M)",
+          "team_id": 451083,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 1,
+          "ga": 9,
+          "gd": -8,
           "pts": 0
         }
       ]
