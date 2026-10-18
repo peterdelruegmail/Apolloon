@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T08:00:10.783000+00:00",
+  "generated_at": "2026-10-18T08:30:11.902118+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -677,6 +677,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "P. Kortessem U12 VHV R 1 (U12)",
+          "team_id": 451150,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
+          "mp": 6,
+          "w": 6,
+          "d": 0,
+          "l": 0,
+          "gs": 36,
+          "ga": 0,
+          "gd": 36,
+          "pts": 12
+        },
+        {
+          "position": 2,
           "team": "Hubo U12 VHV R 2 (U12 M)",
           "team_id": 451314,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
@@ -688,20 +702,6 @@
           "ga": 9,
           "gd": 24,
           "pts": 12
-        },
-        {
-          "position": 2,
-          "team": "P. Kortessem U12 VHV R 1 (U12)",
-          "team_id": 451150,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
-          "mp": 5,
-          "w": 5,
-          "d": 0,
-          "l": 0,
-          "gs": 30,
-          "ga": 0,
-          "gd": 30,
-          "pts": 10
         },
         {
           "position": 3,
@@ -736,13 +736,13 @@
           "team": "United West L U12 VHV R (U12 M)",
           "team_id": 451164,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17286/logo/96x96_handbal-lummen_1786174877.png",
-          "mp": 5,
+          "mp": 6,
           "w": 1,
           "d": 0,
-          "l": 4,
+          "l": 5,
           "gs": 4,
-          "ga": 26,
-          "gd": -22,
+          "ga": 32,
+          "gd": -28,
           "pts": 2
         },
         {
