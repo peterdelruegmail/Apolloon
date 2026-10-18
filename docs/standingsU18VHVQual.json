@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:30:17.988400+00:00",
+  "generated_at": "2026-10-18T14:00:09.031484+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18717/seasons/220",
   "groups": [
     {
@@ -99,27 +99,27 @@
           "team": "DB Gent B18 VHV Q (U18 M)",
           "team_id": 451500,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
-          "mp": 4,
-          "w": 3,
+          "mp": 5,
+          "w": 4,
           "d": 1,
           "l": 0,
-          "gs": 42,
-          "ga": 23,
-          "gd": 19,
-          "pts": 7
+          "gs": 53,
+          "ga": 30,
+          "gd": 23,
+          "pts": 9
         },
         {
           "position": 3,
           "team": "P. Kortessem B18 VHV Q (U18 M)",
           "team_id": 451142,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
-          "mp": 4,
+          "mp": 5,
           "w": 2,
           "d": 0,
-          "l": 2,
-          "gs": 25,
-          "ga": 22,
-          "gd": 3,
+          "l": 3,
+          "gs": 32,
+          "ga": 33,
+          "gd": -1,
           "pts": 4
         },
         {
@@ -202,14 +202,14 @@
           "team": "Besox Izegem B18 VHV Q (U18 M)",
           "team_id": 451486,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
-          "mp": 3,
-          "w": 2,
+          "mp": 4,
+          "w": 3,
           "d": 0,
           "l": 1,
-          "gs": 24,
-          "ga": 24,
-          "gd": 0,
-          "pts": 4
+          "gs": 37,
+          "ga": 28,
+          "gd": 9,
+          "pts": 6
         },
         {
           "position": 4,
@@ -244,13 +244,13 @@
           "team": "Leuven B18 VHV Q (U18 M)",
           "team_id": 451083,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 5,
-          "ga": 28,
-          "gd": -23,
+          "l": 4,
+          "gs": 9,
+          "ga": 41,
+          "gd": -32,
           "pts": 0
         }
       ]
