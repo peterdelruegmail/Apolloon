@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T10:00:09.640427+00:00",
+  "generated_at": "2026-10-18T10:30:16.795690+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18725/seasons/220",
   "groups": [
     {
@@ -10,27 +10,27 @@
           "team": "DB Gent U14 VHV Q 1 (U14 M)",
           "team_id": 451664,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
-          "mp": 2,
-          "w": 2,
+          "mp": 3,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "gs": 32,
-          "ga": 11,
-          "gd": 21,
-          "pts": 4
+          "gs": 46,
+          "ga": 19,
+          "gd": 27,
+          "pts": 6
         },
         {
           "position": 2,
           "team": "E. Aarschot U14 VHV Q (U14 M)",
           "team_id": 450986,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17282/logo/96x96_handbalclub-eagles-aarschot_1784719693.png",
-          "mp": 2,
+          "mp": 3,
           "w": 2,
           "d": 0,
-          "l": 0,
-          "gs": 20,
-          "ga": 8,
-          "gd": 12,
+          "l": 1,
+          "gs": 28,
+          "ga": 22,
+          "gd": 6,
           "pts": 4
         },
         {
@@ -143,6 +143,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Sezoens Achilles Bocholt U14 VHV Q (U14 M)",
+          "team_id": 451196,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 38,
+          "ga": 16,
+          "gd": 22,
+          "pts": 4
+        },
+        {
+          "position": 2,
           "team": "Derdaele Sp. Pelt U14 VHV Q (U14 M)",
           "team_id": 451706,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
@@ -154,20 +168,6 @@
           "ga": 14,
           "gd": 21,
           "pts": 4
-        },
-        {
-          "position": 2,
-          "team": "Sezoens Achilles Bocholt U14 VHV Q (U14 M)",
-          "team_id": 451196,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 19,
-          "ga": 5,
-          "gd": 14,
-          "pts": 2
         },
         {
           "position": 3,
@@ -202,13 +202,13 @@
           "team": "Evergem U14 VHV Q (U14 M)",
           "team_id": 451370,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 5,
-          "ga": 18,
-          "gd": -13,
+          "l": 2,
+          "gs": 16,
+          "ga": 37,
+          "gd": -21,
           "pts": 0
         }
       ]
