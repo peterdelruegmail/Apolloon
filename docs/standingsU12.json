@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:00:08.999649+00:00",
+  "generated_at": "2026-10-18T09:30:15.662818+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -769,14 +769,14 @@
           "team": "Hubo U12 VHV R 3 (U12 M)",
           "team_id": 451317,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
-          "mp": 4,
-          "w": 4,
+          "mp": 5,
+          "w": 5,
           "d": 0,
           "l": 0,
-          "gs": 24,
+          "gs": 30,
           "ga": 0,
-          "gd": 24,
-          "pts": 8
+          "gd": 30,
+          "pts": 10
         },
         {
           "position": 2,
@@ -811,13 +811,13 @@
           "team": "Kreasa Houthalen U12 VHV R (U12 M)",
           "team_id": 451158,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
-          "mp": 4,
+          "mp": 5,
           "w": 2,
           "d": 0,
-          "l": 2,
+          "l": 3,
           "gs": 12,
-          "ga": 12,
-          "gd": 0,
+          "ga": 18,
+          "gd": -6,
           "pts": 4
         },
         {
