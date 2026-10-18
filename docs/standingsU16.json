@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T12:30:17.816494+00:00",
+  "generated_at": "2026-10-18T13:00:09.453655+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -35,6 +35,20 @@
         },
         {
           "position": 3,
+          "team": "Dendermonde U16 VHV R (U16 M)",
+          "team_id": 451630,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1785005789.png",
+          "mp": 5,
+          "w": 1,
+          "d": 2,
+          "l": 2,
+          "gs": 157,
+          "ga": 180,
+          "gd": -23,
+          "pts": 4
+        },
+        {
+          "position": 4,
           "team": "DB Gent U16 VHV R (U16 M)",
           "team_id": 451501,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
@@ -48,31 +62,17 @@
           "pts": 4
         },
         {
-          "position": 4,
-          "team": "Dendermonde U16 VHV R (U16 M)",
-          "team_id": 451630,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1785005789.png",
-          "mp": 4,
-          "w": 0,
-          "d": 2,
-          "l": 2,
-          "gs": 127,
-          "ga": 152,
-          "gd": -25,
-          "pts": 2
-        },
-        {
           "position": 5,
           "team": "Mouscron U16 VHV R (U16 M)",
           "team_id": 451219,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17278/logo/96x96_hc-mouscron_1786054513.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 48,
-          "ga": 132,
-          "gd": -84,
+          "l": 4,
+          "gs": 76,
+          "ga": 162,
+          "gd": -86,
           "pts": 0
         }
       ]
