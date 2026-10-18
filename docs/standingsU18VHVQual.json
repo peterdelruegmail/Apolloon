@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T14:30:14.224329+00:00",
+  "generated_at": "2026-10-18T15:00:10.684143+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18717/seasons/220",
   "groups": [
     {
@@ -216,14 +216,14 @@
           "team": "Lebbeke B18 VHV Q (U18 M)",
           "team_id": 451528,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17279/logo/96x96_elita-lebbeke_1787565122.png",
-          "mp": 4,
-          "w": 1,
+          "mp": 5,
+          "w": 2,
           "d": 1,
           "l": 2,
-          "gs": 29,
-          "ga": 29,
-          "gd": 0,
-          "pts": 3
+          "gs": 43,
+          "ga": 36,
+          "gd": 7,
+          "pts": 5
         },
         {
           "position": 5,
@@ -244,13 +244,13 @@
           "team": "Leuven B18 VHV Q (U18 M)",
           "team_id": 451083,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
-          "mp": 4,
+          "mp": 5,
           "w": 0,
           "d": 0,
-          "l": 4,
-          "gs": 9,
-          "ga": 41,
-          "gd": -32,
+          "l": 5,
+          "gs": 16,
+          "ga": 55,
+          "gd": -39,
           "pts": 0
         }
       ]
