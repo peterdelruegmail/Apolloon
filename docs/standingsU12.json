@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T15:30:09.771351+00:00",
+  "generated_at": "2026-10-18T16:00:08.724915+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -263,14 +263,14 @@
           "team": "Eeklo U12 VHV R (U12 M)",
           "team_id": 451394,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17270/logo/96x96_handbalclub-eeklo_1785071713.png",
-          "mp": 6,
-          "w": 6,
+          "mp": 7,
+          "w": 7,
           "d": 0,
           "l": 0,
-          "gs": 34,
+          "gs": 40,
           "ga": 2,
-          "gd": 32,
-          "pts": 12
+          "gd": 38,
+          "pts": 14
         },
         {
           "position": 2,
@@ -291,13 +291,13 @@
           "team": "Gbsk U12 VHV R (U12 M)",
           "team_id": 451580,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17261/logo/96x96_gbsk-handbal_1784887714.png",
-          "mp": 6,
+          "mp": 7,
           "w": 3,
           "d": 1,
-          "l": 2,
+          "l": 3,
           "gs": 21,
-          "ga": 15,
-          "gd": 6,
+          "ga": 21,
+          "gd": 0,
           "pts": 7
         },
         {
