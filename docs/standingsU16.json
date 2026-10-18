@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T10:30:17.067905+00:00",
+  "generated_at": "2026-10-18T11:00:09.564438+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -455,27 +455,27 @@
           "team": "United West T-B (U16 M)",
           "team_id": 451260,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17263/logo/96x96_hc-hannibal-tessenderlo_1786379533.png",
-          "mp": 5,
-          "w": 2,
+          "mp": 6,
+          "w": 3,
           "d": 1,
           "l": 2,
-          "gs": 121,
-          "ga": 133,
-          "gd": -12,
-          "pts": 5
+          "gs": 152,
+          "ga": 157,
+          "gd": -5,
+          "pts": 7
         },
         {
           "position": 5,
           "team": "Kreasa Houthalen U16 VHV-B R (U16 M)",
           "team_id": 451160,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
-          "mp": 6,
+          "mp": 7,
           "w": 1,
           "d": 0,
-          "l": 5,
-          "gs": 130,
-          "ga": 225,
-          "gd": -95,
+          "l": 6,
+          "gs": 154,
+          "ga": 256,
+          "gd": -102,
           "pts": 2
         },
         {
