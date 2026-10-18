@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T17:30:18.342129+00:00",
+  "generated_at": "2026-10-18T18:00:14.852126+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18710/seasons/220",
   "groups": [
     {
@@ -77,20 +77,34 @@
         },
         {
           "position": 6,
-          "team": "Gbsk D1 W VHV (Senior F)",
-          "team_id": 451595,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17261/logo/96x96_gbsk-handbal_1784887714.png",
-          "mp": 3,
+          "team": "DHC Waasmunster D1 W VHV (Senior F)",
+          "team_id": 451282,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
+          "mp": 5,
           "w": 1,
-          "d": 0,
-          "l": 2,
-          "gs": 74,
-          "ga": 76,
-          "gd": -2,
-          "pts": 2
+          "d": 1,
+          "l": 3,
+          "gs": 98,
+          "ga": 125,
+          "gd": -27,
+          "pts": 3
         },
         {
           "position": 7,
+          "team": "Gbsk D1 W VHV (Senior F)",
+          "team_id": 451595,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17261/logo/96x96_gbsk-handbal_1784887714.png",
+          "mp": 4,
+          "w": 1,
+          "d": 0,
+          "l": 3,
+          "gs": 95,
+          "ga": 104,
+          "gd": -9,
+          "pts": 2
+        },
+        {
+          "position": 8,
           "team": "Evergem D1 W VHV (Senior F)",
           "team_id": 451378,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
@@ -102,20 +116,6 @@
           "ga": 94,
           "gd": -28,
           "pts": 2
-        },
-        {
-          "position": 8,
-          "team": "DHC Waasmunster D1 W VHV (Senior F)",
-          "team_id": 451282,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
-          "mp": 4,
-          "w": 0,
-          "d": 1,
-          "l": 3,
-          "gs": 70,
-          "ga": 104,
-          "gd": -34,
-          "pts": 1
         },
         {
           "position": 9,
