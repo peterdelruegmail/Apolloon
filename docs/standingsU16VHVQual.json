@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T08:00:15.748537+00:00",
+  "generated_at": "2026-10-24T08:30:09.464496+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -96,6 +96,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "DB Gent U16 VHV Q (U16 M)",
+          "team_id": 451502,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 13,
+          "ga": 7,
+          "gd": 6,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "Leuven U16 VHV Q (U16)",
           "team_id": 451084,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
@@ -109,24 +123,10 @@
           "pts": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Hubo U16 VHV Q 2 (U16 M)",
           "team_id": 451298,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
-          "team": "DB Gent U16 VHV Q (U16 M)",
-          "team_id": 451502,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -169,13 +169,13 @@
           "team": "Dendermonde U16 VHV Q (U16 M)",
           "team_id": 451631,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1792395811.png",
-          "mp": 0,
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 7,
+          "ga": 13,
+          "gd": -6,
           "pts": 0
         }
       ]
@@ -277,14 +277,14 @@
           "team": "Olse Merksem U16 VHV Q (U16 M)",
           "team_id": 451022,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
-          "mp": 0,
-          "w": 0,
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 8,
+          "ga": 5,
+          "gd": 3,
+          "pts": 2
         },
         {
           "position": 2,
@@ -347,13 +347,13 @@
           "team": "Lebbeke U16 VHV Q (U16 M)",
           "team_id": 451534,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17279/logo/96x96_elita-lebbeke_1787565122.png",
-          "mp": 0,
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 5,
+          "ga": 8,
+          "gd": -3,
           "pts": 0
         }
       ]
