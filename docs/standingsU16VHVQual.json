@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T13:30:21.681014+00:00",
+  "generated_at": "2026-10-24T14:00:16.936026+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -152,30 +152,30 @@
         },
         {
           "position": 5,
-          "team": "Dendermonde U16 VHV Q (U16 M)",
-          "team_id": 451631,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1792395811.png",
-          "mp": 4,
-          "w": 0,
-          "d": 0,
-          "l": 4,
-          "gs": 27,
-          "ga": 61,
-          "gd": -34,
-          "pts": 0
-        },
-        {
-          "position": 6,
           "team": "Leuven U16 VHV Q (U16)",
           "team_id": 451084,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
-          "mp": 4,
-          "w": 0,
+          "mp": 5,
+          "w": 1,
           "d": 0,
           "l": 4,
-          "gs": 13,
-          "ga": 54,
-          "gd": -41,
+          "gs": 21,
+          "ga": 61,
+          "gd": -40,
+          "pts": 2
+        },
+        {
+          "position": 6,
+          "team": "Dendermonde U16 VHV Q (U16 M)",
+          "team_id": 451631,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1792395811.png",
+          "mp": 5,
+          "w": 0,
+          "d": 0,
+          "l": 5,
+          "gs": 34,
+          "ga": 69,
+          "gd": -35,
           "pts": 0
         }
       ]
@@ -316,6 +316,20 @@
         },
         {
           "position": 4,
+          "team": "Lebbeke U16 VHV Q (U16 M)",
+          "team_id": 451534,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17279/logo/96x96_elita-lebbeke_1787565122.png",
+          "mp": 5,
+          "w": 2,
+          "d": 0,
+          "l": 3,
+          "gs": 23,
+          "ga": 44,
+          "gd": -21,
+          "pts": 4
+        },
+        {
+          "position": 5,
           "team": "Schoten U16 VHV Q (U16 M)",
           "team_id": 451051,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
@@ -329,31 +343,17 @@
           "pts": 2
         },
         {
-          "position": 5,
-          "team": "Lebbeke U16 VHV Q (U16 M)",
-          "team_id": 451534,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17279/logo/96x96_elita-lebbeke_1787565122.png",
-          "mp": 4,
-          "w": 1,
-          "d": 0,
-          "l": 3,
-          "gs": 20,
-          "ga": 42,
-          "gd": -22,
-          "pts": 2
-        },
-        {
           "position": 6,
           "team": "Heist o/d Berg U16 VHV Q (U16 M)",
           "team_id": 451455,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
-          "mp": 4,
+          "mp": 5,
           "w": 0,
           "d": 0,
-          "l": 4,
-          "gs": 18,
-          "ga": 52,
-          "gd": -34,
+          "l": 5,
+          "gs": 20,
+          "ga": 55,
+          "gd": -35,
           "pts": 0
         }
       ]
