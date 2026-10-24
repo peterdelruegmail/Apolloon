@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:00:14.319213+00:00",
+  "generated_at": "2026-10-24T10:30:14.147827+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -110,6 +110,20 @@
         },
         {
           "position": 2,
+          "team": "Biobest Sasja U16 VHV Q (U16)",
+          "team_id": 451608,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/96x96_biobest-sasja-hc_1788423084.png",
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 21,
+          "ga": 12,
+          "gd": 9,
+          "pts": 4
+        },
+        {
+          "position": 3,
           "team": "DB Gent U16 VHV Q (U16 M)",
           "team_id": 451502,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
@@ -119,20 +133,6 @@
           "l": 1,
           "gs": 21,
           "ga": 17,
-          "gd": 4,
-          "pts": 2
-        },
-        {
-          "position": 3,
-          "team": "Biobest Sasja U16 VHV Q (U16)",
-          "team_id": 451608,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/96x96_biobest-sasja-hc_1788423084.png",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 12,
-          "ga": 8,
           "gd": 4,
           "pts": 2
         },
@@ -155,13 +155,13 @@
           "team": "Leuven U16 VHV Q (U16)",
           "team_id": 451084,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 3,
-          "ga": 15,
-          "gd": -12,
+          "l": 2,
+          "gs": 7,
+          "ga": 24,
+          "gd": -17,
           "pts": 0
         },
         {
@@ -274,6 +274,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Hubo U16 VHV Q 1 (U16 M)",
+          "team_id": 451295,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gs": 25,
+          "ga": 11,
+          "gd": 14,
+          "pts": 4
+        },
+        {
+          "position": 2,
           "team": "Schoten U16 VHV Q (U16 M)",
           "team_id": 451051,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
@@ -287,7 +301,7 @@
           "pts": 2
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Olse Merksem U16 VHV Q (U16 M)",
           "team_id": 451022,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
@@ -298,20 +312,6 @@
           "gs": 16,
           "ga": 14,
           "gd": 2,
-          "pts": 2
-        },
-        {
-          "position": 3,
-          "team": "Hubo U16 VHV Q 1 (U16 M)",
-          "team_id": 451295,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gs": 10,
-          "ga": 9,
-          "gd": 1,
           "pts": 2
         },
         {
@@ -347,13 +347,13 @@
           "team": "Heist o/d Berg U16 VHV Q (U16 M)",
           "team_id": 451455,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 0,
-          "l": 1,
-          "gs": 4,
-          "ga": 10,
-          "gd": -6,
+          "l": 2,
+          "gs": 6,
+          "ga": 25,
+          "gd": -19,
           "pts": 0
         }
       ]
