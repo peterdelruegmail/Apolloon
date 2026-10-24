@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T08:30:09.464496+00:00",
+  "generated_at": "2026-10-24T09:00:21.746277+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -110,6 +110,20 @@
         },
         {
           "position": 2,
+          "team": "Biobest Sasja U16 VHV Q (U16)",
+          "team_id": 451608,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/96x96_biobest-sasja-hc_1788423084.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 12,
+          "ga": 8,
+          "gd": 4,
+          "pts": 2
+        },
+        {
+          "position": 3,
           "team": "Leuven U16 VHV Q (U16)",
           "team_id": 451084,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
@@ -123,7 +137,7 @@
           "pts": 0
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Hubo U16 VHV Q 2 (U16 M)",
           "team_id": 451298,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
@@ -137,31 +151,17 @@
           "pts": 0
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Thor U16 VHV Q (U16 M)",
           "team_id": 451585,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
-          "mp": 0,
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
-          "team": "Biobest Sasja U16 VHV Q (U16)",
-          "team_id": 451608,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/96x96_biobest-sasja-hc_1788423084.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 8,
+          "ga": 12,
+          "gd": -4,
           "pts": 0
         },
         {
@@ -288,23 +288,23 @@
         },
         {
           "position": 2,
-          "team": "Schoten U16 VHV Q (U16 M)",
-          "team_id": 451051,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 3,
           "team": "Hubo U16 VHV Q 1 (U16 M)",
           "team_id": 451295,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 10,
+          "ga": 9,
+          "gd": 1,
+          "pts": 2
+        },
+        {
+          "position": 3,
+          "team": "Schoten U16 VHV Q (U16 M)",
+          "team_id": 451051,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -333,13 +333,13 @@
           "team": "Besox Izegem U16 VHV Q 2 (U16 M)",
           "team_id": 451481,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
-          "mp": 0,
+          "mp": 1,
           "w": 0,
           "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
+          "l": 1,
+          "gs": 9,
+          "ga": 10,
+          "gd": -1,
           "pts": 0
         },
         {
