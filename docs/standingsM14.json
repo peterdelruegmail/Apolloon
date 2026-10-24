@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T11:30:11.078227+00:00",
+  "generated_at": "2026-10-24T12:00:19.001908+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -21,6 +21,20 @@
         },
         {
           "position": 2,
+          "team": "HBC Apolloon Spurs G14 VHV-B R (U14 F)",
+          "team_id": 450947,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
+          "mp": 7,
+          "w": 4,
+          "d": 0,
+          "l": 3,
+          "gs": 167,
+          "ga": 146,
+          "gd": 21,
+          "pts": 8
+        },
+        {
+          "position": 3,
           "team": "Thor G14 VHV-B R (U14 F)",
           "team_id": 451587,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
@@ -32,20 +46,6 @@
           "ga": 154,
           "gd": 7,
           "pts": 7
-        },
-        {
-          "position": 3,
-          "team": "HBC Apolloon Spurs G14 VHV-B R (U14 F)",
-          "team_id": 450947,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
-          "mp": 6,
-          "w": 3,
-          "d": 0,
-          "l": 3,
-          "gs": 142,
-          "ga": 129,
-          "gd": 13,
-          "pts": 6
         },
         {
           "position": 4,
@@ -80,13 +80,13 @@
           "team": "Lebbeke G14 VHV R (U14 F)",
           "team_id": 451546,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17279/logo/96x96_elita-lebbeke_1787565122.png",
-          "mp": 5,
+          "mp": 6,
           "w": 0,
           "d": 1,
-          "l": 4,
-          "gs": 67,
-          "ga": 142,
-          "gd": -75,
+          "l": 5,
+          "gs": 84,
+          "ga": 167,
+          "gd": -83,
           "pts": 1
         }
       ]
