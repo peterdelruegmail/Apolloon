@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T14:00:16.683779+00:00",
+  "generated_at": "2026-10-24T14:30:17.832327+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -260,6 +260,20 @@
         },
         {
           "position": 2,
+          "team": "Kwanten Arena G14 VHV R (U14 F)",
+          "team_id": 451069,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/96x96_hv-kwanten-arena_1784914970.png",
+          "mp": 7,
+          "w": 4,
+          "d": 1,
+          "l": 2,
+          "gs": 162,
+          "ga": 123,
+          "gd": 39,
+          "pts": 9
+        },
+        {
+          "position": 3,
           "team": "DHC Overpelt G14 VHV R B (U14 F)",
           "team_id": 451418,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17262/logo/96x96_dameshandbalclub-overpelt_1788379149.png",
@@ -273,7 +287,7 @@
           "pts": 8
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Sezoens Achilles Bocholt G14 VHV R (U14 F)",
           "team_id": 451198,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
@@ -285,20 +299,6 @@
           "ga": 109,
           "gd": 12,
           "pts": 8
-        },
-        {
-          "position": 4,
-          "team": "Kwanten Arena G14 VHV R (U14 F)",
-          "team_id": 451069,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/96x96_hv-kwanten-arena_1784914970.png",
-          "mp": 6,
-          "w": 3,
-          "d": 1,
-          "l": 2,
-          "gs": 135,
-          "ga": 113,
-          "gd": 22,
-          "pts": 7
         },
         {
           "position": 5,
@@ -319,13 +319,13 @@
           "team": "DHC Meeuwen G14 VHV-B R 2 (U14 F)",
           "team_id": 451665,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17264/logo/96x96_dhc-meeuwen_1785066941.png",
-          "mp": 6,
+          "mp": 7,
           "w": 0,
           "d": 0,
-          "l": 6,
-          "gs": 56,
-          "ga": 127,
-          "gd": -71,
+          "l": 7,
+          "gs": 66,
+          "ga": 154,
+          "gd": -88,
           "pts": 0
         }
       ]
