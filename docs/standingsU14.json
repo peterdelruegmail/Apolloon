@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:00:18.137817+00:00",
+  "generated_at": "2026-10-24T15:30:18.445461+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -380,27 +380,27 @@
           "team": "Schoten U14 VHV R (U14 M)",
           "team_id": 451048,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 6,
-          "w": 2,
+          "mp": 7,
+          "w": 3,
           "d": 0,
           "l": 4,
-          "gs": 156,
-          "ga": 231,
-          "gd": -75,
-          "pts": 4
+          "gs": 184,
+          "ga": 255,
+          "gd": -71,
+          "pts": 6
         },
         {
           "position": 5,
           "team": "Brasschaat U14 VHV R (U14 M)",
           "team_id": 451344,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17235/logo/96x96_brasschaat-handbalclub_1788963702.png",
-          "mp": 5,
+          "mp": 6,
           "w": 1,
           "d": 0,
-          "l": 4,
-          "gs": 120,
-          "ga": 150,
-          "gd": -30,
+          "l": 5,
+          "gs": 144,
+          "ga": 178,
+          "gd": -34,
           "pts": 2
         },
         {
