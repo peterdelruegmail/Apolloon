@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T13:30:21.598634+00:00",
+  "generated_at": "2026-10-24T14:00:22.877619+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18713/seasons/220",
   "groups": [
     {
@@ -49,6 +49,20 @@
         },
         {
           "position": 4,
+          "team": "Brugge D M VHV OWV (Senior M)",
+          "team_id": 451511,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/96x96_handbal-brugge_1784571053.png",
+          "mp": 5,
+          "w": 2,
+          "d": 1,
+          "l": 2,
+          "gs": 140,
+          "ga": 118,
+          "gd": 22,
+          "pts": 5
+        },
+        {
+          "position": 5,
           "team": "Dendermonde D M VHV OWV-B 2 (Senior M)",
           "team_id": 451693,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1792395811.png",
@@ -62,7 +76,7 @@
           "pts": 5
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Dendermonde D M VHV OWV-B 1 (Senior M)",
           "team_id": 451622,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1792395811.png",
@@ -76,7 +90,7 @@
           "pts": 4
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "Evergem D M VHV OWV-B (Senior M)",
           "team_id": 451379,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
@@ -90,7 +104,7 @@
           "pts": 4
         },
         {
-          "position": 7,
+          "position": 8,
           "team": "Desselgemse D M VHV OWV-B (Senior M)",
           "team_id": 451321,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/96x96_desselgemse-handbalclub_1785314895.png",
@@ -102,20 +116,6 @@
           "ga": 163,
           "gd": -14,
           "pts": 4
-        },
-        {
-          "position": 8,
-          "team": "Brugge D M VHV OWV (Senior M)",
-          "team_id": 451511,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/96x96_handbal-brugge_1784571053.png",
-          "mp": 4,
-          "w": 1,
-          "d": 1,
-          "l": 2,
-          "gs": 112,
-          "ga": 110,
-          "gd": 2,
-          "pts": 3
         },
         {
           "position": 9,
@@ -136,13 +136,13 @@
           "team": "Lebbeke D M VHV OWV-B (Senior M)",
           "team_id": 451517,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17279/logo/96x96_elita-lebbeke_1787565122.png",
-          "mp": 4,
+          "mp": 5,
           "w": 0,
           "d": 1,
-          "l": 3,
-          "gs": 70,
-          "ga": 92,
-          "gd": -22,
+          "l": 4,
+          "gs": 78,
+          "ga": 120,
+          "gd": -42,
           "pts": 1
         },
         {
