@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T11:00:09.964475+00:00",
+  "generated_at": "2026-10-24T11:30:10.562339+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -124,6 +124,20 @@
         },
         {
           "position": 3,
+          "team": "Thor U16 VHV Q (U16 M)",
+          "team_id": 451585,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
+          "mp": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gs": 32,
+          "ga": 24,
+          "gd": 8,
+          "pts": 4
+        },
+        {
+          "position": 4,
           "team": "DB Gent U16 VHV Q (U16 M)",
           "team_id": 451502,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
@@ -137,35 +151,7 @@
           "pts": 2
         },
         {
-          "position": 4,
-          "team": "Thor U16 VHV Q (U16 M)",
-          "team_id": 451585,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 18,
-          "ga": 20,
-          "gd": -2,
-          "pts": 2
-        },
-        {
           "position": 5,
-          "team": "Leuven U16 VHV Q (U16)",
-          "team_id": 451084,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
-          "mp": 2,
-          "w": 0,
-          "d": 0,
-          "l": 2,
-          "gs": 7,
-          "ga": 24,
-          "gd": -17,
-          "pts": 0
-        },
-        {
-          "position": 6,
           "team": "Dendermonde U16 VHV Q (U16 M)",
           "team_id": 451631,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1792395811.png",
@@ -176,6 +162,20 @@
           "gs": 14,
           "ga": 31,
           "gd": -17,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Leuven U16 VHV Q (U16)",
+          "team_id": 451084,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
+          "mp": 3,
+          "w": 0,
+          "d": 0,
+          "l": 3,
+          "gs": 11,
+          "ga": 38,
+          "gd": -27,
           "pts": 0
         }
       ]
@@ -288,6 +288,20 @@
         },
         {
           "position": 2,
+          "team": "Besox Izegem U16 VHV Q 2 (U16 M)",
+          "team_id": 451481,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
+          "mp": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gs": 35,
+          "ga": 25,
+          "gd": 10,
+          "pts": 4
+        },
+        {
+          "position": 3,
           "team": "Olse Merksem U16 VHV Q (U16 M)",
           "team_id": 451022,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
@@ -299,20 +313,6 @@
           "ga": 23,
           "gd": 6,
           "pts": 4
-        },
-        {
-          "position": 3,
-          "team": "Besox Izegem U16 VHV Q 2 (U16 M)",
-          "team_id": 451481,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
-          "mp": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gs": 18,
-          "ga": 18,
-          "gd": 0,
-          "pts": 2
         },
         {
           "position": 4,
@@ -347,13 +347,13 @@
           "team": "Heist o/d Berg U16 VHV Q (U16 M)",
           "team_id": 451455,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 6,
-          "ga": 25,
-          "gd": -19,
+          "l": 3,
+          "gs": 13,
+          "ga": 42,
+          "gd": -29,
           "pts": 0
         }
       ]
