@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:30:16.518356+00:00",
+  "generated_at": "2026-10-24T11:00:13.059746+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -99,14 +99,14 @@
           "team": "Derdaele Sp. Pelt G14 VHV R 1 (U14 F)",
           "team_id": 451708,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
-          "mp": 6,
-          "w": 5,
+          "mp": 7,
+          "w": 6,
           "d": 0,
           "l": 1,
-          "gs": 158,
-          "ga": 88,
-          "gd": 70,
-          "pts": 10
+          "gs": 175,
+          "ga": 96,
+          "gd": 79,
+          "pts": 12
         },
         {
           "position": 2,
@@ -141,13 +141,13 @@
           "team": "HvH 't Noorden (U14 F)",
           "team_id": 451363,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/25477/logo/96x96_hvh-%E2%80%98t-noorden_1787658655.png",
-          "mp": 5,
+          "mp": 6,
           "w": 0,
           "d": 0,
-          "l": 5,
-          "gs": 25,
-          "ga": 144,
-          "gd": -119,
+          "l": 6,
+          "gs": 33,
+          "ga": 161,
+          "gd": -128,
           "pts": 0
         }
       ]
