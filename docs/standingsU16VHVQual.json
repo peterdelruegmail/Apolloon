@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T14:00:16.936026+00:00",
+  "generated_at": "2026-10-24T14:30:18.208974+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -113,27 +113,27 @@
           "team": "Hubo U16 VHV Q 2 (U16 M)",
           "team_id": 451298,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
-          "mp": 4,
-          "w": 3,
+          "mp": 5,
+          "w": 4,
           "d": 0,
           "l": 1,
-          "gs": 51,
-          "ga": 26,
-          "gd": 25,
-          "pts": 6
+          "gs": 61,
+          "ga": 33,
+          "gd": 28,
+          "pts": 8
         },
         {
           "position": 3,
           "team": "Thor U16 VHV Q (U16 M)",
           "team_id": 451585,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
-          "mp": 4,
+          "mp": 5,
           "w": 3,
           "d": 0,
-          "l": 1,
-          "gs": 47,
-          "ga": 29,
-          "gd": 18,
+          "l": 2,
+          "gs": 54,
+          "ga": 39,
+          "gd": 15,
           "pts": 6
         },
         {
@@ -291,14 +291,14 @@
           "team": "Besox Izegem U16 VHV Q 2 (U16 M)",
           "team_id": 451481,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
-          "mp": 4,
-          "w": 3,
+          "mp": 5,
+          "w": 4,
           "d": 0,
           "l": 1,
-          "gs": 46,
-          "ga": 29,
-          "gd": 17,
-          "pts": 6
+          "gs": 56,
+          "ga": 34,
+          "gd": 22,
+          "pts": 8
         },
         {
           "position": 3,
@@ -333,13 +333,13 @@
           "team": "Schoten U16 VHV Q (U16 M)",
           "team_id": 451051,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 4,
+          "mp": 5,
           "w": 1,
           "d": 0,
-          "l": 3,
-          "gs": 32,
-          "ga": 39,
-          "gd": -7,
+          "l": 4,
+          "gs": 37,
+          "ga": 49,
+          "gd": -12,
           "pts": 2
         },
         {
