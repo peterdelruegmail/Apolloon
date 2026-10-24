@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T12:00:23.215407+00:00",
+  "generated_at": "2026-10-24T12:30:10.771270+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -124,6 +124,20 @@
         },
         {
           "position": 3,
+          "team": "DB Gent U16 VHV Q (U16 M)",
+          "team_id": 451502,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
+          "mp": 4,
+          "w": 2,
+          "d": 0,
+          "l": 2,
+          "gs": 44,
+          "ga": 30,
+          "gd": 14,
+          "pts": 4
+        },
+        {
+          "position": 4,
           "team": "Thor U16 VHV Q (U16 M)",
           "team_id": 451585,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
@@ -135,20 +149,6 @@
           "ga": 24,
           "gd": 8,
           "pts": 4
-        },
-        {
-          "position": 4,
-          "team": "DB Gent U16 VHV Q (U16 M)",
-          "team_id": 451502,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
-          "mp": 3,
-          "w": 1,
-          "d": 0,
-          "l": 2,
-          "gs": 28,
-          "ga": 28,
-          "gd": 0,
-          "pts": 2
         },
         {
           "position": 5,
@@ -169,13 +169,13 @@
           "team": "Leuven U16 VHV Q (U16)",
           "team_id": 451084,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 11,
-          "ga": 38,
-          "gd": -27,
+          "l": 4,
+          "gs": 13,
+          "ga": 54,
+          "gd": -41,
           "pts": 0
         }
       ]
@@ -277,14 +277,14 @@
           "team": "Hubo U16 VHV Q 1 (U16 M)",
           "team_id": 451295,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
-          "mp": 3,
-          "w": 3,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 42,
-          "ga": 13,
-          "gd": 29,
-          "pts": 6
+          "gs": 55,
+          "ga": 20,
+          "gd": 35,
+          "pts": 8
         },
         {
           "position": 2,
@@ -319,13 +319,13 @@
           "team": "Schoten U16 VHV Q (U16 M)",
           "team_id": 451051,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 3,
+          "mp": 4,
           "w": 1,
           "d": 0,
-          "l": 2,
-          "gs": 25,
-          "ga": 26,
-          "gd": -1,
+          "l": 3,
+          "gs": 32,
+          "ga": 39,
+          "gd": -7,
           "pts": 2
         },
         {
