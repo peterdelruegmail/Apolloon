@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T13:30:21.628647+00:00",
+  "generated_at": "2026-10-24T14:00:17.045290+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -586,27 +586,27 @@
           "team": "HC Overpelt U14 VHV R (U14 M)",
           "team_id": 451097,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17255/logo/96x96_hc-overpelt_1784445134.png",
-          "mp": 5,
-          "w": 1,
+          "mp": 6,
+          "w": 2,
           "d": 0,
           "l": 4,
-          "gs": 92,
-          "ga": 199,
-          "gd": -107,
-          "pts": 2
+          "gs": 125,
+          "ga": 220,
+          "gd": -95,
+          "pts": 4
         },
         {
           "position": 6,
           "team": "HHV Meeuwen U14 VHV R (U14 M)",
           "team_id": 451270,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17273/logo/96x96_hhv-meeuwen_1788942171.png",
-          "mp": 6,
+          "mp": 7,
           "w": 0,
           "d": 0,
-          "l": 6,
-          "gs": 48,
-          "ga": 270,
-          "gd": -222,
+          "l": 7,
+          "gs": 69,
+          "ga": 303,
+          "gd": -234,
           "pts": 0
         }
       ]
@@ -647,14 +647,14 @@
           "team": "H. Bilzen U14 VHV R 2 (U14 M)",
           "team_id": 451226,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/96x96_handbal-hestia-bilzen_1786199944.png",
-          "mp": 6,
-          "w": 3,
+          "mp": 7,
+          "w": 4,
           "d": 0,
           "l": 3,
-          "gs": 131,
-          "ga": 148,
-          "gd": -17,
-          "pts": 6
+          "gs": 153,
+          "ga": 168,
+          "gd": -15,
+          "pts": 8
         },
         {
           "position": 4,
@@ -689,13 +689,13 @@
           "team": "Hubo U14 VHV R 3 (U14 M)",
           "team_id": 451309,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
-          "mp": 6,
+          "mp": 7,
           "w": 1,
           "d": 0,
-          "l": 5,
-          "gs": 123,
-          "ga": 149,
-          "gd": -26,
+          "l": 6,
+          "gs": 143,
+          "ga": 171,
+          "gd": -28,
           "pts": 2
         }
       ]
