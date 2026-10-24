@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T16:30:14.461022+00:00",
+  "generated_at": "2026-10-24T17:00:19.271766+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -619,14 +619,14 @@
           "team": "Sezoens Achilles Bocholt U14 VHV R 2 (U14 M)",
           "team_id": 451195,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 5,
-          "w": 5,
+          "mp": 6,
+          "w": 6,
           "d": 0,
           "l": 0,
-          "gs": 141,
-          "ga": 95,
-          "gd": 46,
-          "pts": 10
+          "gs": 170,
+          "ga": 113,
+          "gd": 57,
+          "pts": 12
         },
         {
           "position": 2,
@@ -675,13 +675,13 @@
           "team": "Kreasa Houthalen U14 VHV R (U14 M)",
           "team_id": 451159,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
-          "mp": 6,
+          "mp": 7,
           "w": 2,
           "d": 0,
-          "l": 4,
-          "gs": 127,
-          "ga": 153,
-          "gd": -26,
+          "l": 5,
+          "gs": 145,
+          "ga": 182,
+          "gd": -37,
           "pts": 4
         },
         {
