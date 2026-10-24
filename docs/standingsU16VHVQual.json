@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T09:00:21.746277+00:00",
+  "generated_at": "2026-10-24T09:30:17.814859+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -96,6 +96,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Hubo U16 VHV Q 2 (U16 M)",
+          "team_id": 451298,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 15,
+          "ga": 3,
+          "gd": 12,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "DB Gent U16 VHV Q (U16 M)",
           "team_id": 451502,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
@@ -109,7 +123,7 @@
           "pts": 2
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Biobest Sasja U16 VHV Q (U16)",
           "team_id": 451608,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/96x96_biobest-sasja-hc_1788423084.png",
@@ -123,35 +137,7 @@
           "pts": 2
         },
         {
-          "position": 3,
-          "team": "Leuven U16 VHV Q (U16)",
-          "team_id": 451084,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 4,
-          "team": "Hubo U16 VHV Q 2 (U16 M)",
-          "team_id": 451298,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
           "team": "Thor U16 VHV Q (U16 M)",
           "team_id": 451585,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
@@ -165,7 +151,7 @@
           "pts": 0
         },
         {
-          "position": 6,
+          "position": 5,
           "team": "Dendermonde U16 VHV Q (U16 M)",
           "team_id": 451631,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1792395811.png",
@@ -176,6 +162,20 @@
           "gs": 7,
           "ga": 13,
           "gd": -6,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Leuven U16 VHV Q (U16)",
+          "team_id": 451084,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 3,
+          "ga": 15,
+          "gd": -12,
           "pts": 0
         }
       ]
@@ -274,6 +274,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Schoten U16 VHV Q (U16 M)",
+          "team_id": 451051,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 10,
+          "ga": 4,
+          "gd": 6,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "Olse Merksem U16 VHV Q (U16 M)",
           "team_id": 451022,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
@@ -287,7 +301,7 @@
           "pts": 2
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Hubo U16 VHV Q 1 (U16 M)",
           "team_id": 451295,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
@@ -301,35 +315,7 @@
           "pts": 2
         },
         {
-          "position": 3,
-          "team": "Schoten U16 VHV Q (U16 M)",
-          "team_id": 451051,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 4,
-          "team": "Heist o/d Berg U16 VHV Q (U16 M)",
-          "team_id": 451455,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
           "team": "Besox Izegem U16 VHV Q 2 (U16 M)",
           "team_id": 451481,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
@@ -343,7 +329,7 @@
           "pts": 0
         },
         {
-          "position": 6,
+          "position": 5,
           "team": "Lebbeke U16 VHV Q (U16 M)",
           "team_id": 451534,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17279/logo/96x96_elita-lebbeke_1787565122.png",
@@ -354,6 +340,20 @@
           "gs": 5,
           "ga": 8,
           "gd": -3,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Heist o/d Berg U16 VHV Q (U16 M)",
+          "team_id": 451455,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 4,
+          "ga": 10,
+          "gd": -6,
           "pts": 0
         }
       ]
