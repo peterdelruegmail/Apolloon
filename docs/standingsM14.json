@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T12:30:15.143866+00:00",
+  "generated_at": "2026-10-25T13:00:21.813391+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -249,14 +249,14 @@
           "team": "Derdaele Sp. Pelt G14 VHV R 2 (U14 F)",
           "team_id": 451869,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
-          "mp": 6,
-          "w": 5,
+          "mp": 7,
+          "w": 6,
           "d": 1,
           "l": 0,
-          "gs": 141,
-          "ga": 71,
-          "gd": 70,
-          "pts": 11
+          "gs": 169,
+          "ga": 89,
+          "gd": 80,
+          "pts": 13
         },
         {
           "position": 2,
@@ -291,13 +291,13 @@
           "team": "Sezoens Achilles Bocholt G14 VHV R (U14 F)",
           "team_id": 451198,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 6,
+          "mp": 7,
           "w": 4,
           "d": 0,
-          "l": 2,
-          "gs": 121,
-          "ga": 109,
-          "gd": 12,
+          "l": 3,
+          "gs": 139,
+          "ga": 137,
+          "gd": 2,
           "pts": 8
         },
         {
