@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T09:00:20.989924+00:00",
+  "generated_at": "2026-10-25T09:30:19.412104+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -7,23 +7,23 @@
       "standings": [
         {
           "position": 1,
-          "team": "Roeselare U16 VHV Q (U16 M)",
-          "team_id": 451031,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
-          "mp": 0,
-          "w": 0,
+          "team": "H. Bilzen U16 VHV Q (U16 M)",
+          "team_id": 451237,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/96x96_handbal-hestia-bilzen_1786199944.png",
+          "mp": 1,
+          "w": 1,
           "d": 0,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "gs": 13,
+          "ga": 8,
+          "gd": 5,
+          "pts": 2
         },
         {
           "position": 2,
-          "team": "Rhino U16 VHV Q (U16 M)",
-          "team_id": 451095,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/96x96_hc-rhino-turnhout_1784932132.png",
+          "team": "Roeselare U16 VHV Q (U16 M)",
+          "team_id": 451031,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -49,20 +49,6 @@
         },
         {
           "position": 4,
-          "team": "H. Bilzen U16 VHV Q (U16 M)",
-          "team_id": 451237,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/96x96_handbal-hestia-bilzen_1786199944.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
           "team": "Lokeren U16 VHV Q (U16 M)",
           "team_id": 451387,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
@@ -76,7 +62,7 @@
           "pts": 0
         },
         {
-          "position": 6,
+          "position": 5,
           "team": "AtomiX U16 VHV Q (U16 M)",
           "team_id": 451684,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/96x96_hc-atomix_1784479147.png",
@@ -87,6 +73,20 @@
           "gs": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Rhino U16 VHV Q (U16 M)",
+          "team_id": 451095,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/96x96_hc-rhino-turnhout_1784932132.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 8,
+          "ga": 13,
+          "gd": -5,
           "pts": 0
         }
       ]
@@ -185,6 +185,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Sezoens Achilles Bocholt U16 VHV Q (U16 M)",
+          "team_id": 451189,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 10,
+          "ga": 3,
+          "gd": 7,
+          "pts": 2
+        },
+        {
+          "position": 2,
           "team": "HBC Apolloon Spurs U16 VHV Q (U16 M)",
           "team_id": 450944,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
@@ -198,35 +212,7 @@
           "pts": 0
         },
         {
-          "position": 2,
-          "team": "Kreasa Houthalen U16 VHV Q (U16 M)",
-          "team_id": 451161,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 3,
-          "team": "Sezoens Achilles Bocholt U16 VHV Q (U16 M)",
-          "team_id": 451189,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 4,
           "team": "Evergem U16 VHV Q (U16 M)",
           "team_id": 451373,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
@@ -240,7 +226,7 @@
           "pts": 0
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "Besox Izegem U16 VHV Q 1 (U16 M)",
           "team_id": 451480,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
@@ -254,7 +240,7 @@
           "pts": 0
         },
         {
-          "position": 6,
+          "position": 5,
           "team": "Uilenspiegel U16 VHV Q (U16 M)",
           "team_id": 451553,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
@@ -265,6 +251,20 @@
           "gs": 0,
           "ga": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "position": 6,
+          "team": "Kreasa Houthalen U16 VHV Q (U16 M)",
+          "team_id": 451161,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 3,
+          "ga": 10,
+          "gd": -7,
           "pts": 0
         }
       ]
