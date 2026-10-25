@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T18:30:20.012483+00:00",
+  "generated_at": "2026-10-25T19:00:21.151728+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -21,6 +21,20 @@
         },
         {
           "position": 2,
+          "team": "Estudiantes Tournai D1 M (Senior M)",
+          "team_id": 451113,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/4969/logo/96x96_estudiantes-handball-club-tournai_1790953726.png",
+          "mp": 7,
+          "w": 4,
+          "d": 2,
+          "l": 1,
+          "gs": 248,
+          "ga": 228,
+          "gd": 20,
+          "pts": 10
+        },
+        {
+          "position": 3,
           "team": "HBC Apolloon Spurs D1 M (Senior M)",
           "team_id": 450938,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
@@ -32,20 +46,6 @@
           "ga": 228,
           "gd": -7,
           "pts": 10
-        },
-        {
-          "position": 3,
-          "team": "Estudiantes Tournai D1 M (Senior M)",
-          "team_id": 451113,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/4969/logo/96x96_estudiantes-handball-club-tournai_1790953726.png",
-          "mp": 6,
-          "w": 4,
-          "d": 1,
-          "l": 1,
-          "gs": 216,
-          "ga": 196,
-          "gd": 20,
-          "pts": 9
         },
         {
           "position": 4,
@@ -105,6 +105,20 @@
         },
         {
           "position": 8,
+          "team": "Renaissance Montegnée  D1 M (Senior M)",
+          "team_id": 451248,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17231/logo/96x96_renaissance-montegnee-hc_1786953297.png",
+          "mp": 8,
+          "w": 1,
+          "d": 3,
+          "l": 4,
+          "gs": 203,
+          "ga": 209,
+          "gd": -6,
+          "pts": 5
+        },
+        {
+          "position": 9,
           "team": "Lebbeke D1 M (Senior M)",
           "team_id": 451513,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17279/logo/96x96_elita-lebbeke_1787565122.png",
@@ -116,20 +130,6 @@
           "ga": 219,
           "gd": -18,
           "pts": 5
-        },
-        {
-          "position": 9,
-          "team": "Renaissance Montegnée  D1 M (Senior M)",
-          "team_id": 451248,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17231/logo/96x96_renaissance-montegnee-hc_1786953297.png",
-          "mp": 7,
-          "w": 1,
-          "d": 2,
-          "l": 4,
-          "gs": 171,
-          "ga": 177,
-          "gd": -6,
-          "pts": 4
         },
         {
           "position": 10,
