@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T14:00:19.498770+00:00",
+  "generated_at": "2026-10-25T14:30:11.389472+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -7,6 +7,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Lokeren U16 VHV Q (U16 M)",
+          "team_id": 451387,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
+          "mp": 5,
+          "w": 4,
+          "d": 0,
+          "l": 1,
+          "gs": 77,
+          "ga": 38,
+          "gd": 39,
+          "pts": 8
+        },
+        {
+          "position": 2,
           "team": "H. Bilzen U16 VHV Q (U16 M)",
           "team_id": 451237,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/96x96_handbal-hestia-bilzen_1786199944.png",
@@ -20,31 +34,17 @@
           "pts": 8
         },
         {
-          "position": 2,
-          "team": "Lokeren U16 VHV Q (U16 M)",
-          "team_id": 451387,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
-          "mp": 4,
-          "w": 3,
-          "d": 0,
-          "l": 1,
-          "gs": 60,
-          "ga": 29,
-          "gd": 31,
-          "pts": 6
-        },
-        {
           "position": 3,
           "team": "Rhino U16 VHV Q (U16 M)",
           "team_id": 451095,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/96x96_hc-rhino-turnhout_1784932132.png",
-          "mp": 4,
+          "mp": 5,
           "w": 2,
           "d": 1,
-          "l": 1,
-          "gs": 42,
-          "ga": 36,
-          "gd": 6,
+          "l": 2,
+          "gs": 51,
+          "ga": 53,
+          "gd": -2,
           "pts": 5
         },
         {
@@ -227,31 +227,31 @@
         },
         {
           "position": 4,
-          "team": "Evergem U16 VHV Q (U16 M)",
-          "team_id": 451373,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
-          "mp": 4,
-          "w": 1,
-          "d": 1,
-          "l": 2,
-          "gs": 34,
-          "ga": 55,
-          "gd": -21,
-          "pts": 3
-        },
-        {
-          "position": 5,
           "team": "Kreasa Houthalen U16 VHV Q (U16 M)",
           "team_id": 451161,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
-          "mp": 4,
-          "w": 1,
+          "mp": 5,
+          "w": 2,
           "d": 0,
           "l": 3,
-          "gs": 29,
-          "ga": 54,
-          "gd": -25,
-          "pts": 2
+          "gs": 43,
+          "ga": 67,
+          "gd": -24,
+          "pts": 4
+        },
+        {
+          "position": 5,
+          "team": "Evergem U16 VHV Q (U16 M)",
+          "team_id": 451373,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
+          "mp": 5,
+          "w": 1,
+          "d": 1,
+          "l": 3,
+          "gs": 47,
+          "ga": 69,
+          "gd": -22,
+          "pts": 3
         },
         {
           "position": 6,
