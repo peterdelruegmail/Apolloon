@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:00:17.865053+00:00",
+  "generated_at": "2026-10-25T15:30:09.163338+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -263,27 +263,27 @@
           "team": "Uilenspiegel U14 VHV R (U14 M)",
           "team_id": 451543,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 6,
-          "w": 3,
+          "mp": 7,
+          "w": 4,
           "d": 2,
           "l": 1,
-          "gs": 185,
-          "ga": 153,
-          "gd": 32,
-          "pts": 8
+          "gs": 211,
+          "ga": 174,
+          "gd": 37,
+          "pts": 10
         },
         {
           "position": 3,
           "team": "Evergem U14 VHV R (U14)",
           "team_id": 451369,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
-          "mp": 6,
+          "mp": 7,
           "w": 3,
           "d": 1,
-          "l": 2,
-          "gs": 183,
-          "ga": 134,
-          "gd": 49,
+          "l": 3,
+          "gs": 204,
+          "ga": 160,
+          "gd": 44,
           "pts": 7
         },
         {
