@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T11:30:17.988008+00:00",
+  "generated_at": "2026-10-25T12:00:20.487472+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -38,28 +38,28 @@
           "team": "P. Kortessem U16 VHV Q (U16 M)",
           "team_id": 451144,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "gs": 20,
-          "ga": 16,
+          "gs": 32,
+          "ga": 28,
           "gd": 4,
-          "pts": 2
+          "pts": 3
         },
         {
           "position": 4,
           "team": "Rhino U16 VHV Q (U16 M)",
           "team_id": 451095,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/96x96_hc-rhino-turnhout_1784932132.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "gs": 20,
-          "ga": 17,
+          "gs": 32,
+          "ga": 29,
           "gd": 3,
-          "pts": 2
+          "pts": 3
         },
         {
           "position": 5,
@@ -213,6 +213,20 @@
         },
         {
           "position": 3,
+          "team": "HBC Apolloon Spurs U16 VHV Q (U16 M)",
+          "team_id": 450944,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
+          "mp": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gs": 32,
+          "ga": 31,
+          "gd": 1,
+          "pts": 3
+        },
+        {
+          "position": 4,
           "team": "Uilenspiegel U16 VHV Q (U16 M)",
           "team_id": 451553,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
@@ -226,32 +240,18 @@
           "pts": 2
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Kreasa Houthalen U16 VHV Q (U16 M)",
           "team_id": 451161,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
           "d": 0,
-          "l": 1,
-          "gs": 13,
-          "ga": 18,
-          "gd": -5,
+          "l": 2,
+          "gs": 17,
+          "ga": 35,
+          "gd": -18,
           "pts": 2
-        },
-        {
-          "position": 5,
-          "team": "HBC Apolloon Spurs U16 VHV Q (U16 M)",
-          "team_id": 450944,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
-          "mp": 2,
-          "w": 0,
-          "d": 1,
-          "l": 1,
-          "gs": 15,
-          "ga": 27,
-          "gd": -12,
-          "pts": 1
         },
         {
           "position": 6,
