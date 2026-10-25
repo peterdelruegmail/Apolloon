@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T12:30:18.288056+00:00",
+  "generated_at": "2026-10-25T13:00:21.141024+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -7,30 +7,30 @@
       "standings": [
         {
           "position": 1,
-          "team": "Lokeren U16 VHV Q (U16 M)",
-          "team_id": 451387,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
-          "mp": 2,
-          "w": 2,
-          "d": 0,
-          "l": 0,
-          "gs": 34,
-          "ga": 8,
-          "gd": 26,
-          "pts": 4
-        },
-        {
-          "position": 2,
           "team": "H. Bilzen U16 VHV Q (U16 M)",
           "team_id": 451237,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/96x96_handbal-hestia-bilzen_1786199944.png",
-          "mp": 2,
-          "w": 2,
+          "mp": 3,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "gs": 23,
-          "ga": 15,
-          "gd": 8,
+          "gs": 33,
+          "ga": 23,
+          "gd": 10,
+          "pts": 6
+        },
+        {
+          "position": 2,
+          "team": "Lokeren U16 VHV Q (U16 M)",
+          "team_id": 451387,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
+          "mp": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gs": 42,
+          "ga": 18,
+          "gd": 24,
           "pts": 4
         },
         {
@@ -188,14 +188,14 @@
           "team": "Sezoens Achilles Bocholt U16 VHV Q (U16 M)",
           "team_id": 451189,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 2,
-          "w": 2,
+          "mp": 3,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "gs": 27,
-          "ga": 8,
-          "gd": 19,
-          "pts": 4
+          "gs": 47,
+          "ga": 11,
+          "gd": 36,
+          "pts": 6
         },
         {
           "position": 2,
@@ -213,20 +213,6 @@
         },
         {
           "position": 3,
-          "team": "Evergem U16 VHV Q (U16 M)",
-          "team_id": 451373,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
-          "mp": 2,
-          "w": 1,
-          "d": 1,
-          "l": 0,
-          "gs": 25,
-          "ga": 19,
-          "gd": 6,
-          "pts": 3
-        },
-        {
-          "position": 4,
           "team": "HBC Apolloon Spurs U16 VHV Q (U16 M)",
           "team_id": 450944,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
@@ -237,6 +223,20 @@
           "gs": 32,
           "ga": 31,
           "gd": 1,
+          "pts": 3
+        },
+        {
+          "position": 4,
+          "team": "Evergem U16 VHV Q (U16 M)",
+          "team_id": 451373,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
+          "mp": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gs": 28,
+          "ga": 39,
+          "gd": -11,
           "pts": 3
         },
         {
