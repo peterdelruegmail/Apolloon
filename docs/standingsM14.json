@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:00:18.308296+00:00",
+  "generated_at": "2026-10-25T16:30:11.977375+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -110,30 +110,30 @@
         },
         {
           "position": 2,
-          "team": "Uilenspiegel G14 VHV R (U14 F)",
-          "team_id": 451549,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 6,
-          "w": 3,
-          "d": 0,
-          "l": 3,
-          "gs": 135,
-          "ga": 110,
-          "gd": 25,
-          "pts": 6
-        },
-        {
-          "position": 3,
           "team": "AtomiX G14 VHV R (U14 F)",
           "team_id": 451687,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/96x96_hc-atomix_1784479147.png",
-          "mp": 5,
-          "w": 3,
+          "mp": 6,
+          "w": 4,
           "d": 0,
           "l": 2,
-          "gs": 108,
-          "ga": 84,
-          "gd": 24,
+          "gs": 131,
+          "ga": 98,
+          "gd": 33,
+          "pts": 8
+        },
+        {
+          "position": 3,
+          "team": "Uilenspiegel G14 VHV R (U14 F)",
+          "team_id": 451549,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
+          "mp": 7,
+          "w": 3,
+          "d": 0,
+          "l": 4,
+          "gs": 149,
+          "ga": 133,
+          "gd": 16,
           "pts": 6
         },
         {
