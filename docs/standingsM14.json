@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:00:18.055929+00:00",
+  "generated_at": "2026-10-25T15:30:10.935145+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -10,17 +10,31 @@
           "team": "Roeselare G14 VHV R (U14 F)",
           "team_id": 451001,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
-          "mp": 6,
+          "mp": 7,
           "w": 6,
           "d": 0,
-          "l": 0,
-          "gs": 225,
-          "ga": 109,
-          "gd": 116,
+          "l": 1,
+          "gs": 256,
+          "ga": 142,
+          "gd": 114,
           "pts": 12
         },
         {
           "position": 2,
+          "team": "Thor G14 VHV-B R (U14 F)",
+          "team_id": 451587,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
+          "mp": 7,
+          "w": 4,
+          "d": 1,
+          "l": 2,
+          "gs": 194,
+          "ga": 185,
+          "gd": 9,
+          "pts": 9
+        },
+        {
+          "position": 3,
           "team": "HBC Apolloon Spurs G14 VHV-B R (U14 F)",
           "team_id": 450947,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
@@ -32,20 +46,6 @@
           "ga": 146,
           "gd": 21,
           "pts": 8
-        },
-        {
-          "position": 3,
-          "team": "Thor G14 VHV-B R (U14 F)",
-          "team_id": 451587,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
-          "mp": 6,
-          "w": 3,
-          "d": 1,
-          "l": 2,
-          "gs": 161,
-          "ga": 154,
-          "gd": 7,
-          "pts": 7
         },
         {
           "position": 4,
