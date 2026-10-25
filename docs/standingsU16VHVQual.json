@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T12:00:20.487472+00:00",
+  "generated_at": "2026-10-25T12:30:18.288056+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -66,27 +66,27 @@
           "team": "AtomiX U16 VHV Q (U16 M)",
           "team_id": 451684,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/96x96_hc-atomix_1784479147.png",
-          "mp": 2,
-          "w": 0,
+          "mp": 3,
+          "w": 1,
           "d": 0,
           "l": 2,
-          "gs": 9,
-          "ga": 27,
-          "gd": -18,
-          "pts": 0
+          "gs": 18,
+          "ga": 35,
+          "gd": -17,
+          "pts": 2
         },
         {
           "position": 6,
           "team": "Roeselare U16 VHV Q (U16 M)",
           "team_id": 451031,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 9,
-          "ga": 32,
-          "gd": -23,
+          "l": 3,
+          "gs": 17,
+          "ga": 41,
+          "gd": -24,
           "pts": 0
         }
       ]
@@ -199,6 +199,20 @@
         },
         {
           "position": 2,
+          "team": "Uilenspiegel U16 VHV Q (U16 M)",
+          "team_id": 451553,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
+          "mp": 3,
+          "w": 1,
+          "d": 2,
+          "l": 0,
+          "gs": 39,
+          "ga": 28,
+          "gd": 11,
+          "pts": 4
+        },
+        {
+          "position": 3,
           "team": "Evergem U16 VHV Q (U16 M)",
           "team_id": 451373,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
@@ -212,7 +226,7 @@
           "pts": 3
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "HBC Apolloon Spurs U16 VHV Q (U16 M)",
           "team_id": 450944,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
@@ -224,20 +238,6 @@
           "ga": 31,
           "gd": 1,
           "pts": 3
-        },
-        {
-          "position": 4,
-          "team": "Uilenspiegel U16 VHV Q (U16 M)",
-          "team_id": 451553,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 2,
-          "w": 0,
-          "d": 2,
-          "l": 0,
-          "gs": 21,
-          "ga": 21,
-          "gd": 0,
-          "pts": 2
         },
         {
           "position": 5,
@@ -258,13 +258,13 @@
           "team": "Besox Izegem U16 VHV Q 1 (U16 M)",
           "team_id": 451480,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gs": 16,
-          "ga": 24,
-          "gd": -8,
+          "l": 3,
+          "gs": 23,
+          "ga": 42,
+          "gd": -19,
           "pts": 0
         }
       ]
