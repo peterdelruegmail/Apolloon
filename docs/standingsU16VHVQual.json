@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T13:30:15.968744+00:00",
+  "generated_at": "2026-10-25T14:00:19.498770+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -7,6 +7,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "H. Bilzen U16 VHV Q (U16 M)",
+          "team_id": 451237,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/96x96_handbal-hestia-bilzen_1786199944.png",
+          "mp": 4,
+          "w": 4,
+          "d": 0,
+          "l": 0,
+          "gs": 46,
+          "ga": 30,
+          "gd": 16,
+          "pts": 8
+        },
+        {
+          "position": 2,
           "team": "Lokeren U16 VHV Q (U16 M)",
           "team_id": 451387,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
@@ -17,20 +31,6 @@
           "gs": 60,
           "ga": 29,
           "gd": 31,
-          "pts": 6
-        },
-        {
-          "position": 2,
-          "team": "H. Bilzen U16 VHV Q (U16 M)",
-          "team_id": 451237,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/96x96_handbal-hestia-bilzen_1786199944.png",
-          "mp": 3,
-          "w": 3,
-          "d": 0,
-          "l": 0,
-          "gs": 33,
-          "ga": 23,
-          "gd": 10,
           "pts": 6
         },
         {
@@ -66,13 +66,13 @@
           "team": "AtomiX U16 VHV Q (U16 M)",
           "team_id": 451684,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/96x96_hc-atomix_1784479147.png",
-          "mp": 3,
+          "mp": 4,
           "w": 1,
           "d": 0,
-          "l": 2,
-          "gs": 18,
-          "ga": 35,
-          "gd": -17,
+          "l": 3,
+          "gs": 25,
+          "ga": 48,
+          "gd": -23,
           "pts": 2
         },
         {
@@ -188,14 +188,14 @@
           "team": "Sezoens Achilles Bocholt U16 VHV Q (U16 M)",
           "team_id": 451189,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 3,
-          "w": 3,
+          "mp": 4,
+          "w": 4,
           "d": 0,
           "l": 0,
-          "gs": 47,
-          "ga": 11,
-          "gd": 36,
-          "pts": 6
+          "gs": 63,
+          "ga": 16,
+          "gd": 47,
+          "pts": 8
         },
         {
           "position": 2,
@@ -258,13 +258,13 @@
           "team": "Besox Izegem U16 VHV Q 1 (U16 M)",
           "team_id": 451480,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
-          "mp": 3,
+          "mp": 4,
           "w": 0,
           "d": 0,
-          "l": 3,
-          "gs": 23,
-          "ga": 42,
-          "gd": -19,
+          "l": 4,
+          "gs": 28,
+          "ga": 58,
+          "gd": -30,
           "pts": 0
         }
       ]
