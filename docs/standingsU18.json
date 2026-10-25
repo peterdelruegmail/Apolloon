@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T10:00:11.618569+00:00",
+  "generated_at": "2026-10-25T10:30:16.553494+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -174,13 +174,13 @@
           "team": "Olse Merksem B18 VHV R (U18 M)",
           "team_id": 451020,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
-          "mp": 5,
+          "mp": 6,
           "w": 4,
           "d": 0,
-          "l": 1,
-          "gs": 154,
-          "ga": 141,
-          "gd": 13,
+          "l": 2,
+          "gs": 182,
+          "ga": 173,
+          "gd": 9,
           "pts": 8
         },
         {
@@ -199,6 +199,20 @@
         },
         {
           "position": 4,
+          "team": "Schoten B18 VHV R (U18 M)",
+          "team_id": 451052,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
+          "mp": 6,
+          "w": 2,
+          "d": 0,
+          "l": 4,
+          "gs": 186,
+          "ga": 213,
+          "gd": -27,
+          "pts": 4
+        },
+        {
+          "position": 5,
           "team": "Heist o/d Berg B18 VHV R (U18 M)",
           "team_id": 451443,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
@@ -210,20 +224,6 @@
           "ga": 257,
           "gd": -45,
           "pts": 4
-        },
-        {
-          "position": 5,
-          "team": "Schoten B18 VHV R (U18 M)",
-          "team_id": 451052,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 5,
-          "w": 1,
-          "d": 0,
-          "l": 4,
-          "gs": 154,
-          "ga": 185,
-          "gd": -31,
-          "pts": 2
         },
         {
           "position": 6,
