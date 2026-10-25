@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:30:10.642239+00:00",
+  "generated_at": "2026-10-25T16:00:18.322923+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18713/seasons/220",
   "groups": [
     {
@@ -24,13 +24,13 @@
           "team": "Besox Izegem D M VHV OWV (Senior M)",
           "team_id": 451008,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
-          "mp": 6,
+          "mp": 7,
           "w": 5,
           "d": 0,
-          "l": 1,
-          "gs": 179,
-          "ga": 138,
-          "gd": 41,
+          "l": 2,
+          "gs": 203,
+          "ga": 165,
+          "gd": 38,
           "pts": 10
         },
         {
@@ -63,6 +63,20 @@
         },
         {
           "position": 5,
+          "team": "Desselgemse D M VHV OWV-B (Senior M)",
+          "team_id": 451321,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/96x96_desselgemse-handbalclub_1785314895.png",
+          "mp": 7,
+          "w": 3,
+          "d": 0,
+          "l": 4,
+          "gs": 176,
+          "ga": 187,
+          "gd": -11,
+          "pts": 6
+        },
+        {
+          "position": 6,
           "team": "Brugge D M VHV OWV (Senior M)",
           "team_id": 451511,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/96x96_handbal-brugge_1784571053.png",
@@ -76,7 +90,7 @@
           "pts": 5
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "Dendermonde D M VHV OWV-B 2 (Senior M)",
           "team_id": 451693,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1792395811.png",
@@ -90,7 +104,7 @@
           "pts": 5
         },
         {
-          "position": 7,
+          "position": 8,
           "team": "Dendermonde D M VHV OWV-B 1 (Senior M)",
           "team_id": 451622,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1792395811.png",
@@ -101,20 +115,6 @@
           "gs": 73,
           "ga": 71,
           "gd": 2,
-          "pts": 4
-        },
-        {
-          "position": 8,
-          "team": "Desselgemse D M VHV OWV-B (Senior M)",
-          "team_id": 451321,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/96x96_desselgemse-handbalclub_1785314895.png",
-          "mp": 6,
-          "w": 2,
-          "d": 0,
-          "l": 4,
-          "gs": 149,
-          "ga": 163,
-          "gd": -14,
           "pts": 4
         },
         {
