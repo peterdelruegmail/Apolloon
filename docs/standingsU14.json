@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T11:00:18.764702+00:00",
+  "generated_at": "2026-10-25T11:30:17.809632+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -171,6 +171,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "DB Gent U14 VHV R 3 (U14 M)",
+          "team_id": 451659,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
+          "mp": 5,
+          "w": 5,
+          "d": 0,
+          "l": 0,
+          "gs": 195,
+          "ga": 127,
+          "gd": 68,
+          "pts": 10
+        },
+        {
+          "position": 2,
           "team": "HBC Apolloon Spurs U14 VHV R (U14 M)",
           "team_id": 450945,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
@@ -182,20 +196,6 @@
           "ga": 98,
           "gd": 67,
           "pts": 10
-        },
-        {
-          "position": 2,
-          "team": "DB Gent U14 VHV R 3 (U14 M)",
-          "team_id": 451659,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
-          "mp": 4,
-          "w": 4,
-          "d": 0,
-          "l": 0,
-          "gs": 161,
-          "ga": 101,
-          "gd": 60,
-          "pts": 8
         },
         {
           "position": 3,
@@ -216,13 +216,13 @@
           "team": "Desselgemse U14 VHV R (U14 M)",
           "team_id": 451328,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/96x96_desselgemse-handbalclub_1785314895.png",
-          "mp": 5,
+          "mp": 6,
           "w": 1,
           "d": 0,
-          "l": 4,
-          "gs": 73,
-          "ga": 136,
-          "gd": -63,
+          "l": 5,
+          "gs": 99,
+          "ga": 170,
+          "gd": -71,
           "pts": 2
         },
         {
@@ -483,27 +483,27 @@
           "team": "AtomiX U14 VHV R (U14 M)",
           "team_id": 451685,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/96x96_hc-atomix_1784479147.png",
-          "mp": 6,
-          "w": 1,
+          "mp": 7,
+          "w": 2,
           "d": 1,
           "l": 4,
-          "gs": 156,
-          "ga": 219,
-          "gd": -63,
-          "pts": 3
+          "gs": 195,
+          "ga": 242,
+          "gd": -47,
+          "pts": 5
         },
         {
           "position": 5,
           "team": "United West B U14 VHV R (U14 M)",
           "team_id": 451336,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17287/logo/96x96_handbalclub-beringen_1786621697.png",
-          "mp": 6,
+          "mp": 7,
           "w": 1,
           "d": 1,
-          "l": 4,
-          "gs": 140,
-          "ga": 245,
-          "gd": -105,
+          "l": 5,
+          "gs": 163,
+          "ga": 284,
+          "gd": -121,
           "pts": 3
         },
         {
