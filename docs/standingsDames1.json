@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T17:30:11.929201+00:00",
+  "generated_at": "2026-10-25T18:00:21.929522+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18710/seasons/220",
   "groups": [
     {
@@ -105,6 +105,20 @@
         },
         {
           "position": 8,
+          "team": "Aalst D1 W VHV (Senior F)",
+          "team_id": 451441,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/96x96_handbalclub-aalst_1786404715.png",
+          "mp": 5,
+          "w": 1,
+          "d": 0,
+          "l": 4,
+          "gs": 77,
+          "ga": 104,
+          "gd": -27,
+          "pts": 2
+        },
+        {
+          "position": 9,
           "team": "Evergem D1 W VHV (Senior F)",
           "team_id": 451378,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
@@ -118,31 +132,17 @@
           "pts": 2
         },
         {
-          "position": 9,
+          "position": 10,
           "team": "DB Gent D1 W VHV (Senior F)",
           "team_id": 451495,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
-          "mp": 4,
+          "mp": 5,
           "w": 0,
           "d": 0,
-          "l": 4,
-          "gs": 73,
-          "ga": 93,
-          "gd": -20,
-          "pts": 0
-        },
-        {
-          "position": 10,
-          "team": "Aalst D1 W VHV (Senior F)",
-          "team_id": 451441,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/96x96_handbalclub-aalst_1786404715.png",
-          "mp": 4,
-          "w": 0,
-          "d": 0,
-          "l": 4,
-          "gs": 55,
-          "ga": 87,
-          "gd": -32,
+          "l": 5,
+          "gs": 90,
+          "ga": 115,
+          "gd": -25,
           "pts": 0
         }
       ]
