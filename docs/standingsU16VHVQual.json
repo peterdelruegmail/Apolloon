@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T10:00:10.962318+00:00",
+  "generated_at": "2026-10-25T10:30:14.726868+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18719/seasons/220",
   "groups": [
     {
@@ -21,6 +21,20 @@
         },
         {
           "position": 2,
+          "team": "P. Kortessem U16 VHV Q (U16 M)",
+          "team_id": 451144,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
+          "mp": 1,
+          "w": 1,
+          "d": 0,
+          "l": 0,
+          "gs": 13,
+          "ga": 6,
+          "gd": 7,
+          "pts": 2
+        },
+        {
+          "position": 3,
           "team": "H. Bilzen U16 VHV Q (U16 M)",
           "team_id": 451237,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/96x96_handbal-hestia-bilzen_1786199944.png",
@@ -34,35 +48,7 @@
           "pts": 2
         },
         {
-          "position": 3,
-          "team": "Roeselare U16 VHV Q (U16 M)",
-          "team_id": 451031,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "position": 4,
-          "team": "P. Kortessem U16 VHV Q (U16 M)",
-          "team_id": 451144,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 5,
           "team": "Rhino U16 VHV Q (U16 M)",
           "team_id": 451095,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17248/logo/96x96_hc-rhino-turnhout_1784932132.png",
@@ -73,6 +59,20 @@
           "gs": 8,
           "ga": 13,
           "gd": -5,
+          "pts": 0
+        },
+        {
+          "position": 5,
+          "team": "Roeselare U16 VHV Q (U16 M)",
+          "team_id": 451031,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
+          "mp": 1,
+          "w": 0,
+          "d": 0,
+          "l": 1,
+          "gs": 6,
+          "ga": 13,
+          "gd": -7,
           "pts": 0
         },
         {
@@ -216,28 +216,28 @@
           "team": "HBC Apolloon Spurs U16 VHV Q (U16 M)",
           "team_id": 450944,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
-          "mp": 0,
+          "mp": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
+          "gs": 10,
+          "ga": 10,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 4,
           "team": "Uilenspiegel U16 VHV Q (U16 M)",
           "team_id": 451553,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 0,
+          "mp": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 0,
-          "gs": 0,
-          "ga": 0,
+          "gs": 10,
+          "ga": 10,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "position": 5,
