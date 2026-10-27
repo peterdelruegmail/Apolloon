@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:00:20.836756+00:00",
+  "generated_at": "2026-10-27T23:00:18.142465+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -85,27 +85,27 @@
           "team": "Besox Izegem B18 VHV R (U18 M)",
           "team_id": 451012,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
-          "mp": 5,
-          "w": 4,
+          "mp": 6,
+          "w": 5,
           "d": 0,
           "l": 1,
-          "gs": 161,
+          "gs": 171,
           "ga": 118,
-          "gd": 43,
-          "pts": 8
+          "gd": 53,
+          "pts": 10
         },
         {
           "position": 2,
           "team": "Lokeren B18 VHV R (U18 M)",
           "team_id": 451388,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
-          "mp": 4,
+          "mp": 5,
           "w": 3,
           "d": 1,
-          "l": 0,
+          "l": 1,
           "gs": 139,
-          "ga": 106,
-          "gd": 33,
+          "ga": 116,
+          "gd": 23,
           "pts": 7
         },
         {
