@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:30:15.024832+00:00",
+  "generated_at": "2026-10-31T13:00:14.580123+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -633,13 +633,13 @@
           "team": "Sint-Truiden U14 VHV-B R (U14 M)",
           "team_id": 451692,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17258/logo/96x96_hb-sint-truiden_1787905331.png",
-          "mp": 5,
+          "mp": 6,
           "w": 4,
           "d": 0,
-          "l": 1,
-          "gs": 126,
-          "ga": 90,
-          "gd": 36,
+          "l": 2,
+          "gs": 144,
+          "ga": 113,
+          "gd": 31,
           "pts": 8
         },
         {
@@ -661,14 +661,14 @@
           "team": "P. Kortessem U14 VHV R (U14 M)",
           "team_id": 451147,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
-          "mp": 6,
-          "w": 2,
+          "mp": 7,
+          "w": 3,
           "d": 0,
           "l": 4,
-          "gs": 127,
-          "ga": 140,
-          "gd": -13,
-          "pts": 4
+          "gs": 150,
+          "ga": 158,
+          "gd": -8,
+          "pts": 6
         },
         {
           "position": 5,
