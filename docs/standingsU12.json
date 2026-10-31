@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T14:30:16.336300+00:00",
+  "generated_at": "2026-10-31T15:00:18.705068+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -110,6 +110,20 @@
         },
         {
           "position": 3,
+          "team": "Lokeren U12 VHV R A (U12 M)",
+          "team_id": 451133,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
+          "mp": 4,
+          "w": 2,
+          "d": 1,
+          "l": 1,
+          "gs": 15,
+          "ga": 9,
+          "gd": 6,
+          "pts": 5
+        },
+        {
+          "position": 4,
           "team": "Dendermonde U12 VHV R (U12 M)",
           "team_id": 451636,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1792395811.png",
@@ -121,20 +135,6 @@
           "ga": 15,
           "gd": 0,
           "pts": 5
-        },
-        {
-          "position": 4,
-          "team": "Lokeren U12 VHV R A (U12 M)",
-          "team_id": 451133,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
-          "mp": 3,
-          "w": 1,
-          "d": 1,
-          "l": 1,
-          "gs": 9,
-          "ga": 9,
-          "gd": 0,
-          "pts": 3
         },
         {
           "position": 5,
@@ -169,13 +169,13 @@
           "team": "Evergem U12 VHV R (U12 M)",
           "team_id": 451366,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
-          "mp": 5,
+          "mp": 6,
           "w": 0,
           "d": 0,
-          "l": 5,
+          "l": 6,
           "gs": 1,
-          "ga": 29,
-          "gd": -28,
+          "ga": 35,
+          "gd": -34,
           "pts": 0
         }
       ]
