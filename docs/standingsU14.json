@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T14:30:18.257999+00:00",
+  "generated_at": "2026-10-31T15:00:21.357995+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -541,6 +541,20 @@
         },
         {
           "position": 2,
+          "team": "Sezoens Achilles Bocholt U14 VHV R 1 (U14 M)",
+          "team_id": 451194,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
+          "mp": 7,
+          "w": 5,
+          "d": 1,
+          "l": 1,
+          "gs": 266,
+          "ga": 120,
+          "gd": 146,
+          "pts": 11
+        },
+        {
+          "position": 3,
           "team": "Derdaele Sp. Pelt U14 VHV R 1 (U14 M)",
           "team_id": 451705,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
@@ -552,20 +566,6 @@
           "ga": 150,
           "gd": 103,
           "pts": 10
-        },
-        {
-          "position": 3,
-          "team": "Sezoens Achilles Bocholt U14 VHV R 1 (U14 M)",
-          "team_id": 451194,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 6,
-          "w": 4,
-          "d": 1,
-          "l": 1,
-          "gs": 227,
-          "ga": 106,
-          "gd": 121,
-          "pts": 9
         },
         {
           "position": 4,
@@ -586,13 +586,13 @@
           "team": "HC Overpelt U14 VHV R (U14 M)",
           "team_id": 451097,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17255/logo/96x96_hc-overpelt_1784445134.png",
-          "mp": 6,
+          "mp": 7,
           "w": 2,
           "d": 0,
-          "l": 4,
-          "gs": 125,
-          "ga": 220,
-          "gd": -95,
+          "l": 5,
+          "gs": 139,
+          "ga": 259,
+          "gd": -120,
           "pts": 4
         },
         {
