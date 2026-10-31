@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T13:30:21.274383+00:00",
+  "generated_at": "2026-10-31T14:00:18.585726+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -366,27 +366,27 @@
           "team": "Heist o/d Berg U14 VHV R (U14 M)",
           "team_id": 451440,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
-          "mp": 7,
-          "w": 3,
+          "mp": 8,
+          "w": 4,
           "d": 0,
           "l": 4,
-          "gs": 187,
-          "ga": 224,
-          "gd": -37,
-          "pts": 6
+          "gs": 227,
+          "ga": 252,
+          "gd": -25,
+          "pts": 8
         },
         {
           "position": 4,
           "team": "Schoten U14 VHV R (U14 M)",
           "team_id": 451048,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 7,
+          "mp": 8,
           "w": 3,
           "d": 0,
-          "l": 4,
-          "gs": 184,
-          "ga": 255,
-          "gd": -71,
+          "l": 5,
+          "gs": 212,
+          "ga": 295,
+          "gd": -83,
           "pts": 6
         },
         {
