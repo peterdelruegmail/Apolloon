@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T18:00:22.150709+00:00",
+  "generated_at": "2026-10-31T18:30:18.552374+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220",
   "groups": [
     {
@@ -21,6 +21,20 @@
         },
         {
           "position": 2,
+          "team": "Kraainem D1 M (Senior M)",
+          "team_id": 451058,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17296/logo/96x96_hc-kraainem_1784395381.png",
+          "mp": 8,
+          "w": 5,
+          "d": 0,
+          "l": 3,
+          "gs": 251,
+          "ga": 230,
+          "gd": 21,
+          "pts": 10
+        },
+        {
+          "position": 3,
           "team": "Estudiantes Tournai D1 M (Senior M)",
           "team_id": 451113,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/4969/logo/96x96_estudiantes-handball-club-tournai_1790953726.png",
@@ -34,7 +48,7 @@
           "pts": 10
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "HBC Apolloon Spurs D1 M (Senior M)",
           "team_id": 450938,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
@@ -46,20 +60,6 @@
           "ga": 228,
           "gd": -7,
           "pts": 10
-        },
-        {
-          "position": 4,
-          "team": "Kraainem D1 M (Senior M)",
-          "team_id": 451058,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17296/logo/96x96_hc-kraainem_1784395381.png",
-          "mp": 7,
-          "w": 4,
-          "d": 0,
-          "l": 3,
-          "gs": 220,
-          "ga": 203,
-          "gd": 17,
-          "pts": 8
         },
         {
           "position": 5,
@@ -136,13 +136,13 @@
           "team": "Hubo D1 M (Senior M)",
           "team_id": 451281,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
-          "mp": 7,
+          "mp": 8,
           "w": 1,
           "d": 0,
-          "l": 6,
-          "gs": 204,
-          "ga": 237,
-          "gd": -33,
+          "l": 7,
+          "gs": 231,
+          "ga": 268,
+          "gd": -37,
           "pts": 2
         }
       ]
