@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T12:30:18.003111+00:00",
+  "generated_at": "2026-11-01T13:00:17.310433+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -277,14 +277,14 @@
           "team": "Evergem U14 VHV R (U14)",
           "team_id": 451369,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
-          "mp": 7,
-          "w": 3,
+          "mp": 8,
+          "w": 4,
           "d": 1,
           "l": 3,
-          "gs": 204,
-          "ga": 160,
-          "gd": 44,
-          "pts": 7
+          "gs": 235,
+          "ga": 185,
+          "gd": 50,
+          "pts": 9
         },
         {
           "position": 4,
@@ -305,13 +305,13 @@
           "team": "HK Waasmunster U14 VHV R (U14 M)",
           "team_id": 451603,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
-          "mp": 6,
+          "mp": 7,
           "w": 1,
           "d": 0,
-          "l": 5,
-          "gs": 139,
-          "ga": 239,
-          "gd": -100,
+          "l": 6,
+          "gs": 164,
+          "ga": 270,
+          "gd": -106,
           "pts": 2
         },
         {
