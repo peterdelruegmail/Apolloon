@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T11:00:22.702649+00:00",
+  "generated_at": "2026-11-02T23:00:14.510673+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -138,34 +138,6 @@
         },
         {
           "position": 5,
-          "team": "Dendermonde U12 VHV R 1 (U12 M)",
-          "team_id": 458214,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 6,
-          "team": "Evergem U12 VHV R 1 (U12 M)",
-          "team_id": 458215,
-          "logo": null,
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "position": 7,
           "team": "Evergem U12 VHV R (U12 M)",
           "team_id": 451366,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
