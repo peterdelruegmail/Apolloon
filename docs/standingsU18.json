@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T12:30:18.929895+00:00",
+  "generated_at": "2026-11-07T13:00:14.205296+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18718/seasons/220",
   "groups": [
     {
@@ -171,6 +171,20 @@
         },
         {
           "position": 2,
+          "team": "Schoten B18 VHV R (U18 M)",
+          "team_id": 451052,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
+          "mp": 8,
+          "w": 4,
+          "d": 0,
+          "l": 4,
+          "gs": 272,
+          "ga": 249,
+          "gd": 23,
+          "pts": 8
+        },
+        {
+          "position": 3,
           "team": "Olse Merksem B18 VHV R (U18 M)",
           "team_id": 451020,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
@@ -182,20 +196,6 @@
           "ga": 173,
           "gd": 9,
           "pts": 8
-        },
-        {
-          "position": 3,
-          "team": "Schoten B18 VHV R (U18 M)",
-          "team_id": 451052,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 7,
-          "w": 3,
-          "d": 0,
-          "l": 4,
-          "gs": 226,
-          "ga": 233,
-          "gd": -7,
-          "pts": 6
         },
         {
           "position": 4,
@@ -230,13 +230,13 @@
           "team": "AtomiX B18 VHV R (U18 M)",
           "team_id": 451679,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/96x96_hc-atomix_1784479147.png",
-          "mp": 5,
+          "mp": 6,
           "w": 1,
           "d": 0,
-          "l": 4,
-          "gs": 108,
-          "ga": 170,
-          "gd": -62,
+          "l": 5,
+          "gs": 124,
+          "ga": 216,
+          "gd": -92,
           "pts": 2
         }
       ]
