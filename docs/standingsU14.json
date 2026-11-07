@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T12:00:18.319174+00:00",
+  "generated_at": "2026-11-07T12:30:16.726091+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -808,9 +808,37 @@
         },
         {
           "position": 3,
+          "team": "Hubo U14 VHV R 3 (U14 M)",
+          "team_id": 451309,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 4,
           "team": "United West B U14 VHV R (U14 M)",
           "team_id": 451336,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17287/logo/96x96_handbalclub-beringen_1786621697.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 5,
+          "team": "Kreasa houthalen 2 (U14 M)",
+          "team_id": 468353,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/16181/logo/kreasa-houthalen-468353_1794053135.png",
           "mp": null,
           "w": null,
           "d": null,
