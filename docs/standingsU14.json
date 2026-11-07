@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T11:30:17.650604+00:00",
+  "generated_at": "2026-11-07T12:00:18.319174+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -697,6 +697,128 @@
           "ga": 171,
           "gd": -28,
           "pts": 2
+        }
+      ]
+    },
+    {
+      "name": "Groep 13",
+      "standings": [
+        {
+          "position": 1,
+          "team": "P. Kortessem U14 VHV R (U14 M)",
+          "team_id": 451147,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 2,
+          "team": "Kreasa Houthalen U14 VHV R (U14 M)",
+          "team_id": 451159,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17246/logo/96x96_kreasa-handbal-houthalen_1787598997.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 3,
+          "team": "H. Bilzen U14 VHV R 2 (U14 M)",
+          "team_id": 451226,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/96x96_handbal-hestia-bilzen_1786199944.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 4,
+          "team": "Sint-Truiden U14 VHV-B R (U14 M)",
+          "team_id": 451692,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17258/logo/96x96_hb-sint-truiden_1787905331.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 5,
+          "team": "Derdaele Sp. Pelt U14 VHV R 2 (U14 M)",
+          "team_id": 451866,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        }
+      ]
+    },
+    {
+      "name": "Groep 14",
+      "standings": [
+        {
+          "position": 1,
+          "team": "HC Overpelt U14 VHV R (U14 M)",
+          "team_id": 451097,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17255/logo/96x96_hc-overpelt_1784445134.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 2,
+          "team": "HHV Meeuwen U14 VHV R (U14 M)",
+          "team_id": 451270,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17273/logo/96x96_hhv-meeuwen_1788942171.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 3,
+          "team": "United West B U14 VHV R (U14 M)",
+          "team_id": 451336,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17287/logo/96x96_handbalclub-beringen_1786621697.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
         }
       ]
     }
