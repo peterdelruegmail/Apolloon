@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:00:19.946262+00:00",
+  "generated_at": "2026-11-08T15:30:17.884943+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -619,27 +619,27 @@
           "team": "Sezoens Achilles Bocholt U14 VHV R 2 (U14 M)",
           "team_id": 451195,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 6,
-          "w": 6,
+          "mp": 7,
+          "w": 7,
           "d": 0,
           "l": 0,
-          "gs": 170,
-          "ga": 113,
-          "gd": 57,
-          "pts": 12
+          "gs": 195,
+          "ga": 132,
+          "gd": 63,
+          "pts": 14
         },
         {
           "position": 2,
           "team": "Sint-Truiden U14 VHV-B R (U14 M)",
           "team_id": 451692,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17258/logo/96x96_hb-sint-truiden_1787905331.png",
-          "mp": 6,
+          "mp": 7,
           "w": 4,
           "d": 0,
-          "l": 2,
-          "gs": 144,
-          "ga": 113,
-          "gd": 31,
+          "l": 3,
+          "gs": 163,
+          "ga": 138,
+          "gd": 25,
           "pts": 8
         },
         {
