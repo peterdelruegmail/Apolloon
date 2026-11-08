@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T16:00:16.848222+00:00",
+  "generated_at": "2026-11-08T16:30:16.856448+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -652,14 +652,14 @@
           "team": "P. Kortessem U12 VHV R 1 (U12)",
           "team_id": 451150,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17265/logo/96x96_hc-pentagoon-kortessem_1788026184.png",
-          "mp": 6,
-          "w": 6,
+          "mp": 7,
+          "w": 7,
           "d": 0,
           "l": 0,
-          "gs": 36,
+          "gs": 42,
           "ga": 0,
-          "gd": 36,
-          "pts": 12
+          "gd": 42,
+          "pts": 14
         },
         {
           "position": 2,
@@ -680,13 +680,13 @@
           "team": "Sint-Truiden U12 VHV R (U12 M)",
           "team_id": 451695,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17258/logo/96x96_hb-sint-truiden_1787905331.png",
-          "mp": 5,
+          "mp": 6,
           "w": 4,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "gs": 21,
-          "ga": 9,
-          "gd": 12,
+          "ga": 15,
+          "gd": 6,
           "pts": 8
         },
         {
