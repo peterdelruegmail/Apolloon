@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T12:30:16.612728+00:00",
+  "generated_at": "2026-11-14T13:00:18.794084+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -260,6 +260,20 @@
         },
         {
           "position": 3,
+          "team": "Lokeren U12 VHV R B (U12 M)",
+          "team_id": 451134,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
+          "mp": 7,
+          "w": 3,
+          "d": 1,
+          "l": 3,
+          "gs": 21,
+          "ga": 21,
+          "gd": 0,
+          "pts": 7
+        },
+        {
+          "position": 4,
           "team": "Gbsk U12 VHV R (U12 M)",
           "team_id": 451580,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17261/logo/96x96_gbsk-handbal_1784887714.png",
@@ -273,31 +287,17 @@
           "pts": 7
         },
         {
-          "position": 4,
-          "team": "Lokeren U12 VHV R B (U12 M)",
-          "team_id": 451134,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
-          "mp": 6,
-          "w": 2,
-          "d": 1,
-          "l": 3,
-          "gs": 15,
-          "ga": 21,
-          "gd": -6,
-          "pts": 5
-        },
-        {
           "position": 5,
           "team": "Groot Berlare U12 VHV-B R (U12 M)",
           "team_id": 450967,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17271/logo/96x96_handbalclub-groot-berlare_1788177606.png",
-          "mp": 7,
+          "mp": 8,
           "w": 2,
           "d": 0,
-          "l": 5,
+          "l": 6,
           "gs": 12,
-          "ga": 30,
-          "gd": -18,
+          "ga": 36,
+          "gd": -24,
           "pts": 4
         },
         {
@@ -577,13 +577,13 @@
           "team": "Hubo U12 VHV R 1 (U12 M)",
           "team_id": 451313,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
-          "mp": 6,
+          "mp": 7,
           "w": 6,
           "d": 0,
-          "l": 0,
-          "gs": 34,
-          "ga": 2,
-          "gd": 32,
+          "l": 1,
+          "gs": 36,
+          "ga": 6,
+          "gd": 30,
           "pts": 12
         },
         {
@@ -605,14 +605,14 @@
           "team": "Sezoens Achilles Bocholt U12 VHV R (U12 M)",
           "team_id": 451201,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 6,
-          "w": 2,
+          "mp": 7,
+          "w": 3,
           "d": 1,
           "l": 3,
-          "gs": 16,
-          "ga": 20,
-          "gd": -4,
-          "pts": 5
+          "gs": 20,
+          "ga": 22,
+          "gd": -2,
+          "pts": 7
         },
         {
           "position": 4,
