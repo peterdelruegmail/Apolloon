@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T18:30:20.201904+00:00",
+  "generated_at": "2026-11-14T19:00:19.466900+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18707/seasons/220",
   "groups": [
     {
@@ -10,14 +10,14 @@
           "team": "Olse Merksem D1 M VHV (Senior M)",
           "team_id": 451014,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
-          "mp": 7,
-          "w": 7,
+          "mp": 8,
+          "w": 8,
           "d": 0,
           "l": 0,
-          "gs": 264,
-          "ga": 168,
-          "gd": 96,
-          "pts": 14
+          "gs": 306,
+          "ga": 193,
+          "gd": 113,
+          "pts": 16
         },
         {
           "position": 2,
@@ -136,13 +136,13 @@
           "team": "HBC Apolloon Spurs D1 M VHV (Senior M)",
           "team_id": 450939,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
-          "mp": 7,
+          "mp": 8,
           "w": 1,
           "d": 2,
-          "l": 4,
-          "gs": 190,
-          "ga": 216,
-          "gd": -26,
+          "l": 5,
+          "gs": 215,
+          "ga": 258,
+          "gd": -43,
           "pts": 4
         },
         {
