@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T14:00:12.703209+00:00",
+  "generated_at": "2026-11-14T14:30:09.765924+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -85,28 +85,28 @@
           "team": "Besox Izegem U12 VHV R 1 (U12 M)",
           "team_id": 451448,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
-          "mp": 5,
+          "mp": 6,
           "w": 4,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "gs": 23,
-          "ga": 7,
+          "gs": 26,
+          "ga": 10,
           "gd": 16,
-          "pts": 8
+          "pts": 9
         },
         {
           "position": 2,
           "team": "Roeselare U12 VHV R (U12 M)",
           "team_id": 451002,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
-          "mp": 4,
+          "mp": 5,
           "w": 3,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "gs": 18,
-          "ga": 6,
+          "gs": 21,
+          "ga": 9,
           "gd": 12,
-          "pts": 6
+          "pts": 7
         },
         {
           "position": 3,
@@ -513,6 +513,20 @@
         },
         {
           "position": 3,
+          "team": "Olse Merksem U12 VHV R (U12 M)",
+          "team_id": 451024,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
+          "mp": 7,
+          "w": 4,
+          "d": 0,
+          "l": 3,
+          "gs": 21,
+          "ga": 21,
+          "gd": 0,
+          "pts": 8
+        },
+        {
+          "position": 4,
           "team": "HvH 't Noorden B (U12 M)",
           "team_id": 451362,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/25477/logo/96x96_hvh-%E2%80%98t-noorden_1787658655.png",
@@ -526,31 +540,17 @@
           "pts": 7
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Merksplas U12 VHV R (U12 M)",
           "team_id": 451650,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17289/logo/96x96_handbal-merksplas_1788515564.png",
-          "mp": 6,
+          "mp": 7,
           "w": 3,
           "d": 0,
-          "l": 3,
+          "l": 4,
           "gs": 19,
-          "ga": 17,
-          "gd": 2,
-          "pts": 6
-        },
-        {
-          "position": 5,
-          "team": "Olse Merksem U12 VHV R (U12 M)",
-          "team_id": 451024,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
-          "mp": 6,
-          "w": 3,
-          "d": 0,
-          "l": 3,
-          "gs": 15,
-          "ga": 21,
-          "gd": -6,
+          "ga": 23,
+          "gd": -4,
           "pts": 6
         },
         {
