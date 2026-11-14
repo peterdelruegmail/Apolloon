@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T09:30:18.456927+00:00",
+  "generated_at": "2026-11-14T10:00:15.365488+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -99,28 +99,28 @@
           "team": "Evergem U14 VHV R (U14 M)",
           "team_id": 451371,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
-          "mp": 6,
+          "mp": 7,
           "w": 5,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "gs": 221,
-          "ga": 133,
+          "gs": 258,
+          "ga": 170,
           "gd": 88,
-          "pts": 10
+          "pts": 11
         },
         {
           "position": 3,
           "team": "DB Gent U14 VHV R 2 (U14 M)",
           "team_id": 451657,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
-          "mp": 7,
+          "mp": 8,
           "w": 4,
-          "d": 0,
+          "d": 1,
           "l": 3,
-          "gs": 256,
-          "ga": 246,
+          "gs": 293,
+          "ga": 283,
           "gd": 10,
-          "pts": 8
+          "pts": 9
         },
         {
           "position": 4,
