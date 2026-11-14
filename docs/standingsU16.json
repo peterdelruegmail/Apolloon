@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T17:30:09.548341+00:00",
+  "generated_at": "2026-11-14T18:00:18.440780+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -441,14 +441,14 @@
           "team": "H. Bilzen U16 VHV R (U16 M)",
           "team_id": 451232,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/96x96_handbal-hestia-bilzen_1786199944.png",
-          "mp": 7,
-          "w": 4,
+          "mp": 8,
+          "w": 5,
           "d": 0,
           "l": 3,
-          "gs": 202,
-          "ga": 209,
-          "gd": -7,
-          "pts": 8
+          "gs": 238,
+          "ga": 232,
+          "gd": 6,
+          "pts": 10
         },
         {
           "position": 4,
@@ -483,13 +483,13 @@
           "team": "Maasmechelen 65 U16 VHV-B R (U16 M)",
           "team_id": 451407,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17238/logo/96x96_hc-maasmechelen-65_1786889310.png",
-          "mp": 6,
+          "mp": 7,
           "w": 0,
           "d": 0,
-          "l": 6,
-          "gs": 143,
-          "ga": 191,
-          "gd": -48,
+          "l": 7,
+          "gs": 166,
+          "ga": 227,
+          "gd": -61,
           "pts": 0
         }
       ]
