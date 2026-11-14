@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T14:00:11.990814+00:00",
+  "generated_at": "2026-11-14T14:30:09.746354+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -113,14 +113,14 @@
           "team": "AtomiX G14 VHV R (U14 F)",
           "team_id": 451687,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/96x96_hc-atomix_1784479147.png",
-          "mp": 6,
-          "w": 4,
+          "mp": 7,
+          "w": 5,
           "d": 0,
           "l": 2,
-          "gs": 131,
-          "ga": 98,
-          "gd": 33,
-          "pts": 8
+          "gs": 164,
+          "ga": 105,
+          "gd": 59,
+          "pts": 10
         },
         {
           "position": 3,
@@ -141,13 +141,13 @@
           "team": "HvH 't Noorden (U14 F)",
           "team_id": 451363,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/25477/logo/96x96_hvh-%E2%80%98t-noorden_1787658655.png",
-          "mp": 6,
+          "mp": 7,
           "w": 0,
           "d": 0,
-          "l": 6,
-          "gs": 33,
-          "ga": 161,
-          "gd": -128,
+          "l": 7,
+          "gs": 40,
+          "ga": 194,
+          "gd": -154,
           "pts": 0
         }
       ]
