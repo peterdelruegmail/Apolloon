@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T13:00:18.794084+00:00",
+  "generated_at": "2026-11-14T13:30:27.169309+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -160,14 +160,14 @@
           "team": "DB Gent U12 VHV R 2 (U12 M)",
           "team_id": 451662,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
-          "mp": 5,
-          "w": 5,
+          "mp": 6,
+          "w": 6,
           "d": 0,
           "l": 0,
-          "gs": 29,
+          "gs": 35,
           "ga": 1,
-          "gd": 28,
-          "pts": 10
+          "gd": 34,
+          "pts": 12
         },
         {
           "position": 2,
@@ -216,13 +216,13 @@
           "team": "HBC Apolloon Spurs U12 VHV R (U12 M)",
           "team_id": 450950,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
-          "mp": 6,
+          "mp": 7,
           "w": 1,
           "d": 0,
-          "l": 5,
+          "l": 6,
           "gs": 5,
-          "ga": 31,
-          "gd": -26,
+          "ga": 37,
+          "gd": -32,
           "pts": 2
         }
       ]
@@ -235,14 +235,14 @@
           "team": "Eeklo U12 VHV R (U12 M)",
           "team_id": 451394,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17270/logo/96x96_handbalclub-eeklo_1785071713.png",
-          "mp": 7,
-          "w": 7,
+          "mp": 8,
+          "w": 8,
           "d": 0,
           "l": 0,
-          "gs": 40,
+          "gs": 46,
           "ga": 2,
-          "gd": 38,
-          "pts": 14
+          "gd": 44,
+          "pts": 16
         },
         {
           "position": 2,
@@ -305,13 +305,13 @@
           "team": "Aalst U12 VHV R (U12 M)",
           "team_id": 451450,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/96x96_handbalclub-aalst_1786404715.png",
-          "mp": 6,
+          "mp": 7,
           "w": 0,
           "d": 0,
-          "l": 6,
+          "l": 7,
           "gs": 0,
-          "ga": 36,
-          "gd": -36,
+          "ga": 42,
+          "gd": -42,
           "pts": 0
         }
       ]
@@ -513,6 +513,20 @@
         },
         {
           "position": 3,
+          "team": "HvH 't Noorden B (U12 M)",
+          "team_id": 451362,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/25477/logo/96x96_hvh-%E2%80%98t-noorden_1787658655.png",
+          "mp": 7,
+          "w": 3,
+          "d": 1,
+          "l": 3,
+          "gs": 19,
+          "ga": 23,
+          "gd": -4,
+          "pts": 7
+        },
+        {
+          "position": 4,
           "team": "Merksplas U12 VHV R (U12 M)",
           "team_id": 451650,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17289/logo/96x96_handbal-merksplas_1788515564.png",
@@ -523,20 +537,6 @@
           "gs": 19,
           "ga": 17,
           "gd": 2,
-          "pts": 6
-        },
-        {
-          "position": 4,
-          "team": "HvH 't Noorden B (U12 M)",
-          "team_id": 451362,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/25477/logo/96x96_hvh-%E2%80%98t-noorden_1787658655.png",
-          "mp": 6,
-          "w": 3,
-          "d": 0,
-          "l": 3,
-          "gs": 16,
-          "ga": 20,
-          "gd": -4,
           "pts": 6
         },
         {
@@ -558,14 +558,14 @@
           "team": "Schoten U12 VHV R 2 (U12 M)",
           "team_id": 451047,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 6,
+          "mp": 7,
           "w": 1,
-          "d": 0,
+          "d": 1,
           "l": 5,
-          "gs": 9,
-          "ga": 27,
+          "gs": 12,
+          "ga": 30,
           "gd": -18,
-          "pts": 2
+          "pts": 3
         }
       ]
     },
@@ -741,14 +741,14 @@
           "team": "Hubo U12 VHV R 3 (U12 M)",
           "team_id": 451317,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
-          "mp": 5,
-          "w": 5,
+          "mp": 6,
+          "w": 6,
           "d": 0,
           "l": 0,
-          "gs": 30,
+          "gs": 36,
           "ga": 0,
-          "gd": 30,
-          "pts": 10
+          "gd": 36,
+          "pts": 12
         },
         {
           "position": 2,
@@ -797,13 +797,13 @@
           "team": "HHV Meeuwen U12 VHV R (U12 M)",
           "team_id": 451269,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17273/logo/96x96_hhv-meeuwen_1788942171.png",
-          "mp": 5,
+          "mp": 6,
           "w": 0,
           "d": 0,
-          "l": 5,
+          "l": 6,
           "gs": 0,
-          "ga": 30,
-          "gd": -30,
+          "ga": 36,
+          "gd": -36,
           "pts": 0
         }
       ]
