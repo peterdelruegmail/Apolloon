@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T14:00:11.103167+00:00",
+  "generated_at": "2026-11-14T14:30:11.042418+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -352,14 +352,14 @@
           "team": "Uilenspiegel U14 VHV R (U14 M)",
           "team_id": 451543,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 7,
-          "w": 4,
+          "mp": 8,
+          "w": 5,
           "d": 0,
           "l": 3,
-          "gs": 184,
-          "ga": 201,
-          "gd": -17,
-          "pts": 8
+          "gs": 219,
+          "ga": 232,
+          "gd": -13,
+          "pts": 10
         },
         {
           "position": 3,
@@ -380,13 +380,13 @@
           "team": "Schoten U14 VHV R (U14 M)",
           "team_id": 451048,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 8,
+          "mp": 9,
           "w": 3,
           "d": 0,
-          "l": 5,
-          "gs": 212,
-          "ga": 295,
-          "gd": -83,
+          "l": 6,
+          "gs": 243,
+          "ga": 330,
+          "gd": -87,
           "pts": 6
         },
         {
@@ -530,27 +530,27 @@
           "team": "Hubo U14 VHV R 1 (U14 M)",
           "team_id": 451303,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
-          "mp": 7,
-          "w": 5,
+          "mp": 8,
+          "w": 6,
           "d": 1,
           "l": 1,
-          "gs": 260,
-          "ga": 109,
-          "gd": 151,
-          "pts": 11
+          "gs": 283,
+          "ga": 130,
+          "gd": 153,
+          "pts": 13
         },
         {
           "position": 2,
           "team": "Sezoens Achilles Bocholt U14 VHV R 1 (U14 M)",
           "team_id": 451194,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 7,
+          "mp": 8,
           "w": 5,
           "d": 1,
-          "l": 1,
-          "gs": 266,
-          "ga": 120,
-          "gd": 146,
+          "l": 2,
+          "gs": 287,
+          "ga": 143,
+          "gd": 144,
           "pts": 11
         },
         {
