@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T16:30:09.854404+00:00",
+  "generated_at": "2026-11-14T17:00:12.873277+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -85,14 +85,14 @@
           "team": "Lokeren U14 VHV R (U14 M)",
           "team_id": 451139,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
-          "mp": 6,
-          "w": 6,
+          "mp": 7,
+          "w": 7,
           "d": 0,
           "l": 0,
-          "gs": 259,
-          "ga": 152,
-          "gd": 107,
-          "pts": 12
+          "gs": 285,
+          "ga": 169,
+          "gd": 116,
+          "pts": 14
         },
         {
           "position": 2,
@@ -155,13 +155,13 @@
           "team": "Dendermonde U14 VHV R (U14 M)",
           "team_id": 451633,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1792395811.png",
-          "mp": 5,
+          "mp": 6,
           "w": 0,
           "d": 0,
-          "l": 5,
-          "gs": 80,
-          "ga": 223,
-          "gd": -143,
+          "l": 6,
+          "gs": 97,
+          "ga": 249,
+          "gd": -152,
           "pts": 0
         }
       ]
