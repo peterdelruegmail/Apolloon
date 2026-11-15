@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T11:00:09.926424+00:00",
+  "generated_at": "2026-11-15T11:30:17.886694+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -216,27 +216,27 @@
           "team": "Desselgemse U14 VHV R (U14 M)",
           "team_id": 451328,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/96x96_desselgemse-handbalclub_1785314895.png",
-          "mp": 6,
-          "w": 1,
+          "mp": 7,
+          "w": 2,
           "d": 0,
           "l": 5,
-          "gs": 99,
-          "ga": 170,
-          "gd": -71,
-          "pts": 2
+          "gs": 136,
+          "ga": 184,
+          "gd": -48,
+          "pts": 4
         },
         {
           "position": 5,
           "team": "Besox Izegem U14 VHV R 2 (U14 M)",
           "team_id": 451470,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
-          "mp": 6,
+          "mp": 7,
           "w": 0,
           "d": 0,
-          "l": 6,
-          "gs": 116,
-          "ga": 204,
-          "gd": -88,
+          "l": 7,
+          "gs": 130,
+          "ga": 241,
+          "gd": -111,
           "pts": 0
         }
       ]
@@ -338,14 +338,14 @@
           "team": "Biobest Sasja U14 VHV R (U14)",
           "team_id": 451609,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/96x96_biobest-sasja-hc_1788423084.png",
-          "mp": 7,
-          "w": 7,
+          "mp": 8,
+          "w": 8,
           "d": 0,
           "l": 0,
-          "gs": 297,
-          "ga": 82,
-          "gd": 215,
-          "pts": 14
+          "gs": 335,
+          "ga": 95,
+          "gd": 240,
+          "pts": 16
         },
         {
           "position": 2,
@@ -394,13 +394,13 @@
           "team": "Welta U14 VHV-B R (U14 M)",
           "team_id": 451469,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/96x96_hc-welta_1786354450.png",
-          "mp": 6,
+          "mp": 7,
           "w": 2,
           "d": 0,
-          "l": 4,
-          "gs": 136,
-          "ga": 192,
-          "gd": -56,
+          "l": 5,
+          "gs": 149,
+          "ga": 230,
+          "gd": -81,
           "pts": 4
         },
         {
