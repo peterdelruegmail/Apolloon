@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T10:00:19.276838+00:00",
+  "generated_at": "2026-11-15T10:30:10.295782+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -10,14 +10,14 @@
           "team": "DB Gent U12 VHV R 1 (U12 M)",
           "team_id": 451661,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
-          "mp": 4,
-          "w": 4,
+          "mp": 5,
+          "w": 5,
           "d": 0,
           "l": 0,
-          "gs": 24,
+          "gs": 30,
           "ga": 0,
-          "gd": 24,
-          "pts": 8
+          "gd": 30,
+          "pts": 10
         },
         {
           "position": 2,
@@ -66,13 +66,13 @@
           "team": "Thor U12 VHV R (U12 M)",
           "team_id": 451589,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
-          "mp": 5,
+          "mp": 6,
           "w": 1,
           "d": 1,
-          "l": 3,
+          "l": 4,
           "gs": 13,
-          "ga": 17,
-          "gd": -4,
+          "ga": 23,
+          "gd": -10,
           "pts": 3
         }
       ]
@@ -441,14 +441,14 @@
           "team": "Leuven U12 VHV R (U12)",
           "team_id": 451082,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
-          "mp": 6,
-          "w": 2,
+          "mp": 7,
+          "w": 3,
           "d": 0,
           "l": 4,
-          "gs": 16,
+          "gs": 22,
           "ga": 21,
-          "gd": -5,
-          "pts": 4
+          "gd": 1,
+          "pts": 6
         },
         {
           "position": 5,
@@ -469,13 +469,13 @@
           "team": "AtomiX U12 VHV R (U12 M)",
           "team_id": 451688,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/96x96_hc-atomix_1784479147.png",
-          "mp": 6,
+          "mp": 7,
           "w": 0,
           "d": 0,
-          "l": 6,
+          "l": 7,
           "gs": 0,
-          "ga": 36,
-          "gd": -36,
+          "ga": 42,
+          "gd": -42,
           "pts": 0
         }
       ]
