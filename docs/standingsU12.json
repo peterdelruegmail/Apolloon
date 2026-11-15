@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T12:30:15.527416+00:00",
+  "generated_at": "2026-11-15T13:00:22.940404+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -352,14 +352,14 @@
           "team": "Biobest Sasja U12 VHV R (U12)",
           "team_id": 451611,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/96x96_biobest-sasja-hc_1788423084.png",
-          "mp": 5,
-          "w": 2,
+          "mp": 6,
+          "w": 3,
           "d": 0,
           "l": 3,
-          "gs": 16,
+          "gs": 22,
           "ga": 14,
-          "gd": 2,
-          "pts": 4
+          "gd": 8,
+          "pts": 6
         },
         {
           "position": 4,
@@ -380,13 +380,13 @@
           "team": "Welta U12 VHV-B R (U12 M)",
           "team_id": 451452,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/96x96_hc-welta_1786354450.png",
-          "mp": 4,
+          "mp": 5,
           "w": 0,
           "d": 0,
-          "l": 4,
+          "l": 5,
           "gs": 2,
-          "ga": 22,
-          "gd": -20,
+          "ga": 28,
+          "gd": -26,
           "pts": 0
         }
       ]
@@ -755,27 +755,27 @@
           "team": "Derdaele Sp. Pelt U12 VHV R 3 (U12 M)",
           "team_id": 451704,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
-          "mp": 6,
-          "w": 3,
+          "mp": 7,
+          "w": 4,
           "d": 0,
           "l": 3,
-          "gs": 20,
-          "ga": 16,
-          "gd": 4,
-          "pts": 6
+          "gs": 24,
+          "ga": 18,
+          "gd": 6,
+          "pts": 8
         },
         {
           "position": 3,
           "team": "Kwanten Arena U12 VHV R (U12 M)",
           "team_id": 451070,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17245/logo/96x96_hv-kwanten-arena_1784914970.png",
-          "mp": 5,
+          "mp": 6,
           "w": 3,
           "d": 0,
-          "l": 2,
-          "gs": 16,
-          "ga": 14,
-          "gd": 2,
+          "l": 3,
+          "gs": 18,
+          "ga": 18,
+          "gd": 0,
           "pts": 6
         },
         {
