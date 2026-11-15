@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T14:30:08.887629+00:00",
+  "generated_at": "2026-11-15T15:00:18.580258+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18729/seasons/220",
   "groups": [
     {
@@ -274,6 +274,20 @@
         },
         {
           "position": 3,
+          "team": "Sezoens Achilles Bocholt G14 VHV R (U14 F)",
+          "team_id": 451198,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
+          "mp": 8,
+          "w": 5,
+          "d": 0,
+          "l": 3,
+          "gs": 174,
+          "ga": 153,
+          "gd": 21,
+          "pts": 10
+        },
+        {
+          "position": 4,
           "team": "DHC Overpelt G14 VHV R B (U14 F)",
           "team_id": 451418,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17262/logo/96x96_dameshandbalclub-overpelt_1788379149.png",
@@ -284,20 +298,6 @@
           "gs": 131,
           "ga": 102,
           "gd": 29,
-          "pts": 8
-        },
-        {
-          "position": 4,
-          "team": "Sezoens Achilles Bocholt G14 VHV R (U14 F)",
-          "team_id": 451198,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 7,
-          "w": 4,
-          "d": 0,
-          "l": 3,
-          "gs": 139,
-          "ga": 137,
-          "gd": 2,
           "pts": 8
         },
         {
@@ -319,13 +319,13 @@
           "team": "DHC Meeuwen G14 VHV-B R 2 (U14 F)",
           "team_id": 451665,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17264/logo/96x96_dhc-meeuwen_1785066941.png",
-          "mp": 7,
+          "mp": 8,
           "w": 0,
           "d": 0,
-          "l": 7,
-          "gs": 66,
-          "ga": 154,
-          "gd": -88,
+          "l": 8,
+          "gs": 82,
+          "ga": 189,
+          "gd": -107,
           "pts": 0
         }
       ]
