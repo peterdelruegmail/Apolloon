@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T09:30:16.880507+00:00",
+  "generated_at": "2026-11-15T10:00:19.935693+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18720/seasons/220",
   "groups": [
     {
@@ -235,14 +235,14 @@
           "team": "Biobest Sasja U16 VHV R (U16)",
           "team_id": 451607,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17252/logo/96x96_biobest-sasja-hc_1788423084.png",
-          "mp": 7,
-          "w": 7,
+          "mp": 8,
+          "w": 8,
           "d": 0,
           "l": 0,
-          "gs": 262,
-          "ga": 101,
-          "gd": 161,
-          "pts": 14
+          "gs": 300,
+          "ga": 113,
+          "gd": 187,
+          "pts": 16
         },
         {
           "position": 2,
@@ -305,13 +305,13 @@
           "team": "Welta U16 VHV-B R (U16 M)",
           "team_id": 451484,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/96x96_hc-welta_1786354450.png",
-          "mp": 5,
+          "mp": 6,
           "w": 0,
           "d": 0,
-          "l": 5,
-          "gs": 84,
-          "ga": 195,
-          "gd": -111,
+          "l": 6,
+          "gs": 96,
+          "ga": 233,
+          "gd": -137,
           "pts": 0
         }
       ]
@@ -499,30 +499,30 @@
       "standings": [
         {
           "position": 1,
-          "team": "Hubo U16 VHV R 2 (U16 M)",
-          "team_id": 451297,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
-          "mp": 7,
-          "w": 6,
-          "d": 0,
-          "l": 1,
-          "gs": 284,
-          "ga": 118,
-          "gd": 166,
-          "pts": 12
-        },
-        {
-          "position": 2,
           "team": "Sezoens Achilles Bocholt U16 VHV R (U16 M)",
           "team_id": 451188,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
-          "mp": 6,
-          "w": 6,
+          "mp": 7,
+          "w": 7,
           "d": 0,
           "l": 0,
-          "gs": 205,
-          "ga": 77,
-          "gd": 128,
+          "gs": 249,
+          "ga": 108,
+          "gd": 141,
+          "pts": 14
+        },
+        {
+          "position": 2,
+          "team": "Hubo U16 VHV R 2 (U16 M)",
+          "team_id": 451297,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17243/logo/96x96_hubo-handbal_1785587094.png",
+          "mp": 8,
+          "w": 6,
+          "d": 0,
+          "l": 2,
+          "gs": 315,
+          "ga": 162,
+          "gd": 153,
           "pts": 12
         },
         {
