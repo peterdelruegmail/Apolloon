@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T13:00:20.887055+00:00",
+  "generated_at": "2026-11-15T13:30:12.536202+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -469,14 +469,14 @@
           "team": "Derdaele Sp. Pelt U14 VHV R 2 (U14 M)",
           "team_id": 451866,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
-          "mp": 7,
-          "w": 4,
+          "mp": 8,
+          "w": 5,
           "d": 0,
           "l": 3,
-          "gs": 190,
-          "ga": 207,
-          "gd": -17,
-          "pts": 8
+          "gs": 239,
+          "ga": 239,
+          "gd": 0,
+          "pts": 10
         },
         {
           "position": 4,
@@ -497,13 +497,13 @@
           "team": "United West B U14 VHV R (U14 M)",
           "team_id": 451336,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17287/logo/96x96_handbalclub-beringen_1786621697.png",
-          "mp": 7,
+          "mp": 8,
           "w": 1,
           "d": 1,
-          "l": 5,
-          "gs": 163,
-          "ga": 284,
-          "gd": -121,
+          "l": 6,
+          "gs": 195,
+          "ga": 333,
+          "gd": -138,
           "pts": 3
         },
         {
