@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T14:00:21.386167+00:00",
+  "generated_at": "2026-11-15T14:30:10.376061+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -263,14 +263,14 @@
           "team": "Uilenspiegel U14 VHV R (U14 M)",
           "team_id": 451543,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 7,
-          "w": 4,
+          "mp": 8,
+          "w": 5,
           "d": 2,
           "l": 1,
-          "gs": 211,
-          "ga": 174,
-          "gd": 37,
-          "pts": 10
+          "gs": 255,
+          "ga": 183,
+          "gd": 72,
+          "pts": 12
         },
         {
           "position": 3,
@@ -319,13 +319,13 @@
           "team": "Brugge U14 VHV-B R (U14 M)",
           "team_id": 451509,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/96x96_handbal-brugge_1784571053.png",
-          "mp": 5,
+          "mp": 6,
           "w": 0,
           "d": 0,
-          "l": 5,
-          "gs": 74,
-          "ga": 206,
-          "gd": -132,
+          "l": 6,
+          "gs": 83,
+          "ga": 250,
+          "gd": -167,
           "pts": 0
         }
       ]
