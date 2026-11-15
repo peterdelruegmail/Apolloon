@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T20:00:22.789234+00:00",
+  "generated_at": "2026-11-15T20:30:16.217516+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18710/seasons/220",
   "groups": [
     {
@@ -7,6 +7,20 @@
       "standings": [
         {
           "position": 1,
+          "team": "Roeselare D1 W VHV 1 (Senior F)",
+          "team_id": 451005,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
+          "mp": 6,
+          "w": 5,
+          "d": 0,
+          "l": 1,
+          "gs": 175,
+          "ga": 107,
+          "gd": 68,
+          "pts": 10
+        },
+        {
+          "position": 2,
           "team": "Olse Merksem D1 W VHV (Senior F)",
           "team_id": 451017,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17230/logo/96x96_olse-merksem-hc_1787218621.png",
@@ -20,7 +34,7 @@
           "pts": 10
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Sezoens Achilles Bocholt D1 W VHV (Senior F)",
           "team_id": 451181,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
@@ -32,20 +46,6 @@
           "ga": 108,
           "gd": 39,
           "pts": 10
-        },
-        {
-          "position": 3,
-          "team": "Roeselare D1 W VHV 1 (Senior F)",
-          "team_id": 451005,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
-          "mp": 5,
-          "w": 4,
-          "d": 0,
-          "l": 1,
-          "gs": 143,
-          "ga": 89,
-          "gd": 54,
-          "pts": 8
         },
         {
           "position": 4,
@@ -108,13 +108,13 @@
           "team": "DHC Waasmunster D1 W VHV (Senior F)",
           "team_id": 451282,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
-          "mp": 5,
+          "mp": 6,
           "w": 1,
           "d": 1,
-          "l": 3,
-          "gs": 98,
-          "ga": 125,
-          "gd": -27,
+          "l": 4,
+          "gs": 116,
+          "ga": 157,
+          "gd": -41,
           "pts": 3
         },
         {
