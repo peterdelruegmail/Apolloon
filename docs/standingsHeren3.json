@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T18:00:21.805043+00:00",
+  "generated_at": "2026-11-15T18:30:16.354500+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18713/seasons/220",
   "groups": [
     {
@@ -94,13 +94,13 @@
           "team": "Desselgemse D M VHV OWV-B (Senior M)",
           "team_id": 451321,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/96x96_desselgemse-handbalclub_1785314895.png",
-          "mp": 7,
+          "mp": 8,
           "w": 3,
           "d": 0,
-          "l": 4,
-          "gs": 176,
-          "ga": 187,
-          "gd": -11,
+          "l": 5,
+          "gs": 202,
+          "ga": 215,
+          "gd": -13,
           "pts": 6
         },
         {
@@ -133,6 +133,20 @@
         },
         {
           "position": 10,
+          "team": "Lokeren D M VHV OWV-B 2 (Senior M)",
+          "team_id": 451130,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
+          "mp": 7,
+          "w": 1,
+          "d": 0,
+          "l": 6,
+          "gs": 149,
+          "ga": 212,
+          "gd": -63,
+          "pts": 2
+        },
+        {
+          "position": 11,
           "team": "Lebbeke D M VHV OWV-B (Senior M)",
           "team_id": 451517,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17279/logo/96x96_elita-lebbeke_1787565122.png",
@@ -144,20 +158,6 @@
           "ga": 120,
           "gd": -42,
           "pts": 1
-        },
-        {
-          "position": 11,
-          "team": "Lokeren D M VHV OWV-B 2 (Senior M)",
-          "team_id": 451130,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
-          "mp": 6,
-          "w": 0,
-          "d": 0,
-          "l": 6,
-          "gs": 121,
-          "ga": 186,
-          "gd": -65,
-          "pts": 0
         }
       ]
     }
