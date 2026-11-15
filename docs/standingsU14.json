@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T16:30:11.507246+00:00",
+  "generated_at": "2026-11-15T17:00:15.737224+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -85,27 +85,27 @@
           "team": "Lokeren U14 VHV R (U14 M)",
           "team_id": 451139,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
-          "mp": 7,
-          "w": 7,
+          "mp": 8,
+          "w": 8,
           "d": 0,
           "l": 0,
-          "gs": 285,
-          "ga": 169,
-          "gd": 116,
-          "pts": 14
+          "gs": 326,
+          "ga": 197,
+          "gd": 129,
+          "pts": 16
         },
         {
           "position": 2,
           "team": "Evergem U14 VHV R (U14 M)",
           "team_id": 451371,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
-          "mp": 7,
+          "mp": 8,
           "w": 5,
           "d": 1,
-          "l": 1,
-          "gs": 258,
-          "ga": 170,
-          "gd": 88,
+          "l": 2,
+          "gs": 286,
+          "ga": 211,
+          "gd": 75,
           "pts": 11
         },
         {
