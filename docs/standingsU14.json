@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T11:30:17.886694+00:00",
+  "generated_at": "2026-11-15T12:00:18.723586+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -483,14 +483,14 @@
           "team": "AtomiX U14 VHV R (U14 M)",
           "team_id": 451685,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17249/logo/96x96_hc-atomix_1784479147.png",
-          "mp": 7,
-          "w": 2,
+          "mp": 8,
+          "w": 3,
           "d": 1,
           "l": 4,
-          "gs": 195,
-          "ga": 242,
-          "gd": -47,
-          "pts": 5
+          "gs": 237,
+          "ga": 269,
+          "gd": -32,
+          "pts": 7
         },
         {
           "position": 5,
@@ -511,13 +511,13 @@
           "team": "Leuven U14 VHV R (U14)",
           "team_id": 451081,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
-          "mp": 7,
+          "mp": 8,
           "w": 0,
           "d": 0,
-          "l": 7,
-          "gs": 122,
-          "ga": 285,
-          "gd": -163,
+          "l": 8,
+          "gs": 149,
+          "ga": 327,
+          "gd": -178,
           "pts": 0
         }
       ]
