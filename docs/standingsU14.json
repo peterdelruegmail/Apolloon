@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:00:17.678931+00:00",
+  "generated_at": "2026-11-17T23:00:18.977606+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -701,6 +701,273 @@
       ]
     },
     {
+      "name": "Groep 9",
+      "standings": [
+        {
+          "position": 1,
+          "team": "Leuven U14 VHV R (U14)",
+          "team_id": 451081,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 2,
+          "team": "Lokeren U14 VHV R (U14 M)",
+          "team_id": 451139,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 3,
+          "team": "Besox Izegem U14 VHV R 1 (U14 M)",
+          "team_id": 451468,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 4,
+          "team": "Brugge U14 VHV-B R (U14 M)",
+          "team_id": 451509,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/96x96_handbal-brugge_1784571053.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 5,
+          "team": "Gbsk U14 VHV R (U14)",
+          "team_id": 451588,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17261/logo/96x96_gbsk-handbal_1784887714.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 6,
+          "team": "Dendermonde U14 VHV R (U14 M)",
+          "team_id": 451633,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17253/logo/96x96_hbc-dendermonde_1792395811.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        }
+      ]
+    },
+    {
+      "name": "Groep 10",
+      "standings": [
+        {
+          "position": 1,
+          "team": "Desselgemse U14 VHV R (U14 M)",
+          "team_id": 451328,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17268/logo/96x96_desselgemse-handbalclub_1785314895.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 2,
+          "team": "Evergem U14 VHV R (U14 M)",
+          "team_id": 451371,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 3,
+          "team": "Aalst U14 VHV R (U14 M)",
+          "team_id": 451449,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17256/logo/96x96_handbalclub-aalst_1786404715.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 4,
+          "team": "Thor U14 VHV R (U14 M)",
+          "team_id": 451586,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17259/logo/96x96_handbalclub-thor_1788463535.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 5,
+          "team": "HK Waasmunster U14 VHV R (U14 M)",
+          "team_id": 451603,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17267/logo/96x96_hk-waasmunster_1784924616.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 6,
+          "team": "DB Gent U14 VHV R 3 (U14 M)",
+          "team_id": 451659,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        }
+      ]
+    },
+    {
+      "name": "Groep 11",
+      "standings": [
+        {
+          "position": 1,
+          "team": "HBC Apolloon Spurs U14 VHV R (U14 M)",
+          "team_id": 450945,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 2,
+          "team": "Groot Berlare U14 VHV-B R (U14 M)",
+          "team_id": 450966,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17271/logo/96x96_handbalclub-groot-berlare_1788177606.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 3,
+          "team": "Evergem U14 VHV R (U14)",
+          "team_id": 451369,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17266/logo/96x96_handbalclub-evergem_1785681113.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 4,
+          "team": "Buggenhout U14 VHV R (U14 M)",
+          "team_id": 451572,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17260/logo/96x96_elita-buggenhout_1787811735.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 5,
+          "team": "DB Gent U14 VHV R 2 (U14 M)",
+          "team_id": 451657,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 6,
+          "team": "DB Gent U14 VHV R 4 (U14 M)",
+          "team_id": 451660,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        }
+      ]
+    },
+    {
       "name": "Groep 12",
       "standings": [
         {
@@ -822,6 +1089,20 @@
         },
         {
           "position": 3,
+          "team": "Sezoens Achilles Bocholt U14 VHV R 1 (U14 M)",
+          "team_id": 451194,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17272/logo/96x96_sezoens-achilles-bocholt_1785665632.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 4,
           "team": "H. Bilzen U14 VHV R 2 (U14 M)",
           "team_id": 451226,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17284/logo/96x96_handbal-hestia-bilzen_1786199944.png",
@@ -835,7 +1116,7 @@
           "pts": null
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Sint-Truiden U14 VHV-B R (U14 M)",
           "team_id": 451692,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17258/logo/96x96_hb-sint-truiden_1787905331.png",
@@ -849,7 +1130,7 @@
           "pts": null
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Derdaele Sp. Pelt U14 VHV R 2 (U14 M)",
           "team_id": 451866,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17241/logo/96x96_derdaele-sporting-pelt_1789400514.png",
