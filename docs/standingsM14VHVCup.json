@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T11:00:33.930382+00:00",
+  "generated_at": "2026-11-18T23:00:21.386920+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18730/seasons/220",
   "groups": [
     {
@@ -99,20 +99,20 @@
           "team": "HBC Apolloon Spurs (M14-Beker) (U14)",
           "team_id": 450955,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17254/logo/96x96_hbc-apolloon-spurs_1784813391.png",
-          "mp": null,
-          "w": null,
-          "d": null,
-          "l": null,
-          "gs": null,
-          "ga": null,
-          "gd": null,
-          "pts": null
+          "mp": 0,
+          "w": 0,
+          "d": 0,
+          "l": 0,
+          "gs": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
         },
         {
           "position": 2,
-          "team": "Roeselare M14 Cup 1 (U14 F)",
-          "team_id": 459194,
-          "logo": null,
+          "team": "Roeselare U14 VHV-B R (U14 M)",
+          "team_id": 451000,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -124,9 +124,9 @@
         },
         {
           "position": 3,
-          "team": "DHC Waasmunster M14 Cup 1 (U14 F)",
-          "team_id": 459195,
-          "logo": null,
+          "team": "DHC Waasmunster M14 Regionale Beker (U14 F)",
+          "team_id": 451530,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17274/logo/96x96_dhc-waasmunster_1788956206.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -138,9 +138,9 @@
         },
         {
           "position": 4,
-          "team": "Elita Lebbeke M14 Cup 1 (U14 F)",
-          "team_id": 459196,
-          "logo": null,
+          "team": "Elita Lebbeke - Beker (U14 F)",
+          "team_id": 451554,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17279/logo/96x96_elita-lebbeke_1787565122.png",
           "mp": 0,
           "w": 0,
           "d": 0,
@@ -157,17 +157,17 @@
       "standings": [
         {
           "position": 1,
-          "team": "Roeselare G14 VHV Q (U14 F)",
-          "team_id": 451033,
+          "team": "Roeselare U14 VHV Q (U14 M)",
+          "team_id": 451032,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17269/logo/96x96_handbalclub-roeselare_1786526329.png",
-          "mp": 0,
-          "w": 0,
-          "d": 0,
-          "l": 0,
-          "gs": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 0
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
         },
         {
           "position": 2,
