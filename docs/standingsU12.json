@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T11:00:22.910620+00:00",
+  "generated_at": "2026-11-18T23:00:19.654982+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -485,30 +485,30 @@
       "standings": [
         {
           "position": 1,
-          "team": "Uilenspiegel U12 VHV R 2 (U12 M)",
-          "team_id": 451571,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 6,
-          "w": 4,
-          "d": 0,
-          "l": 2,
-          "gs": 25,
-          "ga": 11,
-          "gd": 14,
-          "pts": 8
-        },
-        {
-          "position": 2,
           "team": "Uilenspiegel U12 VHV R 1 (U12 M)",
           "team_id": 451569,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
-          "mp": 6,
-          "w": 4,
+          "mp": 7,
+          "w": 5,
           "d": 0,
           "l": 2,
-          "gs": 24,
+          "gs": 30,
           "ga": 12,
-          "gd": 12,
+          "gd": 18,
+          "pts": 10
+        },
+        {
+          "position": 2,
+          "team": "Uilenspiegel U12 VHV R 2 (U12 M)",
+          "team_id": 451571,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
+          "mp": 7,
+          "w": 4,
+          "d": 0,
+          "l": 3,
+          "gs": 25,
+          "ga": 17,
+          "gd": 8,
           "pts": 8
         },
         {
