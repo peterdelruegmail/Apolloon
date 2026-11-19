@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T11:00:19.498336+00:00",
+  "generated_at": "2026-11-19T23:00:18.974863+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18726/seasons/220",
   "groups": [
     {
@@ -705,20 +705,6 @@
       "standings": [
         {
           "position": 1,
-          "team": "Leuven U14 VHV R (U14)",
-          "team_id": 451081,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
-          "mp": null,
-          "w": null,
-          "d": null,
-          "l": null,
-          "gs": null,
-          "ga": null,
-          "gd": null,
-          "pts": null
-        },
-        {
-          "position": 2,
           "team": "Lokeren U14 VHV R (U14 M)",
           "team_id": 451139,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17277/logo/96x96_handbal-lokeren_1785179113.png",
@@ -732,7 +718,7 @@
           "pts": null
         },
         {
-          "position": 3,
+          "position": 2,
           "team": "Besox Izegem U14 VHV R 1 (U14 M)",
           "team_id": 451468,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
@@ -746,10 +732,24 @@
           "pts": null
         },
         {
-          "position": 4,
+          "position": 3,
           "team": "Brugge U14 VHV-B R (U14 M)",
           "team_id": 451509,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17276/logo/96x96_handbal-brugge_1784571053.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 4,
+          "team": "Uilenspiegel J14P (U14 M)",
+          "team_id": 451573,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
           "mp": null,
           "w": null,
           "d": null,
@@ -986,6 +986,20 @@
         },
         {
           "position": 2,
+          "team": "Leuven U14 VHV R (U14)",
+          "team_id": 451081,
+          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17288/logo/96x96_handbal-leuven_1784462208.png",
+          "mp": null,
+          "w": null,
+          "d": null,
+          "l": null,
+          "gs": null,
+          "ga": null,
+          "gd": null,
+          "pts": null
+        },
+        {
+          "position": 3,
           "team": "Brasschaat U14 VHV R (U14 M)",
           "team_id": 451344,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17235/logo/96x96_brasschaat-handbalclub_1788963702.png",
@@ -999,7 +1013,7 @@
           "pts": null
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Heist o/d Berg U14 VHV R (U14 M)",
           "team_id": 451440,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17283/logo/96x96_hc-heist-o-d-berg_1790102841.png",
@@ -1013,24 +1027,10 @@
           "pts": null
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Welta U14 VHV-B R (U14 M)",
           "team_id": 451469,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17227/logo/96x96_hc-welta_1786354450.png",
-          "mp": null,
-          "w": null,
-          "d": null,
-          "l": null,
-          "gs": null,
-          "ga": null,
-          "gd": null,
-          "pts": null
-        },
-        {
-          "position": 5,
-          "team": "Uilenspiegel J14P (U14 M)",
-          "team_id": 451573,
-          "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17226/logo/96x96_uilenspiegel-hv_1789756375.png",
           "mp": null,
           "w": null,
           "d": null,
