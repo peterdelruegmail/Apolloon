@@ -35,3 +35,11 @@ python3 ranking/clubee_standings_scraper.py --league 18702 --season 220 --json d
 ```
 
 Pas seizoen en competitie aan waar nodig. Het script gebruikt alleen de Python-standaardbibliotheek.
+
+## Liveversie zonder opgeslagen standen
+
+Zie [live/](live/) voor de PHP-versie die bij paginaopening en vervolgens elke minuut rechtstreeks bij Clubee ophaalt.
+
+[Download het uploadpakket](https://github.com/peterdelruegmail/Apolloon/raw/refs/heads/main/ranking/Apolloon-ranking-live.zip). Pak het uit en upload de bestanden naar `/Handbal-Live/ranking/` op www.apolloon-spurs.be. De bedoelde pagina wordt dan `https://www.apolloon-spurs.be/Handbal-Live/ranking/standings.html?league=Heren1&group=1`.
+
+De PHP-syntaxis, parser en een actuele Clubee-aanvraag zijn gecontroleerd met GitHub Actions. Installatie op de eigen hosting en de omschakeling van de website-iframes moeten nog gebeuren. Tot dan blijft de bestaande GitHub Pages-versie de JSON-bestanden gebruiken.
