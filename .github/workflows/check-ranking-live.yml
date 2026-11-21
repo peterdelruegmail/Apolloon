@@ -1,0 +1,23 @@
+name: Controle live ranking
+
+on:
+  push:
+    paths:
+      - 'ranking/live/**'
+      - '.github/workflows/check-ranking-live.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: PHP syntax
+        run: |
+          php --version
+          for file in ranking/live/*.php; do php -l "$file"; done
+      - name: Parser en actuele Clubee-gegevens testen
+        run: php ranking/live/test.php --live
