@@ -1,0 +1,88 @@
+HANDBAL LIVE - INSTALLATIE OP GEWONE WEBHOSTING
+
+Vereisten
+- PHP 8.0 of hoger met de cURL-uitbreiding.
+- De hosting moet HTTPS-verzoeken naar www.clubee.com en apiv3.clubee.com toestaan.
+
+Installeren
+1. Maak in de publieke map van jullie website een map handbal-live.
+   De publieke map heet vaak public_html, www of httpdocs.
+2. Upload index.html, score.html, styles.css, api.php, match.php, competitions.php en
+   clubee.php samen naar die map.
+3. Open https://jullie-domein.be/handbal-live/ in de browser.
+
+OUDE PAGINA / CACHE
+Upload ook het verborgen bestand .htaccess naar dezelfde map op Apache-hosting.
+Het kiest index.html als startpagina en voorkomt caching van de HTML-pagina's.
+Bestaat er in deze map al een .htaccess, voeg de regels toe aan het bestaande
+bestand in plaats van dat te overschrijven. Wis na upload eenmaal de browsercache
+en eventuele hosting/CDN-cache, omdat een eerder opgeslagen pagina nog kan bestaan.
+Op hosting zonder Apache of zonder toegestane Header-regels moet de hostingbeheerder
+de overeenkomstige cache-instelling toepassen.
+
+Er is geen apart programma, installatiecommando of geplande taak nodig.
+PHP wordt door de webhosting uitgevoerd zodra de pagina gegevens opvraagt.
+De competities worden automatisch uit het Clubee-menu van Handball Belgium
+opgehaald. Je hoeft geen competitielink meer te kennen. De lijst is ingedeeld
+in nationale, VHV- en LFH-groepen. Clubee bepaalt het standaardseizoen.
+Een bezoeker kiest de competitie, datums en wedstrijd.
+De clublogo's bij de gekozen wedstrijd worden rechtstreeks vanaf Clubee
+getoond. Als een logo ontbreekt of niet kan laden, blijft de teamnaam staan.
+De pagina vraagt elke 30 seconden een nieuwe stand op zolang het tabblad open is.
+De URL onthoudt de gekozen instellingen en wedstrijd en kan worden gedeeld.
+
+APARTE SCOREPAGINA
+Open https://jullie-domein.be/handbal-live/score.html?match=2848993
+Vervang 2848993 door het wedstrijdnummer uit de Clubee-wedstrijdlink.
+Deze pagina toont alleen de teamlogo's, namen en stand en ververst elke
+30 seconden. Er is geen competitieparameter nodig. In het overzicht staat
+bij de gekozen wedstrijd ook een link 'Open scorepagina'. Zonder score
+verschijnt een streepje. Bij ophaalfouten blijft de laatste stand zichtbaar
+met een melding en het tijdstip van de laatste geslaagde controle.
+De scorepagina haalt de score rechtstreeks uit de openbare Clubee-gegevensbron,
+ook tijdens een lopende wedstrijd. Als die bron niet bereikbaar is, probeert
+ze de wedstrijdpagina. Een expliciete 0-0 wordt als score getoond; zonder
+scoregegevens blijft een streepje staan.
+Zolang er geen score is, staat onder het scorebord de wedstrijddatum en
+het aanvangsuur zoals op Clubee. Alle zichtbare datums gebruiken DD/MM/YYYY,
+ook de datumvelden in het competitieoverzicht (bijvoorbeeld 03/10/2026).
+Op desktop staan naam, logo, stand, logo en naam naast elkaar.
+Bij een paginabreedte van 600 pixels of minder staan ze in dezelfde volgorde
+onder elkaar. In een iframe bepaalt de breedte van het iframe deze weergave.
+De mobiele weergave heeft meer hoogte nodig: gebruik bijvoorbeeld 360 pixels
+voor het iframe op mobiel (meer bij erg lange namen), tegenover 140 op desktop.
+
+KLEUREN AANPASSEN
+Beide pagina's tonen standaard zwarte tekst op een witte achtergrond.
+Pas de kleurwaarden bovenaan styles.css aan. Bijvoorbeeld:
+  --page-background: #ffffff;  (achtergrond)
+  --text-color: #000000;       (tekst en score)
+  --secondary-text: #444444;   (meldingen en toelichting)
+Upload daarna alleen styles.css opnieuw. Ververs met Ctrl+F5 als de browser
+nog de oude kleuren toont. styles.css moet naast de HTML-bestanden staan.
+
+Controle na upload
+- Controleer of de wedstrijdkeuze wordt gevuld.
+- Controleer of het tijdstip bij 'opgehaald om' wordt vernieuwd.
+- De einddatum in het datumbereik telt mee.
+- Scores veranderen alleen wanneer Clubee nieuwe gegevens registreert.
+
+Bij een fout
+- 'PHP cURL-uitbreiding': vraag de hostingbeheerder cURL in te schakelen.
+- 'Clubee kon niet worden opgehaald': controleer uitgaande HTTPS-toegang.
+  Clubee kan ook verzoeken van de hostingserver blokkeren.
+- 'Geen herkenbare wedstrijden': controleer de competitie- en seizoenslink.
+  Deze versie ondersteunt pagina's met dezelfde wedstrijdindeling als het
+  oorspronkelijke Belgische handbaloverzicht.
+
+Validatie
+De openbare Clubee-gegevensbron is gecontroleerd met wedstrijd 2849057
+(eindstand 32-33) en een toekomstige wedstrijd zonder score.
+De PHP-scorepagina is lokaal uitgevoerd met deze wedstrijdgegevens en
+nagebootste live scores, 0-0, ontbrekende scores en de terugval op de HTML-pagina.
+De PHP-bestanden zijn op syntaxis gecontroleerd. Een echte lopende wedstrijd
+en de verbinding vanaf jullie hosting moeten na upload nog worden gecontroleerd.
+
+UPDATE LIVE SCORE (5 oktober 2026)
+Vervang op bestaande installaties match.php en clubee.php samen.
+score.html, styles.css en de bestaande iframe-link kunnen blijven staan.

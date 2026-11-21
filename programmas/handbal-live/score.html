@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wedstrijdstand</title>
+<link rel="stylesheet" href="styles.css?v=2">
+<style>
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--page-background);color:var(--text-color);font-family:Arial,sans-serif}
+.board{width:100%;max-width:1000px;margin:auto;padding:12px 16px;display:grid;grid-template-columns:minmax(0,1fr) auto auto auto minmax(0,1fr);gap:14px;align-items:center;min-height:80px}
+.team{min-width:0;font-size:16px;font-weight:700;line-height:1.3;overflow-wrap:anywhere}.home{text-align:right}.away{text-align:left}
+.logo{width:56px;height:56px;margin:0;background:var(--logo-background);border-radius:10px;padding:4px;display:flex;align-items:center;justify-content:center}
+.logo img{width:100%;height:100%;object-fit:contain}.logo[hidden]{display:none}
+.board>*{grid-row:1}.home{grid-column:1}#home-box{grid-column:2}#score{grid-column:3}#away-box{grid-column:4}.away{grid-column:5}
+#score{font-size:40px;line-height:1.1;font-weight:800;white-space:nowrap;text-align:center;font-variant-numeric:tabular-nums}
+.category{display:block;font-size:14px}#message{margin:0 auto;padding:0 12px 8px;text-align:center;font-size:14px;max-width:1000px;color:var(--secondary-text)}#message:empty{display:none}
+/* Bij een smal scherm (of iframe) staan de vijf onderdelen onder elkaar. */
+@media(max-width:600px){
+ .board{display:flex;flex-direction:column;justify-content:center;padding:12px;gap:8px;min-height:0}
+ .team{width:100%;text-align:center;font-size:16px}
+ .logo{width:56px;height:56px;flex-shrink:0}
+ #score{font-size:40px}
+}
+</style>
+</head>
+<body>
+<main class="board" aria-label="Wedstrijdstand">
+ <div class="team home"><div id="home-name"></div><span class="category" id="home-category"></span></div>
+ <div class="logo" id="home-box" hidden><img id="home-logo" alt=""></div>
+ <div id="score" aria-live="polite">-</div>
+ <div class="logo" id="away-box" hidden><img id="away-logo" alt=""></div>
+ <div class="team away"><div id="away-name"></div><span class="category" id="away-category"></span></div>
+</main>
+<p id="message" role="status">Wedstrijd laden.</p>
+<script>
+const $=id=>document.getElementById(id);
+const id=new URLSearchParams(location.search).get('match');
+let lastSuccess='';
+function kickoff(game){
+ const match=/^(\d{4})-(\d{2})-(\d{2})$/.exec(game.startDate||'');
+ if(!match)return '';
+ const date=match[3]+'/'+match[2]+'/'+match[1];
+ return date+(/^\d{2}:\d{2}$/.test(game.startTime||'')?' om '+game.startTime:'');
+}
+function renderTeam(side,name,url){
+ const parts=name.match(/^(.*?)\s*(\([^()]+\))$/);$(side+'-name').textContent=parts?parts[1]:name;$(side+'-category').textContent=parts?parts[2]:'';
+ const img=$(side+'-logo'),box=$(side+'-box');
+ if(url){try{const parsed=new URL(url);if(parsed.protocol==='https:'){
+  if(img.getAttribute('src')!==parsed.href){box.hidden=true;img.alt='Logo '+name;img.onload=()=>{box.hidden=false;};img.onerror=()=>{box.hidden=true;};img.src=parsed.href;}
+  return;
+ }}catch(_){}}
+ box.hidden=true;img.removeAttribute('src');
+}
+async function refresh(){
+ try{
+  const response=await fetch('match.php?'+new URLSearchParams({match:id}),{cache:'no-store',signal:AbortSignal.timeout(25000)});
+  const data=await response.json();if(!response.ok)throw Error(data.error||'De stand kon niet worden opgehaald.');
+  const g=data.game;renderTeam('home',g.home,g.homeLogo);renderTeam('away',g.away,g.awayLogo);
+  const planned=kickoff(g);
+  $('score').textContent=g.score||'-';document.title=g.home+' - '+g.away+' � '+(g.score||planned||'Wedstrijd');
+  lastSuccess=new Date(data.checkedAt).toLocaleTimeString('nl-BE',{timeZone:'Europe/Brussels'});
+  $('message').textContent=g.score?'':planned;
+ }catch(e){$('message').textContent=(e.name==='TimeoutError'?'Clubee reageert niet.':e.message)+(lastSuccess?' Laatste geslaagde controle: '+lastSuccess+'.':'');}
+ setTimeout(refresh,30000);
+}
+if(!id||!/^[1-9][0-9]{0,11}$/.test(id)){$('message').textContent='Geef een wedstrijdnummer mee in de URL, bijvoorbeeld score.html?match=2848993.';}else{refresh();}
+</script>
+</body>
+</html>

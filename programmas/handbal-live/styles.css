@@ -1,0 +1,19 @@
+/* Kleuren voor index.html en score.html.
+   Pas deze waarden aan om beide pagina's een ander uiterlijk te geven. */
+:root {
+  color-scheme: light;
+  --page-background: #ffffff;
+  --text-color: #000000;
+  --surface-background: #ffffff;
+  --border-color: #cccccc;
+  --field-background: #ffffff;
+  --field-border: #888888;
+  --secondary-text: #444444;
+  --link-color: #000000;
+  --button-background: #eeeeee;
+  --button-text: #000000;
+  --primary-background: #dddddd;
+  --primary-text: #000000;
+  --focus-color: #000000;
+  --logo-background: #ffffff;
+}

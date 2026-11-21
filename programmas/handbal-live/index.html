@@ -1,0 +1,81 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Handbal live</title><meta name="description" content="Volg een Clubee-wedstrijd met een instelbare competitie en periode."><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230c1930'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-size='23' fill='%235ee3e7'%3EH%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="styles.css?v=2"><style>
+*{box-sizing:border-box}body{margin:0;background:var(--page-background);color:var(--text-color);font:16px/1.5 system-ui}main{max-width:1060px;margin:auto;padding:36px 24px}header{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px}h1{font-size:28px;margin:0}header span{color:var(--secondary-text)}section{background:var(--surface-background);border:1px solid var(--border-color);border-radius:16px;padding:24px}.layout{display:grid;grid-template-columns:380px 1fr;gap:24px}label{display:block;margin-bottom:18px;font-weight:600}input,select,button{font:inherit}input,select{display:block;width:100%;margin-top:8px;padding:11px;background:var(--field-background);color:var(--text-color);border:1px solid var(--field-border);border-radius:8px;min-width:0}button{padding:10px 14px;background:var(--button-background);color:var(--button-text);border:0;border-radius:8px;cursor:pointer}button:disabled{opacity:.5;cursor:wait}button.primary{background:var(--primary-background);color:var(--primary-text);font-weight:700;width:100%}.row{display:flex;gap:10px}.row>*{flex:1;min-width:0}.week{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:20px}.week button{font-size:14px;flex:1;white-space:nowrap}small,.muted{font-size:14px;color:var(--secondary-text)}a{color:var(--link-color)}#score{font-size:clamp(56px,9vw,92px);font-weight:800;letter-spacing:-3px;text-align:center;padding:16px 0}#teams{text-align:center;font-size:20px;font-weight:600}#status{min-height:48px;color:var(--secondary-text)}#period{color:var(--link-color);margin-bottom:18px}.note{margin-top:24px;color:var(--secondary-text);font-size:14px}h2{font-size:18px;margin:0 0 18px}#refresh{margin-top:20px}:focus-visible{outline:3px solid var(--focus-color);outline-offset:3px}@media(max-width:760px){main{padding:20px 14px}.layout{grid-template-columns:1fr}header{align-items:flex-start;gap:10px}header span{font-size:14px}section{padding:20px}#score{font-size:72px}}
+#teams{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;margin:24px 0}.team{display:flex;flex-direction:column;align-items:center;gap:12px;font-size:16px;overflow-wrap:anywhere}.team img{width:76px;height:76px;object-fit:contain;background:var(--logo-background);border-radius:12px;padding:6px}.team img[hidden]{display:none}#score{font-size:clamp(36px,5vw,60px);letter-spacing:-1px;padding:0;white-space:nowrap}@media(max-width:420px){#teams{gap:8px}.team{font-size:14px}.team img{width:58px;height:58px}#score{font-size:36px}}.match-card{padding:18px 0;border-bottom:1px solid var(--border-color)}.match-card:first-child{padding-top:0}.match-date{font-size:14px;color:var(--secondary-text);margin-bottom:10px}.match-teams{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:12px;align-items:center}.match-team{text-align:center;overflow-wrap:anywhere;font-size:15px;font-weight:600}.match-team img{display:block;width:48px;height:48px;object-fit:contain;margin:0 auto 8px;background:var(--logo-background);border-radius:8px}.match-score{font-size:28px;font-weight:800;white-space:nowrap}.match-links{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px;font-size:14px}@media(max-width:420px){.match-teams{gap:8px}.match-team{font-size:13px}.match-score{font-size:24px}} .sort-toggle{display:flex;align-items:center;gap:8px;font-weight:400}.sort-toggle input{width:auto;margin:0;padding:0;flex:none} </style></head><body><main><header><h1>Handbal live</h1><span>Clubee � elke 30 seconden</span></header><div class="layout"><section><h2>Competitie en periode</h2><form id="settings"><label>Competitie<select id="source" required disabled><option value="">Competities laden.</option></select></label><div class="row"><label>Van<input id="start" type="text" inputmode="numeric" placeholder="DD/MM/YYYY" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" required></label><label>Tot en met<input id="end" type="text" inputmode="numeric" placeholder="DD/MM/YYYY" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" required></label></div><div class="week"><button type="button" id="prev">Vorige week</button><button type="button" id="current">Deze week</button><button type="button" id="next">Volgende week</button></div><button class="primary">Toepassen</button></form><p class="muted">De lijst wordt opgehaald bij Handball Belgium. Je volgt het seizoen dat Clubee standaard toont.</p></section><section aria-label="Wedstrijden"><h2>Wedstrijden</h2><div id="period"></div><label class="sort-toggle"><input type="checkbox" id="apolloon-first" checked> Apolloon bovenaan</label><div id="matches"></div><div id="status" role="status">Clubee ophalen.</div><button id="refresh">Nu verversen</button></section></div><p class="note">Deze pagina haalt de stand automatisch opnieuw op zolang ze open is. Nieuwe scores verschijnen wanneer Clubee ze registreert. Een beschikbare score kan ook een einduitslag zijn.</p></main><script>
+const $=id=>document.getElementById(id),params=new URLSearchParams(location.search);
+const fallback='https://www.clubee.com/handballbelgium/first-division-m--982001v4/leagues/18702/seasons/220';
+function currentWeek(){const p=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Brussels',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());const get=k=>p.find(x=>x.type===k).value;const d=new Date(get('year')+'-'+get('month')+'-'+get('day')+'T00:00:00Z');d.setUTCDate(d.getUTCDate()-(d.getUTCDay()+6)%7);return [d.toISOString().slice(0,10),new Date(+d+6*86400000).toISOString().slice(0,10)];}
+const [first,last]=currentWeek();const wantedSource=params.get('source')||fallback;$('start').value=format(params.get('from')||first);$('end').value=format(params.get('to')||last);
+$('apolloon-first').checked=params.get('apolloon')!=='0';
+$('apolloon-first').onchange=()=>{if(checkedAt)render();else if(source)saveUrl();};
+let source,from,to,games=[],checkedAt='',busy=false,timer;
+function format(d){const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(d||'');return m?m[3]+'/'+m[2]+'/'+m[1]:'';}
+function parseDate(value){const m=/^(\d{2})\/(\d{2})\/(\d{4})$/.exec(value);if(!m)return '';const iso=m[3]+'-'+m[2]+'-'+m[1],d=new Date(iso+'T00:00:00Z');return Number.isFinite(+d)&&d.toISOString().slice(0,10)===iso?iso:'';}
+function saveUrl(){const p=new URLSearchParams({source,from,to,apolloon:$('apolloon-first').checked?'1':'0'});history.replaceState(null,'','?'+p);}
+function element(tag,className,text){const el=document.createElement(tag);if(className)el.className=className;if(text!==undefined)el.textContent=text;return el;}
+function team(game,side){const el=element('div','match-team');const url=game[side+'Logo'];if(url){try{const u=new URL(url);if(u.protocol==='https:'){const img=element('img');img.alt='Logo '+game[side];img.src=u.href;img.onerror=()=>img.remove();el.append(img);}}catch(_){}}el.append(element('div','',game[side]));return el;}
+function render(){
+ const apolloon=g=>/apolloon/i.test(g.home||'')||/apolloon/i.test(g.away||'');
+ const filtered=games.filter(g=>g.date>=from&&g.date<=to).sort((a,b)=>($('apolloon-first').checked?Number(apolloon(b))-Number(apolloon(a)):0)||a.date.localeCompare(b.date)||(a.time||'').localeCompare(b.time||''));
+ $('period').textContent=format(from)+' - '+format(to);
+ const cards=[];
+ for(const g of filtered){
+  const card=element('article','match-card');
+  card.append(element('div','match-date',format(g.date)+(g.time?' om '+g.time:'')));
+  const row=element('div','match-teams');row.append(team(g,'home'),element('div','match-score',g.score||'-'),team(g,'away'));card.append(row);
+  const links=element('div','match-links');
+  const scoreLink=element('a','','Open scorepagina');scoreLink.href='score.html?'+new URLSearchParams({match:g.id.split('/').pop()});scoreLink.target='_blank';scoreLink.rel='noopener';
+  const original=element('a','','Open op Clubee');original.href=new URL(g.id,source).href;original.target='_blank';original.rel='noopener';links.append(scoreLink,original);card.append(links);cards.push(card);
+ }
+ $('matches').replaceChildren(...cards);
+ $('status').textContent=(filtered.length?filtered.length+' wedstrijden':'Geen wedstrijden in deze periode')+' � opgehaald om '+new Date(checkedAt).toLocaleTimeString('nl-BE',{timeZone:'Europe/Brussels'});
+ saveUrl();
+}
+async function refreshLiveScores(){
+ const now=new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Brussels',dateStyle:'short',timeStyle:'short'}).format(new Date());
+ const [today,time]=now.split(' ');
+ const active=games.filter(g=>g.date===today&&g.date>=from&&g.date<=to&&(!g.time||g.time.padStart(5,'0')<=time));
+ for(let offset=0;offset<active.length;offset+=4){
+  await Promise.all(active.slice(offset,offset+4).map(async g=>{
+   try{
+    const match=g.id.split('/').pop();
+    const response=await fetch('match.php?'+new URLSearchParams({match}),{cache:'no-store',signal:AbortSignal.timeout(8000)});
+    if(!response.ok)return;
+    const {game}=await response.json();
+    if(typeof game?.score==='string'&&game.score)g.score=game.score;
+   }catch{
+    // Keep the competition score when the match lookup fails.
+   }
+  }));
+ }
+ if(active.length)render();
+}
+async function refresh(){if(busy)return;busy=true;clearTimeout(timer);for(const b of document.querySelectorAll('button'))b.disabled=true;$('status').textContent='Nieuwe stand ophalen.';try{const r=await fetch('api.php?'+new URLSearchParams({source}),{cache:'no-store',signal:AbortSignal.timeout(25000)});const data=await r.json();if(!r.ok)throw Error(data.error||'Clubee kon niet worden opgehaald.');games=data.games;checkedAt=data.checkedAt;render();await refreshLiveScores();}catch(e){$('status').textContent=(e.name==='TimeoutError'?'Clubee reageert niet. Probeer opnieuw.':e.message)+(checkedAt?' Laatste geslaagde controle: '+new Date(checkedAt).toLocaleTimeString('nl-BE',{timeZone:'Europe/Brussels'})+'.':'');}finally{busy=false;for(const b of document.querySelectorAll('button'))b.disabled=false;timer=setTimeout(refresh,30000);}}
+async function apply(){if(busy)return;let u;try{u=new URL($('source').value);if(u.protocol!=='https:'||!['www.clubee.com','clubee.com'].includes(u.hostname)||u.port||u.username||u.password||!/^\/handballbelgium\/[a-zA-Z0-9_-]+v4(?:\/leagues\/\d+\/seasons\/\d+)?\/?$/.test(u.pathname))throw Error();}catch(_){$('status').textContent='Kies een competitie uit de lijst.';return false;}
+const a=parseDate($('start').value),b=parseDate($('end').value);if(!a||!b||a>b){$('status').textContent='Kies geldige datums. De einddatum moet op of na de begindatum liggen.';return false;}u.search='';u.hash='';const changed=source!==u.href||from!==a||to!==b;source=u.href;from=a;to=b;if(changed){games=[];checkedAt='';$('matches').replaceChildren();}saveUrl();await refresh();return true;}
+function move(days){for(const id of ['start','end']){const d=new Date(parseDate($(id).value)+'T00:00:00Z');if(!Number.isFinite(+d))return;$(id).value=format(new Date(+d+days*86400000).toISOString().slice(0,10));}apply();}
+$('settings').onsubmit=e=>{e.preventDefault();apply();};$('prev').onclick=()=>move(-7);$('next').onclick=()=>move(7);$('current').onclick=()=>{const [a,b]=currentWeek();$('start').value=format(a);$('end').value=format(b);apply();};$('refresh').onclick=()=>source?refresh():loadCompetitions();
+if(document.modelContext?.registerTool){try{document.modelContext.registerTool({name:'configure_match_view',description:'Stel de Clubee-competitie en het datumbereik in en laad de wedstrijden.',inputSchema:{type:'object',properties:{source:{type:'string'},from:{type:'string'},to:{type:'string'}},required:['source','from','to'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:true},async execute(input){if(!input||typeof input.source!=='string'||typeof input.from!=='string'||typeof input.to!=='string'||busy)throw Error('Ongeldige invoer of ophalen bezig.');$('source').value=input.source;$('start').value=format(input.from);$('end').value=format(input.to);if(!await apply())throw Error($('status').textContent);return {matches:games.filter(g=>g.date>=from&&g.date<=to).length,status:$('status').textContent};}});}catch(_){}}
+let loadingMenu=false;
+async function loadCompetitions(){
+ if(loadingMenu)return;loadingMenu=true;$('source').disabled=true;$('refresh').disabled=true;
+ $('status').textContent='Competities ophalen bij Clubee.';
+ try{
+  const response=await fetch('competitions.php',{cache:'no-store',signal:AbortSignal.timeout(25000)});
+  const data=await response.json();if(!response.ok)throw Error(data.error||'Competities konden niet worden opgehaald.');
+  if(!Array.isArray(data.competitions)||!data.competitions.length)throw Error('Geen competities gevonden.');
+  $('source').replaceChildren();const groups=new Map();
+  for(const c of data.competitions){
+   let group=groups.get(c.group||'Competities');if(!group){group=document.createElement('optgroup');group.label=c.group||'Competities';groups.set(group.label,group);$('source').append(group);}
+   const competitionSource=fallback.startsWith(c.source+'/')?fallback:c.source;
+   group.append(new Option(c.name,competitionSource));
+  }
+  const target=data.competitions.find(c=>wantedSource===c.source||wantedSource.startsWith(c.source+'/'))||data.competitions.find(c=>c.name==='DIVISION 1 (M)')||data.competitions[0];
+  $('source').value=target.source;$('source').disabled=false;await apply();
+ }catch(e){$('status').textContent=e.name==='TimeoutError'?'Clubee reageert niet. Klik op Nu verversen om opnieuw te proberen.':e.message;}
+ finally{loadingMenu=false;$('refresh').disabled=false;}
+}
+loadCompetitions();
+
+</script></body></html>
+
+

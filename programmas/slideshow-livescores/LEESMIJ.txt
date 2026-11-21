@@ -1,0 +1,81 @@
+SLIDESHOW MET TWEE TICKERS
+
+VERSIE 4 - VERBINDING OP EEN ANDERE PC
+Pak het volledige pakket uit, inclusief competitions.json. Dit bevat een
+competitielijst opgehaald op 19/10/2026, zodat je ook bij een fout met het
+laden van de lijst een competitie kunt kiezen. Bij een succesvolle online
+controle wordt deze lijst vernieuwd. Actuele scores vereisen internettoegang
+van dit programma naar www.clubee.com en apiv3.clubee.com.
+
+Bij een fout staat de concrete oorzaak in het instellingenvenster en in
+verbinding.log naast het programma. Stuur die fouttekst door als het ophalen
+op de andere pc nog mislukt. Dat Clubee in de browser opent, bewijst niet
+dat het Windows-programma dezelfde toegang heeft.
+
+Voor gebruik vanaf een gedeelde Drive: maak de volledige uitgepakte map
+lokaal beschikbaar. Je kunt de map ook eerst naar die pc kopi�ren om te
+controleren of starten vanuit de gedeelde map verschil maakt. Bewaar de
+bestaande settings.ini voor je instellingen. Controleer de afbeeldingsmap:
+het pad naar Google Drive kan op iedere pc anders zijn.
+
+Deze versie verbetert de foutmelding en vangt het ontbreken van de
+competitielijst op. De oorzaak op de andere pc is nog niet vastgesteld.
+
+Start Slideshow-livescores.exe. Python installeren is niet nodig.
+Bewaar settings.ini naast het programma: hierin worden je keuzes opgeslagen.
+
+Bovenaan: wedstrijden en scores van een gekozen divisie, zonder logo's of iconen.
+In het midden: de slideshow met je afbeeldingen.
+Onderaan: de bestaande ticker met je eigen tekst.
+
+1. Controleer de afbeeldingsmap. Deze verwijst standaard naar je bestaande
+   SlideShow-with-ticker\Images-map op Mijn Drive.
+2. Onder 'Competitie en periode' kies je een competitie uit de lijst.
+   Bij een verbindingsfout klik je op 'Competities opnieuw laden'.
+3. Gebruik de kalender naast 'Van' en 'Tot en met', of typ DD/MM/JJJJ.
+   'Deze week' kiest maandag tot en met zondag van de huidige week.
+   'Vorige week' en 'Volgende week' verschuiven de ingestelde periode 7 dagen,
+   precies zoals bij de livescorepagina. Nieuwe instellingen tonen deze week.
+   Bijvoorbeeld 03/10/2026 t/m 04/10/2026 voor een weekend.
+   Alle wedstrijden binnen dit bereik worden getoond, inclusief de einddatum.
+   De gekozen periode wordt opgeslagen. Klik op 'Deze week' om opnieuw de
+   huidige week te kiezen. Leegmaken van beide velden volgt automatisch vandaag.
+4. Stel per balk de hoogte, lettergrootte en snelheid in.
+   Je kunt beide tickers afzonderlijk aan- en uitzetten.
+5. Klik op 'Opslaan en starten'. Het instellingenvenster heeft een schuifbalk.
+
+Tijdens afspelen: Esc of F2 = instellingen; F11 = venster/volledig scherm.
+De bovenste ticker wordt standaard elke 30 seconden gecontroleerd.
+Met 'Tijdstip van controle op het scherm tonen' kies je of de controletekst
+in de uitslagenticker verschijnt. Standaard staat deze optie uit.
+De scores blijven automatisch verversen. Het controle-uur blijft beschikbaar
+in het instellingenvenster. Verbindingsfouten blijven zichtbaar in de ticker.
+Het ophalen gebeurt op de achtergrond, zodat de slideshow blijft draaien.
+Een nieuwe controle start pas als de vorige aanvraag klaar is.
+
+De scores komen rechtstreeks uit de openbare gegevens van Clubee.
+Er is geen verbinding met jullie eigen website of PHP-installatie nodig.
+Een ontbrekende score wordt weergegeven met een streepje; een echte 0-0
+blijft zichtbaar als 0-0. Toekomstige wedstrijden tonen ook het aanvangsuur.
+Scores veranderen pas wanneer Clubee nieuwe scores publiceert.
+Het programma kan niet vaststellen of een gepubliceerde score een tussenstand
+of eindstand is, en noemt ze daarom niet 'live' of 'afgelopen'.
+
+Bij een algemene verbindingsfout blijft de vorige tekst zichtbaar, met een
+foutmelding. Het tijdstip verschijnt alleen als de optie daarvoor aanstaat. Bij een fout voor ��n
+wedstrijd staat er 'niet bijgewerkt' bij die wedstrijd. Dit voorkomt dat
+een oude score ongemerkt als actuele score wordt getoond.
+
+De kleur van de bovenste balk kun je in settings.ini onder [LiveScores]
+aanpassen met textcolor en backgroundcolor. De kleuren van de onderste
+balk kun je in het instellingenvenster aanpassen.
+
+Op een andere pc: kopieer het programma en settings.ini samen, kopieer ook
+je afbeeldingen of wijs een bereikbare afbeeldingsmap aan.
+Het oorspronkelijke programma en zijn instellingen zijn niet gewijzigd.
+
+Controle: divisies en wedstrijden zijn opgehaald bij Clubee. Scoreverwerking,
+0-0, ontbrekende scores, datumbereik, verbindingsfouten en de posities van
+beide tickers zijn getest. Een scorewijziging tijdens een echte lopende
+wedstrijd en de weergave op jullie zaalscherm moeten nog ter plaatse worden
+gecontroleerd.
