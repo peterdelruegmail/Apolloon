@@ -5,7 +5,7 @@
 De actieve ranking staat op:
 https://www.apolloon-spurs.be/Handbal-Live/ranking/standings.html?league=Heren1&group=1
 
-De PHP-hosting vraagt bij paginaopening de actuele stand op bij Clubee en herhaalt dat elke minuut zolang het tabblad zichtbaar is. Er worden geen standen in JSON-bestanden opgeslagen. Bij een fout verschijnt een melding, geen ongemarkeerde oude stand.
+De PHP-hosting vraagt alleen bij het openen of herladen van de pagina de actuele stand op bij Clubee. Er is geen periodieke verversing en terugkeren naar het tabblad veroorzaakt geen extra aanvraag. Er worden geen standen in JSON-bestanden opgeslagen. Bij een fout verschijnt een melding, geen ongemarkeerde oude stand.
 
 De bestaande GitHub Pages-link `https://peterdelruegmail.github.io/Apolloon/standings.html` verwijst automatisch door. Alle queryparameters en het fragment blijven behouden, inclusief `league`, `title`, `group` en eventueel `season`. Bestaande iframes hoeven daardoor niet aangepast te worden.
 

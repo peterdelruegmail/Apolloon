@@ -1,21 +1,25 @@
 # Live ranking op PHP-hosting
 
-Deze versie vraagt bij elke paginaopening de actuele, door Clubee gepubliceerde stand op. Zolang de pagina zichtbaar blijft, herhaalt ze dit elke minuut. Er worden geen standen in JSON-bestanden opgeslagen. De API geeft alleen een dynamisch JSON-antwoord terug.
+Deze versie vraagt alleen bij het openen of herladen van de pagina de actuele, door Clubee gepubliceerde stand op. Er is geen periodieke verversing. Ook terugkeren naar het tabblad veroorzaakt geen extra aanvraag. Er worden geen standen in JSON-bestanden opgeslagen; de API geeft een dynamisch JSON-antwoord terug.
 
-## Installatie
+## Installatie en updates
 
-Upload `standings.html`, `api.php`, `clubee.php` en `config.php` samen naar een map `ranking` op webhosting met PHP 8.0+ en cURL. De server moet uitgaande HTTPS-verzoeken naar `www.clubee.com` toestaan. GitHub Pages kan de PHP-bestanden niet uitvoeren.
+De actieve installatie staat onder `https://www.apolloon-spurs.be/Handbal-Live/ranking/`.
 
-Open `https://JOUW-DOMEIN/ranking/standings.html?league=Heren1&title=1ste%20Nationale&group=1`. De bestaande parameters `league`, `title` en `group` blijven ondersteund. Optioneel kan `season=220` worden toegevoegd. Zonder die parameter wordt het seizoen uit `config.php` gebruikt. Controleer dat seizoen bij een seizoenswissel; deze configuratie staat op seizoen 220 (2026/2027).
+Upload `standings.html`, `api.php`, `clubee.php` en `config.php` samen naar webhosting met PHP 8.0+ en cURL. De server moet uitgaande HTTPS-verzoeken naar `www.clubee.com` toestaan. GitHub Pages kan de PHP-bestanden niet uitvoeren.
 
-Vervang pas na een geslaagde test de iframe-URL op jullie site door de URL op deze PHP-hosting. De bestaande GitHub Pages-versie blijft tot die omschakeling werken met de opgeslagen JSON-bestanden. Schakel Fastcron pas uit als alle iframes overgezet zijn.
+Bij de aanpassing van 21 november 2026 die de automatische verversing verwijdert, volstaat het om alleen `standings.html` opnieuw te uploaden. De PHP-bestanden zijn ongewijzigd.
+
+Open `standings.html?league=Heren1&title=1ste%20Nationale&group=1`. De parameters `league`, `title` en `group` blijven ondersteund. Optioneel kan `season=220` worden toegevoegd. Zonder die parameter wordt het seizoen uit `config.php` gebruikt (momenteel 220 voor 2026/2027).
+
+De oude GitHub Pages-link verwijst automatisch door met behoud van parameters. Fastcron-rankingtaken zijn niet meer nodig.
 
 ## Gedrag
 
-- `Opgehaald bij Clubee` is het tijdstip van de geslaagde aanvraag, geen garantie over het laatste wijzigingstijdstip bij Clubee.
+- `Opgehaald bij Clubee` is het tijdstip van de aanvraag, geen garantie over het laatste wijzigingstijdstip bij Clubee.
 - Bij een fout verschijnt een melding; een oude stand wordt niet als actueel getoond.
 - Lege klassementen, meerdere poules en nulwaarden worden ondersteund.
 - Geen authenticatiegegevens nodig: alleen openbare Clubee-pagina's worden gelezen.
-- Er is geen willekeurige URL-proxy: alleen de ploegen in `config.php` zijn toegestaan.
+- Alleen de ploegen in `config.php` zijn toegestaan.
 
-Dit is een tweede versie naast de bestaande publicatie. De actieve site wordt pas omgeschakeld nadat de PHP-hosting en de nieuwe URL bekend zijn.
+Wijzigingen in GitHub moeten apart op de PHP-hosting worden geüpload.

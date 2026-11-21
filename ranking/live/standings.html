@@ -249,8 +249,6 @@
 
     loadStandings();
     window.addEventListener("resize", sendHeightToParent);
-    setInterval(() => { if (!document.hidden) loadStandings(); }, 60000);
-    document.addEventListener("visibilitychange", () => { if (!document.hidden) loadStandings(); });
   </script>
 </body>
 </html>
