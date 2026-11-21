@@ -27,7 +27,9 @@ jobs:
 
       - name: Standings ophalen
         run: |
-          python3 clubee_standings_scraper.py \
+          mkdir -p docs
+          cp ranking/standings.html docs/standings.html
+          python3 ranking/clubee_standings_scraper.py \
             --league ${{ inputs.LEAGUE }} \
             --season ${{ vars.SEASON }} \
             --json docs/standings${{ inputs.NAME }}.json
@@ -36,7 +38,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/standings${{ inputs.NAME }}.json
+          git add docs/standings${{ inputs.NAME }}.json docs/standings.html
           
           if git diff --cached --quiet; then
             echo "✅ Geen wijzigingen"

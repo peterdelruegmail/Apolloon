@@ -10,19 +10,19 @@ met "standingsStats" op, parseert het als JSON en zet het om naar een nette
 lijst met team-statistieken.
 
 Gebruik (met league + season, zoals in de URL van je Clubee-standings-pagina):
-    python3 clubee_standings_scraper.py --league 18702 --season 220
+    python3 ranking/clubee_standings_scraper.py --league 18702 --season 220
 
 Voorbeeld met JSON-output:
-    python3 clubee_standings_scraper.py --league 18702 --season 220 --json standings.json
+    python3 ranking/clubee_standings_scraper.py --league 18702 --season 220 --json standings.json
 
 Als je club-prefix of pagina-slug anders is dan de standaard (handballbelgium /
 standings-371073v4), kan je die overschrijven:
-    python3 clubee_standings_scraper.py \
+    python3 ranking/clubee_standings_scraper.py \
         --league 18702 --season 220 \
         --prefix handballbelgium --page standings-371073v4
 
 Of geef gewoon de volledige URL rechtstreeks mee met --url:
-    python3 clubee_standings_scraper.py \
+    python3 ranking/clubee_standings_scraper.py \
         --url "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18702/seasons/220"
 
 Meerdere poules/fases:
@@ -30,7 +30,7 @@ Meerdere poules/fases:
     meerdere poules, of een reguliere fase + play-offs). Dit script vindt ze
     allemaal en toont ze na elkaar. Wil je er maar 1, gebruik dan --group N
     (1-based, in de volgorde waarin ze op de pagina staan):
-        python3 clubee_standings_scraper.py --league 18725 --season 220 --group 1
+        python3 ranking/clubee_standings_scraper.py --league 18725 --season 220 --group 1
 
 Let op:
 - Dit is scraping, geen officiële API. Als Clubee hun frontend-framework of
