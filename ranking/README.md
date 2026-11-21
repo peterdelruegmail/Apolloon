@@ -1,45 +1,39 @@
 # Rankings voor de Apolloon-site
 
-## Bestanden
+## Live stand
 
-- `clubee_standings_scraper.py`: haalt de klassementen van Clubee op.
-- `standings.html`: broncode van de widget voor Twizzit.
-- `../docs/standings.html`: gepubliceerde kopie van de widget.
-- `../docs/standings*.json`: gepubliceerde klassementen per ploeg.
-- `../.github/workflows/`: workflows per ploeg en de gedeelde update-workflow. Deze blijven op de verplichte GitHub Actions-locatie.
+De actieve ranking staat op:
+https://www.apolloon-spurs.be/Handbal-Live/ranking/standings.html?league=Heren1&group=1
 
-## Automatisch verversen
+De PHP-hosting vraagt bij paginaopening de actuele stand op bij Clubee en herhaalt dat elke minuut zolang het tabblad zichtbaar is. Er worden geen standen in JSON-bestanden opgeslagen. Bij een fout verschijnt een melding, geen ongemarkeerde oude stand.
 
-Fastcron start de bestaande GitHub-workflows. De namen en locaties van de workflows zijn behouden. De gedeelde workflow voert nu `ranking/clubee_standings_scraper.py` uit en kopieert `ranking/standings.html` naar `docs/standings.html`. Aanpassingen aan de widget worden dus gepubliceerd bij de volgende geslaagde rankingupdate. Bewerk de bron in `ranking`, niet de gegenereerde kopie onder `docs`.
+De bestaande GitHub Pages-link `https://peterdelruegmail.github.io/Apolloon/standings.html` verwijst automatisch door. Alle queryparameters en het fragment blijven behouden, inclusief `league`, `title`, `group` en eventueel `season`. Bestaande iframes hoeven daardoor niet aangepast te worden.
 
-De competitie-ID en bestandsnaam worden door de ploegworkflow meegegeven. Het seizoen komt uit de bestaande repositoryvariabele `SEASON`.
+## Broncode en onderhoud
 
-## Bestaande website-links
+- [live/](live/): actieve HTML-widget, PHP-endpoint, configuratie en tests.
+- `live/config.php`: ploeg-ID's en standaardseizoen (220 voor 2026/2027). De live PHP-versie gebruikt dit bestand, niet de GitHub-variabele SEASON.
+- `standings.html` en `../docs/standings.html`: doorverwijspagina voor bestaande links.
+- `clubee_standings_scraper.py`: oude batchscraper, alleen nog voor handmatig gebruik.
+- `../docs/standings*.json`: historische bestanden; worden niet meer gebruikt door de rankingpagina.
+- `../.github/workflows/update-standings.yml`: maakt geen JSON-bestanden meer en meldt alleen de omschakeling naar live. De ploegworkflows en All.yml blijven beschikbaar voor oude aanroepen.
 
-De openbare URL's en JSON-bestandsnamen blijven behouden. Je hoeft de iframes op jullie site niet aan te passen.
+De bestaande Fastcron-rankingtaken zijn niet meer nodig en kunnen in Fastcron worden uitgeschakeld. Ze veranderen de gegevens niet meer.
+
+## Hosting bijwerken
+
+[Download het uploadpakket](https://github.com/peterdelruegmail/Apolloon/raw/refs/heads/main/ranking/Apolloon-ranking-live.zip). Upload de uitgepakte bestanden naar `/Handbal-Live/ranking/` op www.apolloon-spurs.be. Wijzigingen in GitHub worden niet vanzelf naar deze PHP-hosting geüpload.
+
+## Rechtstreeks embedden
 
 ```html
 <iframe
-  src="https://peterdelruegmail.github.io/Apolloon/standings.html?league=Heren1&title=1ste%20Nationale&group=1"
+  src="https://www.apolloon-spurs.be/Handbal-Live/ranking/standings.html?league=Heren1&title=1ste%20Nationale&group=1"
   style="width:100%; border:none; min-height:400px;"
   loading="lazy">
 </iframe>
 ```
 
-Parameters: `league` bepaalt het bestand (`standingsHeren1.json`), `title` de titel en `group` optioneel de poule (1-based index, naam of `all`).
+`league` is een ploegnaam uit config.php; `title` bepaalt de titel; `group` selecteert een poule (1-based index, naam of `all`). Optioneel overschrijft `season` het standaardseizoen.
 
-## Handmatig vanaf de repository-hoofdmap
-
-```sh
-python3 ranking/clubee_standings_scraper.py --league 18702 --season 220 --json docs/standingsHeren1.json
-```
-
-Pas seizoen en competitie aan waar nodig. Het script gebruikt alleen de Python-standaardbibliotheek.
-
-## Liveversie zonder opgeslagen standen
-
-Zie [live/](live/) voor de PHP-versie die bij paginaopening en vervolgens elke minuut rechtstreeks bij Clubee ophaalt.
-
-[Download het uploadpakket](https://github.com/peterdelruegmail/Apolloon/raw/refs/heads/main/ranking/Apolloon-ranking-live.zip). Pak het uit en upload de bestanden naar `/Handbal-Live/ranking/` op www.apolloon-spurs.be. De bedoelde pagina wordt dan `https://www.apolloon-spurs.be/Handbal-Live/ranking/standings.html?league=Heren1&group=1`.
-
-De PHP-syntaxis, parser en een actuele Clubee-aanvraag zijn gecontroleerd met GitHub Actions. Installatie op de eigen hosting en de omschakeling van de website-iframes moeten nog gebeuren. Tot dan blijft de bestaande GitHub Pages-versie de JSON-bestanden gebruiken.
+Het tijdstip “Opgehaald bij Clubee” is het moment van de geslaagde controle. De gegevens zijn zo actueel als Clubee ze publiceert.

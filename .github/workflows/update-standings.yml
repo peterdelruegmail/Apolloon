@@ -9,69 +9,16 @@ on:
       NAME:
         required: true
         type: string
-        
+
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   update-standings:
     runs-on: ubuntu-latest
     steps:
-      - name: Repo uitchecken
-        uses: actions/checkout@v7
-          
-      - name: Python installeren
-        uses: actions/setup-python@v7
-        with:
-          python-version: "3.12"
-
-      - name: Standings ophalen
+      - name: Ranking wordt live opgehaald
         run: |
-          mkdir -p docs
-          cp ranking/standings.html docs/standings.html
-          python3 ranking/clubee_standings_scraper.py \
-            --league ${{ inputs.LEAGUE }} \
-            --season ${{ vars.SEASON }} \
-            --json docs/standings${{ inputs.NAME }}.json
-
-      - name: Wijzigingen committen (indien nodig)
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/standings${{ inputs.NAME }}.json docs/standings.html
-          
-          if git diff --cached --quiet; then
-            echo "✅ Geen wijzigingen"
-            exit 0
-          fi
-          
-          git commit -m "chore: update standings for league ${{ inputs.LEAGUE }}"
-          
-          max_attempts=15
-          attempt=1
-          backoff=2
-          max_backoff=120
-          
-          while [ $attempt -le $max_attempts ]; do
-            if git pull --rebase --autostash origin main && git push origin main; then
-              echo "✅ Push succesvol op attempt $attempt"
-              break
-            else
-              echo "⚠️ Push attempt $attempt mislukt, retry..."
-              # jitter + cap
-              if [ $backoff -gt $max_backoff ]; then
-                sleep_time=$(( max_backoff + RANDOM % 5 ))
-              else
-                sleep_time=$(( backoff + RANDOM % 5 ))
-              fi
-              echo "Wacht $sleep_time seconden..."
-              sleep $sleep_time
-              attempt=$(( attempt + 1 ))
-              backoff=$(( backoff * 2 ))
-            fi
-          done
-          
-          if [ $attempt -gt $max_attempts ]; then
-            echo "❌ Alle $max_attempts push attempts gefaald"
-            exit 1
-          fi
+          echo "De ranking wordt bij paginaopening rechtstreeks door de PHP-hosting opgehaald bij Clubee."
+          echo "Er worden geen JSON-standen meer aangemaakt of gecommit."
+          echo "De bestaande Fastcron-rankingtaken kunnen worden uitgeschakeld."
