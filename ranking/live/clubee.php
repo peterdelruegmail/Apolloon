@@ -21,11 +21,20 @@ function rankingArrayEnd(string $text, int $start): ?int {
 }
 
 function rankingGroups(string $html): array {
-    preg_match_all('~self\.__next_f\.push\(\[1,\s*("(?:[^"\\\\]|\\\\.)*")\]\)~s', $html, $matches);
     $chunks = [];
-    foreach ($matches[1] as $encoded) {
-        $chunk = json_decode($encoded, true);
-        if (is_string($chunk)) $chunks[] = $chunk;
+    $offset = 0;
+    // Read complete transport arrays instead of a recursive/backtracking regex:
+    // real Clubee pages contain payload strings larger than PCRE's stack limit.
+    while (($marker = strpos($html, 'self.__next_f.push(', $offset)) !== false) {
+        $start = strpos($html, '[', $marker);
+        if ($start === false) break;
+        $end = rankingArrayEnd($html, $start);
+        if ($end === null) break;
+        $offset = $end;
+        $transport = json_decode(substr($html, $start, $end - $start), true);
+        if (is_array($transport) && ($transport[0] ?? null) === 1 && is_string($transport[1] ?? null)) {
+            $chunks[] = $transport[1];
+        }
     }
     if (!$chunks) throw new RuntimeException('Geen herkenbare Clubee-paginagegevens gevonden.');
 
