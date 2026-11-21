@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T09:30:18.463707+00:00",
+  "generated_at": "2026-11-21T10:00:21.879697+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -544,13 +544,13 @@
           "team": "Merksplas U12 VHV R (U12 M)",
           "team_id": 451650,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17289/logo/96x96_handbal-merksplas_1788515564.png",
-          "mp": 7,
+          "mp": 8,
           "w": 3,
           "d": 0,
-          "l": 4,
-          "gs": 19,
-          "ga": 23,
-          "gd": -4,
+          "l": 5,
+          "gs": 20,
+          "ga": 28,
+          "gd": -8,
           "pts": 6
         },
         {
@@ -558,14 +558,14 @@
           "team": "Schoten U12 VHV R 2 (U12 M)",
           "team_id": 451047,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17281/logo/96x96_handbalclub-schoten_1785167406.png",
-          "mp": 7,
-          "w": 1,
+          "mp": 8,
+          "w": 2,
           "d": 1,
           "l": 5,
-          "gs": 12,
-          "ga": 30,
-          "gd": -18,
-          "pts": 3
+          "gs": 17,
+          "ga": 31,
+          "gd": -14,
+          "pts": 5
         }
       ]
     },
