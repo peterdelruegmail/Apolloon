@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T10:30:12.674564+00:00",
+  "generated_at": "2026-11-21T11:00:28.386176+00:00",
   "source_url": "https://www.clubee.com/handballbelgium/standings-371073v4/leagues/18731/seasons/220",
   "groups": [
     {
@@ -10,27 +10,27 @@
           "team": "DB Gent U12 VHV R 1 (U12 M)",
           "team_id": 451661,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17251/logo/96x96_hc-don-bosco-gent_1787946378.png",
-          "mp": 5,
-          "w": 5,
+          "mp": 6,
+          "w": 6,
           "d": 0,
           "l": 0,
-          "gs": 30,
+          "gs": 36,
           "ga": 0,
-          "gd": 30,
-          "pts": 10
+          "gd": 36,
+          "pts": 12
         },
         {
           "position": 2,
           "team": "Besox Izegem U12 VHV R 3 (U12 M)",
           "team_id": 451456,
           "logo": "https://clubee-websites-prod.s3.eu-central-1.amazonaws.com/17257/logo/96x96_besox-handbalclub-izegem_1785765023.png",
-          "mp": 7,
+          "mp": 8,
           "w": 3,
           "d": 1,
-          "l": 3,
+          "l": 4,
           "gs": 17,
-          "ga": 25,
-          "gd": -8,
+          "ga": 31,
+          "gd": -14,
           "pts": 7
         },
         {
