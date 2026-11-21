@@ -1,8 +1,14 @@
 # Programma's van Apolloon
 
-Hier staan de recentste versies die op deze computer in de Codex-uitvoermappen zijn gevonden en op 21 november 2026 zijn overgenomen.
+Recentste lokaal gevonden versies, opgeslagen op 21 november 2026.
 
 - [Handbal Live](handbal-live/): webversie met Clubee-wedstrijden en scores; lokaal pakket van 6 november 2026. Vereist webhosting met PHP; GitHub Pages voert PHP niet uit.
 - [Slideshow met livescores](slideshow-livescores/): Python-broncode van versie 5, uit de uitvoermap van 7 november 2026, met voorbeeldinstellingen en de gebruiksuitleg uit versie 4.
 
-De broncode en benodigde tekstbestanden zijn opgenomen. De lokaal gebouwde Windows-exe en dubbele zipbestanden zijn niet opgenomen. De bestaande bestanden elders in deze repository blijven behouden.
+## Windows-download
+
+[Download Slideshow met livescores v5 via GitHub Releases](https://github.com/peterdelruegmail/Apolloon/releases/tag/slideshow-v5).
+
+Download daar Slideshow-livescores.exe, competitions.json en settings.ini en plaats ze in dezelfde map. Start de exe en kies je afbeeldingsmap, competitie en periode. Python installeren is niet nodig.
+
+De broncode en benodigde tekstbestanden staan in deze mappen; de Windows-exe staat bij de release. Dubbele lokale zipbestanden zijn niet opgenomen.
