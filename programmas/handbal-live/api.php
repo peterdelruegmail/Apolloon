@@ -18,6 +18,13 @@ if (!$parts || ($parts['scheme'] ?? '') !== 'https'
     respond(['error' => 'Kies een geldige competitie van Handball Belgium.'], 400);
 }
 $source = 'https://' . $parts['host'] . $parts['path'];
+// Cache only successful parsed responses, never empty/error pages.
+$cacheDir = sys_get_temp_dir() . '/apolloon-handbal-live';
+$cacheFile = $cacheDir . '/' . hash('sha256', $source) . '.json';
+$cached = null;
+if (is_file($cacheFile) && (time() - (int)filemtime($cacheFile)) < 86400) {
+    $cached = json_decode((string)@file_get_contents($cacheFile), true);
+}
 $html = fetchClubee($source);
 preg_match_all('~<a\b[^>]*href="([^"<>]*/games/[0-9]+)"[^>]*>(.*?)</a>~s', $html, $cards, PREG_SET_ORDER);
 $games = [];
@@ -52,7 +59,14 @@ foreach ($cards as $card) {
         'homeLogo' => cardLogo($card[2], 'Left'), 'awayLogo' => cardLogo($card[2], 'Right')];
     $seen[$card[1]] = true;
 }
-if (!$games) respond(['error' => 'Geen herkenbare wedstrijden gevonden. Controleer de competitie- en seizoenslink.'], 502);
+if (!$games) {
+    if (is_array($cached) && !empty($cached['games'])) {
+        $cached['stale'] = true;
+        $cached['warning'] = 'Clubee leverde geen herkenbare wedstrijden; laatste succesvolle lijst wordt getoond.';
+        respond($cached);
+    }
+    respond(['error' => 'Geen herkenbare wedstrijden gevonden. Mogelijk heeft Clubee de HTML-structuur gewijzigd.'], 502);
+}
 usort($games, fn(array $a, array $b): int => strcmp($a['date'], $b['date']) ?: strcmp($a['time'] ?? '', $b['time'] ?? ''));
 respond(['games' => $games, 'checkedAt' => gmdate('Y-m-d\TH:i:s\Z'), 'source' => $source]);
 
