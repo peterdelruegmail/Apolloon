@@ -1,0 +1,45 @@
+name: Publish Handbal Live
+
+on:
+  push:
+    branches: [main]
+    paths: ['programmas/handbal-live/**']
+  workflow_dispatch:
+    inputs:
+      files:
+        description: 'Bestandsnamen, gescheiden door komma’s (bijvoorbeeld index.html,api.php)'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: handbal-live-production
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Test publication safeguards
+        run: python3 .github/scripts/test_publish.py
+      - name: Check and publish changed files
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FTP_HOST: ftp.guytnbe.webhosting.be
+          FTP_PORT: '21'
+          FTP_PROTOCOL: ftp
+          FTP_USERNAME: apolloon@guytnbe
+          FTP_REMOTE_DIR: Handbal-Live
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          PUBLISH_FILES: ${{ inputs.files }}
+        run: python3 .github/scripts/publish_handbal_live.py
