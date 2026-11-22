@@ -71,7 +71,13 @@ async function loadCompetitions(){
   }
   const target=data.competitions.find(c=>wantedSource===c.source||wantedSource.startsWith(c.source+'/'))||data.competitions.find(c=>c.name==='DIVISION 1 (M)')||data.competitions[0];
   $('source').value=target.source;$('source').disabled=false;await apply();
- }catch(e){$('status').textContent=e.name==='TimeoutError'?'Clubee reageert niet. Klik op Nu verversen om opnieuw te proberen.':e.message;}
+ }catch(e){
+  // A failure to load the competition menu must not block the requested competition.
+  $('source').replaceChildren(new Option('Division 1 (M) – rechtstreekse link',wantedSource));
+  $('source').disabled=false;
+  $('status').textContent='Competitielijst niet beschikbaar; wedstrijden rechtstreeks ophalen.';
+  await apply();
+ }
  finally{loadingMenu=false;$('refresh').disabled=false;}
 }
 loadCompetitions();
