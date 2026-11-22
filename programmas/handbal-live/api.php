@@ -27,6 +27,28 @@ if (is_file($cacheFile) && (time() - (int)filemtime($cacheFile)) < 86400) {
 }
 $html = fetchClubee($source);
 preg_match_all('~<a\b[^>]*href="([^"<>]*/games/[0-9]+)"[^>]*>(.*?)</a>~s', $html, $cards, PREG_SET_ORDER);
+// Clubee may render an empty overlay link with the card content in sibling nodes.
+// Read the surrounding card via DOM rather than assuming the anchor wraps its text.
+if (class_exists('DOMDocument')) {
+    $dom = new DOMDocument();
+    $previous = libxml_use_internal_errors(true);
+    $dom->loadHTML('<?xml encoding="UTF-8">' . $html);
+    libxml_clear_errors();
+    libxml_use_internal_errors($previous);
+    $xpath = new DOMXPath($dom);
+    foreach ($xpath->query('//a[contains(@href, "/games/")]') as $link) {
+        $href = $link->getAttribute('href');
+        if (!preg_match('~/games/[0-9]+~', $href)) continue;
+        $node = $link->parentNode;
+        for ($depth = 0; $depth < 5 && $node; $depth++, $node = $node->parentNode) {
+            $text = trim(preg_replace('/\\s+/u', ' ', $node->textContent ?? ''));
+            if (strlen($text) > 20 && strlen($text) < 1500 && preg_match('~[0-9]{2}[./][0-9]{2}[./][0-9]{4}~', $text)) {
+                $cards[] = [0 => '', 1 => $href, 2 => $dom->saveHTML($node)];
+                break;
+            }
+        }
+    }
+}
 $games = [];
 $seen = [];
 function cardLogo(string $card, string $side): ?string {
