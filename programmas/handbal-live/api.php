@@ -60,12 +60,19 @@ foreach ($cards as $card) {
     $seen[$card[1]] = true;
 }
 if (!$games) {
+    // Diagnostics without exposing the upstream HTML or private server details.
+    $diagnostics = [
+        'htmlBytes' => strlen($html),
+        'gameLinks' => preg_match_all('~/games/[0-9]+~', $html),
+        'anchorLinks' => count($cards),
+        'nextPayloads' => preg_match_all('~self\\.__next_f\\.push~', $html),
+    ];
     if (is_array($cached) && !empty($cached['games'])) {
         $cached['stale'] = true;
         $cached['warning'] = 'Clubee leverde geen herkenbare wedstrijden; laatste succesvolle lijst wordt getoond.';
         respond($cached);
     }
-    respond(['error' => 'Geen herkenbare wedstrijden gevonden. Mogelijk heeft Clubee de HTML-structuur gewijzigd.'], 502);
+    respond(['error' => 'Geen herkenbare wedstrijden gevonden. Mogelijk heeft Clubee de HTML-structuur gewijzigd.', 'diagnostics' => $diagnostics], 502);
 }
 usort($games, fn(array $a, array $b): int => strcmp($a['date'], $b['date']) ?: strcmp($a['time'] ?? '', $b['time'] ?? ''));
 $result = ['games' => $games, 'checkedAt' => gmdate('Y-m-d\TH:i:s\Z'), 'source' => $source];
