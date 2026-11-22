@@ -24,7 +24,8 @@ function render(){
   const row=element('div','match-teams');row.append(team(g,'home'),element('div','match-score',g.score||'-'),team(g,'away'));card.append(row);
   const links=element('div','match-links');
   const scoreLink=element('a','','Open scorepagina');scoreLink.href='score.html?'+new URLSearchParams({match:g.id.split('/').pop()});scoreLink.target='_blank';scoreLink.rel='noopener';
-  const original=element('a','','Open op Clubee');original.href=new URL(g.id,source).href;original.target='_blank';original.rel='noopener';const reportLink=element('a','','Open wedstrijdblad');reportLink.href='wedstrijdblad.html?'+new URLSearchParams({match:g.id.split('/').pop()});reportLink.target='_blank';reportLink.rel='noopener';links.append(scoreLink,reportLink,original);card.append(links);cards.push(card);
+  const original=element('a','','Open op Clubee');original.href=new URL(g.id,source).href;original.target='_blank';original.rel='noopener';
+  const reportLink=element('a','','Open wedstrijdblad');reportLink.href='wedstrijdblad.html?'+new URLSearchParams({match:g.id.split('/').pop()});reportLink.target='_blank';reportLink.rel='noopener';links.append(scoreLink,reportLink,original);card.append(links);cards.push(card);
  }
  $('matches').replaceChildren(...cards);
  $('status').textContent=(filtered.length?filtered.length+' wedstrijden':'Geen wedstrijden in deze periode')+' \u00b7 opgehaald om '+new Date(checkedAt).toLocaleTimeString('nl-BE',{timeZone:'Europe/Brussels'});
