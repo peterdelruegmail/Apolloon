@@ -90,6 +90,9 @@ if (!$games) {
         'sampleCardText' => isset($cards[0][2]) ? mb_substr(preg_replace('/\\s+/u', ' ', textValue($cards[0][2])), 0, 450) : null,
         'sampleStrongCount' => isset($cards[0][2]) ? preg_match_all('~<strong\\b~i', $cards[0][2]) : 0,
         'nextPayloads' => preg_match_all('~self\\.__next_f\\.push~', $html),
+        'domAvailable' => class_exists('DOMDocument'),
+        'firstLinkContext' => isset($cards[0][1]) ? mb_substr(preg_replace('/\\s+/u', ' ', strip_tags(substr($html, max(0, strpos($html, $cards[0][1]) - 450), 1400))), 0, 650) : null,
+        'firstLinkHtml' => isset($cards[0][1]) ? substr($html, max(0, strpos($html, $cards[0][1]) - 180), 550) : null,
     ];
     if (is_array($cached) && !empty($cached['games'])) {
         $cached['stale'] = true;
