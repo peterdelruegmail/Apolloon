@@ -68,5 +68,9 @@ if (!$games) {
     respond(['error' => 'Geen herkenbare wedstrijden gevonden. Mogelijk heeft Clubee de HTML-structuur gewijzigd.'], 502);
 }
 usort($games, fn(array $a, array $b): int => strcmp($a['date'], $b['date']) ?: strcmp($a['time'] ?? '', $b['time'] ?? ''));
-respond(['games' => $games, 'checkedAt' => gmdate('Y-m-d\TH:i:s\Z'), 'source' => $source]);
+$result = ['games' => $games, 'checkedAt' => gmdate('Y-m-d\\TH:i:s\\Z'), 'source' => $source];
+if ((is_dir($cacheDir) || @mkdir($cacheDir, 0700, true)) && is_writable($cacheDir)) {
+    @file_put_contents($cacheFile, json_encode($result, JSON_UNESCAPED_UNICODE | JSON_INVALID_UTF8_SUBSTITUTE), LOCK_EX);
+}
+respond($result);
 
