@@ -18,7 +18,12 @@ function parseSheet(string $game, string $line): array {
     $names = explode(' / ', $title($g));
     if (count($names) !== 2 || $title($g) !== $title($l)) throw new RuntimeException('Ploegnamen komen niet overeen.');
     $score = [];
-    foreach ($g->query('//h1|//h2|//h3|//h4|//h5|//h6|//p|//span') as $n) {
+    // Clubee now renders the scoreboard as divs containing three spans (26 : 20).
+    // Read that dedicated field so kickoff times cannot be mistaken for scores.
+    foreach ($g->query('//*[contains(concat(" ", normalize-space(@class), " "), "_digits ") or contains(concat(" ", normalize-space(@class), " "), "_score ")]') as $n) {
+        if (preg_match('/^(\d+)\s*[:–—-]\s*(\d+)$/uD', sheetText($n), $m)) { $score = [(int)$m[1], (int)$m[2]]; break; }
+    }
+    if (!$score) foreach ($g->query('//h1|//h2|//h3|//h4|//h5|//h6|//p|//span') as $n) {
         if (preg_match('/^(\d+)\s*[-–]\s*(\d+)$/u', sheetText($n), $m)) { $score = [(int)$m[1], (int)$m[2]]; break; }
     }
     if (!$score) throw new RuntimeException('Eindstand niet gevonden.');
