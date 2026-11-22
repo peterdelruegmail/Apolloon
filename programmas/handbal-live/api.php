@@ -65,6 +65,8 @@ if (!$games) {
         'htmlBytes' => strlen($html),
         'gameLinks' => preg_match_all('~/games/[0-9]+~', $html),
         'anchorLinks' => count($cards),
+        'sampleCardText' => isset($cards[0][2]) ? mb_substr(preg_replace('/\\s+/u', ' ', textValue($cards[0][2])), 0, 450) : null,
+        'sampleStrongCount' => isset($cards[0][2]) ? preg_match_all('~<strong\\b~i', $cards[0][2]) : 0,
         'nextPayloads' => preg_match_all('~self\\.__next_f\\.push~', $html),
     ];
     if (is_array($cached) && !empty($cached['games'])) {
