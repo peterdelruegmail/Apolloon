@@ -27,58 +27,91 @@ if (is_file($cacheFile) && (time() - (int)filemtime($cacheFile)) < 86400) {
 }
 $html = fetchClubee($source);
 preg_match_all('~<a\b[^>]*href="([^"<>]*/games/[0-9]+)"[^>]*>(.*?)</a>~s', $html, $cards, PREG_SET_ORDER);
-// Clubee may render an empty overlay link with the card content in sibling nodes.
-// Read the surrounding card via DOM rather than assuming the anchor wraps its text.
+// Overlay links are empty: select their nearest row/list item, not the link text.
+// Match class suffixes so a changed CSS module hash does not break the parser.
 if (class_exists('DOMDocument')) {
     $dom = new DOMDocument();
     $previous = libxml_use_internal_errors(true);
-    $dom->loadHTML('<?xml encoding="UTF-8">' . $html);
+    $dom->loadHTML('<?xml encoding="UTF-8">' . $html, LIBXML_NONET);
     libxml_clear_errors();
     libxml_use_internal_errors($previous);
     $xpath = new DOMXPath($dom);
     foreach ($xpath->query('//a[contains(@href, "/games/")]') as $link) {
         $href = $link->getAttribute('href');
-        if (!preg_match('~/games/[0-9]+~', $href)) continue;
-        $node = $link->parentNode;
-        for ($depth = 0; $depth < 5 && $node; $depth++, $node = $node->parentNode) {
-            $text = trim(preg_replace('/\\s+/u', ' ', $node->textContent ?? ''));
-            if (strlen($text) > 20 && strlen($text) < 1500 && preg_match('~[0-9]{2}[./][0-9]{2}[./][0-9]{4}~', $text)) {
-                $cards[] = [0 => '', 1 => $href, 2 => $dom->saveHTML($node)];
-                break;
+        if (!preg_match('~/games/[0-9]+$~', $href)) continue;
+        $node = $xpath->query('ancestor::*[self::li or contains(concat(" ", normalize-space(@class), " "), "_row ")][1]', $link)->item(0);
+        if (!$node) {
+            // Keep support for older cards whose links wrap the match content.
+            $node = $link;
+            for ($depth = 0; $depth < 5 && $node; $depth++, $node = $node->parentNode) {
+                $text = trim(preg_replace('/\s+/u', ' ', $node->textContent ?? ''));
+                if (strlen($text) > 20 && strlen($text) < 1500 && preg_match('~[0-9]{2}[./][0-9]{2}[./][0-9]{4}~', $text)) break;
             }
+            if (!$node || $depth === 5) continue;
         }
+        $cards[] = [0 => '', 1 => $href, 2 => $dom->saveHTML($node), 3 => $node];
     }
 }
 $games = [];
 $seen = [];
-function cardLogo(string $card, string $side): ?string {
-    if (!preg_match('~<div\b[^>]*class="[^"]*_team' . $side . '[^"]*"[^>]*>\s*<img\b[^>]*src="([^"]+)"~s', $card, $match)) return null;
-    $url = html_entity_decode($match[1], ENT_QUOTES | ENT_HTML5, 'UTF-8');
+function cardField(DOMXPath $xpath, DOMNode $node, string $suffix): ?DOMNode {
+    return $xpath->query('.//*[contains(concat(" ", normalize-space(@class), " "), "_' . $suffix . ' ")]', $node)->item(0);
+}
+function cardText(?DOMNode $node): string {
+    return $node ? trim(preg_replace('/\s+/u', ' ', $node->textContent)) : '';
+}
+function logoUrl(string $url): ?string {
     $parts = parse_url($url);
     if (!$parts || ($parts['scheme'] ?? '') !== 'https' || isset($parts['user']) || isset($parts['pass'])) return null;
     $host = $parts['host'] ?? '';
     if (!in_array($host, ['www.clubee.com', 'clubee.com', 'clubee-websites-prod.s3.eu-central-1.amazonaws.com'], true)) return null;
     return $url;
 }
+function cardLogo(string $card, string $side): ?string {
+    if (!preg_match('~<div\b[^>]*class="[^"]*_team' . $side . '[^"]*"[^>]*>\s*<img\b[^>]*src="([^"]+)"~s', $card, $match)) return null;
+    return logoUrl(html_entity_decode($match[1], ENT_QUOTES | ENT_HTML5, 'UTF-8'));
+}
 foreach ($cards as $card) {
-    preg_match_all('~<strong\b[^>]*>(.*?)</strong>~s', $card[2], $namesMatch);
-    $names = array_map('textValue', $namesMatch[1]);
-    preg_match_all('~<(?:p|h3)\b[^>]*>(.*?)</(?:p|h3)>~s', $card[2], $valuesMatch);
-    $values = array_map('textValue', $valuesMatch[1]);
-    $date = null;
-    $score = null;
-    $time = null;
-    foreach ($values as $value) {
-        if (preg_match('~^[0-9]{2}[./][0-9]{2}[./][0-9]{4}$~', $value)) $date = $value;
-        if (preg_match('/^[0-9]+\s*[--]\s*[0-9]+$/u', $value)) $score = $value;
-        if (preg_match('/^[0-9]{1,2}:[0-9]{2}$/', $value)) $time = $value;
+    if (isset($seen[$card[1]])) continue;
+    $homeLogo = cardLogo($card[2], 'Left');
+    $awayLogo = cardLogo($card[2], 'Right');
+    $home = isset($card[3]) ? cardField($xpath, $card[3], 'home') : null;
+    $away = isset($card[3]) ? cardField($xpath, $card[3], 'away') : null;
+    if ($home && $away) {
+        $names = [cardText(cardField($xpath, $home, 'name')), cardText(cardField($xpath, $away, 'name'))];
+        $date = cardText(cardField($xpath, $card[3], 'date'));
+        $timeText = cardText(cardField($xpath, $card[3], 'time'));
+        $time = preg_match('/^(?:[01]?[0-9]|2[0-3]):[0-5][0-9]$/D', $timeText) ? $timeText : null;
+        // Only read the score element: a kickoff time also contains a colon.
+        $scoreText = cardText(cardField($xpath, $card[3], 'score'));
+        $score = preg_match('/^([0-9]+)\s*[:–—-]\s*([0-9]+)$/uD', $scoreText, $scoreMatch)
+            ? $scoreMatch[1] . ' - ' . $scoreMatch[2] : null;
+        $homeImage = $xpath->query('.//img[@src]', $home)->item(0);
+        $awayImage = $xpath->query('.//img[@src]', $away)->item(0);
+        $homeLogo = $homeImage ? logoUrl($homeImage->getAttribute('src')) : null;
+        $awayLogo = $awayImage ? logoUrl($awayImage->getAttribute('src')) : null;
+    } else {
+        // Legacy markup remains supported.
+        preg_match_all('~<strong\b[^>]*>(.*?)</strong>~s', $card[2], $namesMatch);
+        $names = array_map('textValue', $namesMatch[1]);
+        preg_match_all('~<(?:p|h3)\b[^>]*>(.*?)</(?:p|h3)>~s', $card[2], $valuesMatch);
+        $values = array_map('textValue', $valuesMatch[1]);
+        $date = null;
+        $score = null;
+        $time = null;
+        foreach ($values as $value) {
+            if (preg_match('~^[0-9]{2}[./][0-9]{2}[./][0-9]{4}$~', $value)) $date = $value;
+            if (preg_match('/^([0-9]+)\s*[–—-]\s*([0-9]+)$/uD', $value, $scoreMatch)) $score = $scoreMatch[1] . ' - ' . $scoreMatch[2];
+            if (preg_match('/^(?:[01]?[0-9]|2[0-3]):[0-5][0-9]$/D', $value)) $time = $value;
+        }
     }
-    if (count($names) !== 2 || !$date || isset($seen[$card[1]])) continue;
+    if (count($names) !== 2 || $names[0] === '' || $names[1] === '' || !$date
+        || !preg_match('~^[0-9]{2}[./][0-9]{2}[./][0-9]{4}$~', $date)) continue;
     [$day, $month, $year] = explode('.', str_replace('/', '.', $date));
     if (!checkdate((int)$month, (int)$day, (int)$year)) continue;
     $games[] = ['id' => $card[1], 'home' => $names[0], 'away' => $names[1],
         'date' => "$year-$month-$day", 'score' => $score, 'time' => $time,
-        'homeLogo' => cardLogo($card[2], 'Left'), 'awayLogo' => cardLogo($card[2], 'Right')];
+        'homeLogo' => $homeLogo, 'awayLogo' => $awayLogo];
     $seen[$card[1]] = true;
 }
 if (!$games) {
@@ -107,4 +140,3 @@ if ((is_dir($cacheDir) || @mkdir($cacheDir, 0700, true)) && is_writable($cacheDi
     @file_put_contents($cacheFile, json_encode($result, JSON_UNESCAPED_UNICODE | JSON_INVALID_UTF8_SUBSTITUTE), LOCK_EX);
 }
 respond($result);
-
