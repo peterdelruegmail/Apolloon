@@ -30,17 +30,9 @@ function matchLogo($url): ?string {
 }
 if ($game === null) {
     $html = fetchClubee('https://www.clubee.com/handballbelgium/games/' . $id);
-    preg_match_all('~self\.__next_f\.push\((\[.*?\])\)</script>~s', $html, $chunks);
-    foreach ($chunks[1] as $chunk) {
-        $payload = json_decode($chunk, true);
-        if (!is_array($payload) || !is_string($payload[1] ?? null)) continue;
-        foreach (explode("\n", $payload[1]) as $line) {
-            $position = strpos($line, ':');
-            if ($position === false) continue;
-            $value = json_decode(substr($line, $position + 1), true);
-            if (is_array($value)) $game = findMatch($value, $id);
-            if ($game !== null) break 2;
-        }
+    foreach (clubeePageValues($html) as $value) {
+        $game = findMatch($value, $id);
+        if ($game !== null) break;
     }
 }
 if (!$game || empty($game['team1']['name']) || empty($game['team2']['name'])) {

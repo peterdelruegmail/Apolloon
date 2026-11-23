@@ -25,7 +25,22 @@ $cached = null;
 if (is_file($cacheFile) && (time() - (int)filemtime($cacheFile)) < 86400) {
     $cached = json_decode((string)@file_get_contents($cacheFile), true);
 }
-$html = fetchClubee($source);
+$serveCached = static function (string $warning) use ($cached): void {
+    if (is_array($cached) && !empty($cached['games'])) {
+        $cached['stale'] = true;
+        $cached['warning'] = $warning;
+        respond($cached);
+    }
+};
+if (!class_exists('DOMDocument')) {
+    respond(['error' => 'De hosting mist PHP DOM/XML. Vraag de hostingbeheerder die in te schakelen.'], 503);
+}
+try {
+    $html = fetchClubee($source, true);
+} catch (RuntimeException $e) {
+    $serveCached('Clubee is niet bereikbaar; de laatste succesvolle wedstrijdlijst wordt getoond.');
+    respond(['error' => $e->getMessage()], $e->getCode());
+}
 preg_match_all('~<a\b[^>]*href="([^"<>]*/games/[0-9]+)"[^>]*>(.*?)</a>~s', $html, $cards, PREG_SET_ORDER);
 // Overlay links are empty: select their nearest row/list item, not the link text.
 // Match class suffixes so a changed CSS module hash does not break the parser.
@@ -84,7 +99,7 @@ foreach ($cards as $card) {
         $time = preg_match('/^(?:[01]?[0-9]|2[0-3]):[0-5][0-9]$/D', $timeText) ? $timeText : null;
         // Only read the score element: a kickoff time also contains a colon.
         $scoreText = cardText(cardField($xpath, $card[3], 'score'));
-        $score = preg_match('/^([0-9]+)\s*[:–—-]\s*([0-9]+)$/uD', $scoreText, $scoreMatch)
+        $score = preg_match('/^([0-9]+)\s*[:\x{2013}\x{2014}-]\s*([0-9]+)$/uD', $scoreText, $scoreMatch)
             ? $scoreMatch[1] . ' - ' . $scoreMatch[2] : null;
         $homeImage = $xpath->query('.//img[@src]', $home)->item(0);
         $awayImage = $xpath->query('.//img[@src]', $away)->item(0);
@@ -101,7 +116,7 @@ foreach ($cards as $card) {
         $time = null;
         foreach ($values as $value) {
             if (preg_match('~^[0-9]{2}[./][0-9]{2}[./][0-9]{4}$~', $value)) $date = $value;
-            if (preg_match('/^([0-9]+)\s*[–—-]\s*([0-9]+)$/uD', $value, $scoreMatch)) $score = $scoreMatch[1] . ' - ' . $scoreMatch[2];
+            if (preg_match('/^([0-9]+)\s*[\x{2013}\x{2014}-]\s*([0-9]+)$/uD', $value, $scoreMatch)) $score = $scoreMatch[1] . ' - ' . $scoreMatch[2];
             if (preg_match('/^(?:[01]?[0-9]|2[0-3]):[0-5][0-9]$/D', $value)) $time = $value;
         }
     }
@@ -120,18 +135,14 @@ if (!$games) {
         'htmlBytes' => strlen($html),
         'gameLinks' => preg_match_all('~/games/[0-9]+~', $html),
         'anchorLinks' => count($cards),
-        'sampleCardText' => isset($cards[0][2]) ? mb_substr(preg_replace('/\\s+/u', ' ', textValue($cards[0][2])), 0, 450) : null,
+        'sampleCardText' => isset($cards[0][2]) ? clubeeExcerpt(preg_replace('/\\s+/u', ' ', textValue($cards[0][2])), 450) : null,
         'sampleStrongCount' => isset($cards[0][2]) ? preg_match_all('~<strong\\b~i', $cards[0][2]) : 0,
         'nextPayloads' => preg_match_all('~self\\.__next_f\\.push~', $html),
         'domAvailable' => class_exists('DOMDocument'),
-        'firstLinkContext' => isset($cards[0][1]) ? mb_substr(preg_replace('/\\s+/u', ' ', strip_tags(substr($html, max(0, strpos($html, $cards[0][1]) - 450), 1400))), 0, 650) : null,
+        'firstLinkContext' => isset($cards[0][1]) ? clubeeExcerpt(preg_replace('/\\s+/u', ' ', strip_tags(substr($html, max(0, strpos($html, $cards[0][1]) - 450), 1400))), 650) : null,
         'firstLinkHtml' => isset($cards[0][1]) ? substr($html, max(0, strpos($html, $cards[0][1]) - 180), 550) : null,
     ];
-    if (is_array($cached) && !empty($cached['games'])) {
-        $cached['stale'] = true;
-        $cached['warning'] = 'Clubee leverde geen herkenbare wedstrijden; laatste succesvolle lijst wordt getoond.';
-        respond($cached);
-    }
+    $serveCached('Clubee leverde geen herkenbare wedstrijden; de laatste succesvolle wedstrijdlijst wordt getoond.');
     respond(['error' => 'Geen herkenbare wedstrijden gevonden. Mogelijk heeft Clubee de HTML-structuur gewijzigd.', 'diagnostics' => $diagnostics], 502);
 }
 usort($games, fn(array $a, array $b): int => strcmp($a['date'], $b['date']) ?: strcmp($a['time'] ?? '', $b['time'] ?? ''));

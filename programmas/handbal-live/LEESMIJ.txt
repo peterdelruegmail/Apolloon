@@ -1,7 +1,7 @@
 HANDBAL LIVE - INSTALLATIE OP GEWONE WEBHOSTING
 
 Vereisten
-- PHP 8.0 of hoger met de cURL-uitbreiding.
+- PHP 8.0 of hoger met de uitbreidingen cURL en DOM/XML.
 - De hosting moet HTTPS-verzoeken naar www.clubee.com en apiv3.clubee.com toestaan.
 
 Installeren
@@ -86,3 +86,14 @@ en de verbinding vanaf jullie hosting moeten na upload nog worden gecontroleerd.
 UPDATE LIVE SCORE (5 oktober 2026)
 Vervang op bestaande installaties match.php en clubee.php samen.
 score.html, styles.css en de bestaande iframe-link kunnen blijven staan.
+
+UPDATE BETROUWBAARHEID
+Upload index.html, score.html, api.php, match.php, competitions.php en clubee.php samen.
+- De competitie- en seizoenskeuze uit een gedeelde link blijft behouden.
+- Bij een Clubee-verbindingsfout of onherkenbare wedstrijdlijst kan een succesvolle
+  lijst van minder dan 24 uur oud worden getoond, met een zichtbare waarschuwing.
+- Een onvolledige score wordt niet aangevuld met een verzonnen nul.
+- Mislukte live-scorecontroles worden in het overzicht gemeld.
+- De scorepagina's wachten maximaal 35 seconden op de server, zodat de API en
+  de terugval op de wedstrijdpagina beide tijd krijgen.
+- DOM/XML is vereist voor de wedstrijdlijst; mbstring is niet vereist.

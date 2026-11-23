@@ -53,11 +53,11 @@ function renderTeam(side,name,url){
 }
 async function refresh(){
  try{
-  const response=await fetch('match.php?'+new URLSearchParams({match:id}),{cache:'no-store',signal:AbortSignal.timeout(25000)});
+  const response=await fetch('match.php?'+new URLSearchParams({match:id}),{cache:'no-store',signal:AbortSignal.timeout(35000)});
   const data=await response.json();if(!response.ok)throw Error(data.error||'De stand kon niet worden opgehaald.');
   const g=data.game;renderTeam('home',g.home,g.homeLogo);renderTeam('away',g.away,g.awayLogo);
   const planned=kickoff(g);
-  $('score').textContent=g.score||'-';document.title=g.home+' - '+g.away+' � '+(g.score||planned||'Wedstrijd');
+  $('score').textContent=g.score||'-';document.title=g.home+' - '+g.away+' | '+(g.score||planned||'Wedstrijd');
   lastSuccess=new Date(data.checkedAt).toLocaleTimeString('nl-BE',{timeZone:'Europe/Brussels'});
   $('message').textContent=g.score?'':planned;
  }catch(e){$('message').textContent=(e.name==='TimeoutError'?'Clubee reageert niet.':e.message)+(lastSuccess?' Laatste geslaagde controle: '+lastSuccess+'.':'');}

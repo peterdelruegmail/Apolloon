@@ -27,16 +27,8 @@ function findCompetitionMenu(array $value): void {
     }
     foreach ($value as $child) if (is_array($child)) findCompetitionMenu($child);
 }
-preg_match_all('~self\.__next_f\.push\((\[.*?\])\)</script>~s', $html, $chunks);
-foreach ($chunks[1] as $chunk) {
-    $payload = json_decode($chunk, true);
-    if (!is_array($payload) || !is_string($payload[1] ?? null)) continue;
-    foreach (explode("\n", $payload[1]) as $line) {
-        $position = strpos($line, ':');
-        if ($position === false) continue;
-        $value = json_decode(substr($line, $position + 1), true);
-        if (is_array($value)) findCompetitionMenu($value);
-    }
+foreach (clubeePageValues($html) as $value) {
+    findCompetitionMenu($value);
 }
 if (!$competitions) respond(['error' => 'De competities konden niet uit het Clubee-menu worden gelezen. Probeer later opnieuw.'], 502);
 respond(['competitions' => array_values($competitions), 'checkedAt' => gmdate('Y-m-d\TH:i:s\Z')]);

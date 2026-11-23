@@ -7,7 +7,7 @@ function currentWeek(){const p=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe
 const [first,last]=currentWeek();const wantedSource=params.get('source')||fallback;$('start').value=format(params.get('from')||first);$('end').value=format(params.get('to')||last);
 $('apolloon-first').checked=params.get('apolloon')!=='0';
 $('apolloon-first').onchange=()=>{if(checkedAt)render();else if(source)saveUrl();};
-let source,from,to,games=[],checkedAt='',busy=false,timer;
+let source,from,to,games=[],checkedAt='',busy=false,timer,listWarning='',scoreWarning='';
 function format(d){const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(d||'');return m?m[3]+'/'+m[2]+'/'+m[1]:'';}
 function parseDate(value){const m=/^(\d{2})\/(\d{2})\/(\d{4})$/.exec(value);if(!m)return '';const iso=m[3]+'-'+m[2]+'-'+m[1],d=new Date(iso+'T00:00:00Z');return Number.isFinite(+d)&&d.toISOString().slice(0,10)===iso?iso:'';}
 function saveUrl(){const p=new URLSearchParams({source,from,to,apolloon:$('apolloon-first').checked?'1':'0'});history.replaceState(null,'','?'+p);}
@@ -29,30 +29,34 @@ function render(){
  }
  $('matches').replaceChildren(...cards);
  $('status').textContent=(filtered.length?filtered.length+' wedstrijden':'Geen wedstrijden in deze periode')+' \u00b7 opgehaald om '+new Date(checkedAt).toLocaleTimeString('nl-BE',{timeZone:'Europe/Brussels'});
+ for(const warning of [listWarning,scoreWarning])if(warning)$('status').textContent+=' '+warning;
  saveUrl();
 }
 async function refreshLiveScores(){
  const now=new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Brussels',dateStyle:'short',timeStyle:'short'}).format(new Date());
  const [today,time]=now.split(' ');
+ let failed=0;
  const active=games.filter(g=>g.date===today&&g.date>=from&&g.date<=to&&(!g.time||g.time.padStart(5,'0')<=time));
  for(let offset=0;offset<active.length;offset+=4){
   await Promise.all(active.slice(offset,offset+4).map(async g=>{
    try{
     const match=g.id.split('/').pop();
-    const response=await fetch('match.php?'+new URLSearchParams({match}),{cache:'no-store',signal:AbortSignal.timeout(8000)});
-    if(!response.ok)return;
+    const response=await fetch('match.php?'+new URLSearchParams({match}),{cache:'no-store',signal:AbortSignal.timeout(35000)});
+    if(!response.ok)throw Error('Score niet beschikbaar.');
     const {game}=await response.json();
     if(typeof game?.score==='string'&&game.score)g.score=game.score;
    }catch{
+    failed++;
     // Keep the competition score when the match lookup fails.
    }
   }));
  }
+ scoreWarning=failed?failed+' live-scorecontrole(s) mislukt; de score uit de wedstrijdlijst blijft staan.':'';
  if(active.length)render();
 }
-async function refresh(){if(busy)return;busy=true;clearTimeout(timer);for(const b of document.querySelectorAll('button'))b.disabled=true;$('status').textContent='Nieuwe stand ophalen.';try{const r=await fetch('api.php?'+new URLSearchParams({source}),{cache:'no-store',signal:AbortSignal.timeout(25000)});const data=await r.json();if(!r.ok)throw Error(data.error||'Clubee kon niet worden opgehaald.');games=data.games;checkedAt=data.checkedAt;render();await refreshLiveScores();}catch(e){$('status').textContent=(e.name==='TimeoutError'?'Clubee reageert niet. Probeer opnieuw.':e.message)+(checkedAt?' Laatste geslaagde controle: '+new Date(checkedAt).toLocaleTimeString('nl-BE',{timeZone:'Europe/Brussels'})+'.':'');}finally{busy=false;for(const b of document.querySelectorAll('button'))b.disabled=false;timer=setTimeout(refresh,30000);}}
+async function refresh(){if(busy)return;busy=true;clearTimeout(timer);for(const b of document.querySelectorAll('button'))b.disabled=true;$('status').textContent='Nieuwe stand ophalen.';try{const r=await fetch('api.php?'+new URLSearchParams({source}),{cache:'no-store',signal:AbortSignal.timeout(25000)});const data=await r.json();if(!r.ok)throw Error(data.error||'Clubee kon niet worden opgehaald.');games=data.games;checkedAt=data.checkedAt;listWarning=data.stale?(data.warning||'De laatste succesvolle wedstrijdlijst wordt getoond.') : '';scoreWarning='';render();await refreshLiveScores();}catch(e){$('status').textContent=(e.name==='TimeoutError'?'Clubee reageert niet. Probeer opnieuw.':e.message)+(checkedAt?' Laatste geslaagde controle: '+new Date(checkedAt).toLocaleTimeString('nl-BE',{timeZone:'Europe/Brussels'})+'.':'');}finally{busy=false;for(const b of document.querySelectorAll('button'))b.disabled=false;timer=setTimeout(refresh,30000);}}
 async function apply(){if(busy)return;let u;try{u=new URL($('source').value);if(u.protocol!=='https:'||!['www.clubee.com','clubee.com'].includes(u.hostname)||u.port||u.username||u.password||!/^\/handballbelgium\/[a-zA-Z0-9_-]+v4(?:\/leagues\/\d+\/seasons\/\d+)?\/?$/.test(u.pathname))throw Error();}catch(_){$('status').textContent='Kies een competitie uit de lijst.';return false;}
-const a=parseDate($('start').value),b=parseDate($('end').value);if(!a||!b||a>b){$('status').textContent='Kies geldige datums. De einddatum moet op of na de begindatum liggen.';return false;}u.search='';u.hash='';const changed=source!==u.href||from!==a||to!==b;source=u.href;from=a;to=b;if(changed){games=[];checkedAt='';$('matches').replaceChildren();}saveUrl();await refresh();return true;}
+const a=parseDate($('start').value),b=parseDate($('end').value);if(!a||!b||a>b){$('status').textContent='Kies geldige datums. De einddatum moet op of na de begindatum liggen.';return false;}u.search='';u.hash='';const changed=source!==u.href||from!==a||to!==b;source=u.href;from=a;to=b;if(changed){games=[];checkedAt='';listWarning='';scoreWarning='';$('matches').replaceChildren();}saveUrl();await refresh();return true;}
 function move(days){for(const id of ['start','end']){const d=new Date(parseDate($(id).value)+'T00:00:00Z');if(!Number.isFinite(+d))return;$(id).value=format(new Date(+d+days*86400000).toISOString().slice(0,10));}apply();}
 $('settings').onsubmit=e=>{e.preventDefault();apply();};$('prev').onclick=()=>move(-7);$('next').onclick=()=>move(7);$('current').onclick=()=>{const [a,b]=currentWeek();$('start').value=format(a);$('end').value=format(b);apply();};$('refresh').onclick=()=>source?refresh():loadCompetitions();
 if(document.modelContext?.registerTool){try{document.modelContext.registerTool({name:'configure_match_view',description:'Stel de Clubee-competitie en het datumbereik in en laad de wedstrijden.',inputSchema:{type:'object',properties:{source:{type:'string'},from:{type:'string'},to:{type:'string'}},required:['source','from','to'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:true},async execute(input){if(!input||typeof input.source!=='string'||typeof input.from!=='string'||typeof input.to!=='string'||busy)throw Error('Ongeldige invoer of ophalen bezig.');$('source').value=input.source;$('start').value=format(input.from);$('end').value=format(input.to);if(!await apply())throw Error($('status').textContent);return {matches:games.filter(g=>g.date>=from&&g.date<=to).length,status:$('status').textContent};}});}catch(_){}}
@@ -64,17 +68,18 @@ async function loadCompetitions(){
   const response=await fetch('competitions.php',{cache:'no-store',signal:AbortSignal.timeout(25000)});
   const data=await response.json();if(!response.ok)throw Error(data.error||'Competities konden niet worden opgehaald.');
   if(!Array.isArray(data.competitions)||!data.competitions.length)throw Error('Geen competities gevonden.');
+  const target=data.competitions.find(c=>wantedSource===c.source||wantedSource.startsWith(c.source+'/'))||data.competitions.find(c=>c.name==='DIVISION 1 (M)')||data.competitions[0];
+  const selectedSource=wantedSource===target.source||wantedSource.startsWith(target.source+'/')?wantedSource:target.source;
   $('source').replaceChildren();const groups=new Map();
   for(const c of data.competitions){
    let group=groups.get(c.group||'Competities');if(!group){group=document.createElement('optgroup');group.label=c.group||'Competities';groups.set(group.label,group);$('source').append(group);}
-   const competitionSource=fallback.startsWith(c.source+'/')?fallback:c.source;
+   const competitionSource=c.source===target.source?selectedSource:c.source;
    group.append(new Option(c.name,competitionSource));
   }
-  const target=data.competitions.find(c=>wantedSource===c.source||wantedSource.startsWith(c.source+'/'))||data.competitions.find(c=>c.name==='DIVISION 1 (M)')||data.competitions[0];
-  $('source').value=target.source;$('source').disabled=false;await apply();
+  $('source').value=selectedSource;$('source').disabled=false;await apply();
  }catch(e){
   // A failure to load the competition menu must not block the requested competition.
-  $('source').replaceChildren(new Option('Division 1 (M) – rechtstreekse link',wantedSource));
+  $('source').replaceChildren(new Option('Competitie - rechtstreekse link',wantedSource));
   $('source').disabled=false;
   $('status').textContent='Competitielijst niet beschikbaar; wedstrijden rechtstreeks ophalen.';
   await apply();
