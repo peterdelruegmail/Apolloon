@@ -7,6 +7,7 @@ import re
 import urllib.request
 import urllib.error
 import ssl
+import truststore
 
 ROOT = 'https://www.clubee.com/handballbelgium'
 
@@ -16,7 +17,8 @@ def fetch(url, api=False):
     if api:
         headers['X-Website'] = 'handballbelgium'
     try:
-        with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=20) as response:
+        context = truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+        with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=20, context=context) as response:
             return response.read(8_000_000).decode('utf-8')
     except urllib.error.HTTPError as exc:
         raise ConnectionError(f'Clubee antwoordt met HTTP {exc.code}: {exc.reason}') from exc
@@ -66,7 +68,21 @@ def games(source):
     if not re.fullmatch(r'https://(?:www\.)?clubee\.com/handballbelgium/[\w-]+v4(?:/leagues/\d+/seasons/\d+)?/?', source):
         raise ValueError('Kies een geldige Clubee-divisie.')
     found = {}
-    for link, card in re.findall(r'<a\b[^>]*href="([^"<>]*/games/\d+)"[^>]*>(.*?)</a>', fetch(source), re.S):
+    page = fetch(source)
+    for card in re.findall(r'<li\b[^>]*>(.*?)</li>', page, re.S):
+        identifier = re.search(r'href="[^"<>]*/games/(\d+)"', card)
+        names = [text(n) for n in re.findall(r'<span\b[^>]*class="[^"]*\b[\w-]+_name\b[^"]*"[^>]*>(.*?)</span>', card, re.S)]
+        date = re.search(r'>(\d{2}[./]\d{2}[./]\d{4})<', card)
+        time = re.search(r'>(\d{1,2}:\d{2})<', card)
+        score = re.search(r'<span\b[^>]*class="[^"]*\b[\w-]+_score\b[^"]*"[^>]*>(.*?)</div>', card, re.S)
+        score_text = text(score.group(1)) if score else ''
+        if identifier and len(names) == 2 and date:
+            key = identifier.group(1)
+            found[key] = {'id': key, 'home': names[0], 'away': names[1],
+                'date': dt.datetime.strptime(date.group(1).replace('/', '.'), '%d.%m.%Y').date().isoformat(),
+                'time': time.group(1) if time else '',
+                'score': re.sub(r'\s*:\s*', ' - ', score_text) if re.fullmatch(r'\d+\s*:\s*\d+', score_text) else None}
+    for link, card in re.findall(r'<a\b[^>]*href="([^"<>]*/games/\d+)"[^>]*>(.*?)</a>', page, re.S):
         names = [text(n) for n in re.findall(r'<strong\b[^>]*>(.*?)</strong>', card, re.S)]
         values = [text(n) for n in re.findall(r'<(?:p|h3)\b[^>]*>(.*?)</(?:p|h3)>', card, re.S)]
         date = next((v for v in values if re.fullmatch(r'\d{2}[./]\d{2}[./]\d{4}', v)), None)
@@ -76,7 +92,7 @@ def games(source):
         found[identifier] = {'id': identifier, 'home': names[0], 'away': names[1],
             'date': dt.datetime.strptime(date.replace('/', '.'), '%d.%m.%Y').date().isoformat(),
             'time': next((v for v in values if re.fullmatch(r'\d{1,2}:\d{2}', v)), ''),
-            'score': next((v for v in values if re.fullmatch(r'\d+\s*[--]\s*\d+', v)), None)}
+            'score': next((v for v in values if re.fullmatch(r'\d+\s*[-–]\s*\d+', v)), None)}
     if not found:
         raise ValueError('Geen herkenbare wedstrijden gevonden voor deze divisie.')
     return sorted(found.values(), key=lambda g: (g['date'], g['time']))
@@ -105,9 +121,10 @@ def load_scores(source, start, end):
             except Exception:
                 failures += 1
                 # Do not silently label a schedule-page score as current.
-                selected[i]['score'] = (selected[i]['score'] or '-') + ' (niet bijgewerkt)'
+                selected[i]['score'] = (selected[i]['score'] or '—') + ' (niet bijgewerkt)'
     return selected, failures
 
 def ticker_text(games):
-    return '      '.join(f"{g['date'][8:10]}/{g['date'][5:7]} {g['time']}  {g['home']}  {g['score'] or '-'}  {g['away']}" for g in games) or 'Geen wedstrijden in het gekozen datumbereik'
+    return '   •   '.join(f"{g['date'][8:10]}/{g['date'][5:7]} {g['time']}  {g['home']}  {g['score'] or '—'}  {g['away']}" for g in games) or 'Geen wedstrijden in het gekozen datumbereik'
+
 
