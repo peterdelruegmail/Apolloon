@@ -34,6 +34,7 @@ function tickerCollectGames(array $node, array &$games, int &$recognised): void 
 }
 
 function tickerDate(string $value): ?DateTimeImmutable {
+    if (!preg_match('/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/D', $value)) return null;
     $date = DateTimeImmutable::createFromFormat('!Y-m-d', $value, new DateTimeZone('Europe/Brussels'));
     return $date && $date->format('Y-m-d') === $value ? $date : null;
 }
@@ -134,4 +135,41 @@ function tickerCalendar(): array {
             return $cache;
         }
     } finally { flock($lock, LOCK_UN); fclose($lock); }
+}
+
+function tickerResult(?string $start = null, ?string $end = null): array {
+    $today = new DateTimeImmutable('today', new DateTimeZone('Europe/Brussels'));
+    // Start on the most recent Wednesday, including today when it is Wednesday.
+    $wednesday = $today->modify('-' . (((int)$today->format('N') + 4) % 7) . ' days');
+    $start = $start ?? $wednesday->format('Y-m-d');
+    $end = $end ?? $wednesday->modify('+6 days')->format('Y-m-d');
+    if (!is_string($start) || !is_string($end) || !($from = tickerDate($start)) || !($to = tickerDate($end))
+        || $from > $to || (int)$from->diff($to)->format('%a') > 366) {
+        throw new RuntimeException('Kies start en end als JJJJ-MM-DD, met een oplopende periode van maximaal een jaar.', 400);
+    }
+    @set_time_limit(150);
+    $calendar = tickerCalendar();
+    $games = array_values(array_filter($calendar['games'], fn($g) => $g['date'] >= $start && $g['date'] <= $end));
+    $urls = [];
+    foreach ($games as $index => $game) {
+        if (!$game['cancelled'] && $game['date'] === $today->format('Y-m-d')) {
+            $urls[$index] = 'https://apiv3.clubee.com/scenes/' . $game['id'] . '?language=en';
+        }
+    }
+    $failures = 0;
+    foreach (tickerFetchPages($urls, true) as $index => $body) {
+        $match = $body === null ? null : json_decode($body, true);
+        if (!is_array($match) || (string)($match['id'] ?? '') !== $games[$index]['id']) {
+            $failures++;
+            $games[$index]['notUpdated'] = true;
+        } else {
+            $games[$index]['score'] = scoreValue($match);
+            $games[$index]['cancelled'] = !empty($match['cancelled']);
+        }
+    }
+    $warning = $calendar['warning'] ?? '';
+    if ($failures) $warning .= ($warning ? ' ' : '') . $failures . ' scorecontrole(s) mislukt; zie niet bijgewerkt.';
+    return ['games' => $games, 'start' => $start, 'end' => $end,
+        'calendarCheckedAt' => $calendar['checkedAt'], 'checkedAt' => gmdate('Y-m-d\TH:i:s\Z'),
+        'warning' => $warning, 'stale' => isset($calendar['warning'])];
 }

@@ -11,7 +11,7 @@ let hovering = false;
 let offset = 0;
 let previousFrame = 0;
 let signature = '';
-let latest = null;
+let latest = false;
 let lastSuccess = '';
 const speed = Math.min(300, Math.max(10, Number(params.get('speed')) || 80));
 function setPaused(value) {
@@ -28,7 +28,7 @@ viewport.addEventListener('focus', () => setPaused(true));
 setPaused(paused);
 function copyGames() {
  track.querySelectorAll('.copy').forEach(node => node.remove());
- if (!latest?.length) return;
+ if (!latest) return;
  const width = gamesElement.getBoundingClientRect().width;
  if (!width) return;
  const count = Math.ceil(viewport.clientWidth / width) + 1;
@@ -39,30 +39,17 @@ function copyGames() {
  }
 }
 new ResizeObserver(copyGames).observe(viewport);
-function render(games) {
- const nextSignature = JSON.stringify(games);
- if (nextSignature === signature) return;
- signature = nextSignature; latest = games;
- gamesElement.replaceChildren(); offset = 0; track.style.transform = '';
- if (!games.length) gamesElement.textContent = 'Geen wedstrijden van Apolloon Spurs in deze periode';
- for (const game of games) {
-  const item = document.createElement('span'); item.className = 'match';
-  const date = document.createElement('time'); date.dateTime = game.date;
-  date.textContent = game.date.slice(8, 10) + '/' + game.date.slice(5, 7) + ' ' + (game.time || '');
-  const home = document.createElement('span'); home.textContent = game.home;
-  const score = document.createElement('strong'); score.className = 'score';
-  score.textContent = game.cancelled ? 'Afgelast' : (game.score || '-');
-  if (game.notUpdated) score.textContent += ' (niet bijgewerkt)';
-  const away = document.createElement('span'); away.textContent = game.away;
-  item.append(date, home, score, away); gamesElement.append(item);
- }
+function render(html, hasGames) {
+ if (html === signature) return;
+ signature = html; latest = hasGames;
+ gamesElement.innerHTML = html; offset = 0; track.style.transform = '';
  copyGames();
 }
 function animate(timestamp) {
  const elapsed = previousFrame ? Math.min(timestamp - previousFrame, 100) / 1000 : 0;
  previousFrame = timestamp;
  const width = gamesElement.getBoundingClientRect().width;
- if (!paused && !hovering && latest?.length && width > 0) {
+ if (!paused && !hovering && latest && width > 0) {
   offset = (offset + speed * elapsed) % width;
   track.style.transform = `translateX(${-offset}px)`;
  }
@@ -73,12 +60,12 @@ async function refresh() {
  const query = new URLSearchParams();
  for (const key of ['start', 'end']) if (params.has(key)) query.set(key, params.get(key));
  try {
-  const response = await fetch('club-ticker.php?' + query, {cache: 'no-store', signal: AbortSignal.timeout(145000)});
+  const response = await fetch('view.php?view=ticker&' + query, {cache: 'no-store', signal: AbortSignal.timeout(145000)});
   const data = await response.json();
   if (!response.ok) throw Error(data.error || 'Wedstrijden ophalen is mislukt.');
-  if (!Array.isArray(data.games)) throw Error('Ongeldige wedstrijdgegevens.');
-  render(data.games);
-  lastSuccess = new Date(data.checkedAt).toLocaleTimeString('nl-BE', {timeZone: 'Europe/Brussels'});
+  if (typeof data.html !== 'string') throw Error('Ongeldige wedstrijdgegevens.');
+  render(data.html, data.hasGames);
+  lastSuccess = data.checkedAt;
   statusElement.textContent = data.warning || '';
   statusElement.hidden = !data.warning;
  } catch (error) {
