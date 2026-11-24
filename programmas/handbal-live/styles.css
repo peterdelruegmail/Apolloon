@@ -1,19 +1,29 @@
 /* Kleuren voor index.html en score.html.
    Pas deze waarden aan om beide pagina's een ander uiterlijk te geven. */
 :root {
+  --APOLLOON_COLOR: #6C3175; 
+  /*--APOLLOON_COLOR: #642364;*/
+  --APOLLOON_VERY_LIGHT: #f7f4f7;
+  --APOLLOON_LIGHT: #d0bdd0;
+  --APOLLOON_50: #a27ba2;
+  --APOLLOON_FONT: Arial, Helvetica, sans-serif;
+}
+/* Kleuren voor index.html en score.html.
+   Pas deze waarden aan om beide pagina's een ander uiterlijk te geven. */
+:root {
   color-scheme: light;
-  --page-background: #ffffff;
+  --page-background: var(--APOLLOON_VERY_LIGHT);
   --text-color: #000000;
   --surface-background: #ffffff;
-  --border-color: #cccccc;
+  --border-color: var(--APOLLOON_LIGHT);
   --field-background: #ffffff;
-  --field-border: #888888;
+  --field-border: var(--APOLLOON_50);
   --secondary-text: #444444;
-  --link-color: #000000;
-  --button-background: #eeeeee;
+  --link-color: var(--APOLLOON_COLOR);
+  --button-background: var(--APOLLOON_LIGHT);
   --button-text: #000000;
-  --primary-background: #dddddd;
-  --primary-text: #000000;
-  --focus-color: #000000;
+  --primary-background: var(--APOLLOON_COLOR);
+  --primary-text: #ffffff;
+  --focus-color: var(--APOLLOON_COLOR);
   --logo-background: #ffffff;
 }
