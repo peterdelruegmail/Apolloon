@@ -6,9 +6,10 @@ header('X-Content-Type-Options: nosniff');
 require __DIR__ . '/club-ticker-data.php';
 if (($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'GET') respond(['error' => 'Deze actie wordt niet ondersteund.'], 405);
 $today = new DateTimeImmutable('today', new DateTimeZone('Europe/Brussels'));
-$monday = $today->modify('-' . ((int)$today->format('N') - 1) . ' days');
-$start = $_GET['start'] ?? $monday->format('Y-m-d');
-$end = $_GET['end'] ?? $monday->modify('+6 days')->format('Y-m-d');
+// Start on the most recent Wednesday, including today when it is Wednesday.
+$wednesday = $today->modify('-' . (((int)$today->format('N') + 4) % 7) . ' days');
+$start = $_GET['start'] ?? $wednesday->format('Y-m-d');
+$end = $_GET['end'] ?? $wednesday->modify('+6 days')->format('Y-m-d');
 if (!is_string($start) || !is_string($end) || !($from = tickerDate($start)) || !($to = tickerDate($end))
     || $from > $to || (int)$from->diff($to)->format('%a') > 366) {
     respond(['error' => 'Kies start en end als JJJJ-MM-DD, met een oplopende periode van maximaal een jaar.'], 400);
