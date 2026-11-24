@@ -1,3 +1,14 @@
+KEUZE VAN DE WEDSTRIJDEN
+Onder 'Wedstrijden en periode' kies je bij 'Wedstrijden van':
+- Alle matchen van Apolloon Spurs: heren, dames, jeugd en bekers, thuis en uit.
+- Een bepaalde reeks: alle wedstrijden van die reeks.
+De gekozen periode geldt voor beide opties. Je keuze wordt bewaard.
+Bestaande settings.ini-bestanden blijven werken. Bewaar je eigen instellingen.
+De clubkalender controleert alle openbare Clubee-reeksen van het standaardseizoen.
+De eerste controle duurt langer; daarna wordt de kalender vijf minuten bewaard.
+Scores blijven bij iedere ingestelde controle verversen. Bij een onvolledige
+kalendercontrole verschijnt een foutmelding en blijft de vorige tickertekst staan.
+
 SLIDESHOW MET TWEE TICKERS
 
 VERSIE 4 - VERBINDING OP EEN ANDERE PC

@@ -7,9 +7,19 @@ import re
 import urllib.request
 import urllib.error
 import ssl
+import time
 import truststore
 
 ROOT = 'https://www.clubee.com/handballbelgium'
+CLUB_SOURCE = 'apolloon-spurs'
+CLUB_LABEL = 'Alle matchen van Apolloon Spurs'
+_club_calendar = None
+
+
+def valid_source(source, allow_club=True):
+    return (allow_club and source == CLUB_SOURCE) or bool(re.fullmatch(
+        r'https://(?:www\.)?clubee\.com/handballbelgium/[\w-]+v4(?:/leagues/\d+/seasons/\d+)?/?', source))
+
 
 def fetch(url, api=False):
     headers = {'Accept': 'application/json' if api else 'text/html',
@@ -65,7 +75,7 @@ def competitions():
     return sorted(found.values(), key=lambda item: item['name'])
 
 def games(source):
-    if not re.fullmatch(r'https://(?:www\.)?clubee\.com/handballbelgium/[\w-]+v4(?:/leagues/\d+/seasons/\d+)?/?', source):
+    if not valid_source(source, allow_club=False):
         raise ValueError('Kies een geldige Clubee-divisie.')
     found = {}
     page = fetch(source)
@@ -110,8 +120,35 @@ def live_game(game):
         game['time'] = data['start_date'][11:16]
     return game
 
+def club_games():
+    """Cache complete scans for five minutes; current scores refresh separately."""
+    global _club_calendar
+    if _club_calendar is not None and time.monotonic() - _club_calendar[0] < 300:
+        return [dict(game) for game in _club_calendar[1]]
+    found, failures = {}, []
+    items = competitions()
+    if not items:
+        raise ValueError('Geen competities gevonden voor de clubkalender.')
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        futures = [(item, pool.submit(games, item['source'])) for item in items]
+        for item, future in futures:
+            try:
+                for game in future.result():
+                    if any(re.search(r'\bapolloon\b', game[side], re.I) for side in ('home', 'away')):
+                        found[game['id']] = game
+            except Exception as exc:
+                failures.append(f"{item['name']}: {exc}")
+    if failures:
+        raise ConnectionError('Clubkalender onvolledig; niet alle reeksen konden worden gelezen. '
+                              + '; '.join(failures))
+    ordered = sorted(found.values(), key=lambda g: (g['date'], g['time'], g['id']))
+    _club_calendar = (time.monotonic(), ordered)
+    return [dict(game) for game in ordered]
+
+
 def load_scores(source, start, end):
-    selected = [g for g in games(source) if start <= g['date'] <= end]
+    calendar = club_games() if source == CLUB_SOURCE else games(source)
+    selected = [g for g in calendar if start <= g['date'] <= end]
     failures = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         futures = [pool.submit(live_game, g) for g in selected]

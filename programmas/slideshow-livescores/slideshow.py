@@ -183,16 +183,17 @@ class Settings:
             field(row, label, 'Ticker', key)
             ttk.Button(panel, text='Kiezen.', command=lambda k=key: self.choose_color(k)).grid(row=row, column=2, padx=(8, 0))
         self.values[('LiveScores', 'Enabled')] = tk.BooleanVar(value=conf.getboolean('LiveScores', 'Enabled'))
-        ttk.Checkbutton(panel, text='Uitslagenticker bovenaan tonen (zonder logo's)', variable=self.values[('LiveScores', 'Enabled')]).grid(row=14, column=1, sticky='w', pady=6)
-        period = ttk.LabelFrame(panel, text='Competitie en periode', padding=14)
+        ttk.Checkbutton(panel, text="Uitslagenticker bovenaan tonen (zonder logo's)", variable=self.values[('LiveScores', 'Enabled')]).grid(row=14, column=1, sticky='w', pady=6)
+        period = ttk.LabelFrame(panel, text='Wedstrijden en periode', padding=14)
         period.grid(row=15, column=0, columnspan=3, sticky='ew', pady=10)
         period.columnconfigure(0, weight=1)
         period.columnconfigure(1, weight=1)
-        ttk.Label(period, text='Competitie').grid(row=0, column=0, columnspan=2, sticky='w', pady=(0,6))
-        self.divisions = {}
-        self.division_choice = tk.StringVar(value=conf.get('LiveScores', 'Division'))
-        self.values[('LiveScores', 'Source')] = tk.StringVar(value=conf.get('LiveScores', 'Source'))
-        self.division_box = ttk.Combobox(period, textvariable=self.division_choice, state='readonly')
+        ttk.Label(period, text='Wedstrijden van').grid(row=0, column=0, columnspan=2, sticky='w', pady=(0,6))
+        self.divisions = {livescores.CLUB_LABEL: livescores.CLUB_SOURCE}
+        self.division_choice = tk.StringVar(value=conf.get('LiveScores', 'Division') or livescores.CLUB_LABEL)
+        self.values[('LiveScores', 'Source')] = tk.StringVar(value=conf.get('LiveScores', 'Source') or livescores.CLUB_SOURCE)
+        self.division_box = ttk.Combobox(period, textvariable=self.division_choice,
+                                         values=list(self.divisions), state='readonly')
         self.division_box.grid(row=1, column=0, columnspan=2, sticky='ew', pady=(0,12))
         self.division_box.bind('<<ComboboxSelected>>', lambda e: self.values[('LiveScores', 'Source')].set(self.divisions[self.division_choice.get()]))
         first, last = week_dates()
@@ -211,7 +212,7 @@ class Settings:
         field(22, 'Verversen om (seconden)', 'LiveScores', 'RefreshSeconds')
         self.values[('LiveScores', 'ShowCheckTime')] = tk.BooleanVar(value=conf.getboolean('LiveScores', 'ShowCheckTime'))
         ttk.Checkbutton(panel, text='Tijdstip van controle op het scherm tonen', variable=self.values[('LiveScores', 'ShowCheckTime')]).grid(row=23, column=0, columnspan=3, sticky='w', pady=6)
-        self.live_status = tk.StringVar(value='Kies een competitie en periode.')
+        self.live_status = tk.StringVar(value='Kies alle matchen van Apolloon Spurs of een bepaalde reeks en periode.')
         ttk.Label(panel, textvariable=self.live_status, wraplength=700).grid(row=24, column=0, columnspan=3, sticky='w')
         self.restore_divisions()
         self.division_queue = queue.Queue()
@@ -264,12 +265,11 @@ class Settings:
     def apply_divisions(self, items):
         if not isinstance(items, list) or not items:
             raise ValueError('Lege competitielijst')
-        import re
-        choices = {}
+        choices = {livescores.CLUB_LABEL: livescores.CLUB_SOURCE}
         for item in items:
             if not isinstance(item, dict) or not isinstance(item.get('name'), str) or not isinstance(item.get('source'), str):
                 raise ValueError('Ongeldige competitielijst')
-            if not re.fullmatch(r'https://(?:www\.)?clubee\.com/handballbelgium/[\w-]+v4(?:/leagues/\d+/seasons/\d+)?/?', item['source']):
+            if not livescores.valid_source(item['source']):
                 raise ValueError('Ongeldige competitielink')
             choices[item['name']] = item['source']
         source = self.values[('LiveScores', 'Source')].get()
@@ -278,7 +278,7 @@ class Settings:
             selected = self.division_choice.get() or 'Opgeslagen competitie'
             choices[selected] = source
         if not selected:
-            selected = 'DIVISION 1 (M)' if 'DIVISION 1 (M)' in choices else next(iter(choices))
+            selected = livescores.CLUB_LABEL
             self.values[('LiveScores', 'Source')].set(choices[selected])
         self.divisions = choices
         self.division_box.configure(values=list(choices))
@@ -301,7 +301,7 @@ class Settings:
             (BASE / 'competitions.json').write_text(json.dumps(items, ensure_ascii=False, indent=2), encoding='utf-8')
         except OSError:
             pass
-        self.live_status.set('Divisies geladen. Kies de gewenste divisie.')
+        self.live_status.set('Kies alle matchen van Apolloon Spurs of een bepaalde reeks.')
 
     def choose_folder(self, var):
         folder = filedialog.askdirectory(initialdir=str(path_from_setting(var.get())))
@@ -334,9 +334,8 @@ class Settings:
                 self.root.winfo_rgb(conf.get('Ticker', key))
             if conf.getboolean('LiveScores', 'Enabled'):
                 source = conf.get('LiveScores', 'Source')
-                import re
-                if not re.fullmatch(r'https://(?:www\.)?clubee\.com/handballbelgium/[\w-]+v4(?:/leagues/\d+/seasons/\d+)?/?', source):
-                    raise ValueError('Kies eerst een competitie uit de lijst.')
+                if not livescores.valid_source(source):
+                    raise ValueError('Kies alle matchen van Apolloon Spurs of een reeks uit de lijst.')
             dates = []
             for key in ('Start', 'End'):
                 value = conf.get('LiveScores', key).strip()
