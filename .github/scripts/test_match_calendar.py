@@ -99,6 +99,38 @@ class CalendarTests(unittest.TestCase):
                 self.assertEqual(message["To"], "peter.delrue@gmail.com")
                 self.assertIn("rapport", message.get_content())
 
+    def test_mail_to_environment_and_command_line_override(self):
+        with patch.dict(check.os.environ, {"MAIL_TO": "bestuur@example.com"}, clear=True):
+            self.assertEqual(check.arguments([]).recipient, "bestuur@example.com")
+            self.assertEqual(check.arguments(["--recipient", "test@example.com"]).recipient,
+                             "test@example.com")
+
+    def test_empty_mail_to_keeps_default(self):
+        with patch.dict(check.os.environ, {"MAIL_TO": ""}, clear=True):
+            self.assertEqual(check.arguments([]).recipient, "peter.delrue@gmail.com")
+
+    def test_separate_sender_and_recipient(self):
+        config = {"MAIL_FROM": "afzender@gmail.com", "MAIL_TO": "bestuur@example.com",
+                  "SMTP_PASSWORD": "app password"}
+        with patch.dict(check.os.environ, config, clear=True):
+            with patch.object(check.smtplib, "SMTP") as smtp:
+                check.send_report("rapport", check.arguments([]).recipient)
+                session = smtp.return_value.__enter__.return_value
+                session.login.assert_called_once_with("afzender@gmail.com", "apppassword")
+                message = session.send_message.call_args.args[0]
+                self.assertEqual(message["From"], "afzender@gmail.com")
+                self.assertEqual(message["To"], "bestuur@example.com")
+
+    def test_recipient_does_not_change_default_gmail_login(self):
+        with patch.dict(check.os.environ, {"SMTP_PASSWORD": "app password"}, clear=True):
+            with patch.object(check.smtplib, "SMTP") as smtp:
+                check.send_report("rapport", "bestuur@example.com")
+                session = smtp.return_value.__enter__.return_value
+                session.login.assert_called_once_with("peter.delrue@gmail.com", "apppassword")
+                message = session.send_message.call_args.args[0]
+                self.assertEqual(message["From"], "peter.delrue@gmail.com")
+                self.assertEqual(message["To"], "bestuur@example.com")
+
     def test_smtp_missing_secrets_fails_before_sending(self):
         with patch.dict(check.os.environ, {}, clear=True):
             with self.assertRaisesRegex(ValueError, "SMTP_PASSWORD"):

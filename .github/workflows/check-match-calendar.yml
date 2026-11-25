@@ -40,9 +40,9 @@ jobs:
           SEND_EMAIL: ${{ github.event_name == 'schedule' || inputs.send_email }}
           SMTP_HOST: smtp.gmail.com
           SMTP_PORT: '587'
-          SMTP_USERNAME: ${{ vars.MAIL_FROM }}
+          MAIL_FROM: ${{ vars.MAIL_FROM }}
+          MAIL_TO: ${{ vars.MAIL_TO }}
           SMTP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          SMTP_FROM: ${{ vars.MAIL_FROM }}
         run: |
           args=()
           if [ "$SEND_EMAIL" = "true" ]; then

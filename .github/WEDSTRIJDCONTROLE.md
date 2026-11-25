@@ -5,19 +5,29 @@ Apolloon-wedstrijden uit het huidige openbare Clubee-seizoen met de openbare
 Twizzit-wedstrijdexport. Zomer- en wintertijd volgen de ingestelde tijdzone.
 GitHub kan geplande uitvoeringen later starten bij drukte.
 
-Ontvanger: peter.delrue@gmail.com. De controle verandert niets in Clubee of Twizzit.
+Afzender en ontvanger zijn instelbaar met MAIL_FROM en MAIL_TO.
+De controle verandert niets in Clubee of Twizzit.
 
 ## E-mail instellen
 
-Standaard is peter.delrue@gmail.com de Gmail-afzender en de ontvanger.
+Stel bij GitHub > Settings > Secrets and variables > Actions > Variables de
+repositoryvariabelen in (tabblad Variables, knop New repository variable):
+
+- MAIL_FROM: het Gmail-adres waarmee je verstuurt, bijvoorbeeld peter.delrue@gmail.com.
+- MAIL_TO: het adres dat het wekelijkse rapport moet ontvangen.
+
+Directe link: https://github.com/peterdelruegmail/Apolloon/settings/variables/actions .
+Je kunt beide adressen daar later wijzigen zonder code te bewerken. Als een
+variabele ontbreekt of leeg is, gebruikt het programma voor dat adres
+peter.delrue@gmail.com. De afzender blijft onafhankelijk van de ontvanger.
+Het Gmail-appwachtwoord moet altijd bij MAIL_FROM horen.
 
 1. Maak voor het verzendaccount een Gmail-appwachtwoord:
    https://myaccount.google.com/apppasswords . Hiervoor is tweestapsverificatie nodig.
    Zie https://support.google.com/mail/answer/185833 .
 2. Open https://github.com/peterdelruegmail/Apolloon/settings/secrets/actions/new
    en sla het appwachtwoord op als repository secret GMAIL_APP_PASSWORD.
-3. Optioneel: zet de repository variable MAIL_FROM op een ander Gmail-afzenderadres.
-   Het appwachtwoord moet dan bij dat account horen. De ontvanger blijft Peter.
+3. Stel MAIL_FROM en MAIL_TO in zoals hierboven beschreven.
 4. Start een handmatige uitvoering met e-mail ingeschakeld en controleer de inbox.
 
 Verzending loopt via smtp.gmail.com:587 met STARTTLS. Zet wachtwoorden nooit in
@@ -63,4 +73,6 @@ Python 3.11 of nieuwer, zonder extra bibliotheken op Linux:
     python3 .github/scripts/check_match_calendar.py --output /tmp/wedstrijdcontrole
 
 Op Windows kan het Python-pakket tzdata nodig zijn voor Europe/Brussels.
-De opdracht zonder --send-email verstuurt niets.
+De opdracht zonder --send-email verstuurt niets. Het programma leest MAIL_FROM
+en MAIL_TO ook bij lokaal gebruik uit de omgevingsvariabelen.
+Met --recipient kan de ontvanger voor een enkele uitvoering worden overschreven.

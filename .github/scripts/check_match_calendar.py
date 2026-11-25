@@ -21,6 +21,8 @@ ICAL = ("https://static.twizzit.com/v2/activity/export/ical?"
         "o=Yjl3SUZteEZTK0ltRVZBeHlTa3lodz09&"
         "f=eyJjIjpudWxsLCJnIjpudWxsLCJyIjpbXSwiZ2MiOltdLCJhdCI6WyIzIl0sImFzdCI6W119")
 TZ = ZoneInfo("Europe/Brussels")
+DEFAULT_MAIL_FROM = "peter.delrue@gmail.com"
+DEFAULT_MAIL_TO = "peter.delrue@gmail.com"
 
 
 def fetch(url, api=False):
@@ -277,8 +279,10 @@ def send_report(report, recipient):
     if missing:
         raise ValueError("E-mail niet verstuurd: ontbrekende GitHub Secrets: " + ", ".join(missing))
     message = EmailMessage()
-    username = os.environ.get("SMTP_USERNAME") or recipient
-    message["From"] = os.environ.get("SMTP_FROM") or username
+    sender = (os.environ.get("MAIL_FROM") or os.environ.get("SMTP_FROM")
+              or os.environ.get("SMTP_USERNAME") or DEFAULT_MAIL_FROM)
+    username = os.environ.get("SMTP_USERNAME") or sender
+    message["From"] = sender
     message["To"] = recipient
     message["Subject"] = "Apolloon - wekelijkse controle Clubee / Twizzit"
     message.set_content(report)
@@ -288,12 +292,16 @@ def send_report(report, recipient):
         smtp.send_message(message)
 
 
-def main():
+def arguments(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--send-email", action="store_true")
-    parser.add_argument("--recipient", default="peter.delrue@gmail.com")
+    parser.add_argument("--recipient", default=os.environ.get("MAIL_TO") or DEFAULT_MAIL_TO)
     parser.add_argument("--output", default="wedstrijdcontrole")
-    args = parser.parse_args()
+    return parser.parse_args(argv)
+
+
+def main():
+    args = arguments()
     today = dt.datetime.now(TZ).date()
     errors, games, twizzit = [], {}, []
     try:
