@@ -19,7 +19,7 @@ try {
     $today = new DateTimeImmutable('today', new DateTimeZone('Europe/Brussels'));
     [$from, $to] = viewPeriod($_GET, $today);
     $action = $_GET['action'] ?? '';
-    $requestedSource = $_GET['source'] ?? 'https://www.clubee.com/handballbelgium/first-division-m--982001v4/leagues/18702/seasons/220';
+    $requestedSource = $_GET['source'] ?? 'apolloon';
     $source = $requestedSource === 'apolloon' ? 'apolloon' : competitionSource($requestedSource);
     $options = null;
     if ($action === 'init') {
