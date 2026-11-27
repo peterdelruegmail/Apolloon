@@ -36,3 +36,5 @@ gepubliceerd. Verwijderingen in GitHub verwijderen niets op de hosting.
 De eerste verbinding controleert dat in de doelmap de bestaande Handbal
 Live-indexpagina staat. Pas de doelmap aan in de workflow als de FTP-account
 bij het aanmelden een andere startmap gebruikt.
+
+De doelmapcontrole herkent zowel de oude pagina met `competitions.php` als de huidige pagina met `index.js`, samen met de naam Handbal Live. Een wijziging aan het publicatiescript of de workflow start ook een publicatie op main, zodat eerder mislukte uploads opnieuw worden meegenomen.

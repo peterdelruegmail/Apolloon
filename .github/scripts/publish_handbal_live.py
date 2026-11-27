@@ -108,7 +108,9 @@ def connect():
     index = io.BytesIO()
     client.retrbinary("RETR index.html", index.write)
     content = index.getvalue().lower()
-    if b"handbal live" not in content or b"competitions.php" not in content:
+    # Older pages load competitions.php inline; current pages use index.js.
+    recognised_version = b"competitions.php" in content or b"index.js" in content
+    if b"handbal live" not in content or not recognised_version:
         client.close()
         raise ValueError("De FTP-doelmap bevat niet de verwachte Handbal Live-pagina.")
     return client

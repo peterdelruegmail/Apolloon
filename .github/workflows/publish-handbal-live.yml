@@ -3,7 +3,10 @@ name: Publish Handbal Live
 on:
   push:
     branches: [main]
-    paths: ['programmas/handbal-live/**']
+    paths:
+      - 'programmas/handbal-live/**'
+      - '.github/scripts/publish_handbal_live.py'
+      - '.github/workflows/publish-handbal-live.yml'
   workflow_dispatch:
     inputs:
       files:
