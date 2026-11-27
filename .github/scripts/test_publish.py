@@ -22,6 +22,35 @@ class PublicationTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             publish.files_to_publish({}, 'workflow_dispatch', 'missing-file.html')
 
+    def test_destination_accepts_current_and_legacy_handbal_live(self):
+        current = publish.Path('programmas/handbal-live/index.html').read_bytes()
+        legacy = b'<title>Handbal live</title><script>fetch("competitions.php")</script>'
+        for content in [current, legacy]:
+            with self.subTest(content=content[:60]):
+                client = Mock()
+                client.retrbinary.side_effect = lambda command, callback: callback(content)
+                with patch.dict(publish.os.environ, {'FTP_PASSWORD': 'test', 'FTP_HOST': 'test',
+                        'FTP_USERNAME': 'test', 'FTP_REMOTE_DIR': 'Handbal-Live', 'FTP_PROTOCOL': 'ftp'}), \
+                        patch.object(publish.ftplib, 'FTP', return_value=client):
+                    self.assertIs(publish.connect(), client)
+                client.cwd.assert_called_once_with('Handbal-Live')
+                client.retrbinary.assert_called_once()
+                client.close.assert_not_called()
+
+    def test_destination_rejects_unrelated_or_incomplete_page(self):
+        for content in [b'<title>Other site</title><script src="index.js"></script>',
+                        b'<title>Handbal live</title>', b'', b'<p>competitions.php index.js</p>']:
+            with self.subTest(content=content):
+                client = Mock()
+                client.retrbinary.side_effect = lambda command, callback: callback(content)
+                with patch.dict(publish.os.environ, {'FTP_PASSWORD': 'test', 'FTP_HOST': 'test',
+                        'FTP_USERNAME': 'test', 'FTP_REMOTE_DIR': 'Handbal-Live', 'FTP_PROTOCOL': 'ftp'}), \
+                        patch.object(publish.ftplib, 'FTP', return_value=client):
+                    with self.assertRaisesRegex(ValueError, 'FTP-doelmap'):
+                        publish.connect()
+                client.close.assert_called_once()
+                client.storbinary.assert_not_called()
+
     def test_matching_upload_is_verified_before_rename(self):
         payload = b'<html>ticker</html>'
         client = Mock()
