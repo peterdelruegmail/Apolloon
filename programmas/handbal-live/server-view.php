@@ -22,7 +22,8 @@ function viewOptions(array $competitions, string $source): string {
     foreach ($competitions as $competition) {
         $groups[$competition['group'] ?: 'Competities'][] = $competition;
     }
-    $html = '';
+    $html = '<option value="apolloon"' . ($source === 'apolloon' ? ' selected' : '')
+        . '>Alle matchen van Apolloon</option>';
     foreach ($groups as $group => $items) {
         $html .= '<optgroup label="' . viewEscape($group) . '">';
         foreach ($items as $item) {
@@ -51,10 +52,12 @@ function viewMatches(array $games): string {
     foreach ($games as $game) {
         $id = basename($game['id']);
         if (!preg_match('/^[1-9][0-9]{0,11}$/D', $id)) continue;
+        $score = !empty($game['cancelled']) ? 'Afgelast' : ($game['score'] ?: '-');
+        if (!empty($game['notUpdated'])) $score .= ' (niet bijgewerkt)';
         $html .= '<article class="match-card"><div class="match-date">'
             . viewEscape(viewDisplayDate($game['date']) . (!empty($game['time']) ? ' om ' . $game['time'] : ''))
             . '</div><div class="match-teams">' . viewTeam($game, 'home')
-            . '<div class="match-score">' . viewEscape($game['score'] ?: '-') . '</div>'
+            . '<div class="match-score">' . viewEscape($score) . '</div>'
             . viewTeam($game, 'away') . '</div><div class="match-links">';
         foreach (['score.html?match=' => 'Open scorepagina', 'wedstrijdblad.html?match=' => 'Open wedstrijdblad',
             'https://www.clubee.com/handballbelgium/games/' => 'Open op Clubee'] as $url => $label) {
