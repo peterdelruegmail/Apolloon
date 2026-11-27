@@ -45,6 +45,16 @@ async function run() {
  assert.equal(elements.start.disabled, false, "Error restores controls");
  assert.equal(typeof timer, "function", "Errors schedule retry");
 
+ elements.source.value = "apolloon";
+ payload = {...payload, query: "source=apolloon&from=2026-11-23&to=2026-11-29&apolloon=1",
+  from: "23/11/2026", html: "<article>Apolloon home and away</article>", error: undefined}; ok = true;
+ await vm.runInContext('refresh("")', context);
+ assert.equal(new URL(requested, "http://localhost").searchParams.get("source"), "apolloon", "Club selection sent to server");
+ assert.equal(new URL(address, "http://localhost").searchParams.get("source"), "apolloon", "Club selection retained in shareable URL");
+ assert.equal(elements.matches.innerHTML, "<article>Apolloon home and away</article>");
+ await vm.runInContext('refresh("next")', context);
+ assert.equal(new URL(requested, "http://localhost").searchParams.get("source"), "apolloon", "Week navigation retains club selection");
+
  const listeners = {};
  const tickerElements = Object.fromEntries(["games", "track", "viewport", "status", "pause"].map(id => [id, {
   textContent: "", innerHTML: "", style: {}, clientWidth: 500,

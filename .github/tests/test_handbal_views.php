@@ -73,4 +73,19 @@ $options = viewOptions([['source' => 'https://www.clubee.com/handballbelgium/tes
     'https://www.clubee.com/handballbelgium/testv4/leagues/1/seasons/2');
 check(str_contains($options, ' selected') && !str_contains($options, '<script>') && !str_contains($options, '<img>'),
     'Selected season and menu escaping');
+$clubOptions = viewOptions([], 'apolloon');
+check(str_contains($clubOptions, 'value="apolloon" selected'), 'Club option remains available without competition menu');
+check(substr_count(viewOptions(array_values($menu), 'apolloon'), ' selected') === 1, 'Only club option selected');
+check(str_contains(viewOptions([], 'https://www.clubee.com/handballbelgium/testv4'), 'value="apolloon">'),
+    'Club option does not override competition selection');
+check(str_contains(viewMatches([array_replace($base, ['cancelled' => true, 'notUpdated' => true])]),
+    'Afgelast (niet bijgewerkt)'), 'Club match cards preserve cancellation and failed score checks');
+$clubGames = []; $recognised = 0;
+foreach ([['id' => '201', 'team1' => ['name' => 'Apolloon U16'], 'team2' => ['name' => 'Other']],
+    ['id' => '202', 'team1' => ['name' => 'Other'], 'team2' => ['name' => 'Apolloon Dames']],
+    ['id' => '203', 'team1' => ['name' => 'Other'], 'team2' => ['name' => 'Another']]] as $match) {
+    tickerCollectGames($match + ['start_date' => '2026-11-24 12:00:00'], $clubGames, $recognised);
+}
+check(array_column(viewSelectGames(array_values($clubGames), '2026-11-24', '2026-11-24', false), 'id')
+    === ['201', '202'], 'Club calendar includes home and away teams across divisions, excludes other clubs');
 echo "All server view regression checks passed.\n";

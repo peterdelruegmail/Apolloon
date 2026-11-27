@@ -11,3 +11,7 @@ F12 blijft de ontvangen HTML, CSS, kleine browserscripts en netwerkantwoorden to
 Controleer na publicatie het competitieformulier, vorige/deze/volgende week, Apolloon bovenaan, automatisch verversen, score- en wedstrijdbladlinks, tickerparameters start/end/speed en Pauzeren. Controleer ook foutmeldingen en herstel wanneer Clubee niet bereikbaar is.
 
 Regressiecontroles: voer vanuit de repository php .github/tests/test_handbal_views.php en node .github/tests/test_handbal_browser.cjs uit.
+
+Kies in het competitieveld **Alle matchen van Apolloon** om de clubkalender van de ticker te tonen, met alle ploegen, thuis en uit. De gekozen periode en weekknoppen blijven werken. De deelbare URL gebruikt `source=apolloon`. Deze keuze blijft beschikbaar als het competitiemenu niet kan worden opgehaald. De lijst deelt de cache en live-scorecontroles met de ticker; afgelastingen en mislukte scorecontroles worden ook in de wedstrijdkaarten vermeld.
+
+Zonder `source` in de URL wordt standaard **Alle matchen van Apolloon** geladen. Een expliciete competitiekeuze in de URL blijft behouden.

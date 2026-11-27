@@ -19,12 +19,13 @@ try {
     $today = new DateTimeImmutable('today', new DateTimeZone('Europe/Brussels'));
     [$from, $to] = viewPeriod($_GET, $today);
     $action = $_GET['action'] ?? '';
-    $source = competitionSource($_GET['source'] ?? 'https://www.clubee.com/handballbelgium/first-division-m--982001v4/leagues/18702/seasons/220');
+    $requestedSource = $_GET['source'] ?? 'apolloon';
+    $source = $requestedSource === 'apolloon' ? 'apolloon' : competitionSource($requestedSource);
     $options = null;
     if ($action === 'init') {
         try {
             $menu = competitionMenu();
-            $found = false;
+            $found = $source === 'apolloon';
             foreach ($menu as $item) {
                 if ($source === $item['source'] || str_starts_with($source, $item['source'] . '/')) $found = true;
             }
@@ -34,7 +35,10 @@ try {
             }
             $options = viewOptions($menu, $source);
         } catch (RuntimeException $error) {
-            $options = '<option value="' . viewEscape($source) . '">Competitie - rechtstreekse link</option>';
+            $options = viewOptions([], $source);
+            if ($source !== 'apolloon') {
+                $options .= '<option selected value="' . viewEscape($source) . '">Competitie - rechtstreekse link</option>';
+            }
         }
     }
     // Return the validated form first, so an upstream outage never disables the controls.
@@ -43,11 +47,13 @@ try {
     $base = ['from' => viewDisplayDate($from), 'to' => viewDisplayDate($to), 'options' => $options,
         'query' => http_build_query($state), 'period' => viewDisplayDate($from) . ' - ' . viewDisplayDate($to)];
     try {
-        $data = competitionGames($source);
+        $allApolloon = $source === 'apolloon';
+        $data = $allApolloon ? tickerResult($from, $to) : competitionGames($source);
         $games = viewSelectGames($data['games'], $from, $to, $apolloon);
         $now = new DateTimeImmutable('now', new DateTimeZone('Europe/Brussels'));
         $urls = [];
-        foreach ($games as $index => $game) {
+        // The club ticker has already refreshed today's scores.
+        foreach ($allApolloon ? [] : $games as $index => $game) {
             $id = basename($game['id']);
             if ($game['date'] === $now->format('Y-m-d') && (empty($game['time']) || str_pad($game['time'], 5, '0', STR_PAD_LEFT) <= $now->format('H:i'))
                 && preg_match('/^[1-9][0-9]{0,11}$/D', $id)) {
@@ -66,7 +72,8 @@ try {
         }
         $checkedAt = (new DateTimeImmutable($data['checkedAt']))->setTimezone(new DateTimeZone('Europe/Brussels'))->format('H:i:s');
         $status = (count($games) ? count($games) . ' wedstrijden' : 'Geen wedstrijden in deze periode') . ' · opgehaald om ' . $checkedAt;
-        if (!empty($data['stale'])) $status .= ' ' . ($data['warning'] ?? 'De laatste succesvolle wedstrijdlijst wordt getoond.');
+        if (!empty($data['warning'])) $status .= ' ' . $data['warning'];
+        elseif (!empty($data['stale'])) $status .= ' De laatste succesvolle wedstrijdlijst wordt getoond.';
         if ($failures) $status .= ' ' . $failures . ' live-scorecontrole(s) mislukt; de score uit de wedstrijdlijst blijft staan.';
         respond($base + ['html' => viewMatches($games), 'count' => count($games), 'status' => $status]);
     } catch (RuntimeException $error) {
